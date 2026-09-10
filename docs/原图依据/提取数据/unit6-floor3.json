@@ -1,0 +1,1927 @@
+{
+  "id": 3,
+  "floorIndex": 2,
+  "name": "第6户 三层 / 原图户型E4",
+  "units": "m",
+  "meta": {
+    "originDwgMm": [
+      658498.48,
+      567027.2316627398
+    ],
+    "coordinateRoundingMeters": 0.001,
+    "sourceDwgSha256": "f8b152616a5b38dbc866076aca374d165bd5aefeea2e49652542c0df8c4b477b"
+  },
+  "elevation": 6.9,
+  "ceilingElevation": 9.9,
+  "boundary": [
+    [
+      -0.12,
+      0.98
+    ],
+    [
+      3.72,
+      0.98
+    ],
+    [
+      3.72,
+      3.38
+    ],
+    [
+      8.16,
+      3.38
+    ],
+    [
+      8.16,
+      7.52
+    ],
+    [
+      6.72,
+      7.52
+    ],
+    [
+      6.72,
+      12.92
+    ],
+    [
+      -0.12,
+      12.92
+    ]
+  ],
+  "boundarySource": {
+    "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+    "rootHandle": "8B1CB",
+    "block": "ERTGVVV",
+    "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+    "layers": [
+      "E4-FL03$0$A-WALL",
+      "E4-FL03$0$AUDIT_I_171201172723-4",
+      "E4-FL03$0$A-SLAB-OTLN"
+    ],
+    "note": "主体外墙和可达露台外边线的并集；不含坡屋面、悬挑檐口、设备平台和下沉庭院上空。"
+  },
+  "indoorBoundary": [
+    [
+      -0.12,
+      0.98
+    ],
+    [
+      3.72,
+      0.98
+    ],
+    [
+      3.72,
+      8.48
+    ],
+    [
+      6.72,
+      8.48
+    ],
+    [
+      6.72,
+      12.92
+    ],
+    [
+      -0.12,
+      12.92
+    ]
+  ],
+  "ceilingBoundary": [
+    [
+      -0.12,
+      0.98
+    ],
+    [
+      3.72,
+      0.98
+    ],
+    [
+      3.72,
+      8.48
+    ],
+    [
+      6.72,
+      8.48
+    ],
+    [
+      6.72,
+      12.92
+    ],
+    [
+      -0.12,
+      12.92
+    ]
+  ],
+  "holes": [
+    [
+      [
+        0.12,
+        7.52
+      ],
+      [
+        2.18,
+        7.52
+      ],
+      [
+        2.18,
+        8.48
+      ],
+      [
+        0.12,
+        8.48
+      ]
+    ],
+    [
+      [
+        1.17,
+        9.77
+      ],
+      [
+        2.77,
+        9.77
+      ],
+      [
+        2.77,
+        11.63
+      ],
+      [
+        1.17,
+        11.63
+      ]
+    ]
+  ],
+  "voids": [
+    {
+      "name": "采光井上空",
+      "polygon": [
+        [
+          0.12,
+          7.52
+        ],
+        [
+          2.18,
+          7.52
+        ],
+        [
+          2.18,
+          8.48
+        ],
+        [
+          0.12,
+          8.48
+        ]
+      ],
+      "preserve": true,
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL",
+          "E1-FL03$0$A-HOLE"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "name": "原楼梯中空",
+      "polygon": [
+        [
+          1.17,
+          9.77
+        ],
+        [
+          2.77,
+          9.77
+        ],
+        [
+          2.77,
+          11.63
+        ],
+        [
+          1.17,
+          11.63
+        ]
+      ],
+      "preserve": false,
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E1-FL03$0$A-HRAL",
+          "E1-FL03$0$A-STRS"
+        ],
+        "note": ""
+      },
+      "note": "原状记录；用户指定拆楼梯后是否补板由改造模型明确处理。"
+    }
+  ],
+  "terraces": [
+    {
+      "name": "露台",
+      "polygon": [
+        [
+          3.72,
+          3.38
+        ],
+        [
+          8.16,
+          3.38
+        ],
+        [
+          8.16,
+          7.52
+        ],
+        [
+          6.72,
+          7.52
+        ],
+        [
+          6.72,
+          8.48
+        ],
+        [
+          3.72,
+          8.48
+        ]
+      ],
+      "bounds": [
+        3.72,
+        3.38,
+        8.16,
+        8.48
+      ],
+      "floorElevation": 6.87,
+      "structuralElevation": 6.77,
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$A-SLAB-OTLN"
+        ],
+        "note": "原露台文字在[5.592,6.078]，6.870/6.770结构标注在露台西南及相邻位置；保持露天。"
+      }
+    }
+  ],
+  "boxes": [
+    {
+      "name": "西侧分户墙",
+      "bounds": [
+        -0.12,
+        0.98,
+        0.12,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$A-WALL",
+          "E1-FL03$0$A-WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "南窗西墙垛",
+      "bounds": [
+        0.12,
+        0.98,
+        0.48,
+        1.22
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "南窗东墙垛",
+      "bounds": [
+        3.12,
+        0.98,
+        3.72,
+        1.22
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室东墙南段",
+      "bounds": [
+        3.48,
+        1.22,
+        3.72,
+        1.77
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室东墙两窗间",
+      "bounds": [
+        3.48,
+        2.77,
+        3.72,
+        4.58
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室东墙北窗间",
+      "bounds": [
+        3.48,
+        6.72,
+        3.72,
+        7.33
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "走廊东墙北段",
+      "bounds": [
+        3.48,
+        7.993,
+        3.72,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房南墙门西",
+      "bounds": [
+        3.72,
+        8.48,
+        4.48,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房南墙门东",
+      "bounds": [
+        5.92,
+        8.48,
+        6.72,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房东墙窗南",
+      "bounds": [
+        6.48,
+        8.72,
+        6.72,
+        9.055
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房东墙窗北",
+      "bounds": [
+        6.48,
+        12.345,
+        6.72,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房北墙西端",
+      "bounds": [
+        0.12,
+        12.68,
+        0.805,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房北墙两窗间",
+      "bounds": [
+        2.795,
+        12.68,
+        5.03,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房北墙东端",
+      "bounds": [
+        6.37,
+        12.68,
+        6.48,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间南墙",
+      "bounds": [
+        0.12,
+        5.18,
+        2.42,
+        5.3
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间东墙门南",
+      "bounds": [
+        2.3,
+        5.3,
+        2.42,
+        5.42
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间东墙门北",
+      "bounds": [
+        2.3,
+        6.22,
+        2.42,
+        7.28
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间北窗西墙",
+      "bounds": [
+        0.12,
+        7.28,
+        0.44,
+        7.52
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间北窗东墙",
+      "bounds": [
+        1.21,
+        7.28,
+        2.3,
+        7.52
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井东南墙角",
+      "bounds": [
+        2.3,
+        7.28,
+        2.42,
+        7.52
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井东窗南墙",
+      "bounds": [
+        2.18,
+        7.52,
+        2.42,
+        7.625
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井东窗北墙",
+      "bounds": [
+        2.18,
+        8.375,
+        2.42,
+        8.48
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井北墙",
+      "bounds": [
+        0.12,
+        8.48,
+        2.42,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室入口门西墙垛",
+      "bounds": [
+        2.42,
+        7.28,
+        2.46,
+        7.4
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL-MOVE"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室入口门东墙垛",
+      "bounds": [
+        3.36,
+        7.23,
+        3.48,
+        7.35
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL-MOVE"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    }
+  ],
+  "wallBoxes": [
+    {
+      "name": "西侧分户墙",
+      "bounds": [
+        -0.12,
+        0.98,
+        0.12,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$A-WALL",
+          "E1-FL03$0$A-WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "南窗西墙垛",
+      "bounds": [
+        0.12,
+        0.98,
+        0.48,
+        1.22
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "南窗东墙垛",
+      "bounds": [
+        3.12,
+        0.98,
+        3.72,
+        1.22
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室东墙南段",
+      "bounds": [
+        3.48,
+        1.22,
+        3.72,
+        1.77
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室东墙两窗间",
+      "bounds": [
+        3.48,
+        2.77,
+        3.72,
+        4.58
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室东墙北窗间",
+      "bounds": [
+        3.48,
+        6.72,
+        3.72,
+        7.33
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "走廊东墙北段",
+      "bounds": [
+        3.48,
+        7.993,
+        3.72,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房南墙门西",
+      "bounds": [
+        3.72,
+        8.48,
+        4.48,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房南墙门东",
+      "bounds": [
+        5.92,
+        8.48,
+        6.72,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房东墙窗南",
+      "bounds": [
+        6.48,
+        8.72,
+        6.72,
+        9.055
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房东墙窗北",
+      "bounds": [
+        6.48,
+        12.345,
+        6.72,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房北墙西端",
+      "bounds": [
+        0.12,
+        12.68,
+        0.805,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房北墙两窗间",
+      "bounds": [
+        2.795,
+        12.68,
+        5.03,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "书房北墙东端",
+      "bounds": [
+        6.37,
+        12.68,
+        6.48,
+        12.92
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间南墙",
+      "bounds": [
+        0.12,
+        5.18,
+        2.42,
+        5.3
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间东墙门南",
+      "bounds": [
+        2.3,
+        5.3,
+        2.42,
+        5.42
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间东墙门北",
+      "bounds": [
+        2.3,
+        6.22,
+        2.42,
+        7.28
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间北窗西墙",
+      "bounds": [
+        0.12,
+        7.28,
+        0.44,
+        7.52
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卫生间北窗东墙",
+      "bounds": [
+        1.21,
+        7.28,
+        2.3,
+        7.52
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井东南墙角",
+      "bounds": [
+        2.3,
+        7.28,
+        2.42,
+        7.52
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井东窗南墙",
+      "bounds": [
+        2.18,
+        7.52,
+        2.42,
+        7.625
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井东窗北墙",
+      "bounds": [
+        2.18,
+        8.375,
+        2.42,
+        8.48
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "采光井北墙",
+      "bounds": [
+        0.12,
+        8.48,
+        2.42,
+        8.72
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室入口门西墙垛",
+      "bounds": [
+        2.42,
+        7.28,
+        2.46,
+        7.4
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL-MOVE"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    },
+    {
+      "name": "卧室入口门东墙垛",
+      "bounds": [
+        3.36,
+        7.23,
+        3.48,
+        7.35
+      ],
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL-MOVE"
+        ],
+        "note": ""
+      },
+      "role": "wall"
+    }
+  ],
+  "openings": [
+    {
+      "name": "卧室南窗",
+      "type": "window",
+      "a": [
+        0.48,
+        1.1
+      ],
+      "b": [
+        3.12,
+        1.1
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC2615",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "墙皮洞宽2.64m；尺寸标注名义2600。"
+      }
+    },
+    {
+      "name": "卧室东小窗",
+      "type": "window",
+      "a": [
+        3.6,
+        1.77
+      ],
+      "b": [
+        3.6,
+        2.77
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "SC0909",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "结构两端1.77/2.77；框内尺寸标注1.82/2.72=900。"
+      }
+    },
+    {
+      "name": "卧室东大窗",
+      "type": "window",
+      "a": [
+        3.6,
+        4.58
+      ],
+      "b": [
+        3.6,
+        6.72
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC2123",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "此处平面标窗，不擅自改为露台门；名义尺寸2100。"
+      }
+    },
+    {
+      "name": "走廊东窗",
+      "type": "window",
+      "a": [
+        3.6,
+        7.33
+      ],
+      "b": [
+        3.6,
+        7.993
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC0723",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "采用两侧墙皮实际端点；图中另有700名义窗框尺寸，不与净洞混同。"
+      }
+    },
+    {
+      "name": "书房至露台双门",
+      "type": "door",
+      "a": [
+        4.48,
+        8.6
+      ],
+      "b": [
+        5.92,
+        8.6
+      ],
+      "thickness": 0.24,
+      "sill": 0,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "MLC1423",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "结构洞1.44m；双扇开启弧明确，名义门宽1400。"
+      }
+    },
+    {
+      "name": "书房东长窗",
+      "type": "window",
+      "a": [
+        6.6,
+        9.055
+      ],
+      "b": [
+        6.6,
+        12.345
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC3213ab",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "结构洞3.29m；名义框尺寸3250。"
+      }
+    },
+    {
+      "name": "书房北西窗",
+      "type": "window",
+      "a": [
+        0.805,
+        12.8
+      ],
+      "b": [
+        2.795,
+        12.8
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC1915a",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "结构洞1.99m；名义框尺寸1950。"
+      }
+    },
+    {
+      "name": "书房北东窗",
+      "type": "window",
+      "a": [
+        5.03,
+        12.8
+      ],
+      "b": [
+        6.37,
+        12.8
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC1313b",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$AUDIT_I_171201172723-4"
+        ],
+        "note": "结构洞1.34m；名义框尺寸1300。"
+      }
+    },
+    {
+      "name": "卫生间采光井窗",
+      "type": "window",
+      "a": [
+        0.44,
+        7.4
+      ],
+      "b": [
+        1.21,
+        7.4
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC0716a",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": "框标注750，采光井相邻墙；不得当成外侧房间门。"
+      }
+    },
+    {
+      "name": "走廊采光井窗",
+      "type": "window",
+      "a": [
+        2.3,
+        7.625
+      ],
+      "b": [
+        2.3,
+        8.375
+      ],
+      "thickness": 0.24,
+      "sill": null,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "LPC0716a",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "name": "卫生间门",
+      "type": "door",
+      "a": [
+        2.36,
+        5.42
+      ],
+      "b": [
+        2.36,
+        6.22
+      ],
+      "thickness": 0.12,
+      "sill": 0,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": "M0821",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL",
+          "E1-FL03$0$A-DOOR"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "name": "卧室入口门",
+      "type": "door",
+      "a": [
+        2.46,
+        7.34
+      ],
+      "b": [
+        3.36,
+        7.34
+      ],
+      "thickness": 0.12,
+      "sill": 0,
+      "height": null,
+      "verticalStatus": "待立面/门窗表核对；平面编号不直接当作已核实净高",
+      "code": null,
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "WALL-MOVE",
+          "E1-BS01-18-19$0$A-ANNO-NPLT"
+        ],
+        "note": "原图有开启弧和0.9m门洞；两门垛Y端点略错位，采用洞口中线。"
+      }
+    }
+  ],
+  "parapets": [
+    {
+      "name": "露台南栏墙",
+      "bounds": [
+        3.72,
+        3.38,
+        8.16,
+        3.62
+      ],
+      "height": null,
+      "displayHeight": 1.1,
+      "role": "parapet",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$A-SLAB-OTLN"
+        ],
+        "note": "平面墙皮0.24m；1.10m仅展示值，需将立面/7.900结构标注核对到具体墙顶。"
+      }
+    },
+    {
+      "name": "露台东栏墙",
+      "bounds": [
+        7.92,
+        3.62,
+        8.16,
+        7.52
+      ],
+      "height": null,
+      "displayHeight": 1.1,
+      "role": "parapet",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$A-SLAB-OTLN"
+        ],
+        "note": "平面墙皮0.24m；1.10m仅展示值，需将立面/7.900结构标注核对到具体墙顶。"
+      }
+    },
+    {
+      "name": "露台东北退台栏墙",
+      "bounds": [
+        6.72,
+        7.28,
+        7.92,
+        7.52
+      ],
+      "height": null,
+      "displayHeight": 1.1,
+      "role": "parapet",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$A-SLAB-OTLN"
+        ],
+        "note": "平面墙皮0.24m；1.10m仅展示值，需将立面/7.900结构标注核对到具体墙顶。"
+      }
+    },
+    {
+      "name": "露台北段东栏墙",
+      "bounds": [
+        6.48,
+        7.52,
+        6.72,
+        8.48
+      ],
+      "height": null,
+      "displayHeight": 1.1,
+      "role": "parapet",
+      "source": {
+        "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+        "rootHandle": "8B1CB",
+        "block": "ERTGVVV",
+        "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+        "layers": [
+          "E4-FL03$0$A-SLAB-OTLN"
+        ],
+        "note": "平面墙皮0.24m；1.10m仅展示值，需将立面/7.900结构标注核对到具体墙顶。"
+      }
+    }
+  ],
+  "originalStairBounds": [
+    0.12,
+    8.72,
+    2.47,
+    12.68
+  ],
+  "originalStairSource": {
+    "file": "home-design/tmp/cad-recovery/oda-audited/original.dxf",
+    "rootHandle": "8B1CB",
+    "block": "ERTGVVV",
+    "method": "paired transformed straight wall-face endpoints, rounded to 1 mm",
+    "layers": [
+      "E1-FL03$0$A-STRS",
+      "E1-FL02$0$A-STRS",
+      "E1-FL03$0$A-HRAL"
+    ],
+    "note": ""
+  },
+  "originalStairHole": [
+    [
+      1.17,
+      9.77
+    ],
+    [
+      2.77,
+      9.77
+    ],
+    [
+      2.77,
+      11.63
+    ],
+    [
+      1.17,
+      11.63
+    ]
+  ],
+  "rooms": [
+    {
+      "name": "卧室",
+      "bounds": [
+        0.12,
+        1.22,
+        3.48,
+        5.18
+      ],
+      "labelPosition": [
+        1.586,
+        2.824
+      ],
+      "source": {
+        "file": "home-design/audit/recovered/F3-texts-decoded.json",
+        "rootGeometryHandle": "8B1CB",
+        "labelLayer": "DZ-TEXT-FL01$0$A-ROOM-IDEN"
+      },
+      "polygon": [
+        [
+          0.12,
+          1.22
+        ],
+        [
+          3.48,
+          1.22
+        ],
+        [
+          3.48,
+          7.23
+        ],
+        [
+          2.42,
+          7.23
+        ],
+        [
+          2.42,
+          5.18
+        ],
+        [
+          0.12,
+          5.18
+        ]
+      ]
+    },
+    {
+      "name": "卫",
+      "bounds": [
+        0.12,
+        5.3,
+        2.3,
+        7.28
+      ],
+      "labelPosition": [
+        1.49,
+        5.979
+      ],
+      "source": {
+        "file": "home-design/audit/recovered/F3-texts-decoded.json",
+        "rootGeometryHandle": "8B1CB",
+        "labelLayer": "DZ-TEXT-FL01$0$A-ROOM-IDEN"
+      }
+    },
+    {
+      "name": "书房",
+      "bounds": [
+        2.47,
+        8.72,
+        6.48,
+        12.68
+      ],
+      "labelPosition": [
+        3.897,
+        11.007
+      ],
+      "source": {
+        "file": "home-design/audit/recovered/F3-texts-decoded.json",
+        "rootGeometryHandle": "8B1CB",
+        "labelLayer": "DZ-TEXT-FL01$0$A-ROOM-IDEN"
+      }
+    },
+    {
+      "name": "露台",
+      "bounds": [
+        3.72,
+        3.38,
+        8.16,
+        8.48
+      ],
+      "labelPosition": [
+        5.592,
+        6.078
+      ],
+      "source": {
+        "file": "home-design/audit/recovered/F3-texts-decoded.json",
+        "rootGeometryHandle": "8B1CB",
+        "labelLayer": "DZ-TEXT-FL01$0$A-ROOM-IDEN"
+      },
+      "polygon": [
+        [
+          3.72,
+          3.38
+        ],
+        [
+          8.16,
+          3.38
+        ],
+        [
+          8.16,
+          7.52
+        ],
+        [
+          6.72,
+          7.52
+        ],
+        [
+          6.72,
+          8.48
+        ],
+        [
+          3.72,
+          8.48
+        ]
+      ]
+    }
+  ],
+  "circulation": [
+    {
+      "name": "原卧室入口通道",
+      "bounds": [
+        2.42,
+        5.18,
+        3.48,
+        7.28
+      ]
+    },
+    {
+      "name": "采光井东侧交通",
+      "bounds": [
+        2.42,
+        7.4,
+        3.48,
+        8.72
+      ]
+    },
+    {
+      "name": "原楼梯区域",
+      "bounds": [
+        0.12,
+        8.72,
+        2.47,
+        12.68
+      ]
+    }
+  ],
+  "excludedZones": [
+    {
+      "name": "北侧设备平台",
+      "labelPosition": [
+        0.94,
+        14.174
+      ],
+      "walkable": false,
+      "reason": "没有从三层室内直接出入门；仅用于设备，不当作室内或生活露台。"
+    },
+    {
+      "name": "东侧下沉庭院上空",
+      "labelPosition": [
+        9.0,
+        11.0
+      ],
+      "walkable": false,
+      "reason": "此层为空，不铺楼板。"
+    },
+    {
+      "name": "露台周边坡屋面/檐口",
+      "walkable": false,
+      "reason": "多组6.900/7.150标注及屋面线并不代表连续可走地板。"
+    }
+  ],
+  "proposedLiftCandidate": {
+    "bounds": [
+      2.5,
+      8.9,
+      4.35,
+      10.9
+    ],
+    "status": "仅三层避开原露台双门洞的建议；须与1/2F统一，由根代理改造层决定"
+  },
+  "notes": [
+    "这是原状几何提取，尚未应用取消楼梯和新增电梯。",
+    "full-height boxes不得封闭openings；需按原门窗位置补窗下墙、过梁并保留可穿行门洞。",
+    "门窗高度与窗台未获立面/门窗表逐项对应，null不是0；展示值须单独标为假设。",
+    "boundary包含露台外边但ceilingBoundary仅限室内；不得给露台加屋顶。",
+    "原楼梯孔可在指定改造中补板，但采光井应保留。",
+    "同根块里的装饰线与屋面线未当作实墙；本稿主要墙皮按1mm取整。"
+  ]
+}

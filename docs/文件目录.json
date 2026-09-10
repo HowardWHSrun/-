@@ -1,0 +1,376 @@
+{
+  "version": "P02",
+  "fileCount": 74,
+  "files": [
+    {
+      "path": "交付目录与版本说明.txt",
+      "bytes": 3414,
+      "sha256": "558f3a1f8a5b35e3579489e3e2541d132e8e770a0287769aa7408c944b6f0125"
+    },
+    {
+      "path": "开始查看.html",
+      "bytes": 2939,
+      "sha256": "172202a21e80fab9fc69a055071b762407b662eecc475c20a739c9cade09df86"
+    },
+    {
+      "path": "打开说明.txt",
+      "bytes": 465,
+      "sha256": "fb94a24fceeec0c44089c9f1515d81392bc02f273fabbbc7c36f579208bccc85"
+    },
+    {
+      "path": "文件校验清单.sha256",
+      "bytes": 7705,
+      "sha256": "363328ee13bd2f7e10b186223042e32cda2db81a23991275549d11b973825932"
+    },
+    {
+      "path": "设计图册.pdf",
+      "bytes": 39394814,
+      "sha256": "6b89c4fce322b98a12a0810112f16d8266a1d404f59c140d4d694abe8d35f002"
+    },
+    {
+      "path": "项目总结与施工交接说明.md",
+      "bytes": 67411,
+      "sha256": "3ddd897fdce9a9ff7bfd62fda7fe679a74b55e406ee2aa1dcd4279ecf67f0533"
+    },
+    {
+      "path": "项目总结与施工交接说明.txt",
+      "bytes": 75311,
+      "sha256": "586456fd812e7f441c176e2f7eb19edf4f897c741dd277a280e5baeaffb6182a"
+    },
+    {
+      "path": "漫游/住宅漫游.html",
+      "bytes": 1259366,
+      "sha256": "bc4d03c14133f508eabe01d555ab33bfe9d11e00bd8af843894b14d7ae162448"
+    },
+    {
+      "path": "漫游/离线构建记录.json",
+      "bytes": 266,
+      "sha256": "8d0e01b4858408e36357df095de99af00ddc558260253762c3693707b193dcae"
+    },
+    {
+      "path": "漫游/第三方许可.txt",
+      "bytes": 1152,
+      "sha256": "66f89be78ae6b84af546d2e0330e16767a41984771d79c57c4d738d5cc550c66"
+    },
+    {
+      "path": "模型/方案数据.json",
+      "bytes": 512817,
+      "sha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b"
+    },
+    {
+      "path": "模型/第6户_三层住宅.blend",
+      "bytes": 7180387,
+      "sha256": "857665d3a5604c8c36c302230415943bc95aadb679d01fb3f8c42e86c64c49a4"
+    },
+    {
+      "path": "模型/第6户_三层住宅.glb",
+      "bytes": 13541136,
+      "sha256": "848e9f95e482cfe832c66321f3604174cad9fba34563f4ac6694c7e650d1f4bc"
+    },
+    {
+      "path": "图纸/P02_1F_方案定位.dxf",
+      "bytes": 56793,
+      "sha256": "2c3d7979fe587906296c98da495a01d09dc7cb555d553776f0fbd62655903629"
+    },
+    {
+      "path": "图纸/P02_2F_方案定位.dxf",
+      "bytes": 44800,
+      "sha256": "a9dfe1ddb3676505776111778bfd9c061f3a267e27a23522ac929eaaf0433ccc"
+    },
+    {
+      "path": "图纸/P02_3F_方案定位.dxf",
+      "bytes": 34755,
+      "sha256": "42362e998aac8dec693df081eda0cd3ac8dd4fc09be53bfbf6131a489cc54d32"
+    },
+    {
+      "path": "清单/F01_现场问题_RFI单.csv",
+      "bytes": 241,
+      "sha256": "f0c5955d4a7e295e79e9a714b94649ad1f99185c9ad17053e2299a6fc3feb766"
+    },
+    {
+      "path": "清单/F02_隐蔽验收单.csv",
+      "bytes": 245,
+      "sha256": "4ec23b2f46cb764206ea3ef9117d85c52efe6e4b5657414c225a87f79d6a694e"
+    },
+    {
+      "path": "清单/F03_材料样板确认单.csv",
+      "bytes": 210,
+      "sha256": "2c1f771b2199cce79bd7139442187bb71b7bac9276b1778b95d0f4392fbb0a8e"
+    },
+    {
+      "path": "清单/F04_专业接口交接单.csv",
+      "bytes": 219,
+      "sha256": "7baed787fb6f1aac2a5bac29534afd97d44ddd0557c01194433720731c84668d"
+    },
+    {
+      "path": "清单/F05_竣工移交清单.csv",
+      "bytes": 247,
+      "sha256": "2629a973c88082d28b073c51a5b3c8e707dc3ad1a59372cabfccb760d399d8b7"
+    },
+    {
+      "path": "清单/F06_室内外高差与排水复测单.csv",
+      "bytes": 301,
+      "sha256": "bab64aaa94fa46ca50715fd09faa3c4becfb52576e6a4a220557396cf95edd38"
+    },
+    {
+      "path": "清单/园林与户外家具清单.csv",
+      "bytes": 2335,
+      "sha256": "e7b4ca2ebd69516db623e2cc5b15d0ac56a2b0e2fdb2bb3a0d25c3987871c98c"
+    },
+    {
+      "path": "清单/待复核及暂停工序.csv",
+      "bytes": 2907,
+      "sha256": "de2c234089459d688d5f022ad8b4a116bbcb69bb90dabc5a0449952b1b156055"
+    },
+    {
+      "path": "清单/方案点位表.csv",
+      "bytes": 8672,
+      "sha256": "ec46c061999ba3dd774fc83bc6ac066006cf5c9439d89dc12ae2fe1df1fd17bd"
+    },
+    {
+      "path": "清单/材料询价清单.csv",
+      "bytes": 4932,
+      "sha256": "ae6aa81d32e506850043de33df9d2d4c11aeb96490ca34296bfb087041d27aa9"
+    },
+    {
+      "path": "清单/门窗定位与竖向状态.csv",
+      "bytes": 8062,
+      "sha256": "41e8a5665a2a0b6aa1aa26678c2a1596aee3732433ec64bb7db030c47ea6ed9d"
+    },
+    {
+      "path": "原图依据/02-10-20B#楼平立面图(1).dwg",
+      "bytes": 3644915,
+      "sha256": "f8b152616a5b38dbc866076aca374d165bd5aefeea2e49652542c0df8c4b477b"
+    },
+    {
+      "path": "原图依据/提取数据/unit6-floor3.json",
+      "bytes": 44629,
+      "sha256": "5b3f95bf3440aa59ece7df31768f504232e34a6654d6159c5f1e3f1893ada04d"
+    },
+    {
+      "path": "原图依据/提取数据/unit6-floors12.json",
+      "bytes": 153621,
+      "sha256": "f388b7909c74962ef9acd43bf584b165c0dd79cd5a3fe9999248712022e04b11"
+    },
+    {
+      "path": "原图依据/提取数据/unit6-landscape-source.json",
+      "bytes": 33098,
+      "sha256": "b8b9fe97397c2795663e3341116323dbe9a79c35cdead81ef8640198db6db576"
+    },
+    {
+      "path": "原图依据/提取数据/unit6-vertical-verified.json",
+      "bytes": 9975,
+      "sha256": "e3ad17b712899f951f68cc45ddbe5c7a1e6212b5668471a9768715063d6f9a7b"
+    },
+    {
+      "path": "原图依据/核对图/F1-unit6-grid.png",
+      "bytes": 122730,
+      "sha256": "61ff3c8f1eec107fd9ce38786b6e68f1d471852c84c3ebf4a7fc7ed382ba24c2"
+    },
+    {
+      "path": "原图依据/核对图/F2-unit6-grid.png",
+      "bytes": 122610,
+      "sha256": "829f74f00971909b7a78a4cf1caaa4672088d95e703877f258951a97dd6892a7"
+    },
+    {
+      "path": "原图依据/核对图/F3-unit6-grid.png",
+      "bytes": 128424,
+      "sha256": "01cf5261447f1372fc2f47da1dc1bd9d2ba174fb31237b7a42acb7466055bd21"
+    },
+    {
+      "path": "原图依据/核对图/unit6-north-elevation-grid.png",
+      "bytes": 103800,
+      "sha256": "ba54cd04fe2fa1c5c4061f68d6956a19e8ae4339bc9cb946c747d31269c8a5ca"
+    },
+    {
+      "path": "原图依据/核对图/unit6-outdoor-source-check.png",
+      "bytes": 503632,
+      "sha256": "973253b9b48b82ab007419552e7ab2134aaa3f5daacf3aa0c6dac440decc3d5c"
+    },
+    {
+      "path": "原图依据/核对图/室外范围核对.md",
+      "bytes": 5888,
+      "sha256": "154f89f9965d827a2979e7bb536670425cfa6ba84cb74e7a176faa7e1ddb3712"
+    },
+    {
+      "path": "原图依据/核对图/竖向核对说明.md",
+      "bytes": 2085,
+      "sha256": "2007286e05765476302c475d14d62184e919b59cd82187c0b777f7bef0b309e6"
+    },
+    {
+      "path": "核对记录/P02几何复核.md",
+      "bytes": 4239,
+      "sha256": "5de0a2179b51909f374c42e20cd63eb6cd36b7e3fc194c06cdf60f67db03d690"
+    },
+    {
+      "path": "核对记录/P02几何数据.json",
+      "bytes": 4566,
+      "sha256": "4d43ee523f9fa0b24b8961cdf36c576056fa6abb8e31812e7af8a664575cb76f"
+    },
+    {
+      "path": "核对记录/P02园林组检查.json",
+      "bytes": 88791,
+      "sha256": "b336dcc69403983d8bff0bde01f3f02b6adc7bfe3c20f9cd7f42ea4abe0b7d91"
+    },
+    {
+      "path": "核对记录/P02客厅家具检查.json",
+      "bytes": 1891,
+      "sha256": "9da91152a3d979990963f694b3bdfe4610c826bfdb283ab602d02e3f46725649"
+    },
+    {
+      "path": "核对记录/P02房间与花园通达检查.json",
+      "bytes": 154062,
+      "sha256": "e2733a93f3721832a0839e28f033f9cd03044e558970cb90bfa6529737ec05b3"
+    },
+    {
+      "path": "核对记录/sources.json",
+      "bytes": 9700,
+      "sha256": "3f27eb39922605b1030d92a2a448e345fd118865ca3070c68477083f82fb22e5"
+    },
+    {
+      "path": "核对记录/报告章节索引.json",
+      "bytes": 4944,
+      "sha256": "d1e70f65349f57205bb3b7909677d7ba483247b37f60bde4e3e17264665481e5"
+    },
+    {
+      "path": "核对记录/方案点位与定制清单.json",
+      "bytes": 28526,
+      "sha256": "27b4b6c5d5a88168124c32274f52186248e46600a97795e47de6573f60ef775e"
+    },
+    {
+      "path": "核对记录/施工交接数据.json",
+      "bytes": 88851,
+      "sha256": "dcfe803e72424fff2a13e06849536424f9bc3e98dc07f6c992221243267836ce"
+    },
+    {
+      "path": "核对记录/离线与模型验证/offline-package-pages-results.json",
+      "bytes": 125,
+      "sha256": "0858197e40c35555b8ca94d5d66726698b8e6a632e70e4fdf31df92b19301e51"
+    },
+    {
+      "path": "核对记录/离线与模型验证/professional-model-results.json",
+      "bytes": 232,
+      "sha256": "99b10ffae0a45dd3a4322bc23cd60539c60e0a1de6dd9bf4b1a12c13fe731da6"
+    },
+    {
+      "path": "核对记录/离线与模型验证/unit-six-offline-browser-results.json",
+      "bytes": 7098,
+      "sha256": "2c7f955c623612a2f141007ad34004dca2c406de3fe44c8b941328e239aa2ae7"
+    },
+    {
+      "path": "图册/images/01_完整建筑与庭院鸟瞰.png",
+      "bytes": 1830922,
+      "sha256": "6e3dbd02238b88904724cdf8fc2ac856c6756f3af3f98f6121275a96b0bdb08f"
+    },
+    {
+      "path": "图册/images/02_建筑另一侧鸟瞰.png",
+      "bytes": 1527978,
+      "sha256": "97bda17c90291d1f150b5055b274c83b46b4cc9148dc5390ee6fead2f66c73c7"
+    },
+    {
+      "path": "图册/images/03_1F完整俯视平面.png",
+      "bytes": 2052278,
+      "sha256": "b741694ddb483db2d8b60ab46a8c0e270c173ce15d9fba182be013db5faaa68b"
+    },
+    {
+      "path": "图册/images/04_2F完整俯视平面.png",
+      "bytes": 1925922,
+      "sha256": "1e2237dc601cb1e14be8cc8ebdd77bc5abdf102764ed9e9bf5de4bfe9b9e45a1"
+    },
+    {
+      "path": "图册/images/05_3F完整俯视平面.png",
+      "bytes": 1965950,
+      "sha256": "380eb3a33f9728611c5741fa0d875e59753e7f2db7e56ceb2011006d2610f5a7"
+    },
+    {
+      "path": "图册/images/06_客厅望向餐厅与中央电梯.png",
+      "bytes": 1899518,
+      "sha256": "7910086f21eed9fd8b590e7664072fca2dc0526172044d49b23e4bb410dfca8f"
+    },
+    {
+      "path": "图册/images/07_客厅休闲与采光面.png",
+      "bytes": 1869405,
+      "sha256": "0cdd013fcf520ac9df1ca88b55b9c56b7b949a128c32ecd1d2e256037e144ba2"
+    },
+    {
+      "path": "图册/images/08_餐厅与中厨玻璃分隔.png",
+      "bytes": 1974769,
+      "sha256": "d94f10623a8cc4e048536297ae517d378904c3c8faab33eb24f850703bc621fd"
+    },
+    {
+      "path": "图册/images/09_厨房工作区.png",
+      "bytes": 1882406,
+      "sha256": "6b34009947fec8453fa5cb65d6f68de752a9f8e1d83b2ca1a1bccad6700b0397"
+    },
+    {
+      "path": "图册/images/10_爸爸操盘工作区.png",
+      "bytes": 1906861,
+      "sha256": "0a5a85214b864ce7969d757b2aa4846098a78a9e83f8ef9e3e8e821d44ec434d"
+    },
+    {
+      "path": "图册/images/11_父母卧室.png",
+      "bytes": 1855335,
+      "sha256": "8c6376ea9aaeebed6b6d075f9e07480ea46d688b917be7f46568eb7e5ed43b1a"
+    },
+    {
+      "path": "图册/images/12_二层夫妻主卧.png",
+      "bytes": 1914986,
+      "sha256": "2658f7113beee471072bf85f85a8ab0a7868fba3edbcf19f873a9e15f27fe7db"
+    },
+    {
+      "path": "图册/images/13_儿童预留房.png",
+      "bytes": 1817435,
+      "sha256": "a476eb824fbbd8cf7bd6011d42671affa011bd36db190eb2f7fce15c5d333d04"
+    },
+    {
+      "path": "图册/images/14_二层家庭阅读区.png",
+      "bytes": 1944518,
+      "sha256": "8dec43f2380efc5cd5f7aee6d8eb802a7c9907f9ef331795228452a97bc0c920"
+    },
+    {
+      "path": "图册/images/15_三层书法房.png",
+      "bytes": 1940091,
+      "sha256": "389058acdd9e3857e6026e2d0e3c89acdfc4075f4de6de17171fb1df86d1581d"
+    },
+    {
+      "path": "图册/images/16_妈妈毛线工作室.png",
+      "bytes": 1894278,
+      "sha256": "dc6716939278c07806ff8555041a0ed310373319037ae227b21bafe35cbc1e4c"
+    },
+    {
+      "path": "图册/images/17_妹妹卧室.png",
+      "bytes": 1817990,
+      "sha256": "df13c7e2d9a444c28195696a60b6c4e74ae9833d5db2007174e7ecceb882c3d3"
+    },
+    {
+      "path": "图册/images/18_三层露台花园.png",
+      "bytes": 1992193,
+      "sha256": "8a066fb6ae79d09166fbcaeb7511e67b04d0974d1c052968fcb86ffbfcdb4219"
+    },
+    {
+      "path": "图册/images/19_露台与室内工作区关系.png",
+      "bytes": 1609333,
+      "sha256": "87a2503daab514ff5184be8d607164176df20b1df57457d5a9a27dae1ac45f82"
+    },
+    {
+      "path": "图册/images/20_南院人眼望向住宅.png",
+      "bytes": 1961762,
+      "sha256": "351627a4a1819a02ed7235d9e040a25398b2d9f4175ed916cbf8ed1e2a3a9bad"
+    },
+    {
+      "path": "图册/images/21_南院休闲与种植细节.png",
+      "bytes": 1935174,
+      "sha256": "3f528237f51d3ad300423c196735ead8ccaeebf4b07bf7c26ad490df3ca3b1a7"
+    },
+    {
+      "path": "图册/全部视角.html",
+      "bytes": 6726,
+      "sha256": "a1f801c765b57487ad365f7d4787d7d1747faf826763331c937335ca555fceae"
+    },
+    {
+      "path": "图册/视角清单.json",
+      "bytes": 13598,
+      "sha256": "d5b03a3a4ce18a8678972b637a06d7bd2d8910db1d64d035bf928738bd3faaea"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-09-10",
+  "applicability": "原图图签为杭州富春玫瑰园华墅地块二期二区，暂按浙江杭州核查；实际地址、土地性质、住宅使用及改造阶段待业主/现场补证。本表是专业委托复核的依据索引，不是行政许可或合规判定。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "住房城乡建设部关于发布国家标准《住宅项目规范》的公告",
+      "publisher": "住房城乡建设部；平凉市住建局官方转载",
+      "url": "https://zjj.pingliang.gov.cn/flfg/fgzc/art/2025/art_b2dec84b508844e19115b3ff37348ea9.html",
+      "standard": "GB 55038-2025",
+      "effectiveDate": "2025-05-01",
+      "supports": "新住宅项目规范实施及旧GB50368-2005等条文废止；既有项目适用与过渡条件仍应由所在地确认。",
+      "sourceType": "official_republication",
+      "verification": "官方页面全文"
+    },
+    {
+      "id": "S02",
+      "title": "既有建筑维护与改造通用规范",
+      "publisher": "国家标准馆·国家数字标准馆",
+      "url": "https://www.ndls.org.cn/standard/detail/0fbf06124ef41258a4ad1028dcce07e9",
+      "standard": "GB 55022-2021",
+      "effectiveDate": "2022-04-01",
+      "supports": "既有建筑维护改造的通用规范基线，需落实查勘、设计和相应技术责任。",
+      "sourceType": "official_standard_registry",
+      "verification": "标准馆状态、实施日及总则摘要"
+    },
+    {
+      "id": "S03",
+      "title": "民用建筑通用规范",
+      "publisher": "国家标准馆·国家数字标准馆",
+      "url": "https://www.ndls.org.cn/standard/detail/c5e89565cbd1fc770a7e5ec348618839",
+      "standard": "GB 55031-2022",
+      "effectiveDate": "2023-03-01",
+      "supports": "民用建筑空间与部位基本尺度、安全使用和通用技术措施应纳入专业核对。",
+      "sourceType": "official_standard_registry",
+      "verification": "标准馆状态、实施日及总则摘要"
+    },
+    {
+      "id": "S04",
+      "title": "住房和城乡建设部关于发布国家标准《建筑与市政工程防水通用规范》的公告",
+      "publisher": "住房和城乡建设部；静宁县政府官方转载",
+      "url": "https://www.gsjn.gov.cn/zfxxgk/zfbmxxgk/zjj/fdzdgknr/lzyj/art/2022/art_0f0b3ad7fa304c0b961a009b0d8319ca.html",
+      "standard": "GB 55030-2022",
+      "effectiveDate": "2023-04-01",
+      "supports": "防水通用规范实施；本报告没有引用未经原文核定的统一厚度、试水时间、坡度等数值。",
+      "sourceType": "official_republication",
+      "verification": "官方搜索索引完整公告；直接页面抓取不稳定",
+      "canonicalPublisherUrl": "https://www.mohurd.gov.cn/gongkai/fdzdgknr/zfhcxjsbwj/202210/20221021_768499.html"
+    },
+    {
+      "id": "S05",
+      "title": "《建筑防火通用规范》GB 55037-2022 解读",
+      "publisher": "四川省住房和城乡建设厅公开资料",
+      "url": "https://jst.sc.gov.cn/scjst/jsgcxfsyzxzzWsxx/2023/11/20/67491d2844b040cbb81324b61c2ceb99/files/%E3%80%8A%E5%BB%BA%E7%AD%91%E9%98%B2%E7%81%AB%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E3%80%8B%E8%A7%A3%E8%AF%BB.pdf",
+      "standard": "GB 55037-2022",
+      "effectiveDate": "2023-06-01",
+      "supports": "第7.1.12条对火灾时辅助疏散电梯另有停靠、标识及消防电梯相关要求；普通家用梯方案不能据此自行替代疏散系统。",
+      "sourceType": "official_technical_publication",
+      "verification": "官方PDF搜索提取到7.1.12条；不将解读资料等同于审批意见"
+    },
+    {
+      "id": "S06",
+      "title": "住房和城乡建设部关于进一步加强城市房屋室内装饰装修安全管理的通知",
+      "publisher": "住房和城乡建设部；中国政府网",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202306/content_6885666.htm",
+      "standard": null,
+      "effectiveDate": null,
+      "supports": "城市装修安全管理的国家通知，要求先设计、明确安全责任；不能用其一般设计要求覆盖浙江住宅主体/承重拆改的禁止规定，具体须结合S12。",
+      "sourceType": "official_ministry_notice",
+      "verification": "官方搜索索引内容；直接页面抓取不稳定"
+    },
+    {
+      "id": "S07",
+      "title": "住宅室内装饰装修管理办法",
+      "publisher": "住房和城乡建设部规章",
+      "url": "https://www.mohurd.gov.cn/file/2022/20220228/8e2304b2-9f66-426b-ab25-6eda86fa0f67.pdf",
+      "mirrorUrl": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201903/t20190322_776691.html",
+      "standard": "建设部令第110号及官方公布修订文本",
+      "effectiveDate": null,
+      "supports": "主体承重、楼面荷载、外立面、湿区及开工申报按法定情形办理；本地更具体限制另核，不能将物业告知代替所有必要手续。",
+      "sourceType": "official_regulation",
+      "verification": "住建部PDF索引与北京市政府官方正文交叉读取；交底前复核最新修订及本地实施要求"
+    },
+    {
+      "id": "S08",
+      "title": "电梯安全筑底行动使用、维保领域案件查办典型案例",
+      "publisher": "国家市场监督管理总局",
+      "url": "https://www.samr.gov.cn/xw/zj/art/2024/art_5e27bca3ad184596a9770e7d2419c126.html",
+      "standard": null,
+      "effectiveDate": null,
+      "supports": "非公共场所且仅供单一家庭使用的电梯不纳入特种设备目录监管；改变为对外经营等使用性质时处理不同。设备分类不替代建筑、结构、消防与使用安全核对。",
+      "sourceType": "official_regulatory_explanation",
+      "verification": "官方页面搜索提取明确说明"
+    },
+    {
+      "id": "S09",
+      "title": "中华人民共和国特种设备安全法",
+      "publisher": "国家市场监督管理总局",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_ad5e293574484b48b45047ee0ede6099.html",
+      "standard": null,
+      "effectiveDate": null,
+      "supports": "如最终设备属于目录内特种设备，安装等环节的检验、技术资料与使用管理应走相应法定路径；不得将本条无差别套用到全部单一家庭自用设备。",
+      "sourceType": "official_law_publication",
+      "verification": "官方条文搜索提取"
+    },
+    {
+      "id": "S10",
+      "title": "园林植物种植与养护技术规程（正式发布版）",
+      "publisher": "浙江省住房和城乡建设厅",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/03457ec98c304c8ca4ed1e163b14f4ee.pdf",
+      "standard": "DBJ33/T 1009-2023",
+      "publishedDate": "2023-12-29",
+      "effectiveDate": "2024-05-01",
+      "supports": "浙江园林种植与养护的正式地方工程建设标准，用于园林专业编制植物选型、种植、养护及资料计划；家庭花箱具体适用范围与做法由园林专业核定。",
+      "sourceType": "official_standard_pdf",
+      "verification": "官方正式PDF公告与公开索引核对编号、发布和实施日期；未引用报批稿或未经逐条核对的数值指标。"
+    },
+    {
+      "id": "S11",
+      "title": "杭州市房屋使用安全管理条例（2025年施行）",
+      "publisher": "杭州市人大常委会公告第38号；浙江政务公开正式PDF",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3798/site/attach/0/f33f4c6852d04379bc3a3f6a60080161.pdf",
+      "standard": null,
+      "publishedDate": "2025-04-07",
+      "effectiveDate": "2025-07-01",
+      "supports": "第16条要求装修遵守房屋安全法律法规；第17条规定依法无需施工许可的国有土地上房屋装修开工前备案、住宅装修码及现场检查。实际土地性质和改造范围仍须确认。",
+      "sourceType": "official_local_law_pdf",
+      "verification": "正式20页PDF全文读取，封面施行日和第16、17条已核对；没有沿用已废止的旧城市房屋条例。"
+    },
+    {
+      "id": "S12",
+      "title": "浙江省房屋使用安全管理条例（2020年修正）",
+      "publisher": "浙江省人大通过；义乌市人民政府官方公布",
+      "url": "https://www.yw.gov.cn/art/2023/8/16/art_1229361640_1797703.html",
+      "standard": null,
+      "amendedDate": "2020-09-24",
+      "effectiveDate": "2017-09-01",
+      "supports": "第10条区分住宅与非住宅装修：住宅的建筑主体、承重结构拆改变动及超原设计使用荷载受禁止规定约束；非住宅相应设计施工路径不能直接套给本住宅。",
+      "sourceType": "official_local_law_republication",
+      "verification": "官方正文搜索读取第10条完整内容并与浙江政府处罚依据官方PDF交叉核对；城市新版条例继续援引省条例。"
+    },
+    {
+      "id": "S13",
+      "title": "杭州市建设工程消防设计审查验收管理规定",
+      "publisher": "杭州市人民政府令第351号；市政府公报",
+      "url": "https://zfgb.hangzhou.gov.cn/9/107220253/t122220253074/529434.shtml",
+      "standard": null,
+      "effectiveDate": "2025-09-01",
+      "supports": "第2条将住宅室内装饰装修排除在本规定适用范围外；新井等实际工程是否仍属该范围须确认，不能把行政审验范围排除视为消防安全要求豁免。",
+      "sourceType": "official_municipal_rule",
+      "verification": "已读取官方公报正文的适用范围与施行日；后续同网址抓取不稳定。"
+    }
+  ]
+}

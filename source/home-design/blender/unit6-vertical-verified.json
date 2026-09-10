@@ -1,0 +1,324 @@
+{
+  "sourceDrawing": "02-10-20B#楼平立面图(1).dwg",
+  "method": "world-coordinate measurement of identified unit6 E4 north elevation geometry; not suffix-only code inference",
+  "northFacadeRoot": {
+    "handle": "2AC16C",
+    "name": "E4-ELEV-N",
+    "xAnchor": 608349.1237666766,
+    "datumY": 995363.0944562624,
+    "mapping": "plan-local x=(xAnchor-elevationWorldX)/1000; elevation=(worldY-datumY)/1000",
+    "axisDimensionHandle": "2AB6F5",
+    "floorDimensionHandle": "2AC1B9"
+  },
+  "verified": [
+    {
+      "floor": 1,
+      "id": "F1-public-wc-north",
+      "code": "HC1012a",
+      "facade": "north",
+      "sill": 1.2,
+      "height": 1.2,
+      "head": 2.4,
+      "absoluteBottom": 1.2,
+      "absoluteTop": 2.4,
+      "status": "verified_from_source_elevation_geometry",
+      "sourceRootHandle": "2AC16C",
+      "sourceBlock": "E4-ELEV-N",
+      "sourceEntityHandles": [
+        "3C40DE"
+      ],
+      "elevationBounds": [
+        0.43,
+        1.2,
+        1.48,
+        2.4
+      ],
+      "evidence": "closed source LWPOLYLINE A-ELEV-HDDN; nested visible trim confirms same location"
+    },
+    {
+      "floor": 1,
+      "id": "F1-kitchen-north",
+      "code": "HC1212",
+      "facade": "north",
+      "sill": 1.2,
+      "height": 1.2,
+      "head": 2.4,
+      "absoluteBottom": 1.2,
+      "absoluteTop": 2.4,
+      "status": "verified_from_source_elevation_geometry",
+      "sourceRootHandle": "2AC16C",
+      "sourceBlock": "E4-ELEV-N",
+      "sourceEntityHandles": [
+        "2A2A76"
+      ],
+      "elevationBounds": [
+        5.4,
+        1.2,
+        6.6,
+        2.4
+      ],
+      "evidence": "closed source LWPOLYLINE A-ELEV-HDDN; nested visible trim confirms same location"
+    },
+    {
+      "floor": 2,
+      "id": "F2-north-main-bath",
+      "code": "LPC2622",
+      "facade": "north",
+      "sill": 0.4,
+      "height": 2.2,
+      "head": 2.6,
+      "absoluteBottom": 4.1,
+      "absoluteTop": 6.3,
+      "status": "verified_from_source_elevation_geometry",
+      "sourceRootHandle": "2AC16C",
+      "sourceBlock": "E4-ELEV-N",
+      "sourceEntityHandles": [
+        "3AB7B5"
+      ],
+      "elevationBounds": [
+        4.4,
+        4.1,
+        7.0,
+        6.3
+      ],
+      "evidence": "closed source LWPOLYLINE matching four-leaf north bath window"
+    },
+    {
+      "floor": 3,
+      "id": "F3-north-west",
+      "code": "LPC1915a",
+      "facade": "north",
+      "sill": 0.9,
+      "height": 1.5,
+      "head": 2.4,
+      "absoluteBottom": 7.8,
+      "absoluteTop": 9.3,
+      "status": "verified_from_source_elevation_geometry",
+      "sourceRootHandle": "2AC16C",
+      "sourceBlock": "E4-ELEV-N",
+      "sourceEntityHandles": [
+        "3AD956"
+      ],
+      "planA": [
+        0.805,
+        12.8
+      ],
+      "planB": [
+        2.795,
+        12.8
+      ],
+      "elevationBounds": [
+        0.825,
+        7.8,
+        2.775,
+        9.3
+      ],
+      "evidence": "closed source LWPOLYLINE matching three-leaf north-west window"
+    },
+    {
+      "floor": 3,
+      "id": "F3-north-east",
+      "code": "LPC1313b",
+      "facade": "north",
+      "sill": 1.1,
+      "height": 1.3,
+      "head": 2.4,
+      "absoluteBottom": 8.0,
+      "absoluteTop": 9.3,
+      "status": "verified_from_source_elevation_geometry",
+      "sourceRootHandle": "2AC16C",
+      "sourceBlock": "E4-ELEV-N",
+      "sourceEntityHandles": [
+        "2A1DEC",
+        "2A1DEF",
+        "3B04FA"
+      ],
+      "planA": [
+        5.03,
+        12.8
+      ],
+      "planB": [
+        6.37,
+        12.8
+      ],
+      "elevationBounds": [
+        5.05,
+        8.0,
+        6.35,
+        9.3
+      ],
+      "exteriorTrimBottom": 7.95,
+      "evidence": "source side jamb lines from7.95 to9.3; opening lower horizontal frame at8.0; 50 mm exterior trim distinguished from nominal aperture"
+    },
+    {
+      "floor": 2,
+      "id": "F2-north-stair-1",
+      "code": "LPC0617a",
+      "facade": "north",
+      "sill": 0.9,
+      "height": 1.7,
+      "head": 2.6,
+      "absoluteBottom": 4.6,
+      "absoluteTop": 6.3,
+      "status": "verified_visible_north_frame_only",
+      "sourceRootHandle": "2AC16C",
+      "sourceLayer": "E4-ELEV-N$0$LPC1417$0$A-ELEV-WIND",
+      "evidence": "vertical north-window frame lines at localx0.50/1.15 run4.6–6.3; do not generalize to east windows with same plan code"
+    }
+  ],
+  "unverified": [
+    {
+      "floor": 1,
+      "code": "MLC2228a",
+      "location": "south",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 1,
+      "code": "MLC4528",
+      "location": "south",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 1,
+      "code": "LPC2619",
+      "location": "east courtyard",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 1,
+      "code": "LPC0619a",
+      "location": "courtyard south",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 1,
+      "code": "LPC0720a",
+      "location": "lightwell",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 2,
+      "code": "LPC1921ab",
+      "location": "south",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 2,
+      "code": "LPC2826",
+      "location": "south",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 2,
+      "code": "LPC0617a",
+      "location": "east courtyard and roof; north second stair window",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 2,
+      "code": "LPC0718a",
+      "location": "lightwell",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 3,
+      "code": "LPC2615",
+      "location": "south",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 3,
+      "code": "LPC3213ab",
+      "location": "east",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 3,
+      "code": "MLC1423",
+      "location": "south terrace",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 3,
+      "code": "LPC2123",
+      "location": "west terrace",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 3,
+      "code": "LPC0723",
+      "location": "west terrace",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 3,
+      "code": "SC0909",
+      "location": "west",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    },
+    {
+      "floor": 3,
+      "code": "LPC0716a",
+      "location": "lightwell",
+      "sill": null,
+      "height": null,
+      "reason": "No unambiguous corresponding source elevation aperture or independent window schedule was verified in this bounded check."
+    }
+  ],
+  "entranceDoorAdditionalEvidence": {
+    "sourceRootHandle": "2AC16C",
+    "layer": "mt2-E$0$A-ELEV-WIND",
+    "verticalLeafLines": {
+      "x": [
+        2.43,
+        3.13,
+        3.83
+      ],
+      "absoluteBottom": 0.05,
+      "absoluteTop": 2.4
+    },
+    "status": "door leaf 0.05–2.4 observed; do not confuse leaf height2.35 with rough opening height"
+  },
+  "warnings": [
+    "Verified results apply only to selected identified openings; never override all windows merely by matching LPC0617a code.",
+    "Clear construction opening and frame installation details are not specified by these elevation-envelope measurements.",
+    "North LPC1313b has exterior trim bottom7.95 distinct from aperture bottom8.00.",
+    "No explicit window schedule text found in raw TEXT/MTEXT/ATTRIB/ATTDEF search; this is a search result, not proof all original schedule geometry is absent."
+  ],
+  "evidenceFiles": [
+    "/Users/howardwang/Desktop/Quick Projects/家装/home-design/audit/unit6/vertical/north-window-source-entities.json",
+    "/Users/howardwang/Desktop/Quick Projects/家装/home-design/audit/unit6/vertical/unit6-north-elevation-grid.png",
+    "/Users/howardwang/Desktop/Quick Projects/家装/home-design/audit/unit6/vertical/竖向核对说明.md"
+  ]
+}

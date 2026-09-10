@@ -1,0 +1,9 @@
+{
+  "scene": "../模型/方案数据.json",
+  "scene_sha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b",
+  "objects": 1976,
+  "offline_html": "漫游/住宅漫游.html",
+  "bytes": 1259366,
+  "three": "0.170.0",
+  "network_required": false
+}

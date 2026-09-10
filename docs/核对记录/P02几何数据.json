@@ -1,0 +1,187 @@
+{
+  "sceneSha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b",
+  "objects": 1976,
+  "baselineWallColumnParapetComparison": {
+    "baselineObjects": 429,
+    "newObjects": 431,
+    "removedOrChanged": 0,
+    "added": 2,
+    "baselineGeometryPreserved": true,
+    "exactGeometryUnchanged": false,
+    "addedObjects": [
+      {
+        "category": "wall-low",
+        "faces": null,
+        "floor": 0,
+        "kind": "box",
+        "name": "南院两侧墙_原图位置高度待核",
+        "position": [
+          0.03,
+          -1.68,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "size": [
+          0.22,
+          4.22,
+          1.1
+        ],
+        "source": null,
+        "vertices": null
+      },
+      {
+        "category": "wall-low",
+        "faces": null,
+        "floor": 0,
+        "kind": "box",
+        "name": "南院两侧墙_原图位置高度待核",
+        "position": [
+          9.57,
+          -1.68,
+          0.15
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "size": [
+          0.22,
+          4.22,
+          1.1
+        ],
+        "source": null,
+        "vertices": null
+      }
+    ],
+    "comparison": "name/type/floor/position/size/rotation/mesh/category/source multiset against unit6-scene.json; proposed lift/stair treatment already in baseline"
+  },
+  "surfaceGeometryChecks": [
+    {
+      "name": "原图南院完成面_不表达地下构造",
+      "projectionArea": 47.50405,
+      "outsideAllowedArea": 0.0,
+      "geometryWithinSourceOrDeclaredAlteration": true,
+      "status": "原图庭院平面与完成标高；模型薄板不代表地下构造",
+      "zRange": [
+        -0.46,
+        -0.4
+      ]
+    },
+    {
+      "name": "原图南廊完成面_展示板厚",
+      "projectionArea": 11.067249999999998,
+      "outsideAllowedArea": 0.0,
+      "geometryWithinSourceOrDeclaredAlteration": true,
+      "status": "原图南廊平面与完成/结构标高；门口连接收口为方案",
+      "zRange": [
+        -0.13,
+        -0.05
+      ]
+    },
+    {
+      "name": "新增南院模块坡道_结构及审批待深化",
+      "projectionArea": 5.879999999999998,
+      "outsideAllowedArea": 0.0,
+      "geometryWithinSourceOrDeclaredAlteration": true,
+      "status": "新设计坡道意向；净宽/扶手/荷载/节点待建筑结构确认",
+      "zRange": [
+        -0.44,
+        -0.05
+      ]
+    }
+  ],
+  "paverSegmentsChecked": 15,
+  "paverOutsideAreaTotal": 0.0,
+  "voidChecks": [
+    {
+      "floor": 1,
+      "checks": [
+        {
+          "void": "south_sunken_void",
+          "slabProjectionOverlapM2": 0.0,
+          "intrusions": []
+        },
+        {
+          "void": "east_sunken_void",
+          "slabProjectionOverlapM2": 0.0,
+          "intrusions": []
+        }
+      ]
+    },
+    {
+      "floor": 2,
+      "checks": [
+        {
+          "void": "south_sunken_void",
+          "slabProjectionOverlapM2": 0.0,
+          "intrusions": []
+        },
+        {
+          "void": "east_sunken_void",
+          "slabProjectionOverlapM2": 0.0,
+          "intrusions": []
+        }
+      ]
+    },
+    {
+      "floor": 3,
+      "checks": [
+        {
+          "void": "south_sunken_void",
+          "slabProjectionOverlapM2": 0.0,
+          "intrusions": []
+        },
+        {
+          "void": "east_sunken_void",
+          "slabProjectionOverlapM2": 0.0,
+          "intrusions": []
+        }
+      ]
+    }
+  ],
+  "walkthroughBoundary": {
+    "outsideOriginalOrNewAllowedM2": 0.0,
+    "removedOriginalAreaM2": 0.0,
+    "newSouthMinY": -3.78,
+    "southVoidNorthEdge": -4.02,
+    "sourceGardenSouthEdge": -3.78
+  },
+  "ramp": {
+    "polygon": [
+      [
+        5.9,
+        -2.04
+      ],
+      [
+        7.3,
+        -2.04
+      ],
+      [
+        7.3,
+        2.16
+      ],
+      [
+        5.9,
+        2.16
+      ]
+    ],
+    "area": 5.879999999999998,
+    "withinCourtM2": 5.459999999999998,
+    "withinOriginalStepsM2": 0.41999999999999993,
+    "outsideCourtAndStepsM2": 0.0,
+    "slopeRiseMeters": 0.35000000000000003,
+    "runMeters": 4.2,
+    "slopeRatio": 12.0,
+    "widthMeters": 1.3999999999999995
+  },
+  "limits": [
+    "客厅门口连接区[4.29,3.90,8.91,4.22]是新增收口；非原图庭院或产权扩张。",
+    "源图结构断面/荷载/坡道审批/无障碍合规未因几何通过而验证。",
+    "本次对新增地面与洞口采用精确二维投影并集；家具叶片投影和渲染细节不据此认证为施工净空。"
+  ]
+}

@@ -1,0 +1,1229 @@
+{
+  "points": [
+    {
+      "id": "L1-01",
+      "floor": 0,
+      "kind": "light",
+      "room": "客厅",
+      "position": [
+        5.0,
+        6.4,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-02",
+      "floor": 0,
+      "kind": "light",
+      "room": "客厅",
+      "position": [
+        8.3,
+        6.4,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-03",
+      "floor": 0,
+      "kind": "light",
+      "room": "餐厅",
+      "position": [
+        6,
+        10.7,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-04",
+      "floor": 0,
+      "kind": "light",
+      "room": "厨房",
+      "position": [
+        5.3,
+        13.6,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-05",
+      "floor": 0,
+      "kind": "light",
+      "room": "厨房",
+      "position": [
+        6.8,
+        13.6,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-06",
+      "floor": 0,
+      "kind": "light",
+      "room": "玄关",
+      "position": [
+        3,
+        13.8,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-07",
+      "floor": 0,
+      "kind": "light",
+      "room": "操盘房",
+      "position": [
+        1.3,
+        10.5,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-08",
+      "floor": 0,
+      "kind": "light",
+      "room": "父母卧室",
+      "position": [
+        1.8,
+        2.3,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-09",
+      "floor": 0,
+      "kind": "light",
+      "room": "父母卫浴",
+      "position": [
+        1.2,
+        6.1,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-10",
+      "floor": 0,
+      "kind": "light",
+      "room": "公卫",
+      "position": [
+        0.9,
+        13.6,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L1-11",
+      "floor": 0,
+      "kind": "light",
+      "room": "过厅",
+      "position": [
+        3.0,
+        8.5,
+        3.43
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "W1-01",
+      "floor": 0,
+      "kind": "water",
+      "room": "卫浴",
+      "position": [
+        0.15,
+        5.74,
+        0.55
+      ],
+      "label": "台盆冷热水意向",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "D1-01",
+      "floor": 0,
+      "kind": "drain",
+      "room": "卫浴",
+      "position": [
+        0.68,
+        6.9,
+        0.02
+      ],
+      "label": "淋浴地漏意向",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "以排水复测与专业坡向图为准，不代表原排水点"
+    },
+    {
+      "id": "P1-01",
+      "floor": 0,
+      "kind": "power",
+      "room": "床头",
+      "position": [
+        0.17,
+        4.42,
+        0.65
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P1-02",
+      "floor": 0,
+      "kind": "power",
+      "room": "卫浴镜柜",
+      "position": [
+        0.17,
+        5.3,
+        1.18
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "S1-01",
+      "floor": 0,
+      "kind": "switch",
+      "room": "卧室",
+      "position": [
+        3.42,
+        4.93,
+        1.1
+      ],
+      "label": "卧室入口及床头联控",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-01",
+      "floor": 1,
+      "kind": "light",
+      "room": "主卧",
+      "position": [
+        5.5,
+        5.2,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-02",
+      "floor": 1,
+      "kind": "light",
+      "room": "主卧",
+      "position": [
+        6.4,
+        7.6,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-03",
+      "floor": 1,
+      "kind": "light",
+      "room": "衣帽间",
+      "position": [
+        5.1,
+        10.2,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-04",
+      "floor": 1,
+      "kind": "light",
+      "room": "儿童预留房",
+      "position": [
+        1.6,
+        2.1,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-05",
+      "floor": 1,
+      "kind": "light",
+      "room": "公卫",
+      "position": [
+        1.2,
+        6.1,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-06",
+      "floor": 1,
+      "kind": "light",
+      "room": "阅读区",
+      "position": [
+        1.3,
+        11.4,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-07",
+      "floor": 1,
+      "kind": "light",
+      "room": "家政区",
+      "position": [
+        1.5,
+        9.2,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-08",
+      "floor": 1,
+      "kind": "light",
+      "room": "主卫",
+      "position": [
+        6.0,
+        12.1,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L2-09",
+      "floor": 1,
+      "kind": "light",
+      "room": "过厅",
+      "position": [
+        3,
+        8.5,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "W2-01",
+      "floor": 1,
+      "kind": "water",
+      "room": "卫浴",
+      "position": [
+        0.15,
+        5.74,
+        0.55
+      ],
+      "label": "台盆冷热水意向",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "D2-01",
+      "floor": 1,
+      "kind": "drain",
+      "room": "卫浴",
+      "position": [
+        0.68,
+        6.9,
+        0.02
+      ],
+      "label": "淋浴地漏意向",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "以排水复测与专业坡向图为准，不代表原排水点"
+    },
+    {
+      "id": "P2-01",
+      "floor": 1,
+      "kind": "power",
+      "room": "床头",
+      "position": [
+        0.17,
+        4.42,
+        0.65
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P2-02",
+      "floor": 1,
+      "kind": "power",
+      "room": "卫浴镜柜",
+      "position": [
+        0.17,
+        5.3,
+        1.18
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "S2-01",
+      "floor": 1,
+      "kind": "switch",
+      "room": "卧室",
+      "position": [
+        3.42,
+        4.93,
+        1.1
+      ],
+      "label": "卧室入口及床头联控",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L3-01",
+      "floor": 2,
+      "kind": "light",
+      "room": "妹妹卧室",
+      "position": [
+        1.8,
+        2.1,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L3-02",
+      "floor": 2,
+      "kind": "light",
+      "room": "妹妹卫浴",
+      "position": [
+        1.2,
+        6.1,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L3-03",
+      "floor": 2,
+      "kind": "light",
+      "room": "毛线工作室",
+      "position": [
+        1.2,
+        11.4,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L3-04",
+      "floor": 2,
+      "kind": "light",
+      "room": "书法房",
+      "position": [
+        5.4,
+        10.2,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L3-05",
+      "floor": 2,
+      "kind": "light",
+      "room": "过厅",
+      "position": [
+        3,
+        8.5,
+        2.93
+      ],
+      "label": "基础照明",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "W3-01",
+      "floor": 2,
+      "kind": "water",
+      "room": "卫浴",
+      "position": [
+        0.15,
+        5.74,
+        0.55
+      ],
+      "label": "台盆冷热水意向",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "D3-01",
+      "floor": 2,
+      "kind": "drain",
+      "room": "卫浴",
+      "position": [
+        0.68,
+        6.9,
+        0.02
+      ],
+      "label": "淋浴地漏意向",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "以排水复测与专业坡向图为准，不代表原排水点"
+    },
+    {
+      "id": "P3-01",
+      "floor": 2,
+      "kind": "power",
+      "room": "床头",
+      "position": [
+        0.17,
+        4.42,
+        0.65
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P3-02",
+      "floor": 2,
+      "kind": "power",
+      "room": "卫浴镜柜",
+      "position": [
+        0.17,
+        5.3,
+        1.18
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "S3-01",
+      "floor": 2,
+      "kind": "switch",
+      "room": "卧室",
+      "position": [
+        3.42,
+        4.93,
+        1.1
+      ],
+      "label": "卧室入口及床头联控",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P1-03",
+      "floor": 0,
+      "kind": "power",
+      "room": "厨房台面",
+      "position": [
+        5.02,
+        14.738,
+        1.12
+      ],
+      "label": "插座预留",
+      "orientation": "y",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P1-04",
+      "floor": 0,
+      "kind": "power",
+      "room": "厨房台面",
+      "position": [
+        6.92,
+        14.738,
+        1.12
+      ],
+      "label": "插座预留",
+      "orientation": "y",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "W1-02",
+      "floor": 0,
+      "kind": "water",
+      "room": "厨房",
+      "position": [
+        5.93,
+        14.66,
+        0.55
+      ],
+      "label": "水槽冷热水及净水预留",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "D1-02",
+      "floor": 0,
+      "kind": "drain",
+      "room": "厨房",
+      "position": [
+        5.93,
+        14.66,
+        0.3
+      ],
+      "label": "水槽/洗碗机排水接入意向",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P1-05",
+      "floor": 0,
+      "kind": "power",
+      "room": "爸爸操盘房",
+      "position": [
+        0.16,
+        10.83,
+        0.95
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "N1-01",
+      "floor": 0,
+      "kind": "data",
+      "room": "爸爸操盘房",
+      "position": [
+        0.16,
+        11.03,
+        0.95
+      ],
+      "label": "双网口",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P1-06",
+      "floor": 0,
+      "kind": "power",
+      "room": "电视墙",
+      "position": [
+        9.43,
+        6.25,
+        0.4
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P2-03",
+      "floor": 1,
+      "kind": "power",
+      "room": "主卧床头",
+      "position": [
+        7.65,
+        7.16,
+        0.65
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P2-04",
+      "floor": 1,
+      "kind": "power",
+      "room": "儿童学习桌",
+      "position": [
+        3.42,
+        1.95,
+        1.0
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P2-05",
+      "floor": 1,
+      "kind": "power",
+      "room": "阅读家政区",
+      "position": [
+        0.16,
+        9.9,
+        1.1
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P3-03",
+      "floor": 2,
+      "kind": "power",
+      "room": "毛线工作室",
+      "position": [
+        0.16,
+        11.8,
+        1.0
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "P3-04",
+      "floor": 2,
+      "kind": "power",
+      "room": "书法房",
+      "position": [
+        6.46,
+        11.7,
+        0.4
+      ],
+      "label": "插座预留",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "N3-01",
+      "floor": 2,
+      "kind": "data",
+      "room": "妹妹书桌",
+      "position": [
+        3.42,
+        1.65,
+        1.0
+      ],
+      "label": "双网口",
+      "orientation": "x",
+      "status": "design_proposal",
+      "note": "位置为意向；设备、回路与接入由专业深化确认"
+    },
+    {
+      "id": "L3-06",
+      "floor": 2,
+      "kind": "light",
+      "room": "室外花园",
+      "position": [
+        4.16,
+        4.9,
+        0.43999999999999995
+      ],
+      "label": "遮眩低位花园灯",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "灯具防护、漏电保护及线缆由电气深化；避免照入邻户"
+    },
+    {
+      "id": "L3-07",
+      "floor": 2,
+      "kind": "light",
+      "room": "室外花园",
+      "position": [
+        7.49,
+        6.15,
+        0.43999999999999995
+      ],
+      "label": "遮眩低位花园灯",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "灯具防护、漏电保护及线缆由电气深化；避免照入邻户"
+    },
+    {
+      "id": "W3-02",
+      "floor": 2,
+      "kind": "water",
+      "room": "露台",
+      "position": [
+        6.3,
+        8.36,
+        0.45
+      ],
+      "label": "花园带阀灌溉接点意向",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "仅接口意向，原供水点未确认；设检修与防冻策略并防回流"
+    },
+    {
+      "id": "D3-02",
+      "floor": 2,
+      "kind": "drain",
+      "room": "露台",
+      "position": [
+        7.69,
+        6.94,
+        -0.03
+      ],
+      "label": "排水复测控制点",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "不是新增地漏施工坐标；先确认原地漏与溢流，不得擅自穿板"
+    },
+    {
+      "id": "L1-12",
+      "floor": 0,
+      "kind": "light",
+      "room": "室外花园",
+      "position": [
+        1.8,
+        -2.9,
+        0.06999999999999995
+      ],
+      "label": "遮眩低位花园灯",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "灯具防护、漏电保护及线缆由电气深化；避免照入邻户"
+    },
+    {
+      "id": "L1-13",
+      "floor": 0,
+      "kind": "light",
+      "room": "室外花园",
+      "position": [
+        4.8,
+        -2.9,
+        0.06999999999999995
+      ],
+      "label": "遮眩低位花园灯",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "灯具防护、漏电保护及线缆由电气深化；避免照入邻户"
+    },
+    {
+      "id": "L1-14",
+      "floor": 0,
+      "kind": "light",
+      "room": "室外花园",
+      "position": [
+        8.75,
+        1.23,
+        0.06999999999999995
+      ],
+      "label": "遮眩低位花园灯",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "灯具防护、漏电保护及线缆由电气深化；避免照入邻户"
+    },
+    {
+      "id": "W1-03",
+      "floor": 0,
+      "kind": "water",
+      "room": "首层南院",
+      "position": [
+        8.88,
+        1.38,
+        0.12
+      ],
+      "label": "可检修灌溉接口意向",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "需核实既有给水与冬季排空；与建筑防水及邻界协调"
+    },
+    {
+      "id": "D1-03",
+      "floor": 0,
+      "kind": "drain",
+      "room": "首层南院",
+      "position": [
+        8.95,
+        -2.89,
+        -0.4
+      ],
+      "label": "院内雨水复测控制点",
+      "orientation": "horizontal",
+      "status": "design_proposal",
+      "note": "不代表已确认地漏或雨水接驳，坡向与排水能力需专项复测"
+    }
+  ],
+  "gardenItems": [
+    {
+      "id": "G3-P01",
+      "floor": 2,
+      "name": "轻型花箱 / 季相花卉",
+      "center": [
+        4.42,
+        4.31
+      ],
+      "size": [
+        0.88,
+        0.44,
+        0.37
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G3-P02",
+      "floor": 2,
+      "name": "轻型花箱 / 季相花卉",
+      "center": [
+        5.61,
+        4.31
+      ],
+      "size": [
+        0.88,
+        0.44,
+        0.37
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G3-P03",
+      "floor": 2,
+      "name": "轻型香草花箱",
+      "center": [
+        6.96,
+        4.31
+      ],
+      "size": [
+        0.95,
+        0.44,
+        0.37
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G3-P04",
+      "floor": 2,
+      "name": "轻型花箱 / 季相花卉",
+      "center": [
+        7.38,
+        6.61
+      ],
+      "size": [
+        0.72,
+        0.4,
+        0.47
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G3-B01",
+      "floor": 2,
+      "name": "移动花园坐凳",
+      "center": [
+        7.2,
+        5.55
+      ],
+      "size": [
+        0.45,
+        1.45,
+        0.47
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "与护栏安全关系及儿童攀爬风险需现场审查"
+    },
+    {
+      "id": "G3-T01",
+      "floor": 2,
+      "name": "露台小圆几",
+      "center": [
+        6.48,
+        5.48
+      ],
+      "size": [
+        0.58,
+        0.58,
+        0.49
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "移动成品；在露台地坪上实际台面高度由成品确认"
+    },
+    {
+      "id": "G3-W01",
+      "floor": 2,
+      "name": "换盆台",
+      "center": [
+        6.38,
+        6.78
+      ],
+      "size": [
+        0.8,
+        0.46,
+        0.85
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "移动成品；不锚入防水层"
+    },
+    {
+      "id": "G1-P01",
+      "floor": 0,
+      "name": "轻型花箱 / 季相花卉",
+      "center": [
+        1.05,
+        -2.55
+      ],
+      "size": [
+        1.3,
+        0.62,
+        0.44
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G1-P02",
+      "floor": 0,
+      "name": "轻型花箱 / 季相花卉",
+      "center": [
+        2.9,
+        -2.55
+      ],
+      "size": [
+        1.3,
+        0.62,
+        0.44
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G1-P03",
+      "floor": 0,
+      "name": "轻型香草花箱",
+      "center": [
+        4.62,
+        -2.55
+      ],
+      "size": [
+        1.2,
+        0.62,
+        0.44
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G1-P04",
+      "floor": 0,
+      "name": "轻型香草花箱",
+      "center": [
+        0.81,
+        -0.97
+      ],
+      "size": [
+        0.68,
+        1.0,
+        0.44
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G1-P05",
+      "floor": 0,
+      "name": "轻型花箱 / 季相花卉",
+      "center": [
+        8.64,
+        -1.95
+      ],
+      "size": [
+        0.65,
+        1.25,
+        0.44
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G1-P06",
+      "floor": 0,
+      "name": "轻型花箱 / 季相花卉",
+      "center": [
+        8.65,
+        0.08
+      ],
+      "size": [
+        0.65,
+        1.2,
+        0.44
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "植物种类按当地气候与实际日照选定；饱水重量及摆位须结构复核"
+    },
+    {
+      "id": "G1-T01",
+      "floor": 0,
+      "name": "户外茶桌",
+      "center": [
+        3.3,
+        -0.9
+      ],
+      "size": [
+        1.45,
+        0.78,
+        0.34
+      ],
+      "quantity": 1,
+      "status": "design_proposal",
+      "note": "可移动家具"
+    },
+    {
+      "id": "G1-C01",
+      "floor": 0,
+      "name": "户外休闲椅",
+      "quantity": 4,
+      "status": "design_proposal",
+      "note": "可移动家具"
+    },
+    {
+      "id": "G1-R01",
+      "floor": 0,
+      "name": "模块式通行坡道",
+      "center": [
+        6.6,
+        0.06
+      ],
+      "size": [
+        1.4,
+        4.2,
+        0.35
+      ],
+      "quantity": 1,
+      "status": "approval_hold",
+      "note": "高差350mm；坡道面宽1400mm；扶手占宽及平台/排水另需深化，不是已审定无障碍工程"
+    }
+  ],
+  "customFurniture": [
+    {
+      "id": "C1-01",
+      "name": "厨房L形地柜",
+      "floor": 0,
+      "nominalSize": "北段2820×640；东段640×1130；台面约885高",
+      "note": "毫米；现场复尺、设备选型与墙面完成厚度确定后下单"
+    },
+    {
+      "id": "C2-01",
+      "name": "夫妻衣柜",
+      "floor": 1,
+      "nominalSize": "2400×550×2280",
+      "note": "毫米；门板开启与主卫交通需施工放样确认"
+    },
+    {
+      "id": "C3-01",
+      "name": "书法长案",
+      "floor": 2,
+      "nominalSize": "900×1940×800",
+      "note": "毫米；桌侧活动空间以实测放样复核"
+    },
+    {
+      "id": "C3-02",
+      "name": "毛线工作台",
+      "floor": 2,
+      "nominalSize": "1650×700×760",
+      "note": "毫米；透光与灯位配合，毛线采用封闭干燥收纳"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "sourceSha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b",
+  "matchedSourceObjects": 1976,
+  "sourceAttributesChecked": 2360,
+  "scenes": 5,
+  "defaultScene": "00_整栋_完整墙体"
+}

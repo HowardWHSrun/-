@@ -1,0 +1,7070 @@
+{
+  "units": "m",
+  "unit": 6,
+  "sourceDrawing": "02-10-20B#楼平立面图(1).dwg",
+  "sourceDXF": "/Users/howardwang/Desktop/Quick Projects/家装/home-design/tmp/cad-recovery/oda-audited/original.dxf",
+  "schema": "floors with source-plan boxes/opening axes; separate original voids and proposed lift",
+  "floors": [
+    {
+      "id": 1,
+      "label": "一层",
+      "origin": [
+        658498.48,
+        725212.6429989272
+      ],
+      "elevation": 0,
+      "ceilingElevation": 3.7,
+      "boundary": [
+        [
+          -0.12,
+          0.98
+        ],
+        [
+          3.72,
+          0.98
+        ],
+        [
+          3.72,
+          3.98
+        ],
+        [
+          9.72,
+          3.98
+        ],
+        [
+          9.72,
+          15.02
+        ],
+        [
+          -0.12,
+          15.02
+        ]
+      ],
+      "terraces": [
+        [
+          [
+            -0.12,
+            0.38
+          ],
+          [
+            3.72,
+            0.38
+          ],
+          [
+            3.72,
+            0.98
+          ],
+          [
+            -0.12,
+            0.98
+          ]
+        ],
+        [
+          [
+            3.48,
+            2.18
+          ],
+          [
+            9.72,
+            2.18
+          ],
+          [
+            9.72,
+            3.98
+          ],
+          [
+            3.48,
+            3.98
+          ]
+        ],
+        [
+          [
+            2.0,
+            15.02
+          ],
+          [
+            4.26,
+            15.02
+          ],
+          [
+            4.26,
+            16.35
+          ],
+          [
+            2.0,
+            16.35
+          ]
+        ]
+      ],
+      "openings": [
+        {
+          "id": "F1-entrance",
+          "a": [
+            2.22,
+            14.9
+          ],
+          "b": [
+            4.04,
+            14.9
+          ],
+          "width": 1.82,
+          "thickness": 0.24,
+          "type": "glazed_door",
+          "code": null,
+          "sill": 0,
+          "height": null,
+          "heightStatus": "unverified",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": [
+            "Door leaf itself runs approximately x2.38–3.88; full masonry/frame aperture is wider."
+          ],
+          "walkableLeaf": [
+            [
+              2.38,
+              14.9
+            ],
+            [
+              3.88,
+              14.9
+            ]
+          ]
+        },
+        {
+          "id": "F1-public-wc-north",
+          "a": [
+            0.43,
+            14.9
+          ],
+          "b": [
+            1.48,
+            14.9
+          ],
+          "width": 1.05,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "HC1012a",
+          "sill": null,
+          "height": 1.2,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1",
+            "3C65CA"
+          ],
+          "notes": [
+            "North window symbol glazing x0.48–1.43. Audited overlapping wall detail extends into aperture and must be trimmed to window when constructing 3D."
+          ]
+        },
+        {
+          "id": "F1-kitchen-north",
+          "a": [
+            5.4,
+            14.9
+          ],
+          "b": [
+            6.6,
+            14.9
+          ],
+          "width": 1.2,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "HC1212",
+          "sill": null,
+          "height": 1.2,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F1-south-west",
+          "a": [
+            0.615,
+            1.1
+          ],
+          "b": [
+            2.985,
+            1.1
+          ],
+          "width": 2.37,
+          "thickness": 0.24,
+          "type": "glazed_door",
+          "code": "MLC2228a",
+          "sill": 0,
+          "height": 2.8,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": [
+            "Retain bay/porch projection separately; opening width measured between wall skins differs from nominal code."
+          ],
+          "walkableLeaf": [
+            [
+              1.05,
+              1.1
+            ],
+            [
+              2.55,
+              1.1
+            ]
+          ]
+        },
+        {
+          "id": "F1-south-living",
+          "a": [
+            4.29,
+            4.1
+          ],
+          "b": [
+            8.91,
+            4.1
+          ],
+          "width": 4.62,
+          "thickness": 0.24,
+          "type": "glazed_door",
+          "code": "MLC4528",
+          "sill": 0,
+          "height": 2.8,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": [],
+          "walkableLeaf": [
+            [
+              5.85,
+              4.1
+            ],
+            [
+              7.35,
+              4.1
+            ]
+          ]
+        },
+        {
+          "id": "F1-courtyard-west",
+          "a": [
+            7.8,
+            9.34
+          ],
+          "b": [
+            7.8,
+            12.06
+          ],
+          "width": 2.72,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC2619",
+          "sill": null,
+          "height": 1.9,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F1-courtyard-south",
+          "a": [
+            8.315,
+            8.6
+          ],
+          "b": [
+            9.085,
+            8.6
+          ],
+          "width": 0.77,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0619a",
+          "sill": null,
+          "height": 1.9,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F1-lightwell-south",
+          "a": [
+            0.45,
+            7.4
+          ],
+          "b": [
+            1.2,
+            7.4
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0720a",
+          "sill": null,
+          "height": 2.0,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F1-lightwell-east",
+          "a": [
+            2.3,
+            7.625
+          ],
+          "b": [
+            2.3,
+            8.375
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0720a",
+          "sill": null,
+          "height": 2.0,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F1-public-wc-door",
+          "a": [
+            1.8,
+            12.9
+          ],
+          "b": [
+            1.8,
+            13.7
+          ],
+          "width": 0.8,
+          "thickness": 0.24,
+          "type": "door",
+          "code": "M0821",
+          "sill": 0,
+          "height": 2.1,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F1-south-wc-door",
+          "a": [
+            2.36,
+            5.42
+          ],
+          "b": [
+            2.36,
+            6.22
+          ],
+          "width": 0.8,
+          "thickness": 0.24,
+          "type": "door",
+          "code": "M0821",
+          "sill": 0,
+          "height": 2.1,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F1-kitchen-south",
+          "a": [
+            5.1,
+            12.74
+          ],
+          "b": [
+            6.9,
+            12.74
+          ],
+          "width": 1.8,
+          "thickness": 0.24,
+          "type": "passage",
+          "code": null,
+          "sill": 0,
+          "height": null,
+          "heightStatus": "unverified",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B9E1"
+          ],
+          "notes": [
+            "Kitchen south flank lines are DASHED2 reference geometry; not treated as existing full-height solid wall."
+          ]
+        }
+      ],
+      "rooms": [
+        {
+          "name": "原南西开敞空间",
+          "bounds": [
+            0.12,
+            1.22,
+            3.48,
+            5.18
+          ],
+          "proposedUse": "父母卧室",
+          "status": "privacy partition is new interior design, not source wall"
+        },
+        {
+          "name": "原客厅",
+          "bounds": [
+            3.72,
+            4.22,
+            9.48,
+            8.48
+          ]
+        },
+        {
+          "name": "原餐厅",
+          "bounds": [
+            2.77,
+            8.72,
+            7.68,
+            12.68
+          ]
+        },
+        {
+          "name": "厨房",
+          "bounds": [
+            4.32,
+            12.8,
+            7.68,
+            14.78
+          ]
+        },
+        {
+          "name": "玄关",
+          "bounds": [
+            1.86,
+            12.8,
+            4.08,
+            14.78
+          ]
+        },
+        {
+          "name": "公卫",
+          "bounds": [
+            0.12,
+            12.8,
+            1.74,
+            14.78
+          ]
+        },
+        {
+          "name": "南侧卫生间",
+          "bounds": [
+            0.12,
+            5.3,
+            2.3,
+            7.28
+          ]
+        }
+      ],
+      "voids": [
+        {
+          "name": "采光井上空",
+          "bounds": [
+            0.14,
+            7.54,
+            2.16,
+            8.46
+          ],
+          "polygon": [
+            [
+              0.14,
+              7.54
+            ],
+            [
+              2.16,
+              7.54
+            ],
+            [
+              2.16,
+              8.46
+            ],
+            [
+              0.14,
+              8.46
+            ]
+          ],
+          "source": [
+            "8B9E1"
+          ]
+        },
+        {
+          "name": "东侧下沉庭院上空",
+          "bounds": [
+            7.92,
+            8.72,
+            9.48,
+            14.78
+          ],
+          "polygon": [
+            [
+              7.92,
+              8.72
+            ],
+            [
+              9.48,
+              8.72
+            ],
+            [
+              9.48,
+              14.78
+            ],
+            [
+              7.92,
+              14.78
+            ]
+          ],
+          "source": [
+            "8B9E1"
+          ]
+        }
+      ],
+      "boxes": [
+        {
+          "bounds": [
+            0.33,
+            14.78,
+            0.43,
+            15.02
+          ],
+          "source": [
+            "3C65CA",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$huachuangN$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W001"
+        },
+        {
+          "bounds": [
+            -0.12,
+            8.72,
+            0.12,
+            12.68
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W002"
+        },
+        {
+          "bounds": [
+            -0.12,
+            12.8,
+            0.12,
+            14.51
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W003"
+        },
+        {
+          "bounds": [
+            -0.12,
+            4.22,
+            0.12,
+            5.18
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W004"
+        },
+        {
+          "bounds": [
+            -0.12,
+            7.52,
+            0.12,
+            8.48
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W005"
+        },
+        {
+          "bounds": [
+            -0.12,
+            6.25,
+            0.12,
+            6.33
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W006"
+        },
+        {
+          "bounds": [
+            -0.12,
+            5.3,
+            0.12,
+            6.25
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W007"
+        },
+        {
+          "bounds": [
+            -0.12,
+            6.39,
+            0.12,
+            7.28
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W008"
+        },
+        {
+          "bounds": [
+            -0.12,
+            2.42,
+            0.12,
+            3.98
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W009"
+        },
+        {
+          "bounds": [
+            -0.12,
+            1.22,
+            0.12,
+            2.18
+          ],
+          "source": [
+            "8B9E1",
+            "8BA98"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E4-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W010"
+        },
+        {
+          "bounds": [
+            4.32,
+            14.78,
+            5.4,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W011"
+        },
+        {
+          "bounds": [
+            6.6,
+            14.78,
+            6.7,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$huachuangN$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W012"
+        },
+        {
+          "bounds": [
+            6.625,
+            14.78,
+            6.97,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W013"
+        },
+        {
+          "bounds": [
+            7.92,
+            14.78,
+            9.21,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W014"
+        },
+        {
+          "bounds": [
+            9.48,
+            4.22,
+            9.72,
+            8.48
+          ],
+          "source": [
+            "8BA70",
+            "8BABE"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "E4-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W015"
+        },
+        {
+          "bounds": [
+            9.48,
+            2.42,
+            9.72,
+            3.98
+          ],
+          "source": [
+            "8B9E1",
+            "8BABE"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "E4-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W016"
+        },
+        {
+          "bounds": [
+            8.91,
+            2.18,
+            9.48,
+            2.42
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W017"
+        },
+        {
+          "bounds": [
+            3.72,
+            2.18,
+            4.29,
+            2.42
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W018"
+        },
+        {
+          "bounds": [
+            3.48,
+            1.22,
+            3.72,
+            2.18
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W019"
+        },
+        {
+          "bounds": [
+            1.92,
+            14.78,
+            2.22,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W020"
+        },
+        {
+          "bounds": [
+            1.74,
+            12.8,
+            1.86,
+            12.9
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W021"
+        },
+        {
+          "bounds": [
+            1.74,
+            13.7,
+            1.86,
+            14.78
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W022"
+        },
+        {
+          "bounds": [
+            0.12,
+            12.68,
+            1.74,
+            12.8
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W023"
+        },
+        {
+          "bounds": [
+            7.68,
+            12.68,
+            7.92,
+            14.47
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W024"
+        },
+        {
+          "bounds": [
+            7.68,
+            12.06,
+            7.92,
+            12.68
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W025"
+        },
+        {
+          "bounds": [
+            7.68,
+            14.53,
+            7.92,
+            14.78
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W026"
+        },
+        {
+          "bounds": [
+            7.68,
+            8.72,
+            7.92,
+            9.34
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W027"
+        },
+        {
+          "bounds": [
+            7.92,
+            8.48,
+            8.315,
+            8.72
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W028"
+        },
+        {
+          "bounds": [
+            9.085,
+            8.48,
+            9.48,
+            8.72
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W029"
+        },
+        {
+          "bounds": [
+            3.48,
+            2.42,
+            3.72,
+            3.98
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W030"
+        },
+        {
+          "bounds": [
+            3.72,
+            3.98,
+            4.29,
+            4.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W031"
+        },
+        {
+          "bounds": [
+            8.91,
+            3.98,
+            9.48,
+            4.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W032"
+        },
+        {
+          "bounds": [
+            2.985,
+            0.98,
+            3.48,
+            1.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W033"
+        },
+        {
+          "bounds": [
+            0.12,
+            0.98,
+            0.615,
+            1.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W034"
+        },
+        {
+          "bounds": [
+            0.12,
+            7.28,
+            0.45,
+            7.52
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W035"
+        },
+        {
+          "bounds": [
+            2.18,
+            7.52,
+            2.42,
+            7.625
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W036"
+        },
+        {
+          "bounds": [
+            2.18,
+            8.375,
+            2.42,
+            8.48
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W037"
+        },
+        {
+          "bounds": [
+            0.12,
+            8.48,
+            2.18,
+            8.72
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W038"
+        },
+        {
+          "bounds": [
+            1.2,
+            7.28,
+            2.18,
+            7.52
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W039"
+        },
+        {
+          "bounds": [
+            2.3,
+            6.22,
+            2.42,
+            7.28
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W040"
+        },
+        {
+          "bounds": [
+            0.12,
+            5.18,
+            0.37,
+            5.3
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W041"
+        },
+        {
+          "bounds": [
+            2.3,
+            5.18,
+            2.42,
+            5.42
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W042"
+        },
+        {
+          "bounds": [
+            0.43,
+            5.18,
+            2.3,
+            5.3
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W043"
+        },
+        {
+          "bounds": [
+            0.12,
+            14.78,
+            0.4,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W044"
+        },
+        {
+          "bounds": [
+            9.27,
+            14.78,
+            9.48,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W045"
+        },
+        {
+          "bounds": [
+            1.48,
+            14.78,
+            1.8,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W046"
+        },
+        {
+          "bounds": [
+            4.04,
+            14.78,
+            4.13,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W047"
+        },
+        {
+          "bounds": [
+            7.03,
+            14.78,
+            7.68,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W048"
+        },
+        {
+          "bounds": [
+            1.8,
+            14.78,
+            2.13,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W049"
+        },
+        {
+          "bounds": [
+            4.08,
+            12.68,
+            4.32,
+            14.78
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W050"
+        },
+        {
+          "bounds": [
+            1.335,
+            14.78,
+            1.55,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W051"
+        },
+        {
+          "bounds": [
+            9.48,
+            8.72,
+            9.72,
+            14.78
+          ],
+          "source": [
+            "8BA71",
+            "8BABE"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "E4-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W052"
+        },
+        {
+          "bounds": [
+            -0.121,
+            8.371,
+            0.229,
+            8.721
+          ],
+          "polygon": [
+            [
+              -0.121,
+              8.721
+            ],
+            [
+              0.229,
+              8.721
+            ],
+            [
+              0.229,
+              8.371
+            ],
+            [
+              -0.121,
+              8.371
+            ],
+            [
+              -0.121,
+              8.721
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C001"
+        },
+        {
+          "bounds": [
+            -0.181,
+            14.481,
+            0.119,
+            15.021
+          ],
+          "polygon": [
+            [
+              -0.181,
+              15.021
+            ],
+            [
+              0.119,
+              15.021
+            ],
+            [
+              0.119,
+              14.481
+            ],
+            [
+              -0.181,
+              14.481
+            ],
+            [
+              -0.181,
+              15.021
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C002"
+        },
+        {
+          "bounds": [
+            -0.121,
+            5.181,
+            0.229,
+            5.531
+          ],
+          "polygon": [
+            [
+              -0.121,
+              5.531
+            ],
+            [
+              0.229,
+              5.531
+            ],
+            [
+              0.229,
+              5.181
+            ],
+            [
+              -0.121,
+              5.181
+            ],
+            [
+              -0.121,
+              5.531
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C003"
+        },
+        {
+          "bounds": [
+            -0.121,
+            12.571,
+            0.229,
+            12.921
+          ],
+          "polygon": [
+            [
+              -0.121,
+              12.921
+            ],
+            [
+              0.229,
+              12.921
+            ],
+            [
+              0.229,
+              12.571
+            ],
+            [
+              -0.121,
+              12.571
+            ],
+            [
+              -0.121,
+              12.921
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C004"
+        },
+        {
+          "bounds": [
+            9.219,
+            8.221,
+            9.719,
+            8.721
+          ],
+          "polygon": [
+            [
+              9.479,
+              8.221
+            ],
+            [
+              9.479,
+              8.481
+            ],
+            [
+              9.219,
+              8.481
+            ],
+            [
+              9.219,
+              8.721
+            ],
+            [
+              9.719,
+              8.721
+            ],
+            [
+              9.719,
+              8.221
+            ],
+            [
+              9.479,
+              8.221
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C005"
+        },
+        {
+          "bounds": [
+            9.369,
+            3.981,
+            9.719,
+            4.331
+          ],
+          "polygon": [
+            [
+              9.369,
+              4.331
+            ],
+            [
+              9.719,
+              4.331
+            ],
+            [
+              9.719,
+              3.981
+            ],
+            [
+              9.369,
+              3.981
+            ],
+            [
+              9.369,
+              4.331
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C006"
+        },
+        {
+          "bounds": [
+            -0.121,
+            0.981,
+            0.379,
+            1.481
+          ],
+          "polygon": [
+            [
+              0.119,
+              1.481
+            ],
+            [
+              0.119,
+              1.221
+            ],
+            [
+              0.379,
+              1.221
+            ],
+            [
+              0.379,
+              0.981
+            ],
+            [
+              -0.121,
+              0.981
+            ],
+            [
+              -0.121,
+              1.481
+            ],
+            [
+              0.119,
+              1.481
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C007"
+        },
+        {
+          "bounds": [
+            3.219,
+            0.981,
+            3.719,
+            1.481
+          ],
+          "polygon": [
+            [
+              3.479,
+              1.481
+            ],
+            [
+              3.479,
+              1.221
+            ],
+            [
+              3.219,
+              1.221
+            ],
+            [
+              3.219,
+              0.981
+            ],
+            [
+              3.719,
+              0.981
+            ],
+            [
+              3.719,
+              1.481
+            ],
+            [
+              3.479,
+              1.481
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C008"
+        },
+        {
+          "bounds": [
+            7.569,
+            8.371,
+            7.919,
+            8.721
+          ],
+          "polygon": [
+            [
+              7.569,
+              8.721
+            ],
+            [
+              7.919,
+              8.721
+            ],
+            [
+              7.919,
+              8.371
+            ],
+            [
+              7.569,
+              8.371
+            ],
+            [
+              7.569,
+              8.721
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C009"
+        },
+        {
+          "bounds": [
+            7.569,
+            12.571,
+            7.919,
+            12.921
+          ],
+          "polygon": [
+            [
+              7.569,
+              12.571
+            ],
+            [
+              7.919,
+              12.571
+            ],
+            [
+              7.919,
+              12.921
+            ],
+            [
+              7.569,
+              12.921
+            ],
+            [
+              7.569,
+              12.571
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C010"
+        },
+        {
+          "bounds": [
+            9.419,
+            14.671,
+            9.719,
+            15.021
+          ],
+          "polygon": [
+            [
+              9.419,
+              15.021
+            ],
+            [
+              9.719,
+              15.021
+            ],
+            [
+              9.719,
+              14.671
+            ],
+            [
+              9.419,
+              14.671
+            ],
+            [
+              9.419,
+              15.021
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C011"
+        },
+        {
+          "bounds": [
+            4.079,
+            12.571,
+            4.429,
+            12.921
+          ],
+          "polygon": [
+            [
+              4.079,
+              12.571
+            ],
+            [
+              4.429,
+              12.571
+            ],
+            [
+              4.429,
+              12.921
+            ],
+            [
+              4.079,
+              12.921
+            ],
+            [
+              4.079,
+              12.571
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C012"
+        },
+        {
+          "bounds": [
+            4.099,
+            14.671,
+            4.399,
+            15.021
+          ],
+          "polygon": [
+            [
+              4.099,
+              15.021
+            ],
+            [
+              4.399,
+              15.021
+            ],
+            [
+              4.399,
+              14.671
+            ],
+            [
+              4.099,
+              14.671
+            ],
+            [
+              4.099,
+              15.021
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C013"
+        },
+        {
+          "bounds": [
+            3.479,
+            3.981,
+            3.829,
+            4.331
+          ],
+          "polygon": [
+            [
+              3.479,
+              4.331
+            ],
+            [
+              3.829,
+              4.331
+            ],
+            [
+              3.829,
+              3.981
+            ],
+            [
+              3.479,
+              3.981
+            ],
+            [
+              3.479,
+              4.331
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C014"
+        },
+        {
+          "bounds": [
+            2.119,
+            8.421,
+            2.419,
+            8.721
+          ],
+          "polygon": [
+            [
+              2.119,
+              8.721
+            ],
+            [
+              2.419,
+              8.721
+            ],
+            [
+              2.419,
+              8.421
+            ],
+            [
+              2.119,
+              8.421
+            ],
+            [
+              2.119,
+              8.721
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C015"
+        },
+        {
+          "bounds": [
+            9.219,
+            2.181,
+            9.719,
+            2.681
+          ],
+          "polygon": [
+            [
+              9.479,
+              2.681
+            ],
+            [
+              9.479,
+              2.421
+            ],
+            [
+              9.219,
+              2.421
+            ],
+            [
+              9.219,
+              2.181
+            ],
+            [
+              9.719,
+              2.181
+            ],
+            [
+              9.719,
+              2.681
+            ],
+            [
+              9.479,
+              2.681
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C016"
+        }
+      ],
+      "wallBoxes": [
+        {
+          "bounds": [
+            0.33,
+            14.78,
+            0.43,
+            15.02
+          ],
+          "source": [
+            "3C65CA",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$huachuangN$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W001"
+        },
+        {
+          "bounds": [
+            -0.12,
+            8.72,
+            0.12,
+            12.68
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W002"
+        },
+        {
+          "bounds": [
+            -0.12,
+            12.8,
+            0.12,
+            14.51
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W003"
+        },
+        {
+          "bounds": [
+            -0.12,
+            4.22,
+            0.12,
+            5.18
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W004"
+        },
+        {
+          "bounds": [
+            -0.12,
+            7.52,
+            0.12,
+            8.48
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W005"
+        },
+        {
+          "bounds": [
+            -0.12,
+            6.25,
+            0.12,
+            6.33
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W006"
+        },
+        {
+          "bounds": [
+            -0.12,
+            5.3,
+            0.12,
+            6.25
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W007"
+        },
+        {
+          "bounds": [
+            -0.12,
+            6.39,
+            0.12,
+            7.28
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W008"
+        },
+        {
+          "bounds": [
+            -0.12,
+            2.42,
+            0.12,
+            3.98
+          ],
+          "source": [
+            "8B9E0",
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W009"
+        },
+        {
+          "bounds": [
+            -0.12,
+            1.22,
+            0.12,
+            2.18
+          ],
+          "source": [
+            "8B9E1",
+            "8BA98"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E4-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W010"
+        },
+        {
+          "bounds": [
+            4.32,
+            14.78,
+            5.4,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W011"
+        },
+        {
+          "bounds": [
+            6.6,
+            14.78,
+            6.7,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$huachuangN$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W012"
+        },
+        {
+          "bounds": [
+            6.625,
+            14.78,
+            6.97,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W013"
+        },
+        {
+          "bounds": [
+            7.92,
+            14.78,
+            9.21,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W014"
+        },
+        {
+          "bounds": [
+            9.48,
+            4.22,
+            9.72,
+            8.48
+          ],
+          "source": [
+            "8BA70",
+            "8BABE"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "E4-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W015"
+        },
+        {
+          "bounds": [
+            9.48,
+            2.42,
+            9.72,
+            3.98
+          ],
+          "source": [
+            "8B9E1",
+            "8BABE"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "E4-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W016"
+        },
+        {
+          "bounds": [
+            8.91,
+            2.18,
+            9.48,
+            2.42
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W017"
+        },
+        {
+          "bounds": [
+            3.72,
+            2.18,
+            4.29,
+            2.42
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W018"
+        },
+        {
+          "bounds": [
+            3.48,
+            1.22,
+            3.72,
+            2.18
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W019"
+        },
+        {
+          "bounds": [
+            1.92,
+            14.78,
+            2.22,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W020"
+        },
+        {
+          "bounds": [
+            1.74,
+            12.8,
+            1.86,
+            12.9
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W021"
+        },
+        {
+          "bounds": [
+            1.74,
+            13.7,
+            1.86,
+            14.78
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W022"
+        },
+        {
+          "bounds": [
+            0.12,
+            12.68,
+            1.74,
+            12.8
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W023"
+        },
+        {
+          "bounds": [
+            7.68,
+            12.68,
+            7.92,
+            14.47
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W024"
+        },
+        {
+          "bounds": [
+            7.68,
+            12.06,
+            7.92,
+            12.68
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W025"
+        },
+        {
+          "bounds": [
+            7.68,
+            14.53,
+            7.92,
+            14.78
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W026"
+        },
+        {
+          "bounds": [
+            7.68,
+            8.72,
+            7.92,
+            9.34
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W027"
+        },
+        {
+          "bounds": [
+            7.92,
+            8.48,
+            8.315,
+            8.72
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W028"
+        },
+        {
+          "bounds": [
+            9.085,
+            8.48,
+            9.48,
+            8.72
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W029"
+        },
+        {
+          "bounds": [
+            3.48,
+            2.42,
+            3.72,
+            3.98
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W030"
+        },
+        {
+          "bounds": [
+            3.72,
+            3.98,
+            4.29,
+            4.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W031"
+        },
+        {
+          "bounds": [
+            8.91,
+            3.98,
+            9.48,
+            4.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W032"
+        },
+        {
+          "bounds": [
+            2.985,
+            0.98,
+            3.48,
+            1.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W033"
+        },
+        {
+          "bounds": [
+            0.12,
+            0.98,
+            0.615,
+            1.22
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$A-WALL",
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W034"
+        },
+        {
+          "bounds": [
+            0.12,
+            7.28,
+            0.45,
+            7.52
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W035"
+        },
+        {
+          "bounds": [
+            2.18,
+            7.52,
+            2.42,
+            7.625
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W036"
+        },
+        {
+          "bounds": [
+            2.18,
+            8.375,
+            2.42,
+            8.48
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W037"
+        },
+        {
+          "bounds": [
+            0.12,
+            8.48,
+            2.18,
+            8.72
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W038"
+        },
+        {
+          "bounds": [
+            1.2,
+            7.28,
+            2.18,
+            7.52
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W039"
+        },
+        {
+          "bounds": [
+            2.3,
+            6.22,
+            2.42,
+            7.28
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W040"
+        },
+        {
+          "bounds": [
+            0.12,
+            5.18,
+            0.37,
+            5.3
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W041"
+        },
+        {
+          "bounds": [
+            2.3,
+            5.18,
+            2.42,
+            5.42
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W042"
+        },
+        {
+          "bounds": [
+            0.43,
+            5.18,
+            2.3,
+            5.3
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W043"
+        },
+        {
+          "bounds": [
+            0.12,
+            14.78,
+            0.4,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W044"
+        },
+        {
+          "bounds": [
+            9.27,
+            14.78,
+            9.48,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W045"
+        },
+        {
+          "bounds": [
+            1.48,
+            14.78,
+            1.8,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W046"
+        },
+        {
+          "bounds": [
+            4.04,
+            14.78,
+            4.13,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W047"
+        },
+        {
+          "bounds": [
+            7.03,
+            14.78,
+            7.68,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W048"
+        },
+        {
+          "bounds": [
+            1.8,
+            14.78,
+            2.13,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL",
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W049"
+        },
+        {
+          "bounds": [
+            4.08,
+            12.68,
+            4.32,
+            14.78
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W050"
+        },
+        {
+          "bounds": [
+            1.335,
+            14.78,
+            1.55,
+            15.02
+          ],
+          "source": [
+            "8B9E1"
+          ],
+          "layers": [
+            "A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W051"
+        },
+        {
+          "bounds": [
+            9.48,
+            8.72,
+            9.72,
+            14.78
+          ],
+          "source": [
+            "8BA71",
+            "8BABE"
+          ],
+          "layers": [
+            "E2-E3-FL01$0$E1-FL01$0$A-WALL",
+            "E4-FL01$0$A-WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F1-W052"
+        }
+      ],
+      "columns": [
+        {
+          "bounds": [
+            -0.121,
+            8.371,
+            0.229,
+            8.721
+          ],
+          "polygon": [
+            [
+              -0.121,
+              8.721
+            ],
+            [
+              0.229,
+              8.721
+            ],
+            [
+              0.229,
+              8.371
+            ],
+            [
+              -0.121,
+              8.371
+            ],
+            [
+              -0.121,
+              8.721
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C001"
+        },
+        {
+          "bounds": [
+            -0.181,
+            14.481,
+            0.119,
+            15.021
+          ],
+          "polygon": [
+            [
+              -0.181,
+              15.021
+            ],
+            [
+              0.119,
+              15.021
+            ],
+            [
+              0.119,
+              14.481
+            ],
+            [
+              -0.181,
+              14.481
+            ],
+            [
+              -0.181,
+              15.021
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C002"
+        },
+        {
+          "bounds": [
+            -0.121,
+            5.181,
+            0.229,
+            5.531
+          ],
+          "polygon": [
+            [
+              -0.121,
+              5.531
+            ],
+            [
+              0.229,
+              5.531
+            ],
+            [
+              0.229,
+              5.181
+            ],
+            [
+              -0.121,
+              5.181
+            ],
+            [
+              -0.121,
+              5.531
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C003"
+        },
+        {
+          "bounds": [
+            -0.121,
+            12.571,
+            0.229,
+            12.921
+          ],
+          "polygon": [
+            [
+              -0.121,
+              12.921
+            ],
+            [
+              0.229,
+              12.921
+            ],
+            [
+              0.229,
+              12.571
+            ],
+            [
+              -0.121,
+              12.571
+            ],
+            [
+              -0.121,
+              12.921
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C004"
+        },
+        {
+          "bounds": [
+            9.219,
+            8.221,
+            9.719,
+            8.721
+          ],
+          "polygon": [
+            [
+              9.479,
+              8.221
+            ],
+            [
+              9.479,
+              8.481
+            ],
+            [
+              9.219,
+              8.481
+            ],
+            [
+              9.219,
+              8.721
+            ],
+            [
+              9.719,
+              8.721
+            ],
+            [
+              9.719,
+              8.221
+            ],
+            [
+              9.479,
+              8.221
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C005"
+        },
+        {
+          "bounds": [
+            9.369,
+            3.981,
+            9.719,
+            4.331
+          ],
+          "polygon": [
+            [
+              9.369,
+              4.331
+            ],
+            [
+              9.719,
+              4.331
+            ],
+            [
+              9.719,
+              3.981
+            ],
+            [
+              9.369,
+              3.981
+            ],
+            [
+              9.369,
+              4.331
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C006"
+        },
+        {
+          "bounds": [
+            -0.121,
+            0.981,
+            0.379,
+            1.481
+          ],
+          "polygon": [
+            [
+              0.119,
+              1.481
+            ],
+            [
+              0.119,
+              1.221
+            ],
+            [
+              0.379,
+              1.221
+            ],
+            [
+              0.379,
+              0.981
+            ],
+            [
+              -0.121,
+              0.981
+            ],
+            [
+              -0.121,
+              1.481
+            ],
+            [
+              0.119,
+              1.481
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C007"
+        },
+        {
+          "bounds": [
+            3.219,
+            0.981,
+            3.719,
+            1.481
+          ],
+          "polygon": [
+            [
+              3.479,
+              1.481
+            ],
+            [
+              3.479,
+              1.221
+            ],
+            [
+              3.219,
+              1.221
+            ],
+            [
+              3.219,
+              0.981
+            ],
+            [
+              3.719,
+              0.981
+            ],
+            [
+              3.719,
+              1.481
+            ],
+            [
+              3.479,
+              1.481
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C008"
+        },
+        {
+          "bounds": [
+            7.569,
+            8.371,
+            7.919,
+            8.721
+          ],
+          "polygon": [
+            [
+              7.569,
+              8.721
+            ],
+            [
+              7.919,
+              8.721
+            ],
+            [
+              7.919,
+              8.371
+            ],
+            [
+              7.569,
+              8.371
+            ],
+            [
+              7.569,
+              8.721
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C009"
+        },
+        {
+          "bounds": [
+            7.569,
+            12.571,
+            7.919,
+            12.921
+          ],
+          "polygon": [
+            [
+              7.569,
+              12.571
+            ],
+            [
+              7.919,
+              12.571
+            ],
+            [
+              7.919,
+              12.921
+            ],
+            [
+              7.569,
+              12.921
+            ],
+            [
+              7.569,
+              12.571
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C010"
+        },
+        {
+          "bounds": [
+            9.419,
+            14.671,
+            9.719,
+            15.021
+          ],
+          "polygon": [
+            [
+              9.419,
+              15.021
+            ],
+            [
+              9.719,
+              15.021
+            ],
+            [
+              9.719,
+              14.671
+            ],
+            [
+              9.419,
+              14.671
+            ],
+            [
+              9.419,
+              15.021
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C011"
+        },
+        {
+          "bounds": [
+            4.079,
+            12.571,
+            4.429,
+            12.921
+          ],
+          "polygon": [
+            [
+              4.079,
+              12.571
+            ],
+            [
+              4.429,
+              12.571
+            ],
+            [
+              4.429,
+              12.921
+            ],
+            [
+              4.079,
+              12.921
+            ],
+            [
+              4.079,
+              12.571
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C012"
+        },
+        {
+          "bounds": [
+            4.099,
+            14.671,
+            4.399,
+            15.021
+          ],
+          "polygon": [
+            [
+              4.099,
+              15.021
+            ],
+            [
+              4.399,
+              15.021
+            ],
+            [
+              4.399,
+              14.671
+            ],
+            [
+              4.099,
+              14.671
+            ],
+            [
+              4.099,
+              15.021
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C013"
+        },
+        {
+          "bounds": [
+            3.479,
+            3.981,
+            3.829,
+            4.331
+          ],
+          "polygon": [
+            [
+              3.479,
+              4.331
+            ],
+            [
+              3.829,
+              4.331
+            ],
+            [
+              3.829,
+              3.981
+            ],
+            [
+              3.479,
+              3.981
+            ],
+            [
+              3.479,
+              4.331
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C014"
+        },
+        {
+          "bounds": [
+            2.119,
+            8.421,
+            2.419,
+            8.721
+          ],
+          "polygon": [
+            [
+              2.119,
+              8.721
+            ],
+            [
+              2.419,
+              8.721
+            ],
+            [
+              2.419,
+              8.421
+            ],
+            [
+              2.119,
+              8.421
+            ],
+            [
+              2.119,
+              8.721
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C015"
+        },
+        {
+          "bounds": [
+            9.219,
+            2.181,
+            9.719,
+            2.681
+          ],
+          "polygon": [
+            [
+              9.479,
+              2.681
+            ],
+            [
+              9.479,
+              2.421
+            ],
+            [
+              9.219,
+              2.421
+            ],
+            [
+              9.219,
+              2.181
+            ],
+            [
+              9.719,
+              2.181
+            ],
+            [
+              9.719,
+              2.681
+            ],
+            [
+              9.479,
+              2.681
+            ]
+          ],
+          "source": [
+            "3EF33A"
+          ],
+          "layers": [
+            "0-COL"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F1-C016"
+        }
+      ],
+      "dashedReferenceWalls": [
+        {
+          "axis": "h",
+          "c": 12.8,
+          "lo": 4.32,
+          "hi": 5.1,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 12.8,
+          "lo": 6.9,
+          "hi": 7.68,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 12.68,
+          "lo": 6.9,
+          "hi": 7.68,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 7.28,
+          "lo": 3.36,
+          "hi": 3.48,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 7.4,
+          "lo": 3.36,
+          "hi": 3.6,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 3.6,
+          "lo": 4.22,
+          "hi": 7.4,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 3.48,
+          "lo": 4.22,
+          "hi": 7.28,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 3.36,
+          "lo": 7.28,
+          "hi": 7.4,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 12.8,
+          "lo": 1.86,
+          "hi": 2.71,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 12.68,
+          "lo": 1.86,
+          "hi": 2.71,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 6.9,
+          "lo": 12.68,
+          "hi": 12.8,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 5.1,
+          "lo": 12.68,
+          "hi": 12.8,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 2.71,
+          "lo": 12.68,
+          "hi": 12.8,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 7.28,
+          "lo": 2.42,
+          "hi": 2.46,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 7.4,
+          "lo": 2.42,
+          "hi": 2.46,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 2.46,
+          "lo": 7.28,
+          "hi": 7.4,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "h",
+          "c": 12.68,
+          "lo": 4.32,
+          "hi": 5.1,
+          "source": "8B9E1",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        }
+      ],
+      "originalStairBounds": [
+        0.12,
+        8.72,
+        2.77,
+        12.68
+      ],
+      "originalStairVoid": {
+        "bounds": [
+          1.17,
+          9.77,
+          2.77,
+          11.63
+        ],
+        "source": [
+          "8B9E1"
+        ],
+        "status": "original A-HOLE, removed/infilled as part of user central lift alteration"
+      },
+      "proposedLiftCandidate": {
+        "bounds": [
+          2.45,
+          9.5,
+          4.1,
+          11.4
+        ],
+        "innerBounds": [
+          2.57,
+          9.62,
+          3.98,
+          11.28
+        ],
+        "door": {
+          "side": "east",
+          "center": [
+            4.1,
+            10.45
+          ],
+          "width": 0.95
+        },
+        "status": "proposed alteration; root finalizes"
+      },
+      "notes": [
+        "Do not generate original stairs; user requested their removal.",
+        "Boundary describes main conditioned outer envelope; subtract void polygons and new lift shaft. Original stair void may be infilled for proposed layout.",
+        "Terraces and flat roofs are original outdoor/projected boundaries, not extra indoor rooms. North entry terrace is traced from entry stair projection; user requested stair removal, so level access needs a separate alteration.",
+        "Source wall boxes describe plan material below cut plane; carve every opening through intersecting wall boxes at the chosen vertical aperture; preserve source structural columns and reconcile any opening-column overlap, rather than adding transparent planes in front of solid walls.",
+        "Window sill heights and finished ceiling underside heights are not confirmed by plan. Elevation is floor datum; ceilingElevation is next structural floor datum.",
+        "DASHED/HIDDEN wall references are deliberately separate from existing solid boxes. Do not turn dashed strokes into rows of wall fragments.",
+        "Some room boundaries are functional labels in an open plan; new privacy walls must be marked as proposed interior design.",
+        "All coordinates in metres relative to source origin; wall skins rounded to 1 mm."
+      ]
+    },
+    {
+      "id": 2,
+      "label": "二层",
+      "origin": [
+        658498.48,
+        647269.5110587726
+      ],
+      "elevation": 3.7,
+      "ceilingElevation": 6.9,
+      "boundary": [
+        [
+          -0.12,
+          0.98
+        ],
+        [
+          3.72,
+          0.98
+        ],
+        [
+          3.72,
+          3.98
+        ],
+        [
+          7.92,
+          3.98
+        ],
+        [
+          7.92,
+          13.82
+        ],
+        [
+          3.48,
+          13.82
+        ],
+        [
+          3.48,
+          12.92
+        ],
+        [
+          -0.12,
+          12.92
+        ]
+      ],
+      "terraces": [
+        [
+          [
+            0.12,
+            12.92
+          ],
+          [
+            3.48,
+            12.92
+          ],
+          [
+            3.48,
+            14.78
+          ],
+          [
+            0.12,
+            14.78
+          ]
+        ]
+      ],
+      "flatRoofs": [
+        {
+          "name": "东侧平屋面",
+          "bounds": [
+            7.92,
+            4.1,
+            9.48,
+            8.48
+          ],
+          "polygon": [
+            [
+              7.92,
+              4.1
+            ],
+            [
+              9.48,
+              4.1
+            ],
+            [
+              9.48,
+              8.48
+            ],
+            [
+              7.92,
+              8.48
+            ]
+          ],
+          "elevation": 3.7,
+          "source": [
+            "8B8EE"
+          ],
+          "status": "roof access is not implied"
+        }
+      ],
+      "openings": [
+        {
+          "id": "F2-south-west",
+          "a": [
+            0.775,
+            1.1
+          ],
+          "b": [
+            2.825,
+            1.1
+          ],
+          "width": 2.05,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC1921ab",
+          "sill": null,
+          "height": 2.1,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-south-main",
+          "a": [
+            4.4,
+            4.1
+          ],
+          "b": [
+            7.24,
+            4.1
+          ],
+          "width": 2.84,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC2826",
+          "sill": null,
+          "height": 2.6,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-east-1",
+          "a": [
+            7.8,
+            4.6
+          ],
+          "b": [
+            7.8,
+            5.35
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0617a",
+          "sill": null,
+          "height": 1.7,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-east-2",
+          "a": [
+            7.8,
+            7.35
+          ],
+          "b": [
+            7.8,
+            8.1
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0617a",
+          "sill": null,
+          "height": 1.7,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-east-3",
+          "a": [
+            7.8,
+            9.51
+          ],
+          "b": [
+            7.8,
+            10.26
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0617a",
+          "sill": null,
+          "height": 1.7,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-east-4",
+          "a": [
+            7.8,
+            11.81
+          ],
+          "b": [
+            7.8,
+            12.56
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0617a",
+          "sill": null,
+          "height": 1.7,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": [
+            "Window symbol placed over continuous WALL outline; aperture must cut those overlapping wall boxes at selected sill/header elevations."
+          ]
+        },
+        {
+          "id": "F2-north-main-bath",
+          "a": [
+            4.38,
+            13.7
+          ],
+          "b": [
+            7.02,
+            13.7
+          ],
+          "width": 2.64,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC2622",
+          "sill": null,
+          "height": 2.2,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": [
+            "Cut overlapping wall detail in window band."
+          ]
+        },
+        {
+          "id": "F2-north-stair-1",
+          "a": [
+            0.5,
+            12.8
+          ],
+          "b": [
+            1.25,
+            12.8
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0617a",
+          "sill": null,
+          "height": 1.7,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-north-stair-2",
+          "a": [
+            2.39,
+            12.8
+          ],
+          "b": [
+            3.16,
+            12.8
+          ],
+          "width": 0.77,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0617a",
+          "sill": null,
+          "height": 1.7,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-lightwell-south",
+          "a": [
+            0.45,
+            7.4
+          ],
+          "b": [
+            1.2,
+            7.4
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0718a",
+          "sill": null,
+          "height": 1.8,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-lightwell-east",
+          "a": [
+            2.3,
+            7.625
+          ],
+          "b": [
+            2.3,
+            8.375
+          ],
+          "width": 0.75,
+          "thickness": 0.24,
+          "type": "window",
+          "code": "LPC0718a",
+          "sill": null,
+          "height": 1.8,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-south-wc-door",
+          "a": [
+            2.36,
+            5.42
+          ],
+          "b": [
+            2.36,
+            6.22
+          ],
+          "width": 0.8,
+          "thickness": 0.24,
+          "type": "door",
+          "code": "M0821",
+          "sill": 0,
+          "height": 2.1,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-main-bath-door",
+          "a": [
+            5.2,
+            11.24
+          ],
+          "b": [
+            6.0,
+            11.24
+          ],
+          "width": 0.8,
+          "thickness": 0.24,
+          "type": "door",
+          "code": "M0821",
+          "sill": 0,
+          "height": 2.1,
+          "heightStatus": "identifier_nominal_interpretation_not_window_schedule",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": []
+        },
+        {
+          "id": "F2-dressing-west",
+          "a": [
+            4.2,
+            9.58
+          ],
+          "b": [
+            4.2,
+            11.08
+          ],
+          "width": 1.5,
+          "thickness": 0.24,
+          "type": "door",
+          "code": null,
+          "sill": 0,
+          "height": null,
+          "heightStatus": "unverified",
+          "planStatus": "source_wall_gap_and_window_or_door_symbol",
+          "source": [
+            "8B8EE"
+          ],
+          "notes": [
+            "Large door symbol; lower west-wall flank is HIDDEN reference. Central lift east door centered y10.45 falls inside this opening."
+          ]
+        }
+      ],
+      "rooms": [
+        {
+          "name": "南西卧室",
+          "bounds": [
+            0.12,
+            1.22,
+            3.48,
+            5.18
+          ]
+        },
+        {
+          "name": "南侧卫生间",
+          "bounds": [
+            0.12,
+            5.3,
+            2.3,
+            7.28
+          ]
+        },
+        {
+          "name": "主卧",
+          "bounds": [
+            3.6,
+            4.22,
+            7.68,
+            8.6
+          ]
+        },
+        {
+          "name": "更衣",
+          "bounds": [
+            4.32,
+            8.72,
+            7.68,
+            11.18
+          ]
+        },
+        {
+          "name": "主卫",
+          "bounds": [
+            4.32,
+            11.3,
+            7.68,
+            13.58
+          ]
+        },
+        {
+          "name": "原楼梯区",
+          "bounds": [
+            0.12,
+            8.72,
+            2.77,
+            12.68
+          ]
+        }
+      ],
+      "voids": [
+        {
+          "name": "采光井上空",
+          "bounds": [
+            0.14,
+            7.54,
+            2.16,
+            8.46
+          ],
+          "polygon": [
+            [
+              0.14,
+              7.54
+            ],
+            [
+              2.16,
+              7.54
+            ],
+            [
+              2.16,
+              8.46
+            ],
+            [
+              0.14,
+              8.46
+            ]
+          ],
+          "source": [
+            "8B8EE"
+          ]
+        },
+        {
+          "name": "东侧下沉庭院上空",
+          "bounds": [
+            7.92,
+            8.72,
+            9.48,
+            14.78
+          ],
+          "polygon": [
+            [
+              7.92,
+              8.72
+            ],
+            [
+              9.48,
+              8.72
+            ],
+            [
+              9.48,
+              14.78
+            ],
+            [
+              7.92,
+              14.78
+            ]
+          ],
+          "source": [
+            "8B8EE"
+          ]
+        },
+        {
+          "name": "南廊上空",
+          "bounds": [
+            3.74,
+            2.445,
+            9.095,
+            3.98
+          ],
+          "polygon": [
+            [
+              3.74,
+              2.445
+            ],
+            [
+              9.095,
+              2.445
+            ],
+            [
+              9.095,
+              3.98
+            ],
+            [
+              3.74,
+              3.98
+            ]
+          ],
+          "source": [
+            "8B8EE"
+          ]
+        }
+      ],
+      "boxes": [
+        {
+          "bounds": [
+            3.16,
+            12.68,
+            3.48,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W001"
+        },
+        {
+          "bounds": [
+            0.12,
+            7.28,
+            0.45,
+            7.52
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W002"
+        },
+        {
+          "bounds": [
+            2.18,
+            7.52,
+            2.42,
+            7.625
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W003"
+        },
+        {
+          "bounds": [
+            2.18,
+            8.375,
+            2.42,
+            8.48
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W004"
+        },
+        {
+          "bounds": [
+            3.72,
+            13.58,
+            4.0,
+            13.82
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W005"
+        },
+        {
+          "bounds": [
+            -0.12,
+            1.22,
+            0.12,
+            5.18
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W006"
+        },
+        {
+          "bounds": [
+            -0.12,
+            7.52,
+            0.12,
+            8.48
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W007"
+        },
+        {
+          "bounds": [
+            -0.12,
+            8.72,
+            0.12,
+            12.68
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W008"
+        },
+        {
+          "bounds": [
+            4.0,
+            12.68,
+            4.08,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W009"
+        },
+        {
+          "bounds": [
+            3.72,
+            12.68,
+            4.0,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W010"
+        },
+        {
+          "bounds": [
+            1.25,
+            12.68,
+            2.39,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W011"
+        },
+        {
+          "bounds": [
+            0.12,
+            12.68,
+            0.5,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W012"
+        },
+        {
+          "bounds": [
+            3.48,
+            12.92,
+            3.72,
+            13.58
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W013"
+        },
+        {
+          "bounds": [
+            4.32,
+            11.18,
+            5.2,
+            11.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W014"
+        },
+        {
+          "bounds": [
+            6.0,
+            11.18,
+            7.68,
+            11.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W015"
+        },
+        {
+          "bounds": [
+            7.68,
+            11.3,
+            7.92,
+            13.27
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W016"
+        },
+        {
+          "bounds": [
+            7.68,
+            8.1,
+            7.92,
+            9.51
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W017"
+        },
+        {
+          "bounds": [
+            7.68,
+            5.35,
+            7.92,
+            7.35
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W018"
+        },
+        {
+          "bounds": [
+            7.68,
+            4.22,
+            7.92,
+            4.6
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W019"
+        },
+        {
+          "bounds": [
+            4.08,
+            11.3,
+            4.32,
+            12.68
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W020"
+        },
+        {
+          "bounds": [
+            4.08,
+            11.08,
+            4.32,
+            11.18
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W021"
+        },
+        {
+          "bounds": [
+            0.12,
+            8.48,
+            2.18,
+            8.72
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W022"
+        },
+        {
+          "bounds": [
+            1.2,
+            7.28,
+            2.18,
+            7.52
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W023"
+        },
+        {
+          "bounds": [
+            3.48,
+            1.22,
+            3.72,
+            3.98
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W024"
+        },
+        {
+          "bounds": [
+            0.12,
+            5.18,
+            0.37,
+            5.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W025"
+        },
+        {
+          "bounds": [
+            2.3,
+            6.22,
+            2.42,
+            7.28
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W026"
+        },
+        {
+          "bounds": [
+            3.72,
+            3.98,
+            4.4,
+            4.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W027"
+        },
+        {
+          "bounds": [
+            7.24,
+            3.98,
+            7.68,
+            4.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W028"
+        },
+        {
+          "bounds": [
+            2.825,
+            0.98,
+            3.48,
+            1.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W029"
+        },
+        {
+          "bounds": [
+            0.12,
+            0.98,
+            0.775,
+            1.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W030"
+        },
+        {
+          "bounds": [
+            7.68,
+            10.26,
+            7.92,
+            11.18
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W031"
+        },
+        {
+          "bounds": [
+            6.74,
+            13.58,
+            6.99,
+            13.7
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W032"
+        },
+        {
+          "bounds": [
+            7.05,
+            13.58,
+            7.68,
+            13.82
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W033"
+        },
+        {
+          "bounds": [
+            7.68,
+            13.33,
+            7.92,
+            13.58
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W034"
+        },
+        {
+          "bounds": [
+            -0.12,
+            5.3,
+            0.12,
+            6.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W035"
+        },
+        {
+          "bounds": [
+            2.3,
+            5.18,
+            2.42,
+            5.42
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W036"
+        },
+        {
+          "bounds": [
+            -0.12,
+            6.28,
+            0.12,
+            7.28
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W037"
+        },
+        {
+          "bounds": [
+            0.43,
+            5.18,
+            2.3,
+            5.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W038"
+        },
+        {
+          "bounds": [
+            6.35,
+            13.58,
+            6.68,
+            13.7
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W039"
+        },
+        {
+          "bounds": [
+            4.0,
+            13.58,
+            4.38,
+            13.82
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W040"
+        },
+        {
+          "bounds": [
+            -0.12,
+            5.18,
+            0.23,
+            5.53
+          ],
+          "polygon": [
+            [
+              -0.12,
+              5.53
+            ],
+            [
+              0.23,
+              5.53
+            ],
+            [
+              0.23,
+              5.18
+            ],
+            [
+              -0.12,
+              5.18
+            ],
+            [
+              -0.12,
+              5.53
+            ]
+          ],
+          "source": [
+            "8B0D6"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C001"
+        },
+        {
+          "bounds": [
+            -0.12,
+            8.37,
+            0.23,
+            8.72
+          ],
+          "polygon": [
+            [
+              -0.12,
+              8.72
+            ],
+            [
+              0.23,
+              8.72
+            ],
+            [
+              0.23,
+              8.37
+            ],
+            [
+              -0.12,
+              8.37
+            ],
+            [
+              -0.12,
+              8.72
+            ]
+          ],
+          "source": [
+            "8B0BD"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C002"
+        },
+        {
+          "bounds": [
+            -0.12,
+            0.98,
+            0.38,
+            1.48
+          ],
+          "polygon": [
+            [
+              0.12,
+              1.48
+            ],
+            [
+              0.12,
+              1.22
+            ],
+            [
+              0.38,
+              1.22
+            ],
+            [
+              0.38,
+              0.98
+            ],
+            [
+              -0.12,
+              0.98
+            ],
+            [
+              -0.12,
+              1.48
+            ],
+            [
+              0.12,
+              1.48
+            ]
+          ],
+          "source": [
+            "8B0BE"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C003"
+        },
+        {
+          "bounds": [
+            7.57,
+            8.37,
+            7.92,
+            8.72
+          ],
+          "polygon": [
+            [
+              7.57,
+              8.72
+            ],
+            [
+              7.92,
+              8.72
+            ],
+            [
+              7.92,
+              8.37
+            ],
+            [
+              7.57,
+              8.37
+            ],
+            [
+              7.57,
+              8.72
+            ]
+          ],
+          "source": [
+            "8B0CA"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C004"
+        },
+        {
+          "bounds": [
+            7.57,
+            12.57,
+            7.92,
+            12.92
+          ],
+          "polygon": [
+            [
+              7.57,
+              12.57
+            ],
+            [
+              7.92,
+              12.57
+            ],
+            [
+              7.92,
+              12.92
+            ],
+            [
+              7.57,
+              12.92
+            ],
+            [
+              7.57,
+              12.57
+            ]
+          ],
+          "source": [
+            "8B0CC"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C005"
+        },
+        {
+          "bounds": [
+            4.08,
+            12.57,
+            4.43,
+            12.92
+          ],
+          "polygon": [
+            [
+              4.08,
+              12.57
+            ],
+            [
+              4.43,
+              12.57
+            ],
+            [
+              4.43,
+              12.92
+            ],
+            [
+              4.08,
+              12.92
+            ],
+            [
+              4.08,
+              12.57
+            ]
+          ],
+          "source": [
+            "8B0CE"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C006"
+        },
+        {
+          "bounds": [
+            3.48,
+            3.98,
+            3.83,
+            4.33
+          ],
+          "polygon": [
+            [
+              3.48,
+              4.33
+            ],
+            [
+              3.83,
+              4.33
+            ],
+            [
+              3.83,
+              3.98
+            ],
+            [
+              3.48,
+              3.98
+            ],
+            [
+              3.48,
+              4.33
+            ]
+          ],
+          "source": [
+            "8B0D0"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C007"
+        },
+        {
+          "bounds": [
+            2.12,
+            8.42,
+            2.42,
+            8.72
+          ],
+          "polygon": [
+            [
+              2.12,
+              8.72
+            ],
+            [
+              2.42,
+              8.72
+            ],
+            [
+              2.42,
+              8.42
+            ],
+            [
+              2.12,
+              8.42
+            ],
+            [
+              2.12,
+              8.72
+            ]
+          ],
+          "source": [
+            "8B0D2"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C008"
+        },
+        {
+          "bounds": [
+            -0.12,
+            12.57,
+            0.23,
+            12.92
+          ],
+          "polygon": [
+            [
+              -0.12,
+              12.92
+            ],
+            [
+              0.23,
+              12.92
+            ],
+            [
+              0.23,
+              12.57
+            ],
+            [
+              -0.12,
+              12.57
+            ],
+            [
+              -0.12,
+              12.92
+            ]
+          ],
+          "source": [
+            "8B0D4"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C009"
+        },
+        {
+          "bounds": [
+            7.62,
+            13.52,
+            7.92,
+            13.82
+          ],
+          "polygon": [
+            [
+              7.92,
+              13.82
+            ],
+            [
+              7.62,
+              13.82
+            ],
+            [
+              7.62,
+              13.52
+            ],
+            [
+              7.92,
+              13.52
+            ],
+            [
+              7.92,
+              13.82
+            ]
+          ],
+          "source": [
+            "8B0D8"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C010"
+        },
+        {
+          "bounds": [
+            4.08,
+            13.52,
+            4.38,
+            13.82
+          ],
+          "polygon": [
+            [
+              4.38,
+              13.82
+            ],
+            [
+              4.08,
+              13.82
+            ],
+            [
+              4.08,
+              13.52
+            ],
+            [
+              4.38,
+              13.52
+            ],
+            [
+              4.38,
+              13.82
+            ]
+          ],
+          "source": [
+            "8B0DA"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C011"
+        }
+      ],
+      "wallBoxes": [
+        {
+          "bounds": [
+            3.16,
+            12.68,
+            3.48,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W001"
+        },
+        {
+          "bounds": [
+            0.12,
+            7.28,
+            0.45,
+            7.52
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W002"
+        },
+        {
+          "bounds": [
+            2.18,
+            7.52,
+            2.42,
+            7.625
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W003"
+        },
+        {
+          "bounds": [
+            2.18,
+            8.375,
+            2.42,
+            8.48
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W004"
+        },
+        {
+          "bounds": [
+            3.72,
+            13.58,
+            4.0,
+            13.82
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W005"
+        },
+        {
+          "bounds": [
+            -0.12,
+            1.22,
+            0.12,
+            5.18
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W006"
+        },
+        {
+          "bounds": [
+            -0.12,
+            7.52,
+            0.12,
+            8.48
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W007"
+        },
+        {
+          "bounds": [
+            -0.12,
+            8.72,
+            0.12,
+            12.68
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W008"
+        },
+        {
+          "bounds": [
+            4.0,
+            12.68,
+            4.08,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W009"
+        },
+        {
+          "bounds": [
+            3.72,
+            12.68,
+            4.0,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W010"
+        },
+        {
+          "bounds": [
+            1.25,
+            12.68,
+            2.39,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W011"
+        },
+        {
+          "bounds": [
+            0.12,
+            12.68,
+            0.5,
+            12.92
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W012"
+        },
+        {
+          "bounds": [
+            3.48,
+            12.92,
+            3.72,
+            13.58
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W013"
+        },
+        {
+          "bounds": [
+            4.32,
+            11.18,
+            5.2,
+            11.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W014"
+        },
+        {
+          "bounds": [
+            6.0,
+            11.18,
+            7.68,
+            11.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W015"
+        },
+        {
+          "bounds": [
+            7.68,
+            11.3,
+            7.92,
+            13.27
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W016"
+        },
+        {
+          "bounds": [
+            7.68,
+            8.1,
+            7.92,
+            9.51
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W017"
+        },
+        {
+          "bounds": [
+            7.68,
+            5.35,
+            7.92,
+            7.35
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W018"
+        },
+        {
+          "bounds": [
+            7.68,
+            4.22,
+            7.92,
+            4.6
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W019"
+        },
+        {
+          "bounds": [
+            4.08,
+            11.3,
+            4.32,
+            12.68
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W020"
+        },
+        {
+          "bounds": [
+            4.08,
+            11.08,
+            4.32,
+            11.18
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W021"
+        },
+        {
+          "bounds": [
+            0.12,
+            8.48,
+            2.18,
+            8.72
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W022"
+        },
+        {
+          "bounds": [
+            1.2,
+            7.28,
+            2.18,
+            7.52
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W023"
+        },
+        {
+          "bounds": [
+            3.48,
+            1.22,
+            3.72,
+            3.98
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W024"
+        },
+        {
+          "bounds": [
+            0.12,
+            5.18,
+            0.37,
+            5.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W025"
+        },
+        {
+          "bounds": [
+            2.3,
+            6.22,
+            2.42,
+            7.28
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W026"
+        },
+        {
+          "bounds": [
+            3.72,
+            3.98,
+            4.4,
+            4.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W027"
+        },
+        {
+          "bounds": [
+            7.24,
+            3.98,
+            7.68,
+            4.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W028"
+        },
+        {
+          "bounds": [
+            2.825,
+            0.98,
+            3.48,
+            1.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W029"
+        },
+        {
+          "bounds": [
+            0.12,
+            0.98,
+            0.775,
+            1.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W030"
+        },
+        {
+          "bounds": [
+            7.68,
+            10.26,
+            7.92,
+            11.18
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W031"
+        },
+        {
+          "bounds": [
+            6.74,
+            13.58,
+            6.99,
+            13.7
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W032"
+        },
+        {
+          "bounds": [
+            7.05,
+            13.58,
+            7.68,
+            13.82
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W033"
+        },
+        {
+          "bounds": [
+            7.68,
+            13.33,
+            7.92,
+            13.58
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W034"
+        },
+        {
+          "bounds": [
+            -0.12,
+            5.3,
+            0.12,
+            6.22
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W035"
+        },
+        {
+          "bounds": [
+            2.3,
+            5.18,
+            2.42,
+            5.42
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W036"
+        },
+        {
+          "bounds": [
+            -0.12,
+            6.28,
+            0.12,
+            7.28
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W037"
+        },
+        {
+          "bounds": [
+            0.43,
+            5.18,
+            2.3,
+            5.3
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W038"
+        },
+        {
+          "bounds": [
+            6.35,
+            13.58,
+            6.68,
+            13.7
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W039"
+        },
+        {
+          "bounds": [
+            4.0,
+            13.58,
+            4.38,
+            13.82
+          ],
+          "source": [
+            "8B8EE"
+          ],
+          "layers": [
+            "WALL"
+          ],
+          "method": "paired native continuous wall skins; 120/240 mm",
+          "status": "plan_geometry",
+          "id": "F2-W040"
+        }
+      ],
+      "columns": [
+        {
+          "bounds": [
+            -0.12,
+            5.18,
+            0.23,
+            5.53
+          ],
+          "polygon": [
+            [
+              -0.12,
+              5.53
+            ],
+            [
+              0.23,
+              5.53
+            ],
+            [
+              0.23,
+              5.18
+            ],
+            [
+              -0.12,
+              5.18
+            ],
+            [
+              -0.12,
+              5.53
+            ]
+          ],
+          "source": [
+            "8B0D6"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C001"
+        },
+        {
+          "bounds": [
+            -0.12,
+            8.37,
+            0.23,
+            8.72
+          ],
+          "polygon": [
+            [
+              -0.12,
+              8.72
+            ],
+            [
+              0.23,
+              8.72
+            ],
+            [
+              0.23,
+              8.37
+            ],
+            [
+              -0.12,
+              8.37
+            ],
+            [
+              -0.12,
+              8.72
+            ]
+          ],
+          "source": [
+            "8B0BD"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C002"
+        },
+        {
+          "bounds": [
+            -0.12,
+            0.98,
+            0.38,
+            1.48
+          ],
+          "polygon": [
+            [
+              0.12,
+              1.48
+            ],
+            [
+              0.12,
+              1.22
+            ],
+            [
+              0.38,
+              1.22
+            ],
+            [
+              0.38,
+              0.98
+            ],
+            [
+              -0.12,
+              0.98
+            ],
+            [
+              -0.12,
+              1.48
+            ],
+            [
+              0.12,
+              1.48
+            ]
+          ],
+          "source": [
+            "8B0BE"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C003"
+        },
+        {
+          "bounds": [
+            7.57,
+            8.37,
+            7.92,
+            8.72
+          ],
+          "polygon": [
+            [
+              7.57,
+              8.72
+            ],
+            [
+              7.92,
+              8.72
+            ],
+            [
+              7.92,
+              8.37
+            ],
+            [
+              7.57,
+              8.37
+            ],
+            [
+              7.57,
+              8.72
+            ]
+          ],
+          "source": [
+            "8B0CA"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C004"
+        },
+        {
+          "bounds": [
+            7.57,
+            12.57,
+            7.92,
+            12.92
+          ],
+          "polygon": [
+            [
+              7.57,
+              12.57
+            ],
+            [
+              7.92,
+              12.57
+            ],
+            [
+              7.92,
+              12.92
+            ],
+            [
+              7.57,
+              12.92
+            ],
+            [
+              7.57,
+              12.57
+            ]
+          ],
+          "source": [
+            "8B0CC"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C005"
+        },
+        {
+          "bounds": [
+            4.08,
+            12.57,
+            4.43,
+            12.92
+          ],
+          "polygon": [
+            [
+              4.08,
+              12.57
+            ],
+            [
+              4.43,
+              12.57
+            ],
+            [
+              4.43,
+              12.92
+            ],
+            [
+              4.08,
+              12.92
+            ],
+            [
+              4.08,
+              12.57
+            ]
+          ],
+          "source": [
+            "8B0CE"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C006"
+        },
+        {
+          "bounds": [
+            3.48,
+            3.98,
+            3.83,
+            4.33
+          ],
+          "polygon": [
+            [
+              3.48,
+              4.33
+            ],
+            [
+              3.83,
+              4.33
+            ],
+            [
+              3.83,
+              3.98
+            ],
+            [
+              3.48,
+              3.98
+            ],
+            [
+              3.48,
+              4.33
+            ]
+          ],
+          "source": [
+            "8B0D0"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C007"
+        },
+        {
+          "bounds": [
+            2.12,
+            8.42,
+            2.42,
+            8.72
+          ],
+          "polygon": [
+            [
+              2.12,
+              8.72
+            ],
+            [
+              2.42,
+              8.72
+            ],
+            [
+              2.42,
+              8.42
+            ],
+            [
+              2.12,
+              8.42
+            ],
+            [
+              2.12,
+              8.72
+            ]
+          ],
+          "source": [
+            "8B0D2"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C008"
+        },
+        {
+          "bounds": [
+            -0.12,
+            12.57,
+            0.23,
+            12.92
+          ],
+          "polygon": [
+            [
+              -0.12,
+              12.92
+            ],
+            [
+              0.23,
+              12.92
+            ],
+            [
+              0.23,
+              12.57
+            ],
+            [
+              -0.12,
+              12.57
+            ],
+            [
+              -0.12,
+              12.92
+            ]
+          ],
+          "source": [
+            "8B0D4"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C009"
+        },
+        {
+          "bounds": [
+            7.62,
+            13.52,
+            7.92,
+            13.82
+          ],
+          "polygon": [
+            [
+              7.92,
+              13.82
+            ],
+            [
+              7.62,
+              13.82
+            ],
+            [
+              7.62,
+              13.52
+            ],
+            [
+              7.92,
+              13.52
+            ],
+            [
+              7.92,
+              13.82
+            ]
+          ],
+          "source": [
+            "8B0D8"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C010"
+        },
+        {
+          "bounds": [
+            4.08,
+            13.52,
+            4.38,
+            13.82
+          ],
+          "polygon": [
+            [
+              4.38,
+              13.82
+            ],
+            [
+              4.08,
+              13.82
+            ],
+            [
+              4.08,
+              13.52
+            ],
+            [
+              4.38,
+              13.52
+            ],
+            [
+              4.38,
+              13.82
+            ]
+          ],
+          "source": [
+            "8B0DA"
+          ],
+          "layers": [
+            "0-COL-H1"
+          ],
+          "role": "column",
+          "method": "source closed column polyline bounds",
+          "status": "plan_geometry",
+          "id": "F2-C011"
+        }
+      ],
+      "dashedReferenceWalls": [
+        {
+          "axis": "h",
+          "c": 7.28,
+          "lo": 3.38,
+          "hi": 3.48,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 7.28,
+          "lo": 2.42,
+          "hi": 2.48,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 7.4,
+          "lo": 3.38,
+          "hi": 3.48,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 7.4,
+          "lo": 2.42,
+          "hi": 2.48,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 3.6,
+          "lo": 4.22,
+          "hi": 8.6,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 3.48,
+          "lo": 7.4,
+          "hi": 8.72,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 3.48,
+          "lo": 4.22,
+          "hi": 7.28,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 3.38,
+          "lo": 7.28,
+          "hi": 7.4,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 2.48,
+          "lo": 7.28,
+          "hi": 7.4,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 8.6,
+          "lo": 3.6,
+          "hi": 5.0,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 8.6,
+          "lo": 6.0,
+          "hi": 7.68,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 8.72,
+          "lo": 6.0,
+          "hi": 6.1,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 8.72,
+          "lo": 6.22,
+          "hi": 7.68,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 6.0,
+          "lo": 8.6,
+          "hi": 8.72,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 5.0,
+          "lo": 8.6,
+          "hi": 8.72,
+          "source": "8B8EE",
+          "layer": "DZ-3-PLAN-FL01$0$A-WALL",
+          "linetype": "DZ-3-PLAN-FL01$0$DASHED2"
+        },
+        {
+          "axis": "v",
+          "c": 4.32,
+          "lo": 8.72,
+          "hi": 9.58,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 4.08,
+          "lo": 8.72,
+          "hi": 9.58,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 9.58,
+          "lo": 4.08,
+          "hi": 4.32,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 6.1,
+          "lo": 8.72,
+          "hi": 9.58,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 6.1,
+          "lo": 10.38,
+          "hi": 11.18,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 6.22,
+          "lo": 8.72,
+          "hi": 9.58,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "v",
+          "c": 6.22,
+          "lo": 10.38,
+          "hi": 11.18,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 9.58,
+          "lo": 6.1,
+          "hi": 6.22,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 10.38,
+          "lo": 6.1,
+          "hi": 6.22,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 8.72,
+          "lo": 4.32,
+          "hi": 5.0,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        },
+        {
+          "axis": "h",
+          "c": 8.72,
+          "lo": 3.48,
+          "hi": 4.08,
+          "source": "8B8EE",
+          "layer": "WALL",
+          "linetype": "22-PLAN-BM01$0$HIDDEN"
+        }
+      ],
+      "originalStairBounds": [
+        0.12,
+        8.72,
+        2.77,
+        12.68
+      ],
+      "originalStairVoid": {
+        "bounds": [
+          1.17,
+          9.77,
+          2.77,
+          11.63
+        ],
+        "source": [
+          "8B8EE"
+        ],
+        "status": "original A-HOLE, removed/infilled as part of user central lift alteration"
+      },
+      "proposedLiftCandidate": {
+        "bounds": [
+          2.45,
+          9.5,
+          4.1,
+          11.4
+        ],
+        "innerBounds": [
+          2.57,
+          9.62,
+          3.98,
+          11.28
+        ],
+        "door": {
+          "side": "east",
+          "center": [
+            4.1,
+            10.45
+          ],
+          "width": 0.95
+        },
+        "status": "proposed alteration; root finalizes"
+      },
+      "notes": [
+        "Do not generate original stairs; user requested their removal.",
+        "Boundary describes main conditioned outer envelope; subtract void polygons and new lift shaft. Original stair void may be infilled for proposed layout.",
+        "Terraces and flat roofs are original outdoor/projected boundaries, not extra indoor rooms. North entry terrace is traced from entry stair projection; user requested stair removal, so level access needs a separate alteration.",
+        "Source wall boxes describe plan material below cut plane; carve every opening through intersecting wall boxes at the chosen vertical aperture; preserve source structural columns and reconcile any opening-column overlap, rather than adding transparent planes in front of solid walls.",
+        "Window sill heights and finished ceiling underside heights are not confirmed by plan. Elevation is floor datum; ceilingElevation is next structural floor datum.",
+        "DASHED/HIDDEN wall references are deliberately separate from existing solid boxes. Do not turn dashed strokes into rows of wall fragments.",
+        "Some room boundaries are functional labels in an open plan; new privacy walls must be marked as proposed interior design.",
+        "All coordinates in metres relative to source origin; wall skins rounded to 1 mm."
+      ]
+    }
+  ]
+}

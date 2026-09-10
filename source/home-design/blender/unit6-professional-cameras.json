@@ -1,0 +1,473 @@
+{
+  "source": "file:///Users/howardwang/Desktop/Quick%20Projects/%E5%AE%B6%E8%A3%85/home-design/blender/unit6-professional-scene.json",
+  "coordinateSpace": "world",
+  "notes": [
+    "所有室内人眼位置从实际房间内的可站立位置求得，眼高1.65m。",
+    "顶视使用实际建筑楼板顶点包围范围；不会把庭院用地矩形当建筑轮廓。",
+    "庭院视角仅在输入包含匹配的经确认南院空间后产生。"
+  ],
+  "views": [
+    {
+      "id": "01",
+      "title": "完整建筑与庭院鸟瞰",
+      "group": "整体与庭院",
+      "mode": "full",
+      "cameraType": "ORTHO",
+      "position": [
+        21.720000000000002,
+        -12.239999999999998,
+        26.82
+      ],
+      "target": [
+        4.800000000000001,
+        5.62,
+        3.762
+      ],
+      "orthoScale": 24.44,
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "02",
+      "title": "建筑另一侧鸟瞰",
+      "group": "整体与庭院",
+      "mode": "full",
+      "cameraType": "ORTHO",
+      "position": [
+        -14,
+        24.42,
+        24.94
+      ],
+      "target": [
+        4.800000000000001,
+        5.62,
+        3.9600000000000004
+      ],
+      "orthoScale": 24.44,
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "03",
+      "title": "1F完整俯视平面",
+      "group": "楼层总览",
+      "mode": "cut",
+      "floor": 0,
+      "cameraType": "ORTHO",
+      "position": [
+        4.800000000000001,
+        8,
+        30
+      ],
+      "target": [
+        4.800000000000001,
+        8,
+        0
+      ],
+      "orthoScale": 17.329371428571427,
+      "resolution": [
+        1600,
+        1400
+      ],
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "04",
+      "title": "2F完整俯视平面",
+      "group": "楼层总览",
+      "mode": "cut",
+      "floor": 1,
+      "cameraType": "ORTHO",
+      "position": [
+        3.9,
+        7.4,
+        33.7
+      ],
+      "target": [
+        3.9,
+        7.4,
+        3.7
+      ],
+      "orthoScale": 15.84822857142857,
+      "resolution": [
+        1600,
+        1400
+      ],
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "05",
+      "title": "3F完整俯视平面",
+      "group": "楼层总览",
+      "mode": "cut",
+      "floor": 2,
+      "cameraType": "ORTHO",
+      "position": [
+        3.3,
+        6.95,
+        36.9
+      ],
+      "target": [
+        3.3,
+        6.95,
+        6.9
+      ],
+      "orthoScale": 14.737371428571429,
+      "resolution": [
+        1600,
+        1400
+      ],
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "06",
+      "title": "客厅望向餐厅与中央电梯",
+      "group": "1F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        8.6,
+        5.3,
+        1.65
+      ],
+      "target": [
+        5.4,
+        10,
+        1.5
+      ],
+      "lens": 22,
+      "eyeHeight": 1.65,
+      "room": "客厅",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "07",
+      "title": "客厅休闲与采光面",
+      "group": "1F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        7.3,
+        8,
+        1.65
+      ],
+      "target": [
+        5.5,
+        5.8,
+        1.15
+      ],
+      "lens": 23,
+      "eyeHeight": 1.65,
+      "room": "客厅",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "08",
+      "title": "餐厅与中厨玻璃分隔",
+      "group": "1F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        4.48,
+        8.99,
+        1.65
+      ],
+      "target": [
+        6,
+        11.8,
+        1.1
+      ],
+      "lens": 24,
+      "eyeHeight": 1.65,
+      "room": "餐厅",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "09",
+      "title": "厨房工作区",
+      "group": "1F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        6.720000000000002,
+        13.06,
+        1.65
+      ],
+      "target": [
+        5.2,
+        14.25,
+        1.05
+      ],
+      "lens": 22,
+      "eyeHeight": 1.65,
+      "room": "厨房",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "10",
+      "title": "爸爸操盘工作区",
+      "group": "1F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        2.08,
+        9.12,
+        1.65
+      ],
+      "target": [
+        1.15,
+        11.55,
+        1.1
+      ],
+      "lens": 22,
+      "eyeHeight": 1.65,
+      "room": "爸爸操盘房",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "11",
+      "title": "父母卧室",
+      "group": "1F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        2.600000000000001,
+        1.8600000000000003,
+        1.65
+      ],
+      "target": [
+        1.45,
+        3.38,
+        0.9
+      ],
+      "lens": 22,
+      "eyeHeight": 1.65,
+      "room": "父母卧室",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "12",
+      "title": "二层夫妻主卧",
+      "group": "2F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 1,
+      "position": [
+        7.21,
+        4.69,
+        5.35
+      ],
+      "target": [
+        5.43,
+        6.5,
+        4.6000000000000005
+      ],
+      "lens": 23,
+      "eyeHeight": 1.65,
+      "room": "夫妻主卧",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "13",
+      "title": "儿童预留房",
+      "group": "2F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 1,
+      "position": [
+        2.2800000000000007,
+        2.3400000000000007,
+        5.35
+      ],
+      "target": [
+        1.25,
+        3.47,
+        4.6000000000000005
+      ],
+      "lens": 23,
+      "eyeHeight": 1.65,
+      "room": "儿童预留房",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "14",
+      "title": "二层家庭阅读区",
+      "group": "2F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 1,
+      "position": [
+        2.1,
+        9.16,
+        5.35
+      ],
+      "target": [
+        0.85,
+        11.55,
+        4.800000000000001
+      ],
+      "lens": 23,
+      "eyeHeight": 1.65,
+      "room": "家庭阅读区",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "15",
+      "title": "三层书法房",
+      "group": "3F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 2,
+      "position": [
+        6.04,
+        9.23,
+        8.55
+      ],
+      "target": [
+        5.3,
+        11.65,
+        7.9
+      ],
+      "lens": 23,
+      "eyeHeight": 1.65,
+      "room": "书法房",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "16",
+      "title": "妈妈毛线工作室",
+      "group": "3F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 2,
+      "position": [
+        2.08,
+        9.1,
+        8.55
+      ],
+      "target": [
+        1.25,
+        11.68,
+        7.9
+      ],
+      "lens": 22,
+      "eyeHeight": 1.65,
+      "room": "妈妈毛线工作室",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "17",
+      "title": "妹妹卧室",
+      "group": "3F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 2,
+      "position": [
+        1.9600000000000006,
+        1.8600000000000003,
+        8.55
+      ],
+      "target": [
+        1.4,
+        3.48,
+        7.800000000000001
+      ],
+      "lens": 23,
+      "eyeHeight": 1.65,
+      "room": "妹妹卧室",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "18",
+      "title": "三层露台花园",
+      "group": "3F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 2,
+      "position": [
+        7.080000000000003,
+        3.8600000000000003,
+        8.52
+      ],
+      "target": [
+        4.1,
+        6.4,
+        7.95
+      ],
+      "lens": 23,
+      "eyeHeight": 1.65,
+      "room": "妈妈露台花园",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "19",
+      "title": "露台与室内工作区关系",
+      "group": "3F室内",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 2,
+      "position": [
+        4.1,
+        8,
+        8.52
+      ],
+      "target": [
+        7.1,
+        4.2,
+        7.9
+      ],
+      "lens": 24,
+      "eyeHeight": 1.65,
+      "room": "妈妈露台花园",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "20",
+      "title": "南院人眼望向住宅",
+      "group": "整体与庭院",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        8.860000000000001,
+        -3.1799999999999997,
+        1.25
+      ],
+      "target": [
+        4.800000000000001,
+        4.98,
+        1.6
+      ],
+      "lens": 24,
+      "eyeHeight": 1.65,
+      "room": "首层南院花园",
+      "coordinateSpace": "world"
+    },
+    {
+      "id": "21",
+      "title": "南院休闲与种植细节",
+      "group": "整体与庭院",
+      "mode": "full",
+      "cameraType": "PERSP",
+      "floor": 0,
+      "position": [
+        0.8599999999999999,
+        -3.1399999999999997,
+        1.25
+      ],
+      "target": [
+        4.800000000000001,
+        -0.8099999999999998,
+        0.35
+      ],
+      "lens": 24,
+      "eyeHeight": 1.65,
+      "room": "首层南院花园",
+      "coordinateSpace": "world"
+    }
+  ]
+}

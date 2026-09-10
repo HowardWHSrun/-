@@ -1,0 +1,228 @@
+<div id="family-house-walkthrough">
+  <div class="viz-row" data-heading>
+    <h3>屋内第一人称漫游</h3>
+    <button type="button" class="btn btn-primary" data-enter disabled>进入漫游</button>
+    <span class="text-small" data-location aria-live="polite">等待已核对的图纸模型</span>
+  </div>
+  <div data-stage role="img" aria-label="住宅第一人称视角；启用漫游后可以步行、拖动看四周，在电梯内选择楼层。">
+    <div data-loading role="status">等待已核对的图纸模型</div>
+    <canvas data-map width="180" height="180" aria-label="当前楼层和你的位置"></canvas>
+    <span data-crosshair aria-hidden="true">+</span>
+  </div>
+  <div class="viz-row" data-controls>
+    <div class="viz-controls" aria-label="步行控制">
+      <button type="button" class="btn" data-move="forward" disabled aria-label="向前走">前进</button>
+      <button type="button" class="btn" data-move="backward" disabled aria-label="向后走">后退</button>
+      <button type="button" class="btn" data-move="left" disabled aria-label="向左平移">左移</button>
+      <button type="button" class="btn" data-move="right" disabled aria-label="向右平移">右移</button>
+    </div>
+    <div class="viz-controls" aria-label="电梯控制" data-lift-controls>
+      <button type="button" class="btn" data-call disabled>呼叫电梯</button>
+      <span data-floor-buttons></span>
+    </div>
+  </div>
+  <div class="viz-row text-small" data-help>
+    <span>拖动看四周 · W/A/S/D 或方向键走动 · Esc 暂停</span>
+    <span data-lift-status aria-live="polite">进入电梯后选择楼层</span>
+  </div>
+  <span class="sr-only">视线离地 1.65 米。步行时受墙体、家具和楼层边界限制。楼层切换需要先走入电梯。</span>
+</div>
+<style>
+#family-house-walkthrough { width: 100%; }
+#family-house-walkthrough [hidden] { display: none !important; }
+#family-house-walkthrough [data-heading], #family-house-walkthrough [data-controls], #family-house-walkthrough [data-help] { gap: 8px; flex-wrap: wrap; justify-content: space-between; }
+#family-house-walkthrough h3 { margin: 0; }
+#family-house-walkthrough [data-stage] { position: relative; width: 100%; height: clamp(360px, 72vw, 630px); overflow: hidden; touch-action: none; margin: 8px 0; }
+#family-house-walkthrough [data-stage] > canvas:not([data-map]) { display: block; width: 100%; height: 100%; cursor: grab; }
+#family-house-walkthrough [data-stage] > canvas:not([data-map]):active { cursor: grabbing; }
+#family-house-walkthrough [data-loading] { position: absolute; inset: 44% 16px auto; text-align: center; }
+#family-house-walkthrough [data-map] { position: absolute; right: 8px; top: 8px; width: 130px; height: 130px; pointer-events: none; display: none; }
+#family-house-walkthrough [data-crosshair] { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: var(--foreground); pointer-events: none; opacity: 0.6; display: none; }
+#family-house-walkthrough [data-floor-buttons] { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+#family-house-walkthrough [data-controls] { align-items: start; }
+#family-house-walkthrough [data-help] { margin-top: 8px; }
+@media (max-width: 420px) { #family-house-walkthrough [data-map] { width: 96px; height: 96px; } }
+</style>
+<script type="application/json" id="family-house-walkthrough-data">null</script>
+<script type="module">
+/* WALKTHROUGH_CORE_BEGIN */
+/* WALKTHROUGH_CORE_END */
+
+const root = document.getElementById('family-house-walkthrough');
+const stage = root.querySelector('[data-stage]');
+const loading = root.querySelector('[data-loading]');
+const enter = root.querySelector('[data-enter]');
+const locationLabel = root.querySelector('[data-location]');
+const liftStatus = root.querySelector('[data-lift-status]');
+const call = root.querySelector('[data-call]');
+const floorButtons = root.querySelector('[data-floor-buttons]');
+const map = root.querySelector('[data-map]');
+const data = JSON.parse(document.getElementById('family-house-walkthrough-data').textContent);
+if (data?.walkthrough && typeof WalkthroughWorld !== 'undefined') {
+  try {
+    const world = new WalkthroughWorld(data);
+    const THREE = await import('https://esm.sh/three@0.170.0');
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(70, 1, .055, 150);
+    camera.up.set(0, 0, 1);
+    const renderer = new THREE.WebGLRenderer({antialias:true,alpha:false});
+    renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 1.75));
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.15;
+    renderer.domElement.setAttribute('aria-label','可以步行和拖动视角的住宅室内');
+    stage.prepend(renderer.domElement);
+    const probe=document.createElement('span');probe.hidden=true;root.appendChild(probe);
+    function color(token){probe.style.color=`var(${token})`;return getComputedStyle(probe).color;}
+    function updateTheme(){scene.background=new THREE.Color(color('--background'));}
+    updateTheme();
+    const themeObserver=new MutationObserver(updateTheme);themeObserver.observe(document.documentElement,{attributes:true,attributeFilter:['class','style','data-theme']});
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change',updateTheme);
+    scene.add(new THREE.AmbientLight(0xffffff,1.9));
+    const sunlight=new THREE.DirectionalLight(0xffffff,2.1);sunlight.position.set(-8,-15,26);scene.add(sunlight);
+    const fill=new THREE.DirectionalLight(0xffffff,1.0);fill.position.set(14,20,17);scene.add(fill);
+    const materials=new Map(Object.entries(data.materials || {}).map(([key,m])=>[key,new THREE.MeshStandardMaterial({color:m.color,roughness:m.roughness??.7,metalness:m.metallic??0,transparent:(m.alpha??1)<1,opacity:m.alpha??1,depthWrite:(m.alpha??1)>=1,side:THREE.DoubleSide})]));
+    const fallback=new THREE.MeshStandardMaterial({color:color('--muted'),roughness:.8,side:THREE.DoubleSide});
+    const geo={box:new THREE.BoxGeometry(1,1,1),sphere:new THREE.SphereGeometry(.5,14,10),cylinder:new THREE.CylinderGeometry(.5,.5,1,20)};
+    geo.cylinder.rotateX(Math.PI/2);
+    function sourceMeshGeometry(o){
+      if(!Array.isArray(o.vertices) || !Array.isArray(o.faces))throw new Error(`缺少明确的多边形几何：${o.name || ''}`);
+      const indices=[];
+      for(const sourceFace of o.faces){
+        const face=[...sourceFace];if(face.length>3 && face[0]===face[face.length-1])face.pop();
+        if(face.length<3 || face.some(i=>!Number.isInteger(i) || !o.vertices[i]))throw new Error(`多边形面索引无效：${o.name || ''}`);
+        const normal=new THREE.Vector3();
+        for(let i=0;i<face.length;i++){const a=o.vertices[face[i]],b=o.vertices[face[(i+1)%face.length]];normal.x+=(a[1]-b[1])*(a[2]+b[2]);normal.y+=(a[2]-b[2])*(a[0]+b[0]);normal.z+=(a[0]-b[0])*(a[1]+b[1]);}
+        const absolute=[Math.abs(normal.x),Math.abs(normal.y),Math.abs(normal.z)],drop=absolute.indexOf(Math.max(...absolute));
+        const axes=drop===0?[1,2]:drop===1?[0,2]:[0,1];
+        const contour=face.map(i=>new THREE.Vector2(o.vertices[i][axes[0]],o.vertices[i][axes[1]]));
+        for(const triangle of THREE.ShapeUtils.triangulateShape(contour,[])){
+          const tri=triangle.map(i=>face[i]);
+          const a=new THREE.Vector3(...o.vertices[tri[0]]),b=new THREE.Vector3(...o.vertices[tri[1]]),c=new THREE.Vector3(...o.vertices[tri[2]]);
+          if(b.sub(a).cross(c.sub(a)).dot(normal)<0)[tri[1],tri[2]]=[tri[2],tri[1]];
+          indices.push(...tri);
+        }
+      }
+      const indexed=new THREE.BufferGeometry();indexed.setAttribute('position',new THREE.Float32BufferAttribute(o.vertices.flat(),3));indexed.setIndex(indices);
+      const geometry=indexed.toNonIndexed();indexed.dispose();geometry.computeVertexNormals();geometry.computeBoundingBox();return geometry;
+    }
+    const sourceMeshes=[];
+    for(const o of data.objects || []) {
+      if(o.kind==='text' || o.walkthroughRole==='elevator-generated' || o.walkthroughVisible===false)continue;
+      const floor=world.floors.get(o.floor);
+      let elevation=floor?.elevation;
+      if(elevation===undefined && o.floor==='roof')elevation=data.meta?.roof_elevation ?? data.walkthrough.roof?.elevation;
+      if(elevation===undefined && o.coordinateSpace==='world')elevation=0;
+      if(elevation===undefined)elevation=o.level_elevation;
+      if(elevation===undefined && o.floor===-1)elevation=0;
+      if(elevation===undefined)throw new Error(`未明确物件所属标高：${o.name || o.floor}`);
+      const mesh=new THREE.Mesh(o.kind==='mesh'?sourceMeshGeometry(o):(geo[o.kind] || geo.box),materials.get(o.material) || fallback);
+      mesh.position.fromArray(o.position);mesh.position.z+=elevation;
+      if(o.kind!=='mesh')mesh.scale.fromArray(o.size);mesh.rotation.set(...(o.rotation || [0,0,0]));
+      mesh.name=o.name || '';scene.add(mesh);sourceMeshes.push(mesh);
+    }
+    const liftMeshes={cabin:null,doors:[]};
+    const liftMaterial=materials.get('metal') || fallback;
+    const cabinMaterial=materials.get('oaklight') || fallback;
+    function makeBox(parent,position,size,material){const mesh=new THREE.Mesh(geo.box,material);mesh.position.fromArray(position);mesh.scale.fromArray(size);parent.add(mesh);return mesh;}
+    if(world.elevator) {
+      const e=world.elevator,b=e.bounds,d=e.door;
+      const cabin=new THREE.Group();scene.add(cabin);liftMeshes.cabin=cabin;
+      makeBox(cabin,[(b[0]+b[2])/2,(b[1]+b[3])/2,-.035],[b[2]-b[0],b[3]-b[1],.07],materials.get('stone') || cabinMaterial);
+      makeBox(cabin,[(b[0]+b[2])/2,(b[1]+b[3])/2,2.32],[b[2]-b[0],b[3]-b[1],.06],cabinMaterial);
+      for(const wall of e.walls)makeBox(cabin,[wall.x,wall.y,1.15],[wall.hx*2,wall.hy*2,2.3],cabinMaterial);
+      const lamp=new THREE.PointLight(0xffffff,6,4,2);lamp.position.set((b[0]+b[2])/2,(b[1]+b[3])/2,2.2);cabin.add(lamp);
+      for(const id of e.stops) {
+        const g=world.gate(),z=world.floors.get(id).elevation;
+        const pair=[];
+        for(const side of [-1,1]) {
+          const panel=makeBox(scene,[g.x,g.y,z+1.075],e.horizontal?[d.width/2,.045,2.15]:[.045,d.width/2,2.15],liftMaterial);
+          pair.push({panel,side});
+        }
+        liftMeshes.doors.push({id,pair});
+      }
+    }
+    let active=false,last=performance.now(),drag=null,lastStatus='',lastLocation='',lastMap=0;
+    const keys=new Set(),held=new Map();
+    const keyDirections={KeyW:'forward',ArrowUp:'forward',KeyS:'backward',ArrowDown:'backward',KeyA:'left',ArrowLeft:'left',KeyD:'right',ArrowRight:'right'};
+    function setActive(next){active=next;keys.clear();held.clear();drag=null;enter.textContent=next?'暂停漫游':'进入漫游';enter.setAttribute('aria-pressed',String(next));root.querySelector('[data-crosshair]').style.display=next?'block':'none';root.querySelectorAll('[data-move]').forEach(b=>b.disabled=!next);}
+    enter.disabled=false;enter.addEventListener('click',()=>setActive(!active));
+    document.addEventListener('keydown',event=>{
+      if(event.code==='Escape'){setActive(false);return;}
+      if(!active || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName))return;
+      if(keyDirections[event.code]){event.preventDefault();keys.add(event.code);}
+    });
+    document.addEventListener('keyup',event=>keys.delete(event.code));
+    window.addEventListener('blur',()=>setActive(false));
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)setActive(false);});
+    renderer.domElement.addEventListener('pointerdown',event=>{
+      if(!active)setActive(true);
+      if(drag)return;
+      drag={id:event.pointerId,x:event.clientX,y:event.clientY};renderer.domElement.setPointerCapture(event.pointerId);
+    });
+    renderer.domElement.addEventListener('pointermove',event=>{
+      if(!drag || drag.id!==event.pointerId)return;
+      world.look(event.clientX-drag.x,event.clientY-drag.y);drag.x=event.clientX;drag.y=event.clientY;
+    });
+    const endDrag=event=>{if(drag?.id===event.pointerId)drag=null;};
+    renderer.domElement.addEventListener('pointerup',endDrag);renderer.domElement.addEventListener('pointercancel',endDrag);renderer.domElement.addEventListener('lostpointercapture',endDrag);
+    for(const button of root.querySelectorAll('[data-move]')) {
+      button.style.touchAction='none';
+      button.addEventListener('pointerdown',event=>{if(!active)return;event.preventDefault();button.setPointerCapture(event.pointerId);held.set(event.pointerId,button.dataset.move);});
+      for(const type of ['pointerup','pointercancel','lostpointercapture'])button.addEventListener(type,event=>held.delete(event.pointerId));
+      button.addEventListener('keydown',event=>{if(active && ['Space','Enter'].includes(event.code)){event.preventDefault();held.set(button,button.dataset.move);}});
+      button.addEventListener('keyup',event=>{if(['Space','Enter'].includes(event.code))held.delete(button);});
+      button.addEventListener('blur',()=>held.delete(button));
+    }
+    for(const id of world.elevator?.stops || []) {
+      const button=document.createElement('button');button.type='button';button.className='btn';button.textContent=world.floors.get(id).label || `${Number(id)+1}F`;button.disabled=true;button.dataset.floor=String(id);
+      button.addEventListener('click',()=>world.requestFloor(id));floorButtons.appendChild(button);
+    }
+    call.addEventListener('click',()=>world.callElevator());
+    function updateLift() {
+      const e=world.elevator;
+      if(!e){root.querySelector('[data-lift-controls]').hidden=true;liftStatus.textContent='模型尚未提供电梯';return;}
+      liftMeshes.cabin.position.z=e.z;
+      for(const entry of liftMeshes.doors) {
+        const g=world.gate(),open=e.floor===entry.id?e.open:0;
+        for(const {panel,side} of entry.pair)panel.position[e.horizontal?'x':'y']=(e.horizontal?g.x:g.y)+side*(e.door.width/4+open*e.door.width/2);
+      }
+      const inCabin=world.inCabin(),atFloor=world.cabinAtPlayerFloor();
+      call.hidden=inCabin || !world.nearElevator();call.disabled=e.state!=='idle' || atFloor;
+      floorButtons.querySelectorAll('button').forEach((button,i)=>{button.disabled=!inCabin || !atFloor;button.setAttribute('aria-pressed',String(e.floor===e.stops[i]));});
+      const destination=e.trip?world.floors.get(e.trip.target).label || `${Number(e.trip.target)+1}F`:'';
+      const status=e.state==='closing'?`电梯关门 · 前往 ${destination}`:e.state==='moving'?`电梯运行中 · 前往 ${destination}`:e.state==='opening'?`已到 ${destination} · 电梯开门`:inCabin?'已在电梯内 · 选择目的楼层':world.nearElevator()?(atFloor?'电梯已开门 · 走入轿厢':'点击呼叫电梯'):'走到电梯前可呼叫';
+      if(status!==lastStatus){lastStatus=status;liftStatus.textContent=status;}
+    }
+    const ctx=map.getContext('2d');map.style.display='block';
+    function drawMap(){
+      const f=world.floors.get(world.player.floor),xs=f.boundary.map(p=>p[0]),ys=f.boundary.map(p=>p[1]);
+      const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys),scale=156/Math.max(maxX-minX,maxY-minY);
+      const tx=x=>90+(x-(minX+maxX)/2)*scale,ty=y=>90-(y-(minY+maxY)/2)*scale;
+      ctx.clearRect(0,0,180,180);ctx.fillStyle=color('--background');ctx.globalAlpha=.91;ctx.fillRect(0,0,180,180);ctx.globalAlpha=1;
+      ctx.strokeStyle=color('--border');ctx.lineWidth=1;ctx.beginPath();f.boundary.forEach((p,i)=>i?ctx.lineTo(tx(p[0]),ty(p[1])):ctx.moveTo(tx(p[0]),ty(p[1])));ctx.closePath();ctx.stroke();
+      ctx.fillStyle=color('--muted-foreground');
+      for(const box of world.colliders.get(world.player.floor)){ctx.save();ctx.translate(tx(box.x),ty(box.y));ctx.rotate(-box.angle);ctx.globalAlpha=box.hx<.3 || box.hy<.3?.65:.26;ctx.fillRect(-box.hx*scale,-box.hy*scale,box.hx*2*scale,box.hy*2*scale);ctx.restore();}
+      const e=world.elevator;if(e){ctx.strokeStyle=color('--foreground');ctx.strokeRect(tx(e.bounds[0]),ty(e.bounds[3]),(e.bounds[2]-e.bounds[0])*scale,(e.bounds[3]-e.bounds[1])*scale);}
+      const p=world.player;ctx.globalAlpha=1;ctx.fillStyle=color('--primary');ctx.beginPath();ctx.arc(tx(p.x),ty(p.y),4,0,Math.PI*2);ctx.fill();ctx.strokeStyle=color('--primary');ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(tx(p.x),ty(p.y));ctx.lineTo(tx(p.x+Math.sin(p.yaw)*.65),ty(p.y+Math.cos(p.yaw)*.65));ctx.stroke();
+    }
+    const resize=new ResizeObserver(()=>{const w=stage.clientWidth,h=stage.clientHeight;if(w&&h){renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();}});resize.observe(stage);
+    loading.hidden=true;
+    function frame(now){
+      if(!root.isConnected){resize.disconnect();themeObserver.disconnect();renderer.dispose();return;}
+      const dt=Math.min((now-last)/1000,.1);last=now;
+      if(active){const commands=new Set([...keys].map(k=>keyDirections[k]).concat([...held.values()]));world.move((commands.has('forward')?1:0)-(commands.has('backward')?1:0),(commands.has('right')?1:0)-(commands.has('left')?1:0),dt);}
+      world.update(dt);updateLift();
+      const p=world.player;camera.position.set(p.x,p.y,world.eyeZ);camera.lookAt(p.x+Math.sin(p.yaw)*Math.cos(p.pitch),p.y+Math.cos(p.yaw)*Math.cos(p.pitch),world.eyeZ+Math.sin(p.pitch));
+      const here=`${world.location}${world.roomName?' · '+world.roomName:''} · 视线高度 1.65 m`;if(here!==lastLocation){lastLocation=here;locationLabel.textContent=here;}
+      if(now-lastMap>90){lastMap=now;drawMap();}renderer.render(scene,camera);requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+    // Deliberate local inspection seam for engine QA; not a user teleport/fly control.
+    root.walkthroughInspection={world,renderer,camera,sourceMeshCount:sourceMeshes.length};
+  } catch(error) {
+    loading.hidden=false;loading.textContent=`漫游暂不可用：${error.message}`;loading.setAttribute('role','alert');
+    locationLabel.textContent='请先核对并绑定模型';enter.disabled=true;
+  }
+}
+</script>

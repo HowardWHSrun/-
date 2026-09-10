@@ -1,0 +1,83 @@
+{
+  "sceneSha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b",
+  "method": "upright parts: rotated polygon overlap plus vertical interval; compare changed living-room assemblies against source wall/column/glazing and other furniture; ignore overlap within same assembly",
+  "partsChecked": 40,
+  "hardCollisions": [],
+  "assemblyGaps": [
+    {
+      "between": [
+        "sofa",
+        "coffee_table"
+      ],
+      "planMinimumGapM": 0.6449999999999995
+    },
+    {
+      "between": [
+        "sofa",
+        "tv"
+      ],
+      "planMinimumGapM": 3.1674999999999986
+    },
+    {
+      "between": [
+        "sofa",
+        "sideboard"
+      ],
+      "planMinimumGapM": 0.20750000000000043
+    },
+    {
+      "between": [
+        "sofa",
+        "reading_chair"
+      ],
+      "planMinimumGapM": 2.1077442675169564
+    },
+    {
+      "between": [
+        "coffee_table",
+        "tv"
+      ],
+      "planMinimumGapM": 1.8224999999999998
+    },
+    {
+      "between": [
+        "coffee_table",
+        "sideboard"
+      ],
+      "planMinimumGapM": 1.0980550987996927
+    },
+    {
+      "between": [
+        "coffee_table",
+        "reading_chair"
+      ],
+      "planMinimumGapM": 1.059706999008996
+    },
+    {
+      "between": [
+        "tv",
+        "sideboard"
+      ],
+      "planMinimumGapM": 3.0929186862897
+    },
+    {
+      "between": [
+        "tv",
+        "reading_chair"
+      ],
+      "planMinimumGapM": 0.6063866453178117
+    },
+    {
+      "between": [
+        "sideboard",
+        "reading_chair"
+      ],
+      "planMinimumGapM": 1.959998379915401
+    }
+  ],
+  "limits": [
+    "投影最小间距不必然位于人行通路，也不代表所有间隙必须可通行。",
+    "同一组家具零件之间的相交视作装配接触，不作碰撞缺陷。",
+    "本检查不评定抽屉/柜门动态开启轨迹或家具本体制作节点。"
+  ]
+}
