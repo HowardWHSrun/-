@@ -50,7 +50,7 @@ for f in (OUT/'research').iterdir():
  if f.suffix in ['.md','.json']:shutil.copy2(f,research/f.name)
 # Keep a self-contained data snapshot for file:// viewing, while online fetch uses the same JSON.
 p=DOCS/'procurement.html';s=p.read_text();s=re.sub(r'<script id="embedded-procurement" type="application/json">.*?</script>\s*','',s,flags=re.S)
-blob=json.dumps(D,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c');s=s.replace('</body>',f'<script id="embedded-procurement" type="application/json">{blob}</script>\n</body>');p.write_text(s)
+blob=json.dumps(D,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c');s=s.replace('<script>',f'<script id="embedded-procurement" type="application/json">{blob}</script>\n<script>',1);p.write_text(s)
 release='https://github.com/HowardWHSrun/-/releases/download/procurement-v1/unit6-house-procurement-v1.zip'
 p=DOCS/'index.html';s=p.read_text();s=s.replace('grid-template-columns:repeat(3,minmax(0,1fr))','grid-template-columns:repeat(2,minmax(0,1fr))');s=s.replace('  <div class="choices">','  <div class="choices">\n    <a class="choice" href="procurement.html"><span>新增 / 毛坯长期自住</span><strong>预算与采购</strong><span>118项预算 · 家具型号 · 施工队与电梯候选 · 可改价试算。</span></a>' if 'href="procurement.html"' not in s else '  <div class="choices">')
 s=s.replace('https://github.com/HowardWHSrun/-/releases/download/p02-v1/unit6-house-garden-p02.zip',release).replace('下载完整离线包 · 87 MB','下载含预算的完整离线包');s=s.replace('<footer>P02 ·','<footer>P02设计 + 采购补充V1 ·');p.write_text(s)
