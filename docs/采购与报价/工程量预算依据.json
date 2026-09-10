@@ -1,0 +1,63 @@
+{
+  "sourceSceneSha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b",
+  "floors": [
+    {
+      "floor": 1,
+      "approxInteriorFloorM2": 93.739,
+      "wetRooms": [
+        {
+          "name": "厨房",
+          "area": 6.555,
+          "perimeter": 10.64
+        },
+        {
+          "name": "父母卫浴",
+          "area": 4.291,
+          "perimeter": 8.32
+        },
+        {
+          "name": "玄关公卫",
+          "area": 3.125,
+          "perimeter": 7.12
+        }
+      ]
+    },
+    {
+      "floor": 2,
+      "approxInteriorFloorM2": 73.187,
+      "wetRooms": [
+        {
+          "name": "儿童公卫",
+          "area": 4.291,
+          "perimeter": 8.32
+        },
+        {
+          "name": "主卫",
+          "area": 7.328,
+          "perimeter": 11.28
+        }
+      ]
+    },
+    {
+      "floor": 3,
+      "approxInteriorFloorM2": 49.925,
+      "wetRooms": [
+        {
+          "name": "妹妹卫浴",
+          "area": 4.316,
+          "perimeter": 8.32
+        }
+      ]
+    }
+  ],
+  "interiorApproxM2": 216.851,
+  "wetFloorApproxM2": 29.906,
+  "dryFloorApproxM2": 186.945,
+  "outdoorM2": {
+    "south_courtyard": 47.504,
+    "south_main_porch": 9.797,
+    "third_floor_terrace": 18.684
+  },
+  "method": "原第6户各层外轮廓，扣原墙柱平面、P02保留孔洞及电梯外占位；三层另扣原露台栏内范围。湿区取房间功能多边形相交。仍含门洞/未深化隔断等误差，仅预算计量，非现场净铺装量。",
+  "condition": "沿用无楼梯P02空间假设；撤梯补板合法性未确定，不可直接结算或采购。墙面与吊顶数量另为预算假设。"
+}

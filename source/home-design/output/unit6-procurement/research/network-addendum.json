@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "title": "三层有线网络与洗烘叠放配件补充研究",
+  "checked_date": "2026-09-10",
+  "currency": "CNY",
+  "status": "独立增补，不改动 appliances.json 原始研究或 valuePlan",
+  "recommendedItems": [
+    {
+      "id": "NET01",
+      "name": "三层有线回程 Wi-Fi 设备与初次配置",
+      "model": "TP-LINK TL-XDR3010 易展版 ×3 + TL-SG1008D ×1",
+      "quantity": 1,
+      "unit": "组",
+      "required": true,
+      "category": "network",
+      "unit_price_cny": 1250,
+      "low_unit_price_cny": 950,
+      "high_unit_price_cny": 1800,
+      "total_cny": 1250,
+      "low_total_cny": 950,
+      "high_total_cny": 1800,
+      "price_basis": "编制预算预留；未核实当前在售价格，不是官网报价",
+      "price_status": "budget_allowance_unquoted",
+      "price_checked_date": "2026-09-10",
+      "price_is_binding_quote": false,
+      "source_ids": [
+        "net_router_cn",
+        "net_topology_cn",
+        "net_switch_cn"
+      ],
+      "sources": [
+        {
+          "id": "net_router_cn",
+          "title": "TP-LINK 中国 TL-XDR3010 易展版：规格参数",
+          "url": "https://www.tp-link.com.cn/product_2025.html?source=search",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10",
+          "evidence": "4 个千兆 WAN/LAN 自适应口；易展 3.0；路由/有线 AP/无线中继模式；262×149×214 mm；附 12V/1A 电源适配器。无公开零售价。"
+        },
+        {
+          "id": "net_topology_cn",
+          "title": "TP-LINK 官方家庭无线覆盖：易展路由器方案",
+          "url": "https://smb.tp-link.com.cn/service/detail_article_4603.html",
+          "type": "中国制造商官方组网说明",
+          "checked_date": "2026-09-10",
+          "evidence": "说明易展有线互联及有线无线混合拓扑；产品组网能力不等于本项目已经完成无线覆盖实测。"
+        },
+        {
+          "id": "net_switch_cn",
+          "title": "TP-LINK 中国 TL-SG1008D：规格参数",
+          "url": "https://www.tp-link.com.cn/product_424.html?v=specification",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10",
+          "evidence": "8 个 10/100/1000Mbps RJ45；158×100×25 mm；外置 9VDC/0.6A 电源。无公开零售价。购买时复核硬件版本及配套电源。"
+        }
+      ],
+      "purchase_status": "候选，须复核本地库存、准确硬件/配件版本与含税书面报价，完成现场方案后采购",
+      "components": [
+        {
+          "name": "Wi-Fi 6 易展路由器",
+          "model": "TL-XDR3010 易展版（中国版）",
+          "quantity": 3,
+          "unit": "台",
+          "unit_price_cny": 250,
+          "total_cny": 750,
+          "price_status": "budget_allowance_unquoted",
+          "dimensions": {
+            "L_mm": 262,
+            "W_mm": 149,
+            "H_mm": 214
+          },
+          "power": "原配 12V/1A 适配器；每层须有当地市电插座，不按 PoE 设备设计"
+        },
+        {
+          "name": "8 口千兆交换机",
+          "model": "TL-SG1008D（中国版，硬件版本待采购核实）",
+          "quantity": 1,
+          "unit": "台",
+          "unit_price_cny": 200,
+          "total_cny": 200,
+          "price_status": "budget_allowance_unquoted",
+          "dimensions": {
+            "L_mm": 158,
+            "W_mm": 100,
+            "H_mm": 25
+          },
+          "power": "官网标注外置 9VDC/0.6A，使用本批次原配适配器"
+        },
+        {
+          "name": "成品六类短跳线若干",
+          "model": "长度与根数随弱电柜、路由点及终端清单确定",
+          "quantity": 1,
+          "unit": "组",
+          "unit_price_cny": 100,
+          "total_cny": 100,
+          "price_status": "budget_allowance_unquoted"
+        },
+        {
+          "name": "三台组网、升级与初次调试",
+          "model": "服务暂列",
+          "quantity": 1,
+          "unit": "项",
+          "unit_price_cny": 200,
+          "total_cny": 200,
+          "price_status": "budget_allowance_unquoted"
+        }
+      ],
+      "dimensions": {
+        "router_each_L_W_H_mm": [
+          262,
+          149,
+          214
+        ],
+        "switch_L_W_H_mm": [
+          158,
+          100,
+          25
+        ]
+      },
+      "room_ids": [],
+      "model_fit": "按每层一台起步，共三台全新设备。具体放置点尚未落实到施工图；必须在装修前选定开敞通风位置并布线，完工后测书法、操盘、卧室等重点房间的覆盖与漫游。此数量不是无死角覆盖保证。",
+      "installation_dependencies": [
+        "光猫/运营商入户接口 → 一层主路由 WAN → 主路由 LAN 下接交换机 → 二、三层节点及有线终端，采用六类线星形回路；按厂家易展有线组网步骤完成配对，避免误接回环。",
+        "仅主路由承担本户 DHCP/NAT；若运营商光猫不能桥接，由安装人员统一规划网关/AP 模式，避免无意双重路由。",
+        "三台路由器、交换机及运营商光猫均需要适合本地的电源位；不把 Wi-Fi 节点封入金属弱电箱，不紧贴电梯井或强弱电配电设备。",
+        "由施工单位确认回线端口数。8 口交换机扣除主路由上联和 2 个楼层节点后余 5 口，可给电视和电脑使用；如端口清单超过容量，采购前调整交换机。",
+        "当前方案的有线链路为千兆，适合千兆及以下宽带基准；无线标称速率不能当作每个终端实测速率。超过千兆宽带或大量 NAS 传输需要另算 2.5G 升级，不计入本方案。",
+        "永久网线、管路、面板、端接和固定线路验收应归硬装弱电项，本项仅新增设备、短跳线与初次设备配置。"
+      ],
+      "included": "全新路由器 3 台、交换机 1 台及原配电源，短跳线组预算 100 元，初次设备配置预算 200 元。均为预留价格，含税/运输须书面报价确认。",
+      "excluded": "永久布线及端接、强电插座、金属弱电箱、运营商宽带月费和光猫费用、NAS、UPS、摄像头。不假定复用原有路由器或交换机。",
+      "integration_note": "主方案仅计本组 1250 元；不得再把 components 作为独立追加行累加。短跳线/设备配置若施工报价已包，应冲回本组对应预留。"
+    },
+    {
+      "id": "LAU01",
+      "name": "洗烘原厂叠放连接件预留",
+      "model": "尚未核定：须匹配 G10090BD12S + GA120-58E1U1 的海尔认可连接件",
+      "quantity": 1,
+      "unit": "组",
+      "required": true,
+      "category": "appliance_accessory",
+      "unit_price_cny": 450,
+      "low_unit_price_cny": 450,
+      "high_unit_price_cny": 450,
+      "total_cny": 450,
+      "low_total_cny": 450,
+      "high_total_cny": 450,
+      "price_basis": "编制预算预留；未核实当前在售价格，不是官网报价",
+      "price_status": "budget_allowance_unquoted",
+      "price_checked_date": "2026-09-10",
+      "price_is_binding_quote": false,
+      "source_ids": [
+        "washer_cn",
+        "dryer_cn"
+      ],
+      "sources": [
+        {
+          "id": "washer_cn",
+          "title": "海尔 G10090BD12S 产品与规格",
+          "url": "https://www.haier.com/laundry/20240604_238924.shtml",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "dryer_cn",
+          "title": "海尔 GA120-58E1U1 产品与规格",
+          "url": "https://www.haier.com/laundry/20260623_292221.shtml",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10",
+          "evidence": "页面未给出与 G10090BD12S 配对的叠放连接件型号；烘干程序中的“羊毛-支架”不是洗烘叠放配件。"
+        }
+      ],
+      "purchase_status": "候选，须复核本地库存、准确硬件/配件版本与含税书面报价，完成现场方案后采购",
+      "dimensions": null,
+      "room_ids": [],
+      "model_fit": "两台宽度均为 595 mm 不足以证明可以叠放。未找到该精确型号组合的官方叠放连接件 SKU，也未核实允许的固定方式及整体安装尺寸；保留采购暂停点。",
+      "installation_dependencies": [
+        "海尔售后/安装方须书面确认两台精确型号可叠放、原厂连接件型号和安装净空。",
+        "原厂不认可此组合时，不得直接叠放；改为认可套装或依法落位的并排方案，并重新核价和复尺。",
+        "洗衣位置只能在落实后的合法湿区及已核实给排水、防水与接地电源条件中安装，不以新增楼板穿孔或未经确认的旧楼梯位置为前提。"
+      ],
+      "included": "仅连接件配件费暂列 450 元，无真实型号和官方现价背书。",
+      "excluded": "洗衣机、烘干机整机；水电防水改造；搬运与叠放安装人工。人工由 H30/H21 或厂商书面报价明确后只计一次。",
+      "components": [],
+      "integration_note": "若 H30 的 4500 元已含连接件费，不再增加 450 元；否则作为 A05 附件追加一次。该预算不能替代配件兼容性确认。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "net_router_cn",
+      "title": "TP-LINK 中国 TL-XDR3010 易展版：规格参数",
+      "url": "https://www.tp-link.com.cn/product_2025.html?source=search",
+      "type": "中国制造商官方产品页",
+      "checked_date": "2026-09-10",
+      "evidence": "4 个千兆 WAN/LAN 自适应口；易展 3.0；路由/有线 AP/无线中继模式；262×149×214 mm；附 12V/1A 电源适配器。无公开零售价。"
+    },
+    {
+      "id": "net_topology_cn",
+      "title": "TP-LINK 官方家庭无线覆盖：易展路由器方案",
+      "url": "https://smb.tp-link.com.cn/service/detail_article_4603.html",
+      "type": "中国制造商官方组网说明",
+      "checked_date": "2026-09-10",
+      "evidence": "说明易展有线互联及有线无线混合拓扑；产品组网能力不等于本项目已经完成无线覆盖实测。"
+    },
+    {
+      "id": "net_switch_cn",
+      "title": "TP-LINK 中国 TL-SG1008D：规格参数",
+      "url": "https://www.tp-link.com.cn/product_424.html?v=specification",
+      "type": "中国制造商官方产品页",
+      "checked_date": "2026-09-10",
+      "evidence": "8 个 10/100/1000Mbps RJ45；158×100×25 mm；外置 9VDC/0.6A 电源。无公开零售价。购买时复核硬件版本及配套电源。"
+    },
+    {
+      "id": "washer_cn",
+      "title": "海尔 G10090BD12S 产品与规格",
+      "url": "https://www.haier.com/laundry/20240604_238924.shtml",
+      "type": "中国制造商官方产品页",
+      "checked_date": "2026-09-10"
+    },
+    {
+      "id": "dryer_cn",
+      "title": "海尔 GA120-58E1U1 产品与规格",
+      "url": "https://www.haier.com/laundry/20260623_292221.shtml",
+      "type": "中国制造商官方产品页",
+      "checked_date": "2026-09-10",
+      "evidence": "页面未给出与 G10090BD12S 配对的叠放连接件型号；烘干程序中的“羊毛-支架”不是洗烘叠放配件。"
+    }
+  ],
+  "totals": {
+    "network_cny": 1250,
+    "stacking_accessory_cny": 450,
+    "increment_if_neither_already_included_cny": 1700,
+    "network_low_cny": 950,
+    "network_high_cny": 1800
+  },
+  "integration_rules": [
+    "NET01 主预算加一组；组件只做明细、不二次加总。",
+    "LAU01 先与 H30 内容去重：H30 若含配件不再加，否则加一次。",
+    "所有价格均编制预算预留，没有公开官方当前售价。",
+    "本研究没有购买、联系商家或替用户订购服务。"
+  ]
+}

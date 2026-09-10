@@ -1,0 +1,1194 @@
+{
+  "schemaVersion": "1.0",
+  "title": "第6户：杭州暂定施工团队初筛与电梯询价依据",
+  "asOf": "2026-09-10",
+  "location": {
+    "assumedCity": "杭州（优先杭州/富阳服务范围）",
+    "basis": "原DWG题签杭州富春玫瑰园华墅地块二期二区",
+    "confirmedByUser": false
+  },
+  "status": "仅公开资料研究，未联系企业、未提交表单、未收到报价、未预订或付款。",
+  "recommendation": "首轮邀请铭品、南鸿、都都按同一清单比价；尚层作为全案协调深度备选，圣都先补齐同类三层旧改案例再考虑入围。最终比较实际派出的工长和合同范围。",
+  "legalBoundary": "此处并未确认撤梯、开井、补板等合法或可施工，当前仍不可据P02模型直接开工；须在合法性核验后由相关专业完成可施工文件。",
+  "measurementBoundary": "现有模型是方案量；净井尺寸1410×1660mm和外井1650×1900mm均非已核厂方安装条件。",
+  "candidates": [
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T01",
+      "brand": "铭品装饰",
+      "companyName": "浙江铭品装饰工程有限公司",
+      "priority": "首轮比价",
+      "website": "https://www.mpzs.com/",
+      "phone": "400-600-3007",
+      "address": "杭州市上城区天城路295号（文晖大桥东）",
+      "serviceArea": "杭州；官网明确列富阳分站。本小区现场服务、工人交通与售后响应待核实。",
+      "serviceMode": "别墅全案／室内设计与施工；要求另报按本案清单的施工及辅材、主材、定制分项。",
+      "whyShortlisted": "已有富阳极简住宅和现代合院官方案例，适合以现有P02方案为基础做结构边界、机电、定制统筹。",
+      "evidence": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C11"
+      ],
+      "caseLinks": [
+        {
+          "title": "富阳793㎡温馨极简住宅（面积大于本案）",
+          "url": "https://www.mpzs.com/case/info_491.html"
+        },
+        {
+          "title": "藏龙大境240㎡现代合院",
+          "url": "https://www.mpzs.com/case/info_518.html"
+        }
+      ],
+      "independentEvidence": "2024企业标准领跑者官方名单有该企业；市装协公布受检名单有铭品。只作为存在和参与记录，不作履约保证。",
+      "uncertainties": [
+        "与现有方案衔接是否另收设计深化费",
+        "富阳在施工地可否由拟派同一项目经理带看",
+        "花园、防水和电梯界面由谁承担总协调",
+        "是否接受指定家具品牌和甲供主材，管理费如何计取"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T02",
+      "brand": "南鸿装饰",
+      "companyName": "浙江南鸿装饰股份有限公司",
+      "priority": "首轮比价",
+      "website": "https://www.nhzs.com/",
+      "phone": "400-8800-618",
+      "address": "杭州市拱墅区绍兴路59号",
+      "serviceArea": "杭州及浙江部分城市；官网有富阳住宅案例，项目地址的服务边界待确认。",
+      "serviceMode": "整装、定制、橱柜及舒适系统；请同时给清单报价与套餐差额对照。",
+      "whyShortlisted": "有现代简约别墅案例，公开标准套餐便于检查费用边界，适合作为舒适实用方向的比价对象。",
+      "evidence": [
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "caseLinks": [
+        {
+          "title": "嘉绿名苑西区300㎡现代简约别墅",
+          "url": "https://www.nhzs.com/info_anli/3014.html"
+        }
+      ],
+      "independentEvidence": "杭州市装协公开受检会员名单有南鸿；尚未取得本案班组的独立质量结论。",
+      "publicPriceEvidence": [
+        "R01"
+      ],
+      "uncertainties": [
+        "1199套餐对多层、面积、厨房卫生间数量的限制",
+        "旧房拆除、修补、跨楼层运输、机电、室外是否另计",
+        "装修工程专业承包资质官网自述与当期证书是否一致",
+        "使用甲供材料是否增加服务费"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T03",
+      "brand": "都都装饰",
+      "companyName": "浙江都都装饰有限公司",
+      "priority": "首轮比价",
+      "website": "https://www.duduzs.cn/",
+      "phone": "400-600-5508",
+      "address": "杭州市拱墅区祥富路2号联龙创鑫空间G座1–3层；城西店：西湖区文二西路295号",
+      "serviceArea": "杭州站及杭州门店已核；富阳本小区接单、运输及售后范围待确认。",
+      "serviceMode": "整装、软装定制及排屋别墅；本案施工清单须单独核价。",
+      "whyShortlisted": "可用舒适家产品方向核对简约舒适配套，官网有270㎡叠排及320㎡现代简约住宅展示。",
+      "evidence": [
+        "C12",
+        "C13",
+        "C14",
+        "C15"
+      ],
+      "caseLinks": [
+        {
+          "title": "嘉悦府270㎡叠排现代港式",
+          "url": "https://www.duduzs.cn/cases/788"
+        },
+        {
+          "title": "杭州团队及现代简约案例索引",
+          "url": "https://www.duduzs.cn/design/38"
+        }
+      ],
+      "independentEvidence": "本次取得的是企业官方资料；未获得当期独立信用或工地质检结论。",
+      "uncertainties": [
+        "套餐是否接受现有方案而不整体重做",
+        "三层旧改工长的最近案例及在建工地",
+        "花园和露台防水/排水是否自营或分包",
+        "官网零投诉等宣传未独立核验，不列为评分依据"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T04",
+      "brand": "尚层别墅装饰·杭州",
+      "companyName": "尚层装饰（北京）有限公司杭州分公司",
+      "priority": "全案服务比较备选",
+      "website": "https://hz.shangceng.com.cn/",
+      "phone": "400-001-5820",
+      "address": "杭州市上城区新业路8号UDC时代大厦A座；官网页面楼层不一致，接待楼层待确认",
+      "serviceArea": "官网写大杭州及周边；富阳项目需书面确认。",
+      "serviceMode": "别墅整体规划、施工、设备与家具定制全案。",
+      "whyShortlisted": "可作为多专业协调能力及全案服务深度的比较对象；本案要求减少装饰造型、控制定制及品牌溢价。",
+      "evidence": [
+        "C16",
+        "C17"
+      ],
+      "caseLinks": [
+        {
+          "title": "杭州别墅案例目录",
+          "url": "https://hz.shangceng.com.cn/case/"
+        }
+      ],
+      "independentEvidence": "本次仅核企业官方服务和展示；未取得当期独立资信或本案班组记录。",
+      "uncertainties": [
+        "能否按简约舒适、明确总投资控制线接单",
+        "已有方案深化费、全案管理费与主材服务费是否重复",
+        "接受部分甲供家具家电的合同方式",
+        "具体合同主体与收款账户是否一致"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T05",
+      "brand": "圣都整装·杭州",
+      "companyName": "圣都家居装饰有限公司（杭州实际签约分支待确认）",
+      "priority": "标准整装费用比较备选",
+      "website": "https://shengdu.ke.com/hz/",
+      "phone": "4001115699",
+      "address": "圣都整装钱江新城店：杭州市上城区三新路37号中豪江河时代2F",
+      "serviceArea": "杭州站和门店已核；富阳项目服务范围待确认。",
+      "serviceMode": "标准整装；能否承接本案三层旧改及专业接口尚未确认。",
+      "whyShortlisted": "公开A3s-140起价可作为标准整装边界参照，不能直接视作本案可用合同方案。",
+      "evidence": [
+        "C18",
+        "C19",
+        "C11"
+      ],
+      "caseLinks": [],
+      "independentEvidence": "拱墅区政府历史企业名单有圣都家居装饰有限公司；市装协受检会员名单有圣都。",
+      "publicPriceEvidence": [
+        "R02"
+      ],
+      "uncertainties": [
+        "本次尚未核到足以证明同类三层别墅旧改的杭州具体案例，须先补齐后入围",
+        "标准套餐是否限制厨房/卫生间数量、层高与面积计量",
+        "电梯、花园、露台及结构合法性深化是否有责任主体"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EL01",
+      "brand": "Cibes西柏思",
+      "model": "S80 雅致版（Elegance）",
+      "classification": "平台式／螺杆驱动／自带一体化井道",
+      "scope": "三层三站单一家庭使用；版本在售、门型和配置待厂家确认。",
+      "dimensionalEvidence": {
+        "minimumPublishedFootprintMm": [
+          1070,
+          940
+        ],
+        "platformMm": null,
+        "chosenFootprintMm": null,
+        "openingMm": null,
+        "pitMm": [
+          50,
+          70
+        ],
+        "floors": [
+          2,
+          6
+        ]
+      },
+      "interpretation": "官网1070×940mm是系列最小尺寸，不是本案选定机身或安装孔。底坑可按厂家方案改为地坪抬高处理；需同时检查首层通行坡度及标高。",
+      "fitStatus": "未适配确认。需厂方出三层立面、总行程、平台净尺寸、门净宽、开门方向、井道外轮廓、检修空间和反力图。",
+      "finishIntent": "白色框体＋透明玻璃＋灰色地板；不选RGB氛围背景升级。",
+      "manufacturerContact": {
+        "phone": "400-9999-076",
+        "servicePhone": "400-9990-629",
+        "website": "https://www.cibeslift.cn/"
+      },
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "型号无正式报价；Cibes品牌一般三层参考",
+        "low": 250000,
+        "high": 350000,
+        "referenceId": "R05",
+        "scope": "仅作品牌三层电梯系统预算区间，配置、运输、安装、税、服务逐项待确认；结构改造与土建另列。"
+      },
+      "sources": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E10"
+      ]
+    },
+    {
+      "id": "EL02",
+      "brand": "ARITCO瑞特科",
+      "model": "HomeLift Access 逸致款／型号3／900×1480 AC",
+      "classification": "平台式／螺杆驱动／一体化井道",
+      "scope": "三层三站初选；国际2026规格，国内销售配置和本地安装方案待确认。",
+      "dimensionalEvidence": {
+        "platformMm": [
+          900,
+          1480
+        ],
+        "exteriorMm": [
+          1300,
+          1600
+        ],
+        "floorOpeningMm": [
+          1305,
+          1630
+        ],
+        "openingToleranceMm": {
+          "plus": 15,
+          "minus": 0
+        },
+        "doorClearMm": 800,
+        "ratedLoadKg": 410,
+        "pitMm": 50,
+        "topHeightMinMm": 2240,
+        "floors": [
+          2,
+          6
+        ]
+      },
+      "interpretation": "孔口数值仅适用于所链接900×1480 AC标准安装图。现模型井道外1650×1900、净1410×1660mm，扣除孔口后净余量很小，且东开门方向与AC门型尚未核。不能据此断言可装。",
+      "fitStatus": "未适配确认；先核合法性、原结构、每层测量、门前轮椅回转及救援通道，再由厂家签认土建条件。",
+      "finishIntent": "白色RAL9016框体，透明玻璃，耐磨浅灰地板。",
+      "manufacturerContact": {
+        "phone": "400-6233-121",
+        "email": "info.china@aritco.com",
+        "website": "https://www.aritco.com.cn/"
+      },
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未发现国内本型号三层公开价，待厂家正式报价",
+        "low": null,
+        "high": null,
+        "scope": "不可把Cibes参考价写为Aritco型号报价；项目电梯系统统一预留需正式询价覆盖。"
+      },
+      "sources": [
+        "E05",
+        "E06",
+        "E08",
+        "E09"
+      ]
+    },
+    {
+      "id": "EL03",
+      "brand": "ARITCO瑞特科",
+      "model": "HomeLift S12",
+      "classification": "家用螺杆式／一体化井道",
+      "scope": "三层三站初选；国际2026规格，国内配置待确认。",
+      "dimensionalEvidence": {
+        "carrierMm": [
+          1000,
+          1200
+        ],
+        "exteriorMm": [
+          1366,
+          1250
+        ],
+        "floorOpeningMm": null,
+        "ratedLoadKg": 400,
+        "pitMm": 37,
+        "topHeightMinMm": 2225,
+        "floors": [
+          2,
+          6
+        ]
+      },
+      "interpretation": "1366×1250mm为产品外形，楼板孔口与装配间隙另需安装图。当前模型净宽1410mm，外形宽方向仅余44mm总间隙；不得据此锁定。S15外形宽1466mm已大于当前1410mm净宽，不能原样套入。",
+      "fitStatus": "未适配确认；门型、轮椅使用舒适度、开门及检修路径、顶层高度需实测和厂家方案。",
+      "finishIntent": "白色框体和浅色地板；普通暖白照明，控制装饰背景墙选配。",
+      "manufacturerContact": {
+        "phone": "400-6233-121",
+        "email": "info.china@aritco.com",
+        "website": "https://www.aritco.com.cn/"
+      },
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未发现国内本型号三层公开价，待厂家正式报价",
+        "low": null,
+        "high": null,
+        "scope": "价格须列机身、井道、三层门、运输、安装、税、维保、应急救援及土建分界。"
+      },
+      "sources": [
+        "E07",
+        "E08"
+      ]
+    }
+  ],
+  "priceEvidence": [
+    {
+      "id": "R01",
+      "item": "南鸿1199整装套餐",
+      "currency": "CNY",
+      "unit": "元/㎡",
+      "advertisedValue": 1199,
+      "low": null,
+      "high": null,
+      "asOf": "2026-09-10",
+      "publishedAt": null,
+      "status": "企业网站公开套餐标签／非本案报价",
+      "sourceIds": [
+        "C09"
+      ],
+      "scope": "标准整装页面列瓷砖、地板、卫浴、橱柜、水槽等材料类别；计价面积、数量限额、拆改与多层附加未核。",
+      "use": "仅用于核对询价量级和费用边界；不得乘本案模型地面面积当总造价。"
+    },
+    {
+      "id": "R02",
+      "item": "圣都杭州A3s-140",
+      "currency": "CNY",
+      "unit": "元/140㎡套餐起价",
+      "advertisedValue": 156110,
+      "low": null,
+      "high": null,
+      "asOf": "2026-09-10",
+      "publishedAt": null,
+      "status": "企业网站公开起价／非本案报价",
+      "sourceIds": [
+        "C18"
+      ],
+      "scope": "官网列量房、设计、主材、辅料、基础施工、保洁、监管、质保；未证实电梯、庭院、空调、全屋定制及本案多层改造在内。",
+      "use": "普通住宅标准整装参照，不推广为本案单价。"
+    },
+    {
+      "id": "R03",
+      "item": "三层家用电梯一般参考",
+      "currency": "CNY",
+      "unit": "元/套",
+      "advertisedValue": null,
+      "low": 200000,
+      "high": 350000,
+      "asOf": "2026-09-10",
+      "publishedAt": "2026-05-30",
+      "status": "厂家一般市场参考／非独立行情指数／非本案报价",
+      "sourceIds": [
+        "E02"
+      ],
+      "scope": "一般三层家用电梯；层高、系列、尺寸、门型、安装条件与费用包含项仍未锁定。",
+      "use": "保留与R05的来源口径差异。Cibes品牌预算优先R05的25–35万元，不取此较低泛参考充当型号价。"
+    },
+    {
+      "id": "R04",
+      "item": "Cibes品牌最新起售价",
+      "currency": "CNY",
+      "unit": "元/套起",
+      "advertisedValue": 141000,
+      "low": null,
+      "high": null,
+      "asOf": "2026-09-10",
+      "publishedAt": "2026-09-08",
+      "status": "厂家品牌起价／配置待确认／非三层价",
+      "sourceIds": [
+        "E03"
+      ],
+      "scope": "页面明确需按层数、尺寸、产品、安装及选配出方案，交付组成应逐项确认。",
+      "use": "仅保留价格来源透明度；不用于压低本案三层预算。"
+    },
+    {
+      "id": "R05",
+      "item": "Cibes品牌三层整体参考",
+      "currency": "CNY",
+      "unit": "元/套",
+      "advertisedValue": null,
+      "low": 250000,
+      "high": 350000,
+      "asOf": "2026-09-10",
+      "publishedAt": "2025-12-27",
+      "status": "厂家品牌整体参考／非型号或本案报价",
+      "sourceIds": [
+        "E10"
+      ],
+      "scope": "Cibes品牌常见住宅三层整体报价；比R03一般三层20–35万元的对象更具体，空间受限或特殊结构另核。",
+      "use": "本案若以Cibes候选为基准，电梯系统建议先按25–35万元预留，三家报价后替换；厂家土建分界另列。"
+    }
+  ],
+  "inquiryChecklist": [
+    "首轮同发P02平面、点位、材料/家具清单及本采购预算，要求现场复测后逐项报数量、品牌型号、人工、辅材、主材、损耗、税、运杂、管理费。",
+    "候选先确认实际城市与小区、房屋现状、物业施工时间和搬运路线，排屋/别墅是否可接；不提交私人联系方式到平台。",
+    "核对签约主体营业执照、统一社会信用代码、当期资质及范围、收款账户、拟派项目经理、工长与水电/泥木油班组，不只看品牌。",
+    "要求拟派同一工长的两个近两年多层住宅案例：一个在水电/防水阶段、一个已入住经历雨季；经业主同意后安排查看，不私取住户信息。",
+    "询问是否接受现有设计和甲供家具家电，设计深化、采购服务费与施工管理费分别列项。",
+    "撤除楼梯、楼板开孔、补板、承重及外立面改动先核合法性。施工队口头保证或厂家免底坑宣传不构成许可；未释放项列暂估/暂停，不能安排拆除。",
+    "常规施工、机电、定制、家电、家具、花园、电梯七个包用同一界面表，逐项写谁设计、谁采购、谁安装、谁保修。",
+    "电梯报价固定三层三站、约6.9m展示行程待复测；列净开门、载重、轮椅/婴儿车实际进入、紧急平层、门锁、安全边、断电救援、保修、年度保养与急修服务。",
+    "电梯土建必须书面给设备反力、孔口、底坑、顶层净高、井道固定、机房/检修需求及电源；不要先砌1650×1900井道再选产品。",
+    "所有厨房和卫生间分开计量，墙地防水、水路排水、闭水试验、取样和维修责任写清；中央空调、新风及除湿的负荷与风量由专业深化。",
+    "南院47.504㎡、主南廊9.797㎡、三层露台18.684㎡为方案/来源边界，不是承包计价测量。室外包须含防水排水界面、轻质花箱、铺装及成品保护，不填天井。",
+    "花园苗木写品种、容器规格、冠幅/株高、数量、土壤/基质、灌溉、养护周期与补苗条件，禁止以一项绿化造景费替代明细。",
+    "把甲供家具包装尺寸、入户门和楼层搬运路线纳入报价；人工搬运、吊装如需另计，先核现场可实施条件。",
+    "询价须明列拆旧清运、找平/基层修复、墙面铲除、瓷砖收口、异形、门套、插座回路、定制五金、开孔、进场保护及开荒的包含与不含项。",
+    "付款与已验收工程量挂钩，约定停工/延期、设计变更、甲供延迟、成品损坏、保修留款。变更必须先书面报价并获业主确认；具体比例由双方审定。",
+    "报价比较总价时同时比较计量规则和范围；暂估、未决和允许变更项单列，避免用低总价隐藏漏项。"
+  ],
+  "bidSchedule": [
+    {
+      "stage": 1,
+      "name": "确认地址和复测输入",
+      "durationWorkingDays": "2–5（计划假设）",
+      "output": "可量房范围、原始结构资料、物业边界、现场尺寸和高差照片",
+      "release": "具备现场进入授权"
+    },
+    {
+      "stage": 2,
+      "name": "三家同口径现场询价",
+      "durationWorkingDays": "5–10（计划假设）",
+      "output": "分项工程量报价、主材型号、工长履历、现场工期和合同草稿",
+      "release": "地址和现场工况确认"
+    },
+    {
+      "stage": 3,
+      "name": "电梯与关键专业并行深化",
+      "durationWorkingDays": "按合法性核验及厂家响应另排",
+      "output": "不可实施项、设备条件图、结构/机电责任人和追加成本",
+      "release": "先完成合法性和技术条件核实"
+    },
+    {
+      "stage": 4,
+      "name": "技术澄清及候选对比",
+      "durationWorkingDays": "3–5（计划假设）",
+      "output": "统一范围比较表、删减/升级项、疑点闭环",
+      "release": "至少两份可比完整报价"
+    },
+    {
+      "stage": 5,
+      "name": "签约和开工条件检查",
+      "durationWorkingDays": "随审批和专业出图条件",
+      "output": "双方签署合同/附件、品牌型号冻结、分阶段开工单",
+      "release": "相应工序合法并已取得所需可施工文件"
+    }
+  ],
+  "scoringFramework": {
+    "status": "建议评分框架，未给任何企业虚构得分",
+    "criteria": [
+      {
+        "item": "合法性和专业边界",
+        "weight": 25,
+        "evidence": "明确拒绝未释放结构改动；提供负责专业及设备条件图"
+      },
+      {
+        "item": "拟派班组的同类项目",
+        "weight": 25,
+        "evidence": "同一工长实地可核的多层住宅与防水/机电记录"
+      },
+      {
+        "item": "报价完整和可比",
+        "weight": 25,
+        "evidence": "工程量、型号、范围、增项规则、税及管理费透明"
+      },
+      {
+        "item": "现场组织与售后",
+        "weight": 15,
+        "evidence": "进度、人员、验收记录、保修主体与响应约定"
+      },
+      {
+        "item": "简约舒适方案匹配",
+        "weight": 10,
+        "evidence": "在预算控制下保留动线、易清洁、收纳、适老舒适性"
+      }
+    ]
+  },
+  "estimateGuidance": {
+    "currency": "CNY",
+    "asOf": "2026-09-10",
+    "elevatorSystemAllowance": [
+      250000,
+      350000
+    ],
+    "status": "基于E10的Cibes品牌常见三层整体参考预留；不是候选型号报价，也不当作Aritco价格",
+    "excluded": "拆梯、开孔补板、结构加固、合法性/专业设计、不可实施时的替代方案费用须单列。",
+    "constructionRates": "本次未获得适用本案且2026年9月有效的官方小型私宅逐项人工价格，不将营销文章自称的官方数据当事实。标准套餐仅做交付范围对比，工程预算按方案量与明确假设编制后由现场报价替换。"
+  },
+  "sources": [
+    {
+      "id": "C01",
+      "title": "铭品装饰：企业简介",
+      "url": "https://www.mpzs.com/about.html",
+      "publisher": "浙江铭品装饰工程有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "C02",
+      "title": "铭品装饰：联系我们及城市分站",
+      "url": "https://www.mpzs.com/contact.html",
+      "publisher": "浙江铭品装饰工程有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "页面有默认计算器数值，没有输入本案数据，未将默认数字当报价。"
+    },
+    {
+      "id": "C03",
+      "title": "铭品别墅大宅服务",
+      "url": "https://www.mpzs.com/villa.html",
+      "publisher": "浙江铭品装饰工程有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "C04",
+      "title": "富阳自建房793㎡温馨极简案例",
+      "url": "https://www.mpzs.com/case/info_491.html",
+      "publisher": "浙江铭品装饰工程有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "企业自述案例，面积非本案；未独立实地核验。"
+    },
+    {
+      "id": "C05",
+      "title": "藏龙大境240㎡现代合院案例",
+      "url": "https://www.mpzs.com/case/info_518.html",
+      "publisher": "浙江铭品装饰工程有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "企业自述案例，不证明本案实际派出班组的能力。"
+    },
+    {
+      "id": "C06",
+      "title": "2024年企业标准领跑者名单",
+      "url": "https://www.cnis.ac.cn/ynbm/zhfy/tzgg/202501/P020250120387662984599.pdf",
+      "publisher": "中国标准化研究院",
+      "type": "官方机构",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2025-01-20",
+      "limits": "列有浙江铭品装饰工程有限公司Q/MP102-2021；这不是当期营业/承包资质或履约保证。"
+    },
+    {
+      "id": "C07",
+      "title": "南鸿装饰：品牌实力",
+      "url": "https://www.nhzs.com/gywm/ppsl.html",
+      "publisher": "浙江南鸿装饰股份有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "C08",
+      "title": "南鸿装饰官网联系资料",
+      "url": "https://www.nhzs.cn/index.php/welcome.html",
+      "publisher": "浙江南鸿装饰股份有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "C09",
+      "title": "南鸿1199整装套餐",
+      "url": "https://www.nhzs.com/tc/1199tc.html",
+      "publisher": "浙江南鸿装饰股份有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "公开套餐名称和部分材料类别；本案适用范围、计价面积、门窗/水电限额和增项条件尚未确认。"
+    },
+    {
+      "id": "C10",
+      "title": "嘉绿名苑西区300㎡现代简约别墅案例",
+      "url": "https://www.nhzs.com/info_anli/3014.html",
+      "publisher": "浙江南鸿装饰股份有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2024-01-15",
+      "limits": "企业自述历史案例，套系标价不能视作2026年合同成交价。"
+    },
+    {
+      "id": "C11",
+      "title": "市装协住宅装饰分会开展自律公约工地履行情况检查",
+      "url": "https://www.hzzsxh.com/association-dynamics/1483.html",
+      "publisher": "杭州市建筑装饰行业协会",
+      "type": "行业协会",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "列明受检会员包括南鸿、铭品、圣都等；仅证明该次受检，不把报告总体问题归因给某一家，也不作质量评级。"
+    },
+    {
+      "id": "C12",
+      "title": "都都装饰官网",
+      "url": "https://www.duduzs.cn/",
+      "publisher": "浙江都都装饰有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "C13",
+      "title": "都都别墅大宅服务",
+      "url": "https://www.duduzs.cn/villamansion",
+      "publisher": "浙江都都装饰有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "检索可读，直接抓取曾超时。"
+    },
+    {
+      "id": "C14",
+      "title": "嘉悦府270㎡叠排现代港式案例",
+      "url": "https://www.duduzs.cn/cases/788",
+      "publisher": "浙江都都装饰有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "企业自述案例；风格与本案不同，主要用于查看叠排经验。"
+    },
+    {
+      "id": "C15",
+      "title": "都都设计师黄金玲及杭州城西店",
+      "url": "https://www.duduzs.cn/design/38",
+      "publisher": "浙江都都装饰有限公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "企业页面列大华西溪风情320㎡现代简约及嘉悦府叠排；设计师当前档期和实际派出班组未确认。"
+    },
+    {
+      "id": "C16",
+      "title": "尚层杭州品牌及服务区域",
+      "url": "https://hz.shangceng.com.cn/about/",
+      "publisher": "尚层装饰（北京）有限公司杭州分公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "该页地址写25楼，首页简介写24、26楼；只采用楼宇地址，具体接待楼层待电话确认。"
+    },
+    {
+      "id": "C17",
+      "title": "尚层杭州案例与业主故事",
+      "url": "https://hz.shangceng.com.cn/",
+      "publisher": "尚层装饰（北京）有限公司杭州分公司",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "企业展示300㎡现代简约别墅和联排改造故事；未独立验证完工状态、承包金额或班组。"
+    },
+    {
+      "id": "C18",
+      "title": "圣都整装杭州套餐与门店",
+      "url": "https://shengdu.ke.com/hz/?cityId=330100&redirected_from=1&source=shengdu_baidu_sem",
+      "publisher": "贝壳／圣都整装",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "检索页面显示A3s-140及公开门店，普通整装用于价格比较；本次未取得杭州三层别墅专属报价或具体同类案例。"
+    },
+    {
+      "id": "C19",
+      "title": "拱墅区2022年度突出贡献企业通知",
+      "url": "https://www.gongshu.gov.cn/art/2023/4/20/art_1229113461_1831127.html",
+      "publisher": "杭州市拱墅区人民政府",
+      "type": "政府",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2023-04-20",
+      "limits": "列有圣都家居装饰有限公司；历史公开名称核对，不证明当前财务、信用或工地质量。"
+    },
+    {
+      "id": "C20",
+      "title": "杭州市住宅室内装饰装修施工合同示范文本HT3301/SF021-2024",
+      "url": "https://resource.hzzsxh.com/uploads/editor/20240318/1d6857b176c3cc311695b58387d39e10.pdf",
+      "publisher": "杭州市建筑装饰行业协会",
+      "type": "行业协会",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2024-03-18",
+      "limits": "用于合同附件结构参考；具体合同仍须双方结合项目范围审定。"
+    },
+    {
+      "id": "E01",
+      "title": "Cibes S80平台式家用电梯",
+      "url": "https://www.cibeslift.cn/products/s80/",
+      "publisher": "Cibes西柏思",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "E02",
+      "title": "三层家用电梯价格FAQ",
+      "url": "https://www.cibeslift.cn/faq/home-lift-price/1486.html",
+      "publisher": "Cibes西柏思",
+      "type": "厂家价格参考",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2026-05-30",
+      "limits": "20–35万元为厂家公开一般三层参考，未对应S80版本、尺寸和本案交付范围。"
+    },
+    {
+      "id": "E03",
+      "title": "2026家用电梯价格与报价组成",
+      "url": "https://www.cibeslift.cn/wenjian/home-elevator-price-guide.html",
+      "publisher": "Cibes西柏思",
+      "type": "厂家价格参考",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2026-09-08",
+      "limits": "14.1万元起为品牌起价，不是本案三层配置承诺价。"
+    },
+    {
+      "id": "E04",
+      "title": "Cibes中国官网联系资料",
+      "url": "https://www.cibeslift.cn/",
+      "publisher": "Cibes西柏思",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "E05",
+      "title": "Aritco HomeLift Access 2026数据表",
+      "url": "https://www.aritco.com/wp-content/uploads/2026/02/Datasheet-Aritco-HomeLift-Access-English.pdf",
+      "publisher": "Aritco Lift AB",
+      "type": "厂家技术资料",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2026-01",
+      "limits": "国际标准型号数据；中国销售配置、安装和本地服务须厂家确认。"
+    },
+    {
+      "id": "E06",
+      "title": "Aritco Access 900×1480 AC安装平面",
+      "url": "https://www.aritco.com/wp-content/uploads/2023/12/900x1480-AC.pdf",
+      "publisher": "Aritco Lift AB",
+      "type": "厂家技术资料",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "官网DWG下载目录仍链接此图；只作初选，不能代替本项目厂家签认安装图。"
+    },
+    {
+      "id": "E07",
+      "title": "Aritco HomeLift 2026数据表",
+      "url": "https://www.aritco.com/wp-content/uploads/2026/02/Datasheet-Aritco-HomeLift-English.pdf",
+      "publisher": "Aritco Lift AB",
+      "type": "厂家技术资料",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2026-01",
+      "limits": "S12产品外形不是楼板开孔净尺寸。"
+    },
+    {
+      "id": "E08",
+      "title": "Aritco官方型号图纸目录与中国联系资料",
+      "url": "https://www.aritco.com/uk/products/dwg-files/",
+      "publisher": "Aritco Lift AB",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "E09",
+      "title": "Aritco中国逸致款服务页面",
+      "url": "https://www.aritco.com.cn/products/home-lifts/ahla/",
+      "publisher": "ARITCO瑞特科中国",
+      "type": "企业官方",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": ""
+    },
+    {
+      "id": "E10",
+      "title": "Cibes品牌三层整体报价参考",
+      "url": "https://www.cibeslift.cn/faq/1370.html",
+      "publisher": "Cibes西柏思",
+      "type": "厂家价格参考",
+      "accessedAt": "2026-09-10",
+      "publishedAt": "2025-12-27",
+      "limits": "Cibes品牌在常见住宅条件下25–35万元；价格分类页当前仍引用。区别于E02泛家用电梯20–35万元，仍非型号报价。"
+    },
+    {
+      "id": "P01",
+      "title": "杭州市建筑工程劳务工种人工价格调研会",
+      "url": "https://www.hangzhoujx.com/association-dynamics/2627.html",
+      "publisher": "杭州市建筑业协会",
+      "type": "行业协会",
+      "accessedAt": "2026-09-10",
+      "publishedAt": null,
+      "limits": "说明人工信息价需按市场采集调整；本次未取得适用2026年9月本案的小型私宅逐工种官方价表。"
+    }
+  ],
+  "domesticElevatorCandidates": [
+    {
+      "id": "DE01",
+      "brand": "康力 CANNY",
+      "manufacturer": "康力电梯股份有限公司",
+      "model": "KLJ 家用电梯系列",
+      "classification": "国内电梯制造企业的家用系列；具体出厂型号、产地及配置以合格证明和合同为准",
+      "priority": "第一轮询价",
+      "whyThisProject": "官网可核杭州浙江分公司，可先核家用梯与本地安装、救援、配件供应是否由同一责任主体承担；适合毛坯阶段先做土建接口方案与标准饰面询价。",
+      "scope": "要求三层三站、标准轿厢与自动门；当前网页不能证明本案净井、提升高度和救援条件均满足。",
+      "dimensionalEvidence": {
+        "sourceIDs": [
+          "D01",
+          "D02"
+        ],
+        "minimumShaftMm": null,
+        "pitDepthMm": null,
+        "minimumHeadroomMm": null,
+        "notes": "官网当前公开页未取得完整土建尺寸表；不能将早年KLJ/VF参数套在2026年采购上。"
+      },
+      "verifiedFeatures": [
+        "中文官网列出断电应急救援、故障自动救援、电动松闸救援",
+        "中文官网说明光幕保护、一键呼救；具体标配/选配须列合同"
+      ],
+      "manufacturerContact": {
+        "localOffice": "浙江分公司",
+        "localPhone": "0571-89971040",
+        "localAddress": "杭州市拱墅区新天地商务中心806、807室",
+        "nationalPhone": "400-188-2367",
+        "sourceIDs": [
+          "D03"
+        ],
+        "serviceVerification": "杭州公开分公司已核；富阳上门时限、家用型号专属团队、授权状态和收费未确认"
+      },
+      "fitStatus": "未核定。模型外井1650×1900mm、净井1410×1660mm仅为方案占位，厂家须给本案平面、剖面、荷载和门洞图并签认；不能直接下单或开井。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未报价",
+        "quotedAmount": null,
+        "publicThreeStopModelPrice": null,
+        "scope": "三层三站、提升高度与门向待现场确定；未联系厂家，未取得含税到场安装报价。",
+        "source": "本次官方公开资料检索，无本案报价"
+      },
+      "sourceIDs": [
+        "D01",
+        "D02",
+        "D03"
+      ],
+      "uncertainties": [
+        "KLJ具体配置单、三层土建条件和门净宽",
+        "全国服务电话不构成本案救援时限承诺",
+        "未独立验证实际工班质量或客户长期故障记录"
+      ]
+    },
+    {
+      "id": "DE02",
+      "brand": "西奥 XIOLIFT",
+      "manufacturer": "杭州西奥电梯有限公司",
+      "model": "SIND / SINDII 家用别墅梯系列",
+      "classification": "杭州本地电梯制造企业的家用系列；订单型号、制造地与所用部件须合同列明",
+      "priority": "第一轮询价",
+      "whyThisProject": "杭州总部、家用业务专线可直接核；用标准钢带曳引系列与康力做同范围报价比较，重点审本地服务与备件。",
+      "scope": "要求三层三站；优先询常规自动门、浅色标准饰面，不以豪华轿厢或语音屏幕作为必选。",
+      "dimensionalEvidence": {
+        "sourceIDs": [
+          "D04"
+        ],
+        "minimumShaftMm": null,
+        "pitDepthMm": null,
+        "minimumHeadroomMm": null,
+        "notes": "当前官方产品页确认SIND/SINDII系列，但未公开可直接用于本案的完整井道尺寸表；经销商旧册和两层商城起价不作为三层订货依据。"
+      },
+      "verifiedFeatures": [
+        "当前官网说明钢带曳引技术",
+        "物联网、儿童锁、语音呼梯列为可配置项；报价需区分选配费用"
+      ],
+      "manufacturerContact": {
+        "localOffice": "杭州总部 / 家用电梯业务",
+        "localPhone": "0571-81028788",
+        "localAddress": "浙江省杭州市临平经济技术开发区宏达路168号",
+        "nationalPhone": "400-826-9998",
+        "sourceIDs": [
+          "D04",
+          "D05"
+        ],
+        "serviceVerification": "总部及家用业务专线已核；须明确本案由厂家或哪家授权商安装维保，富阳响应时限未确认"
+      },
+      "fitStatus": "未核定。模型外井1650×1900mm、净井1410×1660mm仅为方案占位，厂家须给本案平面、剖面、荷载和门洞图并签认；不能直接下单或开井。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未报价",
+        "quotedAmount": null,
+        "publicThreeStopModelPrice": null,
+        "scope": "三层三站、提升高度与门向待现场确定；未联系厂家，未取得含税到场安装报价。",
+        "source": "本次官方公开资料检索，无本案报价"
+      },
+      "sourceIDs": [
+        "D04",
+        "D05"
+      ],
+      "uncertainties": [
+        "SIND与SINDII适用本案的具体子型号及2026订货图",
+        "额定载重、速度、底坑、顶层净高和自动门净宽未获本案核定",
+        "品牌总部在杭州不等于承诺由总部直营安装或长期免费维保"
+      ]
+    },
+    {
+      "id": "DE03",
+      "brand": "快意 IFE",
+      "manufacturer": "快意电梯股份有限公司",
+      "model": "VILLUX 基础系列；VILLUX-Pro作结构条件备选",
+      "classification": "国内电梯制造企业的钢带曳引家用系列",
+      "priority": "第二轮技术与价格对照；杭州本地服务主体确认后入围",
+      "whyThisProject": "现行原厂册公开土建参数较完整，可用于提前判断顶层和底坑；先比较基础VILLUX，不默认采用Max旗舰或Mini平台式。",
+      "scope": "拟询基础VILLUX、400kg、0.4m/s、三层三站、单侧自动门；载重不是本案可容纳4人的承诺，最终容量和轿厢尺寸以制造商为准。",
+      "dimensionalEvidence": {
+        "sourceIDs": [
+          "D07"
+        ],
+        "documentVersion": "202501版，PDF第22页右半/印刷页42",
+        "ratedLoadKg": 400,
+        "requestedSpeedMps": 0.4,
+        "drive": "钢带2:1曳引、永磁同步无齿轮",
+        "maximumTravelM": 27,
+        "minimumShaftMm": null,
+        "minimumHeadroomRearCounterweightMm": 2900,
+        "minimumHeadroomSideCounterweightMm": 2950,
+        "minimumPitPvcMm": 200,
+        "minimumPitMarbleMm": 225,
+        "standardPower": "单相220V，可选380V；电源与线路仍按本案安装图设计",
+        "door": "VVVF自动门可中分、旁开、中分双折，净开门宽尚未核定",
+        "notes": "上述顶层数据仅对应本册VILLUX的0.4/0.63m/s配置。厂册以SW/SD表示井道宽深，不能据此判定1410×1660mm净井可装。旧2022册1350×1350mm最小井宣传不作为现行订货依据。"
+      },
+      "verifiedFeatures": [
+        "现行厂册列光幕、门锁保护、超载保护",
+        "现行厂册列自动救援、一键紧急呼叫、电动松闸；儿童锁列为可选"
+      ],
+      "manufacturerContact": {
+        "localOffice": null,
+        "localPhone": null,
+        "localAddress": null,
+        "nationalPhone": "400-6789-443",
+        "companyPhone": "0769-8207-8888",
+        "sourceIDs": [
+          "D08",
+          "D10"
+        ],
+        "serviceVerification": "已核全国服务渠道；官网公开文本未核到杭州具体家用梯服务点，须厂家给出在地授权公司、工班及救援/备件安排后再列合格投标人"
+      },
+      "fitStatus": "未核定。模型外井1650×1900mm、净井1410×1660mm仅为方案占位，厂家须给本案平面、剖面、荷载和门洞图并签认；不能直接下单或开井。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未报价",
+        "quotedAmount": null,
+        "publicThreeStopModelPrice": null,
+        "scope": "三层三站、提升高度与门向待现场确定；未联系厂家，未取得含税到场安装报价。",
+        "source": "本次官方公开资料检索，无本案报价"
+      },
+      "sourceIDs": [
+        "D06",
+        "D07",
+        "D08",
+        "D10"
+      ],
+      "uncertainties": [
+        "杭州/富阳服务网点及到场时限待核",
+        "厂册尺寸必须由制造商按实际楼层、井道、基础条件重出安装图",
+        "3层总行程在27m以内不代表其他安装条件均满足"
+      ]
+    }
+  ],
+  "domesticElevatorPriceGuidance": {
+    "currency": "CNY",
+    "asOf": "2026-09-10",
+    "status": "项目采购目标与前期暂列建议；不是厂家报价或市场成交保证",
+    "mainApproach": "毛坯、长期自住且控制预算，先让康力KLJ与杭州西奥SIND/SINDII按同清单报价，快意VILLUX作技术与价格对照；待确认尺寸及本地服务后择优。",
+    "inquiryTargetLow": 150000,
+    "inquiryTargetHigh": 200000,
+    "inquiryTargetMeaning": "15–20万元为项目方希望实现的三层三站标准配置设备系统交付目标，包含设备、需要的井架/围护、标准内饰、运输、安装调试及税费。目标尚未得到上述三家报价验证。结构土建和室内收口另列，不能拿纯设备价冒充这个目标。",
+    "planningPlaceholder": 180000,
+    "planningPlaceholderStatus": "18万元可作可编辑初期暂列额；若报价或净井条件超出目标，应调整预算/技术方案，不能削减必需保护与维保条件，也不能承诺18万元必然买到。",
+    "publicReference": {
+      "low": 120000,
+      "high": 250000,
+      "sourceID": "D09",
+      "published": "2026-04-24",
+      "quoteStatus": "另一厂家科普页对曳引技术路线的含安装粗范围，不是候选品牌价表或具体三层价",
+      "scope": "未限定型号、层站、井道材质、税费与本案条件；只辅助设定询价方向，不直接计入总预算"
+    },
+    "importComparison": {
+      "low": 250000,
+      "high": 350000,
+      "sourceID": "E10",
+      "quoteStatus": "Cibes官网常见三层品牌整体参考，非型号报价；保留作进口品牌路线对照，不再作为毛坯节制预算主方案",
+      "currency": "CNY",
+      "asOf": "2026-09-10"
+    },
+    "annualMaintenanceReference": {
+      "low": 3000,
+      "high": 5000,
+      "sourceID": "D09",
+      "currency": "CNY/year",
+      "asOf": "2026-09-10",
+      "status": "品牌科普页的曳引式维护粗参考，不是任一候选厂家报价",
+      "scope": "拟合同须另问质保后每年保养次数、应急到场、配件/电池/钢带是否含；不得简单将此作为10年包干价"
+    },
+    "requiredQuoteLines": [
+      "完整型号与版本、制造厂、载重、速度、3层3站、提升高度、门向与净宽",
+      "现场净井与外井、底坑/顶层、每层门洞、钢结构/混凝土井道责任界面",
+      "电梯本体、3层门系统、井架与围护、标准内饰分别列价",
+      "运输、卸货吊装、安装调试、含税交付分别列价",
+      "断电自动救援、紧急通信、门保护、必要检测及交付文件逐项列入",
+      "整机与关键部件质保、易耗件排除项、故障应急到场与困人救援责任",
+      "质保后1年及5年维护方案，钢带/电池/门机/控制器更换价格口径",
+      "现场结构专业设计、审批、土建、电源和收口另列，不与18万元暂列重复计算"
+    ],
+    "durabilityPriorities": [
+      "先核本地安装维保团队及备件渠道，再比较品牌装饰配置",
+      "三层家庭询0.4m/s标准配置；是否可用由厂家结合标准、型号与现场确认",
+      "简洁耐用轿厢、易清洁地面、实际乘坐噪音体验，比大屏和豪华饰面优先",
+      "当次演示停电救援、紧急呼叫；交付时培训家人，维保合同写清响应和收费"
+    ],
+    "noContactMade": true
+  },
+  "domesticElevatorSources": [
+    {
+      "id": "D01",
+      "title": "康力中文官网家用电梯产品页",
+      "publisher": "康力电梯股份有限公司",
+      "url": "https://www.canny-elevator.com/product/show-491.html",
+      "accessed": "2026-09-10",
+      "notes": "当前家用产品与安全/救援功能说明；本页未给出完整井道土建参数。"
+    },
+    {
+      "id": "D02",
+      "title": "CANNY KLJ Home Use Elevator",
+      "publisher": "康力电梯股份有限公司",
+      "url": "https://en.canny-elevator.com/product/show-893.html",
+      "accessed": "2026-09-10",
+      "notes": "确认KLJ产品系列名；英文页功能和配置须由中国销售合同复核。"
+    },
+    {
+      "id": "D03",
+      "title": "康力营销网络：浙江分公司",
+      "publisher": "康力电梯股份有限公司",
+      "url": "https://www.canny-elevator.com/marketing-16.html",
+      "accessed": "2026-09-10",
+      "notes": "官网公开0571-89971040，杭州市拱墅区新天地商务中心806、807室。"
+    },
+    {
+      "id": "D04",
+      "title": "西奥SIND及SINDII家用别墅梯",
+      "publisher": "杭州西奥电梯有限公司",
+      "url": "https://www.xiolift.com/products/productsinfo4/4/4.html",
+      "accessed": "2026-09-10",
+      "notes": "当前家用系列、钢带曳引、可选儿童锁/物联网；家用咨询0571-81028788。"
+    },
+    {
+      "id": "D05",
+      "title": "西奥官网与杭州总部、客户服务",
+      "publisher": "杭州西奥电梯有限公司",
+      "url": "https://www.xiolift.com/",
+      "accessed": "2026-09-10",
+      "notes": "总部地址浙江省杭州市临平经济技术开发区宏达路168号；服务400-826-9998。"
+    },
+    {
+      "id": "D06",
+      "title": "快意VILLUX家用别墅电梯产品页",
+      "publisher": "快意电梯股份有限公司",
+      "url": "https://www.ifelift.com/VILLUXbieshudianti/82-27.html",
+      "accessed": "2026-09-10",
+      "notes": "官网当前在售产品系列入口，不含本案三层合同报价。"
+    },
+    {
+      "id": "D07",
+      "title": "快意VILLUX系列产品册202501版",
+      "publisher": "快意电梯股份有限公司",
+      "url": "https://www.ifelift.com/uploads/202601/695b21c533ff3.pdf",
+      "accessed": "2026-09-10",
+      "documentVersion": "202501版，官网2026年1月上传路径",
+      "notes": "已把原厂PDF第3、21、22、23页渲染逐图核读；技术参数主要见PDF第22页右半（印刷页42）；井道宽深以变量表达，未给本案固定净井匹配结论。"
+    },
+    {
+      "id": "D08",
+      "title": "快意官网及全球服务网络",
+      "publisher": "快意电梯股份有限公司",
+      "url": "https://www.ifelift.com/quanqiuwangluo.html",
+      "accessed": "2026-09-10",
+      "notes": "官网公开公司电话0769-8207-8888、服务400-6789-443；此页面未核到杭州具体服务地址。"
+    },
+    {
+      "id": "D09",
+      "title": "家用电梯价格差距为什么这么大",
+      "publisher": "Cibes西柏思",
+      "url": "https://www.cibeslift.cn/wenjian/jiayongdianti-jiage-chaju-weishenme-zheme-da-2026.html",
+      "published": "2026-04-24",
+      "accessed": "2026-09-10",
+      "notes": "品牌科普页面自述曳引式12–25万元含安装、曳引维保约3000–5000元/年；不是独立市场统计，不指向康力、西奥或快意，不能当作三层具体型号正式报价。"
+    },
+    {
+      "id": "D10",
+      "title": "快意2025年半年度报告",
+      "publisher": "快意电梯股份有限公司",
+      "url": "https://www.ifelift.com/uploads/202512/694b40789497b.pdf",
+      "accessed": "2026-09-10",
+      "notes": "确认制造业务和全国分支网络；全国网络不等于本案富阳到场服务承诺。"
+    }
+  ],
+  "ownerUpdate": {
+    "asOf": "2026-09-10",
+    "housingCondition": "毛坯房（用户本轮已明确）",
+    "budgetIntent": "预算不要太多，但该花要花，长期自住",
+    "interpretation": "此补充优先指导当前采购。旧版施工候选中提及的旧改经历仅作为复杂工序能力参考，不说明本房是旧改；不再默认需要成套拆旧。",
+    "primaryElevatorBudgetField": "domesticElevatorPriceGuidance",
+    "olderImportAllowanceField": "estimateGuidance.elevatorSystemAllowance保留原始研究；当前仅为进口品牌路线对照，不与国产暂列额相加"
+  }
+}

@@ -1,0 +1,1 @@
+预算补充构建顺序：build_procurement_data.py → merge_procurement_data.py → build_procurement_report.py / procurement/build_workbook.mjs。需要ReportLab、pypdf、Pillow、macOS宋体和@oai/artifact-tool；原始研究JSON已提供，不必重新访问商家。prepare_procurement_publication.py按本地原工作区路径组织发布，移植时须设置ROOT/REPO路径。金额来源见每行，工程单价为估算。

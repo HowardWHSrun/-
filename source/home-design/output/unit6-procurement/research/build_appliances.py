@@ -1,0 +1,257 @@
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent
+DATE = '2026-09-10'
+S = {}
+def src(key,title,url,kind='官方产品/规格页'):
+    S[key]={'id':key,'title':title,'url':url,'type':kind,'checked_date':DATE}
+
+src('fridge','海尔 BCD-400WLHD3B9YAU1：规格与参考价5999元','https://www.haier.com/cooling/20260428_289874.shtml')
+src('hood','海尔 CXW-358-E900T81UD：规格与参考价2999元','https://www.haier.com/kitchen_appliances/xyyj/20260311_287621.shtml')
+src('gas','海尔 JZT-Q2BE6(12T)：规格与参考价999元','https://www.haier.com/kitchen_appliances/rqz/20240328_236731.shtml')
+src('dish','米家智能独嵌两用洗碗机15套S1官方安装说明','https://cdn.cnbj1.fds.api.mi-img.com/ics-resources/articles/62afd589a1a516d35d85481d.html','官方安装说明')
+src('dish450','海尔 EDW123286GH：450毫米窄体但910毫米高','https://www.haier.com/kitchen_appliances/xwj/20240513_237896.shtml')
+src('washer','海尔 G10090BD12S：参考价2899元','https://www.haier.com/laundry/20240604_238924.shtml')
+src('dryer','海尔 GA120-58E1U1：参考价4299元','https://www.haier.com/laundry/20260623_292221.shtml')
+src('tv','海尔 75D50：75英寸外形规格','https://www.haier.com/televisions/20240308_236087.shtml')
+src('tv_alt','海尔 75H8D：参考价7499元，2026年款候选','https://www.haier.com/televisions/20260603_291570.shtml')
+src('toilet','TOTO CW188SET305/400官方规格：不含便座','https://www.toto.com.cn/cn/resource/pdf/norm/toilet/one_piece/CW188SET.pdf','官方规格PDF')
+src('toilet_adjust','TOTO CW188SEBTM：335–400毫米坑距可调型号','https://www.toto.com.cn/cn/products/categories/toilet/one_piece/product/CW188SEBTM.html')
+src('vanity64','宜家 ENHET/TVÄLLEN 396.159.36，64厘米组合1100元','https://www.ikea.cn/cn/zh/p/enhet-an-na-te-tvaellen-te-wei-lun-xi-lian-chi-jia-dai-men-xi-lian-chi-bai-se-s39615936/','中国官方商城显示价')
+src('vanity44','宜家 ENHET/TVÄLLEN 996.160.42，44厘米组合1000元','https://www.ikea.cn/cn/zh/p/enhet-an-na-te-tvaellen-te-wei-lun-xi-lian-chi-jia-dai-chou-ti-xi-lian-chi-bai-se-s99616042/','中国官方商城显示价')
+src('basintap','宜家 VOXNAN 605.332.60 龙头599元','https://www.ikea.cn/cn/en/p/voxnan-wash-basin-mixer-tap-chrome-plated-60533260/','中国官方商城显示价')
+src('mirror','宜家 ENHET 893.965.78 镜柜399元','https://www.ikea.cn/cn/zh/p/enhet-an-na-te-jing-gui-mei-hei-se-s89396578/','中国官方商城显示价')
+src('shower','TOTO TBW12400C 恒温淋浴柱，手持花洒另配','https://www.toto.com.cn/cn/products/categories/faucet/shower/thermostatic/product/TBW12400C.html')
+src('shower_pdf','TOTO TBW12400C 规格PDF','https://www.toto.com.cn/cn/resource/pdf/norm/Shower/TBW12400C.pdf','官方规格PDF')
+src('shower_hand','TOTO官方搭配案例列出 TBW01010C 壁挂式手持花洒','https://reborntotoitems.toto.com.cn/cn/inspiration/detail/27.html')
+src('sink','宜家 LÅNGUDDEN 491.574.81，56×53厘米水槽549元','https://www.ikea.cn/cn/zh/p/langudden-lan-jia-dun-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang-s49157481/','中国官方商城显示价')
+src('kitchentap','宜家 MAJSJÖN 606.104.61 抽拉龙头1299元','https://www.ikea.cn/cn/zh/p/60610461/','中国官方商城显示价')
+src('ceiling','宜家 NYMÅNE 205.675.58 LED吸顶灯399元','https://www.ikea.cn/cn/zh/p/nymane-niu-mo-nai-led-xi-ding-deng-bai-se-20567558/','中国官方商城显示价')
+src('benq','明基 WiT / e-Reading 台灯中国规格','https://www.benq.com.cn/zh-cn/lighting/e-reading-desk-lamp/e-reading/spec.html')
+src('benq_buy','明基 WiT 2023版官方购买入口；未取得有效数字售价','https://www.benq.com.cn/zh-cn/lighting/e-reading-desk-lamp/e-reading/buy.html')
+src('mi_lamp','米家台灯Pro MJTD02YL 官方规格；在售库存待核','https://www.mi.com/lamp-pro/specs')
+src('bedlamp','宜家 NYMÅNE 603.569.88 阅读壁灯149元','https://www.ikea.cn/cn/zh/p/nymane-niu-mo-nai-bi-deng-yue-du-deng-bai-se-60356988/','中国官方商城显示价')
+src('counterlight','宜家 MITTLED 404.554.23 60厘米灯条79.99元；IP20，仅干燥位置候选','https://www.ikea.cn/cn/zh/p/mittled-led-kitchen-worktop-lighting-strip-dimmable-white-40455423/','中国官方商城显示价')
+src('nightlight','米家夜灯2 MJYD02YL 官方规格','https://www.mi.com/mj-nightlight2/specs')
+src('hvac','海尔云睿Pro KFRd-50NW/75EF81 官方参考价5999元，仅设备对照','https://www.haier.com/air_conditioners/20240724_248109.shtml')
+src('hvac_install','海尔空调安装收费说明','https://www.haier.com/support/charges/air_conditioners/','官方售后收费说明')
+src('hotwater','海尔 JSQ30-16MY3LDU1 官方参考价1599元，仅单机对照','https://www.haier.com/water_heaters/rqrsq/20251125_283209.shtml')
+src('dehumidifier','米家智能除湿机22L 中国官方选购页','https://www.mi.com/shop/buy/detail?product_id=22032')
+src('robot','米家扫拖机器人5水箱版 中国官方选购页','https://www.mi.com/shop/buy/detail?product_id=18340')
+src('monitor','戴尔中国 P2426H 官方显示售价969元','https://www.dell.com/zh-cn/shop/dell-pro-p-24-%E6%98%BE%E7%A4%BA%E5%99%A8-p2426h/apd/210-bvqh/%E6%88%B4%E5%B0%94%E6%98%BE%E7%A4%BA%E5%99%A8','中国官方商城显示价')
+
+items=[]
+def add(id,name,model,qty,unit,base,low,high,basis,category,required,sources,dimensions,rooms,fit,install,includes,excludes,components=None):
+    items.append(dict(id=id,name=name,model=model,quantity=qty,unit=unit,required=required,category=category,
+       unit_price_cny=base,low_unit_price_cny=low,high_unit_price_cny=high,total_cny=round(qty*base,2),low_total_cny=round(qty*low,2),high_total_cny=round(qty*high,2),
+       price_basis=basis,price_checked_date=DATE,price_is_binding_quote=False,source_ids=sources,sources=[S[k] for k in sources],
+       dimensions=dimensions,room_ids=rooms,model_fit=fit,installation_dependencies=install,included=includes,excluded=excludes,components=components or [],
+       purchase_status='候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单'))
+
+add('A01','400L窄体冰箱','海尔 BCD-400WLHD3B9YAU1 云溪米',1,'台',5999,5999,5999,'官网参考价；非已核实到手报价','appliances',True,['fridge'],
+ {'W_mm':595,'D_mm':600,'H_mm':1906,'capacity_L':400},['R106'],
+ '现模型冰箱占位660×730×2040毫米，机体外廓小于占位；不等于已核定安装净空。抽屉拉出、门铰链开启角、插头和背部散热必须按本机安装图复核。',
+ ['220V/50Hz接地插座，避免与会断电的普通照明回路混接','确认厨房门、电梯轿厢和搬运转角；制造商通风要求优先','400L按当前4人日常采购安排；未来6人长期囤货需求可另评估，主方案不叠加第二冰箱'],
+ '单台设备参考价','配送上楼、安装附材和旧机处置是否包含未确认；不含橱柜')
+add('A02','吸油烟机','海尔 CXW-358-E900T81UD',1,'台',2999,2999,2999,'官网参考价','appliances',True,['hood'],
+ {'W_mm':895,'D_mm':480,'H_mm':636},['R106'],
+ '需将895毫米烟机外宽和安装高度落入橱柜立面；当前图示不代表吊柜已开好孔。',
+ ['预留电源、可拆烟管及止逆阀检修','复核烟道接口、管径/路径和公共烟道阻力；28m³/min等标称值不能替代系统校核','厂家安装图确认灶面至烟机的高度及检修空间'],
+ '烟机设备参考价','烟管加长、止逆阀、墙孔、吊柜改造及特殊安装未确认')
+add('A03','双眼燃气灶','海尔 JZT-Q2BE6(12T)',1,'台',999,999,999,'官网参考价；天然气版本','appliances',True,['gas'],
+ {'panel_W_mm':720,'panel_D_mm':420,'cutout_W_mm':650,'cutout_D_mm':350,'H_mm':None,'gas_type':'12T天然气'},['R106'],
+ '必须拿本机开孔模板校对台面，650×350毫米不能按模型中灶具外轮廓施工；玻璃台面边距和圆角按模板。',
+ ['确认实际气源为12T天然气；页面额定燃气压力2000Pa','持证燃气安装，气密试验；橱柜进风、阀门、报警切断按当地气源方案','尚无气源确认，不能购买液化气版顶替'],
+ '灶具设备参考价','燃气开户/改管、连接管与阀件及安装以书面报价为准')
+add('A04','15套洗碗机','米家智能独嵌两用洗碗机15套 S1',1,'台',3499,2800,4500,'预算预留；本次未取得可核实中国现价','appliances',True,['dish'],
+ {'W_mm':600,'D_mm':575,'H_mm':770,'minimum_opening_W_mm':600,'minimum_opening_D_mm':575,'minimum_opening_H_mm':770,'door_open_projection_mm':None},['R106'],
+ '现模型仅有520毫米宽洗碗机示意面板，不是600毫米净柜格；本型号须在原厨房边界内调整柜格后采购。需厂家复核软管占位和门完全放平后的前方空间。',
+ ['官网安装说明要求右侧排气口不遮挡，背下部按图留100×80毫米管线孔','邻柜可检修接地10A插座，进水三通和带洗碗机接口存水弯；插座不藏在不可拔插的机背','厂家说明分有/无顶板安装条件；现场完成面净高和柜脚一起复核','橱柜深化未通过前不得按600毫米外廓硬挤安装'],
+ '设备预算；官方说明列标准首装及部分标准附件','柜格调整、开孔、超长水管/电线、特殊安装和当地最终服务项目需另询价')
+add('A05','洗衣机+热泵烘干机','海尔 G10090BD12S + GA120-58E1U1',1,'组',7198,7198,7198,'两台官网参考价相加：2899+4299','appliances',True,['washer','dryer'],
+ {'washer_mm':{'W':595,'D':612,'H':850},'dryer_mm':{'W':595,'D':613,'H':850},'washer_kg':10,'dryer_kg':12},['R206'],
+ '现方案洗衣位涉及原非湿区/楼梯区域，启用要先完成建筑方案及给排水、防水审批和深化。两台同宽不代表可以直接叠放。',
+ ['取得海尔针对这两个准确型号的叠放兼容与专用连接件确认；否则并排布置并重核柜位','冷热环境、维护通风、进水龙头、存水弯/排水和漏水报警共同深化','两台分别设置合规接地电源，核对同时运行负荷；烘干机选集水盒或厂家允许的排水方式','地面找平承载/振动、吊柜检修和搬运净空必须复核'],
+ '洗衣机2899、烘干机4299设备参考价','叠放架、排水改造、防水、专用插座和附加安装未计入设备价',[
+ {'name':'10kg洗衣机','model':'G10090BD12S','quantity':1,'displayed_reference_price_cny':2899},
+ {'name':'12kg热泵烘干机','model':'GA120-58E1U1','quantity':1,'displayed_reference_price_cny':4299}])
+add('A06','客厅75英寸电视','海尔 75D50',1,'台',4000,3200,5000,'设备预算3500+壁挂架/标准安装预留500；未核实当前售价','appliances',True,['tv'],
+ {'without_stand_mm':{'W':1667,'D':83,'H':964},'with_stand_mm':{'W':1667,'D':330,'H':998}},['R104'],
+ '模型屏幕1720毫米宽、电视柜2300毫米宽；本机宽1667毫米小于两者，但固定位置、墙体锚固和观看距离仍待复尺。2024年产品页仍可查，在售库存待核，不标为2026新款。',
+ ['确认墙体类型、支架孔距和承重；预埋电源/网线及可更换HDMI管','不为电视移动原有门窗；现场坐姿确定屏幕中心','若用脚架放在400毫米深电视柜上，330毫米脚架深度仍需留前后安全余量'],
+ '单台设备与普通壁挂安装预算','特殊墙体加固、饰面修复、音响与机顶盒；设备价不是官方报价')
+add('A07','普通节水坐便器含缓降座圈','TOTO CW188SET305#XW / CW188SET400#XW + TC400CVK-1，按每间实测坑距选一个版本',5,'套',2500,1800,3500,'含本体、普通座圈及基础安装件的预算；厂家未公开有效现价','sanitary',True,['toilet','toilet_adjust'],
+ {'L_mm':722,'W_mm':420,'H_mm':655,'pit_mm_options':[305,400]},['R102','R103','R203','R205','R302'],
+ '5间卫浴各1套。没有坑距实测，不能统一下单305或400版本。规格PDF内存在SET/SEBT字样差异，订单编码须由TOTO按中国在售对应型号书面确认。',
+ ['按完成墙面测排污中心与左右/前方净空、现有管型和供水压力','官网CW188SEBTM是335–400毫米可调，不能假定覆盖305毫米','官网本体不含便座；核对TC400CVK-1座圈和D104N安装组件兼容及实际包含内容','若将来加智能盖板，另核防溅接地电源、盖板长度和水压，本期不重复计智能整机'],
+ '预算已预留本体、缓降座圈和常规密封安装附件','排污移位、地坪破拆重做防水及智能盖板不含')
+add('A08','五间卫浴台盆柜组合','宜家 ENHET/TVÄLLEN 396.159.36 ×4 + 996.160.42 ×1',1,'组',6400,5900,6900,'官网显示组合价5400；另预留1000元把手、支腿/墙固和附件','sanitary',True,['vanity64','vanity44'],
+ {'four_large_mm':{'W':640,'D':430,'H':650},'one_small_mm':{'W':440,'D':430,'H':650}},['R102','R103','R203','R205','R302'],
+ '主卫、父母、儿童、妹妹各64厘米；公卫44厘米。小于模型约650–690毫米主盆柜和600毫米公卫柜外宽，但安装完成高度、门/抽屉、窗洞和墙体承重仍需复尺。',
+ ['柜体为木质板材，置于有效干湿分区一侧，不受淋浴直冲；不能称为全防水柜','配套RÄNNILEN下水管，复核墙/地排位置及抽屉避管空间','墙挂需合适基层与锚固；必要时用配套支腿且仍按说明固定到墙','650毫米是组合自身高度，不是完成面离地台盆高度'],
+ '4×1100+1×1000的柜体、陶瓷盆和配套下水管；额外附件预算1000','龙头另列A09，镜柜另列A10；重做墙体和防水不在商品价内',[
+ {'model':'396.159.36','quantity':4,'price_cny':1100,'size_mm':[640,430,650]},
+ {'model':'996.160.42','quantity':1,'price_cny':1000,'size_mm':[440,430,650]},
+ {'model':'把手/支腿/墙固附件待随柜选择','quantity':1,'allowance_cny':1000}])
+add('A09','台盆单孔龙头','宜家 VOXNAN 沃斯南 605.332.60 镀铬',5,'只',599,599,599,'中国官方商城显示价；杭州库存待确认','sanitary',True,['basintap'],
+ {'H_mm':180,'included_hose_length_mm':500,'hose_connector':'G1/2'},['R102','R103','R203','R205','R302'],
+ '配陶瓷盆预留孔，出水落点须与TVÄLLEN盆实物样板核对，避免水流冲近盆沿。',
+ ['接冷热水角阀；官方含50厘米G1/2连接软管','确认供水压力及角阀检修；选择冷启动降低日常误开热水'],
+ '龙头与官网所列连接软管','角阀、安装人工、加长软管及柜体开孔未确认')
+add('A10','卫浴镜柜','宜家 ENHET 安纳特 893.965.78 煤黑',5,'只',399,399,399,'中国官方商城显示价','sanitary',True,['mirror'],
+ {'W_mm':600,'D_mm':170,'H_mm':750},['R102','R103','R203','R205','R302'],
+ '需复核每间墙面。尤其公卫镜柜600毫米宽会宽于440毫米台盆，必须校核北窗、开门和门扇；不足则改窄镜，按替换差额调预算。不是已确认五处可装。',
+ ['牢固墙挂并检查瓷砖后基层','镜柜前开门不能碰窗、龙头或人脸活动区','镜前补光应在照明深化中配适湿区产品，本镜柜无内置灯'],
+ '5个镜柜显示价','螺栓适配墙体、安装人工和镜前灯')
+add('A11','四处恒温淋浴套组','TOTO TBW12400C + L/G系列兼容手持花洒；TBW01010C为待核兼容候选',4,'套',3500,2500,5000,'整套预算；无厂家公开现价，不把主柱价当完整套价','sanitary',True,['shower','shower_pdf','shower_hand'],
+ {'overall_mm':None,'minimum_dynamic_pressure_MPa':0.1,'maximum_static_pressure_MPa':0.5},['R102','R203','R205','R302'],
+ '玄关公卫不增设淋浴。四处按原湿区保留；完整外形、冷热管中心距、顶喷到顶高度和玻璃门碰撞尚待安装图核定。',
+ ['TBW12400C页面注明手持花洒另配，供货单必须包含兼容手持、软管和连接件','测最不利三楼同时用水时动态压力，并核热水器与恒温阀适配','按型号说明定位冷热水口；不得用不明管中心距预先封砖'],
+ '主柱、兼容手持和软管、基本安装附件的套装预留','淋浴隔断玻璃、挡水/地漏、防水、浴缸及供水增压系统另计')
+add('A12','厨房不锈钢单槽+抽拉龙头','宜家 LÅNGUDDEN 491.574.81 + MAJSJÖN 606.104.61',1,'组',1848,1848,1848,'中国官方商城显示价：549+1299','sanitary',True,['sink','kitchentap'],
+ {'sink_outer_W_mm':560,'sink_outer_D_mm':525,'bowl_W_mm':500,'bowl_D_mm':400,'bowl_depth_mm':180,'sink_cutout_mm':[540,510],'minimum_cabinet_width_mm':600,'tap_H_mm':334,'tap_hole_diameter_mm':[34,37]},['R106'],
+ '采用500×400毫米内盆方便锅具清洗；模型水槽仍是示意，600毫米柜体与540×510毫米台面开孔须由橱柜深化在原厨房内确认。',
+ ['水槽官网含LILLVIKEN排水及洗碗机接口；按说明连接并做满水、排水渗漏试验','抽拉龙头重锤和软管应有自由行程，不被垃圾桶/洗碗机接口卡住','龙头可安装台面厚度≤55毫米；台面前后实边、龙头孔与水槽开孔保持厂家要求间距'],
+ '单槽+配套下水549元，抽拉龙头1299元','安装人工、角阀、胶、台面加工和洗碗机配管改造')
+add('A13','30个基础灯位供货预算','干区宜家 NYMÅNE 205.675.58；厨房/卫浴/户外按防护分区待选型',1,'组',12482,10000,16000,'18×399官网显示价 + 厨房2×400、卫浴5×400、户外5×500设计预留','lighting',True,['ceiling'],
+ {'dry_ceiling_diameter_mm':450,'dry_ceiling_H_mm':80,'dry_ceiling_W':28,'dry_ceiling_lm':1800,'dry_ceiling_CCT_K':2700,'dry_ceiling_CRI':90},['全屋P02基础灯位'],
+ 'P02共30个基础灯位：干区18、厨房2、卫浴5、户外5。此数量来自点位图，不能据此断言全屋照度已达标；1800流明款用于一般干区，客餐厅等需逐区照度计算后替换/补充。',
+ ['干区候选不能替代湿区和户外。厨房选择可清洁封闭灯，卫浴按实际安装区位确认所需防护；户外优先合格IP65防雨灯具并核安装条件','NYMÅNE页面对调光存在互相矛盾表述，本预算不承诺调光兼容；先核当前中国版本说明书','5个室外灯须独立核防水接线、保护接地、回路保护和控制；不能买普通室内灯充数','镜前补光/柜下任务照明与起夜灯单独列A19，不能与本项30个基础灯位混算'],
+ '30个基础灯位的灯具及湿区/户外选型预留；仅干区18盏有当前明确产品候选','开关插座/布线和安装人工由施工总包单独报价；不含以下另列桌灯及床头灯',[
+ {'name':'干区基础灯','model':'NYMÅNE 205.675.58','quantity':18,'unit_price_cny':399,'total_cny':7182,'basis':'官方显示价'},
+ {'name':'厨房封闭型基础灯','model':'待按厨房安装区位、防护与照度确定','quantity':2,'unit_price_cny':400,'total_cny':800,'basis':'预算预留'},
+ {'name':'卫浴基础灯','model':'待按湿区安装分区确定防护和中国合规型号','quantity':5,'unit_price_cny':400,'total_cny':2000,'basis':'预算预留'},
+ {'name':'户外花园基础灯','model':'合格IP65候选待定，按实际雨淋/接线条件核对','quantity':5,'unit_price_cny':500,'total_cny':2500,'basis':'预算预留'}])
+add('A14','六盏功能工作台灯','明基 WiT 2023/e-Reading 圆底座款×3；米家台灯Pro MJTD02YL×3',1,'组',6300,4800,8100,'明基3×1600、米家3×500均为预算预留；本次未核实有效现价','lighting',True,['benq','benq_buy','mi_lamp'],
+ {'benq_mm':{'W':590,'D':220,'H':625},'benq_CRI_min':95,'benq_max_W':18,'mi_max_W':12.5,'mi_CRI':90,'mi_lm':700,'mi_overall_mm':None},['R303','R304','R108','R204','R301'],
+ '书法1940毫米桌放2盏WiT分区照明，毛线工作1650毫米桌1盏照实际工作区；操盘、妹妹及未来儿童桌各1盏米家。并非1盏保证整张大桌全部达标。',
+ ['明基官方90厘米宽500lux是特定安装高度的测试条件，现场按书写手别、纸面反射与照度测量摆灯','米家MJTD02YL规格仍可核查但当前中国库存待确认，若停产换同等显色/稳定性产品并复核报价','操盘桌灯避开显示器反光和支架运动；儿童桌灯电线固定避免拖拽','花房毛线区必须为干燥室内工作区域，普通台灯不放浇水或雨淋处'],
+ '6盏桌灯设备预留，配原厂电源适配器','额外夹座/支架、智能网关、家具和线路',[
+ {'model':'BenQ WiT 2023 圆底座款','quantity':3,'unit_allowance_cny':1600,'assignment':'书法2+编织1'},
+ {'model':'米家台灯Pro MJTD02YL','quantity':3,'unit_allowance_cny':500,'assignment':'操盘1+妹妹1+未来儿童1'}])
+add('A15','六盏床头阅读灯及光源','宜家 NYMÅNE 603.569.88 白色 + 兼容可调光GU10灯泡',6,'套',189,174,229,'灯体官方149元；每只可调光GU10灯泡预算40元','lighting',True,['bedlamp'],
+ {'lamp_H_mm':110,'lamp_diameter_mm':70,'cable_length_mm':2500,'maximum_bulb_W':8.5},['R101','R201','R204','R301'],
+ '父母两侧2、夫妻两侧2、妹妹1、未来儿童1；壁挂高度以床头实际坐姿与伸手距离定，避免灯体进入通道。',
+ ['只能搭配可调光GU10光源且不超过8.5W，预算光源不是已定厂牌SKU','配有电线，床头插座与开关操作距离在点位深化中补足','宜家不含墙面安装螺钉，按基层配锚固；儿童位置固定软线'],
+ '灯体6×149与6只合适光源预算240','床头电源插座、墙内线路和安装人工')
+add('A16','四个淋浴间暖风/排风及公卫排风','型号待风量、吊顶高度、防护分区核算后确定',1,'系统',6500,4500,9000,'设计阶段系统预算，非厂家报价','systems',True,[],
+ {'heated_bathrooms':4,'powder_rooms':1,'fan_size_mm':None},['R102','R103','R203','R205','R302'],
+ '按4处淋浴卫浴+1处公卫计；此项含风机，不应重复计到空调室内机数量。',
+ ['按排风管长、阻力、补风及实际湿区选型，确认风量/噪声','暖风取电负荷、专用控制、止逆和排至合法室外的路径一起深化','不与烟道混用，不向封闭采光井任意排湿；不得占窗洞'],
+ '暖风/排风设备、常规风管/止逆/安装的系统预留','异常长管路、穿结构孔、墙体许可和新增吊顶；与装修合同同范围须扣重')
+add('A17','全屋冷暖空调系统','主方案：卧室独立变频分体+公共区风管机；准确机型与容量待负荷设计',1,'系统',55000,40000,90000,'设备+常规安装系统预留；非按面积套选定容，未获得项目报价','systems',True,['hvac','hvac_install'],
+ {'cooling_load_kW':None,'heating_load_kW':None,'indoor_unit_count':None,'outdoor_unit_count':None},['全屋'],
+ '三层分区独立控制；选择分体+局部风管的维修和运行逻辑。多联机是同预算范围询价备选，不能同时相加。',
+ ['设计单位逐房核朝向、窗墙、遮阳、顶层屋面、人员/设备、渗透和使用时段冷热负荷','复核室外机合法安装位置、散热短路/邻户噪声、检修、冷媒等效管长与高差、冷凝水可排性','海尔KFRd-50NW/75EF81官网5999元只作某单机参考，不作为全屋负荷或总价乘数','如要求冬季地暖、新风或全屋除湿，另做替代/增项，不暗含在主机价'],
+ '室内外设备、常规管线/控制、标准安装调试的阶段预留','地暖、新风、非常规结构/外立面工程；浴室排风已在A16列，不重复')
+add('A18','三层生活热水系统','型号待气源、同时用水、动态压力与回水方案核算后确定',1,'系统',18000,12000,30000,'热源/控制/常规设备安装系统预算；非厂家报价','systems',True,['hotwater'],
+ {'design_simultaneous_showers':None,'required_flow_L_per_min':None,'storage_L':None},['R102','R103','R106','R203','R205','R302'],
+ '按四个淋浴点和五个洗手盆等点位校核，但不是假定四淋浴必然同时满流。不得将单台16L燃气热水器标为已能满足全屋。',
+ ['现场确认天然气是否到户、供气容量/合法排烟；不具备时比较空气能储热方案，主预算只算一个系统','按冬季进水温度、同时需求、最高层动态压力和管线长度确定热源/储热/增压是否需要','长支路优先保温与按需回水控制，避免全天回水浪费；回水路径与恒温花洒适配','海尔JSQ30-16MY3LDU1官网1599元仅单机价格示例，不是本项目系统报价'],
+ '选定一种热源后的常规设备、必要控制/保温/回水与安装调试预留','若装修给水管线合同已含相同管道/保温需扣重；燃气开户、显著增容和外立面许可另核')
+add('A19','镜前、厨房台面及起夜补光','卫浴镜前灯待防护区位选型；MITTLED 404.554.23干区候选；米家夜灯2 MJYD02YL',1,'组',2410,1700,3600,'镜前5×250+厨房台面补光800+6个夜灯×60；均为整组预算，其中灯条有79.99元/条公开对照价','lighting',True,['counterlight','nightlight'],
+ {'mirror_light_mm':None,'counter_candidate_mm':{'L':600,'W':20,'H':14},'nightlight_mm':{'diameter':80,'H':62}},['R102','R103','R203','R205','R302','R106','卧室至卫浴干区通道'],
+ '这组为原30个基础灯位之外的功能补光预留：镜前5组、厨房拟2.4米灯条、干燥通道低位夜灯6只；位置与长度须随最终柜体/照度深化确认。',
+ ['镜前灯必须按湿区分区选择防护等级和合规固定接线，不能用IP20厨下灯替代','MITTLED 60厘米条5.5W、2700K、CRI>90、IP20，只能作经确认无溅水的干燥台面位置候选；水槽上方等位置另换满足实际防护条件产品','按4条共22W选择兼容且容量足够的TRÅDFRI驱动器及VÅGDAL/FÖRNIMMA线材，驱动器不埋死；800元组价包含配套设备预留','MJYD02YL使用3节AA电池，作为便利夜灯；安装于干区，不能替代应急照明，电池固定防儿童接触'],
+ '5组镜前灯预算1250；厨房灯条/驱动/连接线预算800；6只感应夜灯预算360','固定布线及灯具安装归电气施工；型号替换后重核差额',[
+ {'name':'卫浴镜前补光','quantity':5,'unit_allowance_cny':250,'total_cny':1250,'model':'按安装区位防护待定'},
+ {'name':'厨房台面补光含驱动/线材','quantity':1,'total_cny':800,'model':'MITTLED 404.554.23 ×4仅干区候选；湿区替换'},
+ {'name':'低位感应夜灯','quantity':6,'unit_allowance_cny':60,'total_cny':360,'model':'米家夜灯2 MJYD02YL'}])
+add('O01','可移动除湿机','米家智能除湿机22L 中国版',1,'台',1499,1100,1900,'可选预算；本次未核实准确SKU当前售价与中国版完整外形','optional_appliances',False,['dehumidifier'],
+ {'rated_label_L_per_day':22,'overall_mm':None},['R304','R206'],
+ '毛线干燥储藏/梅雨期轮换使用；22L为标称量，实际杭州低温高湿条件能力需看测试温湿度，不当全屋除湿保证。',
+ ['接地电源，机器四周进出风和水箱取出空间按中国版说明书','默认水箱手动倒水；若连续排水，须合法排水点和防倒灌，不能随意向花房地面滴水'],
+ '1台设备预留','连续排水管路改造与全屋除湿系统')
+add('O02','扫拖机器人','米家扫拖机器人5 水箱版',1,'台',3299,2600,4500,'可选预算；中国官网确认产品名称，未核实当前到手价','optional_appliances',False,['robot'],
+ {'robot_mm':None,'base_mm':None},['R104'],
+ '先在1层安排一套水箱基站；多层靠人工搬运机器，不能假定机器人会乘电梯或自动跨层。无完整尺寸前不把基站封入柜。',
+ ['实测基站外廓、前方驶出净空和开盖取水高度','水箱版只需合适电源与人工补水倒水，不增未批准的上下水','验证门槛、地毯和家具底部净高，电梯门及高差区域做防跌落和边界测试'],
+ '1台机器和水箱版基站预留','上下水套件、额外楼层基站和耗材续购')
+add('O03','操盘显示器与UPS组合','Dell Pro P 24 P2426H ×3；UPS待实际功率与运行时间选型',1,'组',5407,4300,6900,'显示器官方969×3；UPS预算2000、线材/支架预留500','optional_office',False,['monitor'],
+ {'monitor_body_mm':{'W':538.64,'D':50.03,'H':314.23},'stand_depth_mm':181.75,'vesa_mm':[100,100]},['R108'],
+ '爸爸桌1480×800毫米。三个横屏并列宽1615.92毫米超出桌宽；建议中间横屏+两侧竖屏，机身理论宽1167.10毫米另加间隙，仍需按支架、旋转和坐姿复核。',
+ ['P2426H支持旋转，1080p/120Hz；确认电脑有三个独立视频输出或合适扩展坞，不把USB-C充电口当视频菊链','UPS按电脑、3屏和网络设备实际W、目标约10分钟关机续航及插头规格选中国合规在售型号','UPS不带空调、打印机大负载或电梯；桌下留散热和维护空间','若原操盘电脑/显示器可复用，整项可推迟；本项不包含新电脑'],
+ '3台显示器显示价2907、UPS预留2000、线材或必要支架预留500','交易软件订阅、电脑、网络月租；UPS型号尚未确定，金额为独立预算')
+
+data={
+ 'schema_version':'1.0','title':'6号户型家电、卫浴与照明候选清单','checked_date':DATE,'currency':'CNY',
+ 'location_assumption':'杭州为本轮暂定询价地区，未获用户项目地址确认；未查询登录账号后的杭州区域库存/配送价。',
+ 'status':'可用于比价与深化；不是最终采购单、施工放样图或已取得报价。',
+ 'room_basis':'施工交接数据.json rooms + unit6-professional-scene.json 模型占位；模型不等于现场净尺寸。',
+ 'quantity_basis':{'toilets':5,'basins':5,'showers':4,'bathroom_room_ids':['R102','R103','R203','R205','R302'],'no_shower_room':'R103','base_lights':30,'base_lights_breakdown':{'dry_indoor':18,'kitchen':2,'bathroom':5,'outdoor':5},'task_lights':6,'bedside_lights':6,'mirror_lights':5,'counter_light_provisional_length_m':2.4,'night_lights':6},
+ 'pricing_rules':[
+ '官网参考价是制造商公开参考，不是商家成交价；官方商城显示价不代表杭州库存、运费及服务已确认。',
+ '未核实公开售价的数字明确写预算预留；没有把旧新闻首发价、国补价、会员价或其他地区币种当现价。',
+ '基础预算只计每项主选一次；所有备选均不进入合计。未来家庭可达6人只是功能预留，不解释为当前有6名住户。',
+ '低/高值为本方案估算或预留区间，非市场统计上下限；对有公开价格的单品低/中/高相同，避免编造折扣。',
+ '电梯、硬装、水电布线、结构消防、家具定制、玻璃隔断及园林不在本子表，主总预算应另列。',
+ 'A16/A17/A18为机电系统全包范围预留，与总包设备安装和管路重合部分必须扣除，不能机械双计。',
+ '基础灯位对应灯具数，不等于开关插座面板采购数；面板数量由回路/双控/设备插座深化另算。'],
+ 'items':items,
+ 'alternatives_not_in_totals':[
+ {'name':'450毫米窄体洗碗机调查','model':'海尔 EDW123286GH','dimensions_mm':{'W':450,'D':645,'H':910},'decision':'虽然窄，但910毫米机高不能装入现约880毫米台面下；不选入主预算，也不认为现520毫米面板等于450毫米可用柜格。','source_ids':['dish450']},
+ {'name':'较新75英寸电视备选','model':'海尔 75H8D','official_reference_price_cny':7499,'body_mm':{'W':1667,'D':68,'H':954},'decision':'若75D50当地缺货，考虑该2026款；仅设备参考价增3999元，安装另沿用预留，不将两台电视相加。','source_ids':['tv_alt']},
+ {'name':'空调替代方案','model':'多联机，具体系列待负荷和系统比较','decision':'与独立分体+公共区风管方案二选一，不叠加预算。'},
+ {'name':'无天然气时热水替代方案','model':'空气能储热，容量待设计','decision':'替代主热源而非新增第二套全额系统；复核设备重量、噪声、散热、机位和电力。'}],
+ 'sources':list(S.values())}
+
+def totals(rows):
+ return {k:round(sum(r[k] for r in rows),2) for k in ('low_total_cny','total_cny','high_total_cny')}
+data['totals']={
+ 'required_goods_excluding_systems':totals([r for r in items if r['required'] and r['category']!='systems']),
+ 'required_system_allowances':totals([r for r in items if r['required'] and r['category']=='systems']),
+ 'required_all':totals([r for r in items if r['required']]),
+ 'optional':totals([r for r in items if not r['required']]),
+ 'required_plus_optional':totals(items),
+ 'by_category':{c:totals([r for r in items if r['category']==c]) for c in sorted(set(r['category'] for r in items))}}
+# Keep later user-directed value-plan research when regenerating the original register.
+existing_path=OUT/'appliances.json'
+if existing_path.exists():
+    existing=json.loads(existing_path.read_text(encoding='utf-8'))
+    if 'valuePlan' in existing:
+        data['valuePlan']=existing['valuePlan']
+(OUT/'appliances.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
+lines=['# 6号户型家电、卫浴与照明采购研究',f'核查日期：{DATE}｜人民币｜杭州暂定询价地区。','',
+ '本表给出具体候选型号和需要补齐的安装条件，可用于发给商家逐项询价。它不能代替现场复尺和厂家安装图。共5个坐便、5套台盆、4处淋浴；公卫不新增淋浴。配色采用白色、米色、浅木配镀铬五金，统一、耐看、便于维护。','',
+ '官网“参考价”、官方商城“显示价”和“设计预算”分开写明。未使用国补价、过期活动价或境外产品价格。宜家页面未选具体配送地址时出现库存提示，不可解释为杭州有货；所有当地库存与含安装价格均待确认。','',
+ '## 预算汇总','', '|范围|低位预留|主方案|高位预留|','|---|---:|---:|---:|']
+for k,label in [('required_goods_excluding_systems','必配商品（家电、卫浴、灯具）'),('required_system_allowances','机电系统（浴室通风、空调、生活热水）'),('required_all','本表必配合计'),('optional','可选除湿、扫拖与操盘显示器/UPS'),('required_plus_optional','必配+全部可选')]:
+ t=data['totals'][k];lines.append(f"|{label}|¥{t['low_total_cny']:,.0f}|¥{t['total_cny']:,.0f}|¥{t['high_total_cny']:,.0f}|")
+lines+=['','有公开售价的单品按当前显示/参考价格计算，未臆造低折扣。区间不是市场成交统计。系统预留要与施工总包设备安装及管路范围对账；本表合计不是全屋装修总价。','',
+ '## 下单前必须解决的尺寸','',
+ '- 冰箱现模型占位660×730×2040毫米，选595×600×1906毫米的400L海尔，先满足窄体外廓；开门、散热和搬运仍需厂家图。',
+ '- 现洗碗机只有520毫米宽示意面板。主选S1需600毫米净柜格，必须先在原厨房边界内调整柜格。调查到的450毫米海尔EDW123286GH高910毫米，不能据此塞进现约880毫米台面。',
+ '- 电视机身宽1667毫米，小于模型1720毫米屏幕和2300毫米电视柜；最终位置取决于原门窗、墙体和坐姿。',
+ '- 五间坐便坑距尚未实测；三楼水压、恒温花洒和热水系统必须一起校核。',
+ '- 现模型洗衣功能占用原非湿区/楼梯区域，必须先完成建筑方案确认、防水与排水深化。洗烘叠放还需厂家确认两个准确型号的连接套件兼容性。',
+ '- 操盘桌1480毫米宽，三台24英寸横屏宽1615.92毫米，超宽。中间横屏、两侧竖屏的机身理论总宽1167.10毫米，须再加缝隙并复核支架。','',
+ '## 逐项采购与安装条件','']
+for r in items:
+ lines += [f"### {r['id']} {r['name']}（{'必配' if r['required'] else '可选'}）",'',f"**型号：{r['model']}**",'',
+ f"数量：{r['quantity']}{r['unit']}；单价/每组预留 ¥{r['unit_price_cny']:,.0f}；小计 **¥{r['total_cny']:,.0f}**。{r['price_basis']}。",'',
+ '规格：'+json.dumps(r['dimensions'],ensure_ascii=False)+'。其中null表示本轮未核实，不能用于预埋或开孔。','',
+ '与原模型的关系：'+r['model_fit'],'',
+ '安装依赖：']
+ lines += ['- '+x for x in r['installation_dependencies']]
+ lines += ['', '本项包含：'+r['included']+'。','不包含/待核：'+r['excluded']+'。']
+ if r['components']:
+  lines += ['', '组内明细：']+['- '+json.dumps(x,ensure_ascii=False) for x in r['components']]
+ if r['sources']:
+  lines+=['','依据：'+'；'.join(f"[{s['title']}]({s['url']})" for s in r['sources'])+'。']
+ else:
+  lines+=['','依据：项目功能数量的设计估算；没有可核实厂家报价或最终型号。']
+ lines+=['']
+lines+=['## 备选与未纳入主预算的方案','']
+for a in data['alternatives_not_in_totals']:
+ lines += [f"- **{a['name']} / {a['model']}**：{a['decision']}"+(' 来源：'+'；'.join(f"[{S[k]['title']}]({S[k]['url']})" for k in a.get('source_ids',[])) if a.get('source_ids') else '')]
+lines+=['','## 发给商家的逐项询价要求','',
+ '逐项回复完整中国型号/颜色/版本、含税价格、杭州配送与上楼费、有效期、交货期、厂家保修、随箱配件、必需另购配件及安装服务范围；附准确安装图、净开孔、散热/门开启尺寸和电源给排水要求。替换型号要做尺寸与性能对照，不接受只写“同档次”或只报套餐总价。',
+ '', '请先完成厨房柜格、卫生间坑距、洗烘合法位置、室外机机位与热水设计，再冻结设备清单。先有安装图再让柜厂开孔，避免设备到场后切柜、挪排水和破坏防水。','',
+ '照明按30个基础灯位计，工作台灯6盏、床头6盏另计。另已给A19功能补光预算：镜前5组、厨房暂定2.4米灯条含驱动、低位夜灯6只。湿区/户外型号待防护和照度核定；开关插座与控制数量须在电气深化时逐一落实，不能用现有示意点位总数直接下单所有面板。','',
+ '此研究没有进行下单、预约安装或联系商家。']
+if 'valuePlan' in data:
+    lines[1:1]=['','**本文件保留最初来源研究，最新推荐请看 [毛坯长期自住价值版](appliances-value.md)。不要把本文件原始合计当作当前主预算。**','']
+(OUT/'appliances.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+print(json.dumps(data['totals'],ensure_ascii=False,indent=2))

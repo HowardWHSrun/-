@@ -1,141 +1,22 @@
 {
-  "version": "P02",
-  "fileCount": 74,
+  "version": "P02 + Procurement V1",
+  "fileCount": 100,
+  "note": "目录不含自身与files.html；原P02校验清单仍对应P02原始文件。",
   "files": [
+    {
+      "path": "index.html",
+      "bytes": 4085,
+      "sha256": "e3d5efe0021b9e60405a4a54d7a5acebfa85cab81277243118c6ea9ea999ccca"
+    },
+    {
+      "path": "procurement.html",
+      "bytes": 188894,
+      "sha256": "a978623bfa38b0624f7fc825f4d63125ed6e8c44d9199dce7d8e4cbf0afb6639"
+    },
     {
       "path": "交付目录与版本说明.txt",
       "bytes": 3414,
       "sha256": "558f3a1f8a5b35e3579489e3e2541d132e8e770a0287769aa7408c944b6f0125"
-    },
-    {
-      "path": "开始查看.html",
-      "bytes": 2939,
-      "sha256": "172202a21e80fab9fc69a055071b762407b662eecc475c20a739c9cade09df86"
-    },
-    {
-      "path": "打开说明.txt",
-      "bytes": 465,
-      "sha256": "fb94a24fceeec0c44089c9f1515d81392bc02f273fabbbc7c36f579208bccc85"
-    },
-    {
-      "path": "文件校验清单.sha256",
-      "bytes": 7705,
-      "sha256": "363328ee13bd2f7e10b186223042e32cda2db81a23991275549d11b973825932"
-    },
-    {
-      "path": "设计图册.pdf",
-      "bytes": 39394814,
-      "sha256": "6b89c4fce322b98a12a0810112f16d8266a1d404f59c140d4d694abe8d35f002"
-    },
-    {
-      "path": "项目总结与施工交接说明.md",
-      "bytes": 67411,
-      "sha256": "3ddd897fdce9a9ff7bfd62fda7fe679a74b55e406ee2aa1dcd4279ecf67f0533"
-    },
-    {
-      "path": "项目总结与施工交接说明.txt",
-      "bytes": 75311,
-      "sha256": "586456fd812e7f441c176e2f7eb19edf4f897c741dd277a280e5baeaffb6182a"
-    },
-    {
-      "path": "漫游/住宅漫游.html",
-      "bytes": 1259366,
-      "sha256": "bc4d03c14133f508eabe01d555ab33bfe9d11e00bd8af843894b14d7ae162448"
-    },
-    {
-      "path": "漫游/离线构建记录.json",
-      "bytes": 266,
-      "sha256": "8d0e01b4858408e36357df095de99af00ddc558260253762c3693707b193dcae"
-    },
-    {
-      "path": "漫游/第三方许可.txt",
-      "bytes": 1152,
-      "sha256": "66f89be78ae6b84af546d2e0330e16767a41984771d79c57c4d738d5cc550c66"
-    },
-    {
-      "path": "模型/方案数据.json",
-      "bytes": 512817,
-      "sha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b"
-    },
-    {
-      "path": "模型/第6户_三层住宅.blend",
-      "bytes": 7180387,
-      "sha256": "857665d3a5604c8c36c302230415943bc95aadb679d01fb3f8c42e86c64c49a4"
-    },
-    {
-      "path": "模型/第6户_三层住宅.glb",
-      "bytes": 13541136,
-      "sha256": "848e9f95e482cfe832c66321f3604174cad9fba34563f4ac6694c7e650d1f4bc"
-    },
-    {
-      "path": "图纸/P02_1F_方案定位.dxf",
-      "bytes": 56793,
-      "sha256": "2c3d7979fe587906296c98da495a01d09dc7cb555d553776f0fbd62655903629"
-    },
-    {
-      "path": "图纸/P02_2F_方案定位.dxf",
-      "bytes": 44800,
-      "sha256": "a9dfe1ddb3676505776111778bfd9c061f3a267e27a23522ac929eaaf0433ccc"
-    },
-    {
-      "path": "图纸/P02_3F_方案定位.dxf",
-      "bytes": 34755,
-      "sha256": "42362e998aac8dec693df081eda0cd3ac8dd4fc09be53bfbf6131a489cc54d32"
-    },
-    {
-      "path": "清单/F01_现场问题_RFI单.csv",
-      "bytes": 241,
-      "sha256": "f0c5955d4a7e295e79e9a714b94649ad1f99185c9ad17053e2299a6fc3feb766"
-    },
-    {
-      "path": "清单/F02_隐蔽验收单.csv",
-      "bytes": 245,
-      "sha256": "4ec23b2f46cb764206ea3ef9117d85c52efe6e4b5657414c225a87f79d6a694e"
-    },
-    {
-      "path": "清单/F03_材料样板确认单.csv",
-      "bytes": 210,
-      "sha256": "2c1f771b2199cce79bd7139442187bb71b7bac9276b1778b95d0f4392fbb0a8e"
-    },
-    {
-      "path": "清单/F04_专业接口交接单.csv",
-      "bytes": 219,
-      "sha256": "7baed787fb6f1aac2a5bac29534afd97d44ddd0557c01194433720731c84668d"
-    },
-    {
-      "path": "清单/F05_竣工移交清单.csv",
-      "bytes": 247,
-      "sha256": "2629a973c88082d28b073c51a5b3c8e707dc3ad1a59372cabfccb760d399d8b7"
-    },
-    {
-      "path": "清单/F06_室内外高差与排水复测单.csv",
-      "bytes": 301,
-      "sha256": "bab64aaa94fa46ca50715fd09faa3c4becfb52576e6a4a220557396cf95edd38"
-    },
-    {
-      "path": "清单/园林与户外家具清单.csv",
-      "bytes": 2335,
-      "sha256": "e7b4ca2ebd69516db623e2cc5b15d0ac56a2b0e2fdb2bb3a0d25c3987871c98c"
-    },
-    {
-      "path": "清单/待复核及暂停工序.csv",
-      "bytes": 2907,
-      "sha256": "de2c234089459d688d5f022ad8b4a116bbcb69bb90dabc5a0449952b1b156055"
-    },
-    {
-      "path": "清单/方案点位表.csv",
-      "bytes": 8672,
-      "sha256": "ec46c061999ba3dd774fc83bc6ac066006cf5c9439d89dc12ae2fe1df1fd17bd"
-    },
-    {
-      "path": "清单/材料询价清单.csv",
-      "bytes": 4932,
-      "sha256": "ae6aa81d32e506850043de33df9d2d4c11aeb96490ca34296bfb087041d27aa9"
-    },
-    {
-      "path": "清单/门窗定位与竖向状态.csv",
-      "bytes": 8062,
-      "sha256": "41e8a5665a2a0b6aa1aa26678c2a1596aee3732433ec64bb7db030c47ea6ed9d"
     },
     {
       "path": "原图依据/02-10-20B#楼平立面图(1).dwg",
@@ -196,66 +77,6 @@
       "path": "原图依据/核对图/竖向核对说明.md",
       "bytes": 2085,
       "sha256": "2007286e05765476302c475d14d62184e919b59cd82187c0b777f7bef0b309e6"
-    },
-    {
-      "path": "核对记录/P02几何复核.md",
-      "bytes": 4239,
-      "sha256": "5de0a2179b51909f374c42e20cd63eb6cd36b7e3fc194c06cdf60f67db03d690"
-    },
-    {
-      "path": "核对记录/P02几何数据.json",
-      "bytes": 4566,
-      "sha256": "4d43ee523f9fa0b24b8961cdf36c576056fa6abb8e31812e7af8a664575cb76f"
-    },
-    {
-      "path": "核对记录/P02园林组检查.json",
-      "bytes": 88791,
-      "sha256": "b336dcc69403983d8bff0bde01f3f02b6adc7bfe3c20f9cd7f42ea4abe0b7d91"
-    },
-    {
-      "path": "核对记录/P02客厅家具检查.json",
-      "bytes": 1891,
-      "sha256": "9da91152a3d979990963f694b3bdfe4610c826bfdb283ab602d02e3f46725649"
-    },
-    {
-      "path": "核对记录/P02房间与花园通达检查.json",
-      "bytes": 154062,
-      "sha256": "e2733a93f3721832a0839e28f033f9cd03044e558970cb90bfa6529737ec05b3"
-    },
-    {
-      "path": "核对记录/sources.json",
-      "bytes": 9700,
-      "sha256": "3f27eb39922605b1030d92a2a448e345fd118865ca3070c68477083f82fb22e5"
-    },
-    {
-      "path": "核对记录/报告章节索引.json",
-      "bytes": 4944,
-      "sha256": "d1e70f65349f57205bb3b7909677d7ba483247b37f60bde4e3e17264665481e5"
-    },
-    {
-      "path": "核对记录/方案点位与定制清单.json",
-      "bytes": 28526,
-      "sha256": "27b4b6c5d5a88168124c32274f52186248e46600a97795e47de6573f60ef775e"
-    },
-    {
-      "path": "核对记录/施工交接数据.json",
-      "bytes": 88851,
-      "sha256": "dcfe803e72424fff2a13e06849536424f9bc3e98dc07f6c992221243267836ce"
-    },
-    {
-      "path": "核对记录/离线与模型验证/offline-package-pages-results.json",
-      "bytes": 125,
-      "sha256": "0858197e40c35555b8ca94d5d66726698b8e6a632e70e4fdf31df92b19301e51"
-    },
-    {
-      "path": "核对记录/离线与模型验证/professional-model-results.json",
-      "bytes": 232,
-      "sha256": "99b10ffae0a45dd3a4322bc23cd60539c60e0a1de6dd9bf4b1a12c13fe731da6"
-    },
-    {
-      "path": "核对记录/离线与模型验证/unit-six-offline-browser-results.json",
-      "bytes": 7098,
-      "sha256": "2c7f955c623612a2f141007ad34004dca2c406de3fe44c8b941328e239aa2ae7"
     },
     {
       "path": "图册/images/01_完整建筑与庭院鸟瞰.png",
@@ -371,6 +192,316 @@
       "path": "图册/视角清单.json",
       "bytes": 13598,
       "sha256": "d5b03a3a4ce18a8678972b637a06d7bd2d8910db1d64d035bf928738bd3faaea"
+    },
+    {
+      "path": "图纸/P02_1F_方案定位.dxf",
+      "bytes": 56793,
+      "sha256": "2c3d7979fe587906296c98da495a01d09dc7cb555d553776f0fbd62655903629"
+    },
+    {
+      "path": "图纸/P02_2F_方案定位.dxf",
+      "bytes": 44800,
+      "sha256": "a9dfe1ddb3676505776111778bfd9c061f3a267e27a23522ac929eaaf0433ccc"
+    },
+    {
+      "path": "图纸/P02_3F_方案定位.dxf",
+      "bytes": 34755,
+      "sha256": "42362e998aac8dec693df081eda0cd3ac8dd4fc09be53bfbf6131a489cc54d32"
+    },
+    {
+      "path": "开始查看.html",
+      "bytes": 2939,
+      "sha256": "172202a21e80fab9fc69a055071b762407b662eecc475c20a739c9cade09df86"
+    },
+    {
+      "path": "打开说明.txt",
+      "bytes": 465,
+      "sha256": "fb94a24fceeec0c44089c9f1515d81392bc02f273fabbbc7c36f579208bccc85"
+    },
+    {
+      "path": "文件校验清单.sha256",
+      "bytes": 7705,
+      "sha256": "363328ee13bd2f7e10b186223042e32cda2db81a23991275549d11b973825932"
+    },
+    {
+      "path": "核对记录/P02几何复核.md",
+      "bytes": 4239,
+      "sha256": "5de0a2179b51909f374c42e20cd63eb6cd36b7e3fc194c06cdf60f67db03d690"
+    },
+    {
+      "path": "核对记录/P02几何数据.json",
+      "bytes": 4566,
+      "sha256": "4d43ee523f9fa0b24b8961cdf36c576056fa6abb8e31812e7af8a664575cb76f"
+    },
+    {
+      "path": "核对记录/P02园林组检查.json",
+      "bytes": 88791,
+      "sha256": "b336dcc69403983d8bff0bde01f3f02b6adc7bfe3c20f9cd7f42ea4abe0b7d91"
+    },
+    {
+      "path": "核对记录/P02客厅家具检查.json",
+      "bytes": 1891,
+      "sha256": "9da91152a3d979990963f694b3bdfe4610c826bfdb283ab602d02e3f46725649"
+    },
+    {
+      "path": "核对记录/P02房间与花园通达检查.json",
+      "bytes": 154062,
+      "sha256": "e2733a93f3721832a0839e28f033f9cd03044e558970cb90bfa6529737ec05b3"
+    },
+    {
+      "path": "核对记录/sources.json",
+      "bytes": 9700,
+      "sha256": "3f27eb39922605b1030d92a2a448e345fd118865ca3070c68477083f82fb22e5"
+    },
+    {
+      "path": "核对记录/报告章节索引.json",
+      "bytes": 4944,
+      "sha256": "d1e70f65349f57205bb3b7909677d7ba483247b37f60bde4e3e17264665481e5"
+    },
+    {
+      "path": "核对记录/方案点位与定制清单.json",
+      "bytes": 28526,
+      "sha256": "27b4b6c5d5a88168124c32274f52186248e46600a97795e47de6573f60ef775e"
+    },
+    {
+      "path": "核对记录/施工交接数据.json",
+      "bytes": 88851,
+      "sha256": "dcfe803e72424fff2a13e06849536424f9bc3e98dc07f6c992221243267836ce"
+    },
+    {
+      "path": "核对记录/离线与模型验证/offline-package-pages-results.json",
+      "bytes": 125,
+      "sha256": "0858197e40c35555b8ca94d5d66726698b8e6a632e70e4fdf31df92b19301e51"
+    },
+    {
+      "path": "核对记录/离线与模型验证/professional-model-results.json",
+      "bytes": 232,
+      "sha256": "99b10ffae0a45dd3a4322bc23cd60539c60e0a1de6dd9bf4b1a12c13fe731da6"
+    },
+    {
+      "path": "核对记录/离线与模型验证/unit-six-offline-browser-results.json",
+      "bytes": 7098,
+      "sha256": "2c7f955c623612a2f141007ad34004dca2c406de3fe44c8b941328e239aa2ae7"
+    },
+    {
+      "path": "模型/方案数据.json",
+      "bytes": 512817,
+      "sha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b"
+    },
+    {
+      "path": "模型/第6户_三层住宅.blend",
+      "bytes": 7180387,
+      "sha256": "857665d3a5604c8c36c302230415943bc95aadb679d01fb3f8c42e86c64c49a4"
+    },
+    {
+      "path": "模型/第6户_三层住宅.glb",
+      "bytes": 13541136,
+      "sha256": "848e9f95e482cfe832c66321f3604174cad9fba34563f4ac6694c7e650d1f4bc"
+    },
+    {
+      "path": "清单/F01_现场问题_RFI单.csv",
+      "bytes": 241,
+      "sha256": "f0c5955d4a7e295e79e9a714b94649ad1f99185c9ad17053e2299a6fc3feb766"
+    },
+    {
+      "path": "清单/F02_隐蔽验收单.csv",
+      "bytes": 245,
+      "sha256": "4ec23b2f46cb764206ea3ef9117d85c52efe6e4b5657414c225a87f79d6a694e"
+    },
+    {
+      "path": "清单/F03_材料样板确认单.csv",
+      "bytes": 210,
+      "sha256": "2c1f771b2199cce79bd7139442187bb71b7bac9276b1778b95d0f4392fbb0a8e"
+    },
+    {
+      "path": "清单/F04_专业接口交接单.csv",
+      "bytes": 219,
+      "sha256": "7baed787fb6f1aac2a5bac29534afd97d44ddd0557c01194433720731c84668d"
+    },
+    {
+      "path": "清单/F05_竣工移交清单.csv",
+      "bytes": 247,
+      "sha256": "2629a973c88082d28b073c51a5b3c8e707dc3ad1a59372cabfccb760d399d8b7"
+    },
+    {
+      "path": "清单/F06_室内外高差与排水复测单.csv",
+      "bytes": 301,
+      "sha256": "bab64aaa94fa46ca50715fd09faa3c4becfb52576e6a4a220557396cf95edd38"
+    },
+    {
+      "path": "清单/园林与户外家具清单.csv",
+      "bytes": 2335,
+      "sha256": "e7b4ca2ebd69516db623e2cc5b15d0ac56a2b0e2fdb2bb3a0d25c3987871c98c"
+    },
+    {
+      "path": "清单/待复核及暂停工序.csv",
+      "bytes": 2907,
+      "sha256": "de2c234089459d688d5f022ad8b4a116bbcb69bb90dabc5a0449952b1b156055"
+    },
+    {
+      "path": "清单/方案点位表.csv",
+      "bytes": 8672,
+      "sha256": "ec46c061999ba3dd774fc83bc6ac066006cf5c9439d89dc12ae2fe1df1fd17bd"
+    },
+    {
+      "path": "清单/材料询价清单.csv",
+      "bytes": 4932,
+      "sha256": "ae6aa81d32e506850043de33df9d2d4c11aeb96490ca34296bfb087041d27aa9"
+    },
+    {
+      "path": "清单/门窗定位与竖向状态.csv",
+      "bytes": 8062,
+      "sha256": "41e8a5665a2a0b6aa1aa26678c2a1596aee3732433ec64bb7db030c47ea6ed9d"
+    },
+    {
+      "path": "漫游/住宅漫游.html",
+      "bytes": 1259366,
+      "sha256": "bc4d03c14133f508eabe01d555ab33bfe9d11e00bd8af843894b14d7ae162448"
+    },
+    {
+      "path": "漫游/离线构建记录.json",
+      "bytes": 266,
+      "sha256": "8d0e01b4858408e36357df095de99af00ddc558260253762c3693707b193dcae"
+    },
+    {
+      "path": "漫游/第三方许可.txt",
+      "bytes": 1152,
+      "sha256": "66f89be78ae6b84af546d2e0330e16767a41984771d79c57c4d738d5cc550c66"
+    },
+    {
+      "path": "设计图册.pdf",
+      "bytes": 39394814,
+      "sha256": "6b89c4fce322b98a12a0810112f16d8266a1d404f59c140d4d694abe8d35f002"
+    },
+    {
+      "path": "采购与报价/家具与定制.csv",
+      "bytes": 27187,
+      "sha256": "acb0cc67e02a968604ed8c6acfdbcff8488d11b43c013f9533399269cb685b74"
+    },
+    {
+      "path": "采购与报价/家电与卫浴.csv",
+      "bytes": 30850,
+      "sha256": "0b4996dab52c56cd364d6ebe7a8112e80f7902b921b8c459c964dc42537531c2"
+    },
+    {
+      "path": "采购与报价/工程量预算依据.json",
+      "bytes": 1665,
+      "sha256": "003e1ab7b3f40cb7fd1bb689a592d3fbe405826b5cab8fdedf521e19b9c9318d"
+    },
+    {
+      "path": "采购与报价/施工方逐项回填报价.csv",
+      "bytes": 7728,
+      "sha256": "2b8947d06e018235bd09ec504101b5e3b4382ed564aad918fd4b2de59e8a410d"
+    },
+    {
+      "path": "采购与报价/施工询价任务书.md",
+      "bytes": 3261,
+      "sha256": "91fdfc7ad82705bdb909a204a4874c9efa36653ff851ea81ad2c8e638598d6e7"
+    },
+    {
+      "path": "采购与报价/来源研究/appliances-value.json",
+      "bytes": 72989,
+      "sha256": "1fc78169b209d09af1ae254cb30631ba17551bd89640be3b30c9490e133be7c2"
+    },
+    {
+      "path": "采购与报价/来源研究/appliances-value.md",
+      "bytes": 19669,
+      "sha256": "d0ba303a0f40ef82aea0d12787d24c36bc93e1a1474dc5b20074a1649d9fdbb4"
+    },
+    {
+      "path": "采购与报价/来源研究/appliances.json",
+      "bytes": 142882,
+      "sha256": "7a0ba6390b4e62fcecd2bca90ec36c2e521a3c253b467ab4ed13b72839f3aa4f"
+    },
+    {
+      "path": "采购与报价/来源研究/appliances.md",
+      "bytes": 35407,
+      "sha256": "b88c572ddadc509e4098061b587f261253be1eb5833fb950362baa34a2cd327d"
+    },
+    {
+      "path": "采购与报价/来源研究/contractors.json",
+      "bytes": 53366,
+      "sha256": "7725d26054c27111c3fae3ccc380a1fe8807505fa01a2f58435ae15e6461c677"
+    },
+    {
+      "path": "采购与报价/来源研究/contractors.md",
+      "bytes": 23124,
+      "sha256": "27f9e2e473892671a89e6d0e5591881327d0ea80ddcab4b6b8d8291a1540031e"
+    },
+    {
+      "path": "采购与报价/来源研究/furniture-crosscheck.md",
+      "bytes": 7022,
+      "sha256": "f229eede54433ec7e8f61102946a35a495609c9a9c17f191bb87ffbf906db5a4"
+    },
+    {
+      "path": "采购与报价/来源研究/furniture-value-plan.md",
+      "bytes": 1961,
+      "sha256": "6d5f90ffd2e8ab12423e89b2cd9369ff8358dee78c81201b8b2ae105511ab4e1"
+    },
+    {
+      "path": "采购与报价/来源研究/furniture.json",
+      "bytes": 58527,
+      "sha256": "099bfca604789af173f36dc4a36b59429b7c6bc1cf13525ec541bd79fc255324"
+    },
+    {
+      "path": "采购与报价/来源研究/furniture.md",
+      "bytes": 22868,
+      "sha256": "814c0b0f713918712e44e33fc1453819f4522ea2f97d006ad63cdc6bcc771530"
+    },
+    {
+      "path": "采购与报价/来源研究/network-addendum.json",
+      "bytes": 11837,
+      "sha256": "2efcf9b9838b0b8e8354127fce3c329496ce357d27b61c9895f19a1a26b2bb51"
+    },
+    {
+      "path": "采购与报价/硬装与花园.csv",
+      "bytes": 18164,
+      "sha256": "b137b0fe4506c87740ee78b5c7f5cb1df3fe4bd72316803b1a67ea87b322d7f9"
+    },
+    {
+      "path": "采购与报价/第6户_施工与采购预算.xlsx",
+      "bytes": 57778,
+      "sha256": "598f0c1bbf2fcf7206aa7a201018a9875618c697dc9ed6a0bf27980211d5190e"
+    },
+    {
+      "path": "采购与报价/第6户_预算采购与施工询价.pdf",
+      "bytes": 2192260,
+      "sha256": "de50bfb0ac2a5ab4a3fbf32337dbe403e8a7c98d165b8963d0b7f300eaf893c0"
+    },
+    {
+      "path": "采购与报价/采购补充文件校验.sha256",
+      "bytes": 2183,
+      "sha256": "630f369ef6f9e5cd0bfe07982ac4a98ee3493f3d41a2d187d1cc3c5a6c919de2"
+    },
+    {
+      "path": "采购与报价/采购预算整合.json",
+      "bytes": 176961,
+      "sha256": "e15e1882dd85b2b59182ae159f149c1fbde38bed158af241fb56d42d4d351c71"
+    },
+    {
+      "path": "采购与报价/项目预算与采购总结.md",
+      "bytes": 95293,
+      "sha256": "9ab8edb186f126d58fb98f887b417052e5c5e44577eacad753c74793e4c06adf"
+    },
+    {
+      "path": "采购与报价/预算基础数据.json",
+      "bytes": 36755,
+      "sha256": "7b0ad602dd61478ba79788952ab6f6e5e161f7611feb87cf460d6fd9c6c59965"
+    },
+    {
+      "path": "采购与报价/预算阅读说明.md",
+      "bytes": 2460,
+      "sha256": "99c8a91047e4ad76a67c921644b78ff2d049523266420fc3f2bfea893cddf3aa"
+    },
+    {
+      "path": "项目总结与施工交接说明.md",
+      "bytes": 67411,
+      "sha256": "3ddd897fdce9a9ff7bfd62fda7fe679a74b55e406ee2aa1dcd4279ecf67f0533"
+    },
+    {
+      "path": "项目总结与施工交接说明.txt",
+      "bytes": 75311,
+      "sha256": "586456fd812e7f441c176e2f7eb19edf4f897c741dd277a280e5baeaffb6182a"
     }
   ]
 }

@@ -1,0 +1,3814 @@
+{
+  "asOf": "2026-09-10",
+  "title": "第6户简约舒适采购与预算 V1",
+  "location": "按原图杭州/富阳暂定，实际城市区县未确认",
+  "existingCondition": "用户已确认毛坯，长期自住；控制总价，优先隐蔽工程与舒适耐久。预算上限尚未给定。",
+  "currency": "CNY",
+  "style": {
+    "base": "暖白墙面、浅木色、米灰织物、少量灰绿",
+    "floor": "温暖木色干区与浅灰防滑湿区",
+    "principles": [
+      "平顶和局部必要吊顶，减少造型费用",
+      "四位常住成员优先舒适床垫、工作椅、工作照明与收纳",
+      "可移动成品统一系列，非标尺寸采用工厂复尺定制",
+      "电梯与原楼梯改造先过合法性和专业可行性关"
+    ]
+  },
+  "quantityBasis": {
+    "sourceSceneSha256": "e9501fa42af81245b9acfdc1a1fd88f5f7d8ad7b7d4ec4ca1fda0ca6af334a2b",
+    "floors": [
+      {
+        "floor": 1,
+        "approxInteriorFloorM2": 93.739,
+        "wetRooms": [
+          {
+            "name": "厨房",
+            "area": 6.555,
+            "perimeter": 10.64
+          },
+          {
+            "name": "父母卫浴",
+            "area": 4.291,
+            "perimeter": 8.32
+          },
+          {
+            "name": "玄关公卫",
+            "area": 3.125,
+            "perimeter": 7.12
+          }
+        ]
+      },
+      {
+        "floor": 2,
+        "approxInteriorFloorM2": 73.187,
+        "wetRooms": [
+          {
+            "name": "儿童公卫",
+            "area": 4.291,
+            "perimeter": 8.32
+          },
+          {
+            "name": "主卫",
+            "area": 7.328,
+            "perimeter": 11.28
+          }
+        ]
+      },
+      {
+        "floor": 3,
+        "approxInteriorFloorM2": 49.925,
+        "wetRooms": [
+          {
+            "name": "妹妹卫浴",
+            "area": 4.316,
+            "perimeter": 8.32
+          }
+        ]
+      }
+    ],
+    "interiorApproxM2": 216.851,
+    "wetFloorApproxM2": 29.906,
+    "dryFloorApproxM2": 186.945,
+    "outdoorM2": {
+      "south_courtyard": 47.504,
+      "south_main_porch": 9.797,
+      "third_floor_terrace": 18.684
+    },
+    "method": "原第6户各层外轮廓，扣原墙柱平面、P02保留孔洞及电梯外占位；三层另扣原露台栏内范围。湿区取房间功能多边形相交。仍含门洞/未深化隔断等误差，仅预算计量，非现场净铺装量。",
+    "condition": "沿用无楼梯P02空间假设；撤梯补板合法性未确定，不可直接结算或采购。墙面与吊顶数量另为预算假设。"
+  },
+  "contingencyRate": 0.12,
+  "targetBudget": null,
+  "construction": [
+    {
+      "id": "P01",
+      "category": "前期与验收",
+      "room": "全屋",
+      "name": "现场复测与尺寸底图",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 5000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "三层、南院、露台及门窗高差复测；不含破损检测",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 5000
+    },
+    {
+      "id": "P02",
+      "category": "前期与验收",
+      "room": "全屋",
+      "name": "建筑与机电施工图深化",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 20000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "平面、天花、立面节点、机电协调；价格待设计委托",
+      "fitStatus": "不包含行政许可承诺",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 20000
+    },
+    {
+      "id": "P03",
+      "category": "前期与验收",
+      "room": "全屋",
+      "name": "现状结构与改造可行性调查",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 8000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "资料调查、现场初查及专业可行性意见暂列",
+      "fitStatus": "检测开凿、加固设计另询；调查不保证撤梯或开井获准",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 8000
+    },
+    {
+      "id": "P04",
+      "category": "前期与验收",
+      "room": "全屋",
+      "name": "分阶段独立验收与移交",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 6000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "水电、防水、泥木、竣工节点检查及记录；具体次数约定",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 6000
+    },
+    {
+      "id": "H01",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "保护、场地管理与垃圾清运",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 8000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "毛坯交付成品与公共区保护、装袋、合规清运及楼层搬运；无旧装修拆除",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 8000
+    },
+    {
+      "id": "H03",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "电气配线、管路与配电整理",
+      "model": "按复测深化清单报价",
+      "quantity": 216.9,
+      "unit": "㎡",
+      "budgetUnitPrice": 135,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "室内基础布线、管材、施工、配电箱/保护器暂列；末端灯具面板另项；包含三层基本网线与有线回程预埋管线，路由交换设备另列",
+      "fitStatus": "不是62个展示点位的固定点工单价；线路长度与回路待设计",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 29281.5
+    },
+    {
+      "id": "H04",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "五卫一厨给排水改造",
+      "model": "按复测深化清单报价",
+      "quantity": 6,
+      "unit": "区域",
+      "budgetUnitPrice": 2900,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "各原湿区内给排水、阀件及安装，不含洁具与设备",
+      "fitStatus": "排污立管变动、燃气工程和非湿区改水另核",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 17400
+    },
+    {
+      "id": "H05",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "基层找平与局部修补",
+      "model": "按复测深化清单报价",
+      "quantity": 216.9,
+      "unit": "㎡",
+      "budgetUnitPrice": 48,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "一般地面找平材料与人工；不含重载回填及结构层",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 10411.2
+    },
+    {
+      "id": "H06",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "干区木色地板",
+      "model": "按复测深化清单报价",
+      "quantity": 186.9,
+      "unit": "㎡",
+      "budgetUnitPrice": 230,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "耐磨多层实木复合/同级样板；面层、垫层与安装，踢脚另项",
+      "fitStatus": "按净铺面预算，损耗与包装整件另在复尺排版报价",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 42987.0
+    },
+    {
+      "id": "H07",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨房卫浴防滑地砖",
+      "model": "按复测深化清单报价",
+      "quantity": 29.9,
+      "unit": "㎡",
+      "budgetUnitPrice": 250,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "600模数浅灰或暖灰瓷砖、铺贴辅料与人工",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 7475.0
+    },
+    {
+      "id": "H08",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨卫墙砖",
+      "model": "按复测深化清单报价",
+      "quantity": 125,
+      "unit": "㎡",
+      "budgetUnitPrice": 210,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "按约125㎡预算，面砖、粘结辅料与铺贴；开口和铺贴高度实量",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 26250
+    },
+    {
+      "id": "H09",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨卫防水与节点",
+      "model": "按复测深化清单报价",
+      "quantity": 150,
+      "unit": "㎡",
+      "budgetUnitPrice": 75,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "墙地展开量暂估，基层节点、防水体系、试验记录；以深化系统报价",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 11250
+    },
+    {
+      "id": "H10",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "墙面基层与暖白乳胶漆",
+      "model": "按复测深化清单报价",
+      "quantity": 430,
+      "unit": "㎡",
+      "budgetUnitPrice": 56,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "毛坯墙面腻子找平、底漆及暖白面漆工料；不含旧涂层铲除",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 24080
+    },
+    {
+      "id": "H11",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "顶面基层与哑光涂饰",
+      "model": "按复测深化清单报价",
+      "quantity": 186.9,
+      "unit": "㎡",
+      "budgetUnitPrice": 45,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "干区顶面处理与涂饰，包含局部新吊顶表面；不含吊顶龙骨板材",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 8410.5
+    },
+    {
+      "id": "H12",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "局部石膏板吊顶",
+      "model": "按复测深化清单报价",
+      "quantity": 15,
+      "unit": "㎡",
+      "budgetUnitPrice": 185,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "仅必要局部管线/窗帘节点的龙骨板材与检修口；采用分体空调，不做全屋造型吊顶",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 2775
+    },
+    {
+      "id": "H13",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨卫易检修吊顶",
+      "model": "按复测深化清单报价",
+      "quantity": 29.9,
+      "unit": "㎡",
+      "budgetUnitPrice": 185,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "平整耐潮面层、龙骨与安装；浴霸/排风机另项",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 5531.5
+    },
+    {
+      "id": "H14",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "新增轻隔断及隐私屏基层",
+      "model": "按复测深化清单报价",
+      "quantity": 20,
+      "unit": "㎡",
+      "budgetUnitPrice": 260,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "新增非承重干式轻隔断预算量；涂饰已在墙面项，玻璃另项",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 5200
+    },
+    {
+      "id": "H15",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨房与操盘区玻璃隔断",
+      "model": "按复测深化清单报价",
+      "quantity": 9,
+      "unit": "㎡",
+      "budgetUnitPrice": 750,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "窄边安全玻璃系统、门五金和安装暂列",
+      "fitStatus": "原梯改造相关隔断在可实施方案确定后下单",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 6750
+    },
+    {
+      "id": "H16",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "室内门与五金",
+      "model": "按复测深化清单报价",
+      "quantity": 9,
+      "unit": "套",
+      "budgetUnitPrice": 1800,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "四卧五卫各一套普通门预算，门套门锁安装包含；开发商已有合格门逐间核减。玻璃隔断门另在H15，不叠加。",
+      "fitStatus": "门型数量与原门保留状态未定，不能从38洞口推采购量",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 16200
+    },
+    {
+      "id": "H17",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "木色踢脚与收口",
+      "model": "按复测深化清单报价",
+      "quantity": 150,
+      "unit": "m",
+      "budgetUnitPrice": 38,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "踢脚、压条、门口与异材收边；复尺计净长度",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 5700
+    },
+    {
+      "id": "H19",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "窗帘、纱帘及普通轨道",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 8500,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "纯色成品面料、卧室遮光与普通帘轨；工作区用简单遮阳；不含电动或复杂帘头",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 8500
+    },
+    {
+      "id": "H20",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "开关插座与弱电面板",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 4500,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "常规面板约70位的预算占位；最终按电气施工图统计",
+      "fitStatus": "不是把现62点或15插座示意当作完整采购数量",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 4500
+    },
+    {
+      "id": "H21",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "末端灯具洁具安装与调试",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 5000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "未被商家服务覆盖的末端安装、测试及接口协调暂列；厂家已包含部分必须核减",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 5000
+    },
+    {
+      "id": "H22",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "完工精保洁与小修补",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 5000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "玻璃、柜内、地面、建材残留清理及修补，不替代环境检测",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 5000
+    },
+    {
+      "id": "H23",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨房地柜与设备柜",
+      "model": "按复测深化清单报价",
+      "quantity": 4.4,
+      "unit": "延米",
+      "budgetUnitPrice": 1850,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "浅米白平板柜门、耐潮柜体及基本铰链；按L形外边长度占位计价，转角不得重复收费",
+      "fitStatus": "先按600mm洗碗机、595mm冰箱重排柜格，预留安装净孔与开门散热",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 8140.0
+    },
+    {
+      "id": "H24",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨房吊柜",
+      "model": "按复测深化清单报价",
+      "quantity": 2.2,
+      "unit": "延米",
+      "budgetUnitPrice": 1150,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "平板门柜与安装，不遮原北窗；挂墙基层承载和检修待核",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 2530.0
+    },
+    {
+      "id": "H25",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨房石英石台面与收口",
+      "model": "按复测深化清单报价",
+      "quantity": 4.4,
+      "unit": "延米",
+      "budgetUnitPrice": 900,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "同级耐污台面、开孔、挡水、转角和安装；实际厚度与支承按供应商深化",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 3960.0
+    },
+    {
+      "id": "H26",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "厨房抽屉、拉篮与非标板件",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 2800,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "设备侧封板、基本抽屉理物五金及调试；水槽龙头和家电在设备表另计",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 2800
+    },
+    {
+      "id": "G01",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "南院、主南廊、露台铺装",
+      "model": "按复测深化清单报价",
+      "quantity": 75.985,
+      "unit": "㎡",
+      "budgetUnitPrice": 260,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "防滑面砖或经确认轻质面层、辅料、人工；不挖填，不机械扣可移动花箱投影",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 19756.1
+    },
+    {
+      "id": "G02",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "既有防水排水检查与局部保护修复",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 8000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "先验开发商防水、栏墙收口、排水口与坡向，保留合格既有层；计试验、局部节点及保护修复",
+      "fitStatus": "原层不合格先确认开发商修复责任；大面积重做另据正式方案补价，不为省钱直接覆盖缺陷",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 8000
+    },
+    {
+      "id": "G03",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "轻型模块坡道与两侧扶手",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "套",
+      "budgetUnitPrice": 15000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "参考4.2×1.4m几何意向的可拆耐候模块、扶手预算",
+      "fitStatus": "不是加工图；合法性、承托、防滑、平台及1.277m模型净距须专项深化",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 15000
+    },
+    {
+      "id": "G04",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "南缘临空防护",
+      "model": "按复测深化清单报价",
+      "quantity": 9.36,
+      "unit": "m",
+      "budgetUnitPrice": 620,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "按模型边线暂列金属防护与安装；高度、缝隙、基层须正式设计",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 5803.2
+    },
+    {
+      "id": "G06",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "轻型花箱与内胆",
+      "model": "按复测深化清单报价",
+      "quantity": 4,
+      "unit": "组",
+      "budgetUnitPrice": 650,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "首期南院2组、露台2组轻型箱、内胆与保护垫；其余6组延后添置",
+      "fitStatus": "按P02各组规格询价；先核饱水荷载和抗风",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 2600
+    },
+    {
+      "id": "G07",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "植物、基质与初期养护",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 2000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "首期4组花箱的常绿观叶、少量轮换花卉、轻质基质和初期养护",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 2000
+    },
+    {
+      "id": "G08",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "花园手动灌溉与检修给水点",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "套",
+      "budgetUnitPrice": 1500,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "检修阀、合适软管与人工浇水接点；自动滴灌后添",
+      "fitStatus": "工程量与做法待现场复测",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 1500
+    },
+    {
+      "id": "G09",
+      "category": "花园工程",
+      "room": "南院/露台",
+      "name": "室外基础电气配合",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 2500,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "5个灯位的线管、室外保护与接线施工暂列；灯具另列，排水试验修复归G02",
+      "fitStatus": "不向下沉井、邻地或未知地下管随意接排水",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 2500
+    },
+    {
+      "id": "E01",
+      "category": "电梯暂列",
+      "room": "全屋",
+      "name": "三层三站家用电梯系统",
+      "model": "国产厂家三层三站方案，型号待合法性与井道条件确认",
+      "quantity": 1,
+      "unit": "套",
+      "budgetUnitPrice": 180000,
+      "included": true,
+      "priceStatus": "采购预算目标，未获厂家报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "暂用18万元作为同范围询价控制值，不代表某品牌能成交；设备、井道、运输、安装、税与保养范围须列全",
+      "fitStatus": "需至少两家厂家出总行程、机身/孔口、门向、平台、反力和救援方案；现场报价可高于目标，土建仍未计",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 180000
+    },
+    {
+      "id": "O01",
+      "category": "可选升级",
+      "room": "全屋",
+      "name": "全屋地暖系统",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 45000,
+      "included": false,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "仅预算预留，不和基础空调重复计为空调费用",
+      "fitStatus": "热源、地坪高度、能耗与荷载先核",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 45000
+    },
+    {
+      "id": "O02",
+      "category": "可选升级",
+      "room": "全屋",
+      "name": "全屋新风系统",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 22000,
+      "included": false,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "仅预算预留；管路、主机、风量与检修另设计",
+      "fitStatus": "不将普通排风扇当全屋新风",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 22000
+    },
+    {
+      "id": "O03",
+      "category": "可选升级",
+      "room": "全屋",
+      "name": "全屋软水与前置净水",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "套",
+      "budgetUnitPrice": 9000,
+      "included": false,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "仅预算预留；市政水质、空间和排水确认后选型号",
+      "fitStatus": "末端直饮设备如家电表已列，不重复计入",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 9000
+    },
+    {
+      "id": "H27",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "入户门锁芯与五金调试",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 1200,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "保留开发商合格入户门；按门型做必要调试及锁芯更新",
+      "fitStatus": "门体缺陷优先要求交付整改，不预设整门换新",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 1200
+    },
+    {
+      "id": "O04",
+      "category": "可选升级",
+      "room": "全屋",
+      "name": "后续追加轻型花箱",
+      "model": "按复测深化清单报价",
+      "quantity": 6,
+      "unit": "组",
+      "budgetUnitPrice": 650,
+      "included": false,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "P02其余6组花箱及内胆；不含另增植物养护",
+      "fitStatus": "先核承载、防水和维护条件",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 3900
+    },
+    {
+      "id": "O05",
+      "category": "可选升级",
+      "room": "全屋",
+      "name": "后续自动滴灌系统",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "套",
+      "budgetUnitPrice": 3000,
+      "included": false,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "人工浇水不便时再增加阀控、过滤、防回流与可拆支管",
+      "fitStatus": "与G08既有给水接口去重",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 3000
+    },
+    {
+      "id": "H28",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "淋浴侧屏及主卫干湿分隔",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 7000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "父母/儿童/妹妹三处侧屏各暂1600元，主卫分隔暂2200元；安全玻璃、五金与安装；不是四套封闭淋浴房",
+      "fitStatus": "先核湿区净尺寸、开门与固定基层，按正式节点选玻璃规格",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 7000
+    },
+    {
+      "id": "H29",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "五卫地漏与常用小五金",
+      "model": "按复测深化清单报价",
+      "quantity": 5,
+      "unit": "区域",
+      "budgetUnitPrice": 500,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "排水配套地漏、纸架、挂件等基础供装暂列；不含AP表已有龙头和淋浴套组",
+      "fitStatus": "实际排水点、地漏防臭型式与防水节点复核，数量按图报价",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 2500
+    },
+    {
+      "id": "H30",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "合法洗衣位置的配套接口",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 4500,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "仅原合法可用湿区内给排水、电源、防水收口及安装配合暂列；与H03/H04重叠部分应核减",
+      "fitStatus": "非湿区穿板或结构工程未包含；如原空间无法合法安置须重布置并重新询价",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 4500
+    },
+    {
+      "id": "H31",
+      "category": "室内硬装",
+      "room": "全屋",
+      "name": "燃气专业接入与管阀服务暂列",
+      "model": "按复测深化清单报价",
+      "quantity": 1,
+      "unit": "项",
+      "budgetUnitPrice": 3000,
+      "included": true,
+      "priceStatus": "预算估算，非施工队报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "合资格燃气服务方核查灶具和热水器供气、阀管及常规接入；按官方渠道实际报价替换",
+      "fitStatus": "气源、容量、管路和排烟须核；不含燃气入户扩容或公共管网改造",
+      "notes": "计价包含该行范围的材料、辅料与人工；不得与整装套餐叠加计入。",
+      "lineTotal": 3000
+    }
+  ],
+  "excludedUnpriced": [
+    {
+      "id": "X01",
+      "name": "旧梯拆除、楼板补板、新井开孔与加固",
+      "why": "是否允许尚未确认；不得以暂列金额推动禁止施工。确认合法方案后专项询价。"
+    },
+    {
+      "id": "X02",
+      "name": "完整外窗更换、屋面或外墙全面整修",
+      "why": "毛坯原窗先验收并确认开发商整改责任，不预设整窗换新。屋顶/外立面重大更换范围未定。"
+    },
+    {
+      "id": "X03",
+      "name": "产权外工程、地下开挖、景观重构及管网迁移",
+      "why": "不扩大到原图未核地界，未知地下管与基坑工程未计。"
+    },
+    {
+      "id": "X04",
+      "name": "未知渗漏结构缺陷、非常规运输与临时居住",
+      "why": "现场条件及家庭安排未确认，不以0元表示。"
+    },
+    {
+      "id": "X05",
+      "name": "装修公司额外管理费/税费/甲供费差额",
+      "why": "本预算工料单价按拟含税总支出规划，但未取得合同税费及甲供材料收费表；报价需核是否已含，不能机械再加税。"
+    }
+  ],
+  "notes": [
+    "工程单价是为本方案设置的预算假设，不是已取得的施工报价或官方定额。",
+    "公开售价不是成交价；地区库存、配送、安装、价格变化与满减国补须下单前核验。",
+    "12%预备费只覆盖已计范围的普通数量/价格波动，不覆盖未计价的结构改造。",
+    "洗衣、燃气服务仅常规可实施范围暂列；结构改造或燃气公共管网扩容仍另计。",
+    "预算没有把套餐整装价再叠加逐项硬装；同一商品的备选与可选升级也不自动累加。",
+    "本版采购选型不表示3D模型已替换成品牌实物模型；现三维仍为P02尺度示意。",
+    "国产电梯18万元仅询价预算目标，没有官方型号成交价依据。西柏思品牌三层公开25–35万元是进口对照，不混成国产价格。"
+  ],
+  "furniture": [
+    {
+      "id": "FN-F01",
+      "category": "成品家具",
+      "room": "R101 父母卧室",
+      "name": "TARVA 塔瓦 床架 / LURÖY 鲁瑞 150",
+      "model": "IKEA 宜家 TARVA / 091.985.15",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1299,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/tarva-ta-wa-chuang-jia-song-mu-lu-rui-s09198515/",
+      "scope": "150×200床架、鲁瑞床板架、SKORVA床中挺；独立包装；另计：床垫、床品、木材涂装、配送上楼及组装另计",
+      "fitStatus": "160×209×92 cm；按套装页较大外宽160控制；单床架303.544.67页标158，厂家需书面统一。模型床框160×215，长减6；床垫150×200另列。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F01",
+      "lineTotal": 1299
+    },
+    {
+      "id": "FN-F02",
+      "category": "成品家具",
+      "room": "R201 主卧",
+      "name": "TARVA 塔瓦 床架 / LURÖY 鲁瑞 180",
+      "model": "IKEA 宜家 TARVA / 891.985.78",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1499,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/tarva-ta-wa-chuang-jia-song-mu-lu-rui-89198578/",
+      "scope": "180×200床架、鲁瑞床板架及SKORVA床中挺；另计：床垫、床品、木材涂装、配送上楼及组装另计",
+      "fitStatus": "188×209×92 cm；模型床框190×215；成品宽减2、长减6。床垫180×200单列。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F02",
+      "lineTotal": 1499
+    },
+    {
+      "id": "FN-F03",
+      "category": "成品家具",
+      "room": "R301 妹妹卧室",
+      "name": "TARVA 塔瓦 床架 / LURÖY 鲁瑞 120",
+      "model": "IKEA 宜家 TARVA / 191.984.78",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 999,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/tarva-ta-wa-chuang-jia-song-mu-lu-rui-19198478/",
+      "scope": "120×200床架及鲁瑞床板架；另计：床垫、床品、木材涂装、配送上楼及组装另计",
+      "fitStatus": "128×209×92 cm；妹妹模型床框145×215；成品128×209可减占地，床垫由意向135改120。若坚持135，另做总外宽不大于145的定制床并重新复核；不能直接替换150床。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F03",
+      "lineTotal": 999
+    },
+    {
+      "id": "FN-F05",
+      "category": "成品家具",
+      "room": "R101 父母卧室",
+      "name": "VALEVÅG 瓦勒沃格 袋装弹簧床垫 150",
+      "model": "IKEA 宜家 VALEVÅG / 304.506.71",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1799,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/valevag-wa-le-wo-ge-dai-zhuang-dan-huang-chuang-dian-ying-xing-qian-lan-se-30450671/",
+      "scope": "单张床垫；另计：床架、床板、床褥、保护垫、床品及配送另计",
+      "fitStatus": "150×200×24 cm；匹配F01的床垫尺寸；硬度为商品标签，父母须共同试躺，不按年龄推断必须睡最硬。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F05",
+      "lineTotal": 1799
+    },
+    {
+      "id": "FN-F06",
+      "category": "成品家具",
+      "room": "R201 主卧",
+      "name": "VALEVÅG 瓦勒沃格 袋装弹簧床垫 180",
+      "model": "IKEA 宜家 VALEVÅG / 804.700.06",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2299,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/valevag-wa-le-wo-ge-dai-zhuang-dan-huang-chuang-dian-jia-ying-qian-lan-se-80470006/",
+      "scope": "单张床垫；另计：床架、床板、床褥、保护垫、床品及配送另计",
+      "fitStatus": "180×200×24 cm；匹配F02；夫妻应共同试躺确认硬度、翻身干扰及床沿坐感。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F06",
+      "lineTotal": 2299
+    },
+    {
+      "id": "FN-F07",
+      "category": "成品家具",
+      "room": "R301 妹妹卧室",
+      "name": "VALEVÅG 瓦勒沃格 袋装弹簧床垫 120",
+      "model": "IKEA 宜家 VALEVÅG / 004.699.07",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1499,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/valevag-wa-le-wo-ge-dai-zhuang-dan-huang-chuang-dian-jia-ying-qian-lan-se-00469907/",
+      "scope": "单张床垫；另计：床架、床板、床褥、保护垫、床品及配送另计",
+      "fitStatus": "120×200×24 cm；匹配F03，不能将120床垫作为135床垫采购；试躺后可同尺寸换硬度货号。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F07",
+      "lineTotal": 1499
+    },
+    {
+      "id": "FN-F09",
+      "category": "成品家具",
+      "room": "R101 父母卧室×2、R201 主卧×2、R301 妹妹卧室",
+      "name": "TONSTAD 图恩斯塔 床头桌",
+      "model": "IKEA 宜家 TONSTAD / 605.100.08",
+      "quantity": 5,
+      "unit": "件",
+      "budgetUnitPrice": 599,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/tonstad-tu-en-si-ta-chuang-tou-zhuo-hui-bai-60510008/",
+      "scope": "床头桌及抽屉；另计：配送、上楼、组装和额外墙体固定件另核",
+      "fitStatus": "40×40×59 cm；父母模型48×48，夫妻/妹妹需按床位现场纸样；59高需与最终床面高度试取物，插座不能被柜挡。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F09",
+      "lineTotal": 2995
+    },
+    {
+      "id": "FN-F10",
+      "category": "成品家具",
+      "room": "R104 客厅",
+      "name": "VIMLE 维姆勒 三人沙发",
+      "model": "IKEA 宜家 VIMLE / 393.990.32",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2999,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/vimle-wei-mu-le-san-ren-sha-fa-gang-na-rui-de-mi-huang-se-s39399032/",
+      "scope": "三人框架、两扶手、相应米色可拆洗罩套及坐靠垫；非仅罩套；另计：头枕、脚凳、装饰靠枕、配送组装另计",
+      "fitStatus": "241×98×83 cm；模型265×约92；成品较短24、深增加约6。维持朝东并复核沙发前通道；须以整体98深纸样复核，当前漫游并未替换为该SKU。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F10",
+      "lineTotal": 2999
+    },
+    {
+      "id": "FN-F11",
+      "category": "成品家具",
+      "room": "R104 客厅",
+      "name": "LISABO 利萨伯 茶几",
+      "model": "IKEA 宜家 LISABO / 103.530.63",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 799,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/lisabo-li-sa-bo-cha-ji-bai-zha-mu-tie-mian-10353063/",
+      "scope": "茶几；另计：配送、上楼、组装和额外墙体固定件另核",
+      "fitStatus": "118×50×50 cm；模型约120×70，平面占地减小；台高由展示意向约39升至50，配48高沙发座，宜现场试坐取物。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F11",
+      "lineTotal": 799
+    },
+    {
+      "id": "FN-F12",
+      "category": "成品家具",
+      "room": "R104 客厅",
+      "name": "BRIMNES 百灵 电视柜",
+      "model": "IKEA 宜家 BRIMNES / 504.098.93",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 799,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/brimnes-bai-ling-dian-shi-gui-bai-se-50409893/",
+      "scope": "电视柜及抽屉；另计：电视、支架、设备、墙体固定件及配送组装另计",
+      "fitStatus": "180×41×53 cm；模型230×40×48；长缩50、深增1、高增5。沿东墙保留原室外门；电视型号/脚座跨度和重量另核；网页柜顶承重30kg。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F12",
+      "lineTotal": 799
+    },
+    {
+      "id": "FN-F13",
+      "category": "成品家具",
+      "room": "R105 餐厅",
+      "name": "EKEDALEN 伊克多兰 伸缩型餐桌",
+      "model": "IKEA 宜家 EKEDALEN / 503.408.13",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1999,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/ekedalen-yi-ke-duo-lan-shen-suo-xing-can-zhuo-xiang-mu-50340813/",
+      "scope": "伸缩桌及1块加长板；另计：餐椅、保护脚垫及配送组装另计",
+      "fitStatus": "180×80×75 cm；收拢120×80、展开180×80；按6人展开180计，占地小于模型180×85。六椅采用两侧各2、两端各1，拉椅后核电梯/厨房通路。不要照搬模型同侧3把椅子的摆法。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F13",
+      "lineTotal": 1999
+    },
+    {
+      "id": "FN-F14",
+      "category": "成品家具",
+      "room": "R105 餐厅×6、R303 书法房",
+      "name": "EKEDALEN 伊克多兰 软垫椅",
+      "model": "IKEA 宜家 EKEDALEN / 203.410.22",
+      "quantity": 7,
+      "unit": "件",
+      "budgetUnitPrice": 499,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/ekedalen-yi-ke-duo-lan-yi-zi-xiang-mu-ou-si-ta-dan-hui-se-20341022/",
+      "scope": "椅架、座垫和所选罩套；另计：额外罩套、地板保护垫及配送组装另计",
+      "fitStatus": "45×51×95 cm；座高48。餐厅比模型约47×45深6；布置改2+2+1+1并留后撤。书法椅为坐姿短时使用，站写时移靠墙。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F14",
+      "lineTotal": 3493
+    },
+    {
+      "id": "FN-F15",
+      "category": "成品家具",
+      "room": "R108 爸爸操盘房、R304 妈妈毛线工作室、R301 妹妹卧室",
+      "name": "MARKUS 马库斯 人体工学办公椅 小号",
+      "model": "IKEA 宜家 MARKUS / 805.887.94",
+      "quantity": 3,
+      "unit": "件",
+      "budgetUnitPrice": 799,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se-80588794/",
+      "scope": "办公椅，含产品配套头枕/扶手；另计：脚踏、地板保护垫及配送组装另计",
+      "fitStatus": "64×64×129 cm；高度118–129、座高43–54、底盘64×64；比模型普通椅大，必须按真实底盘、后仰及退椅走样；先试坐再定大小号。儿童房这把仅为未来客卧/较大儿童预算，不按幼儿适用宣称。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F15",
+      "lineTotal": 2397
+    },
+    {
+      "id": "FN-F17",
+      "category": "成品家具",
+      "room": "R301 妹妹卧室",
+      "name": "MICKE 米克 书桌 105",
+      "model": "IKEA 宜家 MICKE / 803.542.76",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 699,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/micke-desk-white-80354276/",
+      "scope": "书桌及抽屉/柜；不带高架；另计：配送、上楼、组装和额外墙体固定件另核",
+      "fitStatus": "105×50×75 cm；模型108×55，成品105×50；只买75高版本，不能换成带高架的140高套装。抽屉方向与书桌椅退让现场确认。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F17",
+      "lineTotal": 699
+    },
+    {
+      "id": "FN-F18",
+      "category": "成品家具",
+      "room": "R206 二层休闲/家政区×3、R108 爸爸操盘房×2",
+      "name": "BILLY 毕利 矮书架",
+      "model": "IKEA 宜家 BILLY / 905.220.38",
+      "quantity": 5,
+      "unit": "件",
+      "budgetUnitPrice": 199,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/billy-bookcase-white-90522038/",
+      "scope": "单体书架与配套层板；另计：柜门、额外层板、防倾倒基层固定件、配送组装另计",
+      "fitStatus": "40×28×106 cm；R206三件并排120×28，低于原155×34×190；R108两件并排80。沿原实墙布置，不能堆叠；降低储书量换取通透和可移动性。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F18",
+      "lineTotal": 995
+    },
+    {
+      "id": "FN-F19",
+      "category": "成品家具",
+      "room": "R304 妈妈毛线工作室×3",
+      "name": "BILLY 毕利 / OXBERG 奥克伯 带门书柜",
+      "model": "IKEA 宜家 BILLY / 795.283.48",
+      "quantity": 3,
+      "unit": "件",
+      "budgetUnitPrice": 449,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/billy-bi-li-oxberg-ao-ke-bo-dai-ban-bo-li-men-shu-gui-bai-se-bo-li-s79528348/",
+      "scope": "书架与所选板/玻璃门套装；另计：额外内配、防倾倒基层固定件、配送组装另计",
+      "fitStatus": "40×30×202 cm；三件120×30×202，较模型毛线柜145×30×190更窄但高12；靠西实墙复核窗帘和墙面电点。柜门有缝，不能称密封柜；毛线加带盖盒。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F19",
+      "lineTotal": 1347
+    },
+    {
+      "id": "FN-F20",
+      "category": "成品家具",
+      "room": "R304 妈妈毛线工作室×12",
+      "name": "SAMLA 萨姆拉 附盖储物盒 5L",
+      "model": "IKEA 宜家 SAMLA / 194.408.48",
+      "quantity": 12,
+      "unit": "件",
+      "budgetUnitPrice": 9.99,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/samla-box-with-lid-transparent-19440848/",
+      "scope": "盒体与盖，合计9.99；不重复加盖价；另计：标签、干燥剂及配送另计",
+      "fitStatus": "28×20×14 cm；用于按线色/小件分类；横向28、进深20放入30深书柜，每格1盒为基准。非密封防潮箱，勿湿线入柜。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F20",
+      "lineTotal": 119.88
+    },
+    {
+      "id": "FN-F21",
+      "category": "成品家具",
+      "room": "R104 客厅、R206 二层休闲/家政区",
+      "name": "POÄNG 波昂 单人扶手椅",
+      "model": "IKEA 宜家 POÄNG / 192.407.88",
+      "quantity": 2,
+      "unit": "件",
+      "budgetUnitPrice": 499,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/poaeng-bo-ang-dan-ren-sha-fa-fu-shou-yi-hua-mu-tie-mian-ji-ni-sa-dan-mi-se-s19240788/",
+      "scope": "椅框及所选椅垫；另计：脚凳及配送组装另计",
+      "fitStatus": "68×83×100 cm；真实68×83明显大于模型窗边普通椅，列有条件替代，预留约80×100静态区并核前方起身空间；不得直接声称模型已验证。座高40，对父母须试起坐；如偏低改中高座扶手椅另询价。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F21",
+      "lineTotal": 998
+    },
+    {
+      "id": "FN-F26",
+      "category": "成品家具",
+      "room": "R305 露台花园",
+      "name": "NÄMMARÖ 耐玛瑞 户外长椅",
+      "model": "IKEA 宜家 NÄMMARÖ / 105.103.41",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 499,
+      "included": true,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/naemmaroe-nai-ma-rui-chang-yi-hu-wai-zhao-qian-he-se-qi-10510341/",
+      "scope": "木长椅；另计：坐垫、家具罩、养护油及配送组装另计",
+      "fitStatus": "120×40×45 cm；替代G3-B01意向坐凳；按120×40沿原长向放置。与花箱、排水口及门区联合复尺，不贴近边缘形成攀爬踏脚。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F26",
+      "lineTotal": 499
+    },
+    {
+      "id": "FN-F04-D",
+      "category": "成品家具",
+      "room": "R204 未来儿童房",
+      "name": "NESTTUN 奈斯顿 床架 / LURÖY 鲁瑞 90（延后）",
+      "model": "IKEA 宜家 NESTTUN / 691.580.26",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 699,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/nesttun-nai-si-dun-chuang-jia-bai-se-lu-rui-69158026/",
+      "scope": "90×200床架及鲁瑞床板架；另计：床垫、床品及适龄安全配件另列；配送上楼组装另计",
+      "fitStatus": "96×207×86 cm；模型儿童预留床框110×215；成品96×207。按弹性客卧/较大儿童后期家具作预算，不作为婴儿床或幼儿防坠方案。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F04",
+      "lineTotal": 699
+    },
+    {
+      "id": "FN-F08-D",
+      "category": "成品家具",
+      "room": "R204 未来儿童房",
+      "name": "VALEVÅG 瓦勒沃格 袋装弹簧床垫 90（延后）",
+      "model": "IKEA 宜家 VALEVÅG / 404.700.27",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1299,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/valevag-wa-le-wo-ge-dai-zhuang-dan-huang-chuang-dian-jia-ying-qian-lan-se-40470027/",
+      "scope": "单张床垫；另计：床架、床板、床褥、保护垫、床品及配送另计",
+      "fitStatus": "90×200×24 cm；匹配F04；该项为未来弹性客卧预算，儿童实际使用时按年龄和床架安全要求复选。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F08",
+      "lineTotal": 1299
+    },
+    {
+      "id": "FN-F15-D",
+      "category": "成品家具",
+      "room": "R204 未来儿童房",
+      "name": "MARKUS 马库斯 人体工学办公椅 小号（延后）",
+      "model": "IKEA 宜家 MARKUS / 805.887.94",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 799,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/markus-ma-ku-si-ban-gong-yi-wei-suo-er-shen-hui-se-80588794/",
+      "scope": "办公椅，含产品配套头枕/扶手；另计：脚踏、地板保护垫及配送组装另计",
+      "fitStatus": "64×64×129 cm；高度118–129、座高43–54、底盘64×64；比模型普通椅大，必须按真实底盘、后仰及退椅走样；先试坐再定大小号。儿童房这把仅为未来客卧/较大儿童预算，不按幼儿适用宣称。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F15",
+      "lineTotal": 799
+    },
+    {
+      "id": "FN-F16-D",
+      "category": "成品家具",
+      "room": "R204 未来儿童房",
+      "name": "MICKE 米克 书桌 73（延后）",
+      "model": "IKEA 宜家 MICKE / 803.542.81",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 399,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/micke-desk-white-80354281/",
+      "scope": "小书桌及抽屉；另计：配送、上楼、组装和额外墙体固定件另核",
+      "fitStatus": "73×50×75 cm；模型90×55；成品73×50可留更多通路。固定75高并不适合所有年龄，儿童实际启用时按身高换桌椅组合。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F16",
+      "lineTotal": 399
+    },
+    {
+      "id": "FN-F20-D",
+      "category": "成品家具",
+      "room": "R204 未来儿童房×6",
+      "name": "SAMLA 萨姆拉 附盖储物盒 5L（延后）",
+      "model": "IKEA 宜家 SAMLA / 194.408.48",
+      "quantity": 6,
+      "unit": "件",
+      "budgetUnitPrice": 9.99,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/samla-box-with-lid-transparent-19440848/",
+      "scope": "盒体与盖，合计9.99；不重复加盖价；另计：标签、干燥剂及配送另计",
+      "fitStatus": "28×20×14 cm；用于按线色/小件分类；横向28、进深20放入30深书柜，每格1盒为基准。非密封防潮箱，勿湿线入柜。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F20",
+      "lineTotal": 59.94
+    },
+    {
+      "id": "FN-F22-D",
+      "category": "成品家具",
+      "room": "R104 客厅、R206 二层休闲/家政区",
+      "name": "GLADOM 格拉登 托盘边桌（延后）",
+      "model": "IKEA 宜家 GLADOM / 503.378.20",
+      "quantity": 2,
+      "unit": "件",
+      "budgetUnitPrice": 79.99,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/gladom-tray-table-white-50337820/",
+      "scope": "托盘与桌架；另计：配送、上楼、组装和额外墙体固定件另核",
+      "fitStatus": "45×45×53 cm；室内阅读角可移动边桌，圆形直径45；与POÄNG同时做纸样，不能占主通路。未用作户外耐候家具。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F22",
+      "lineTotal": 159.98
+    },
+    {
+      "id": "FN-F23-D",
+      "category": "成品家具",
+      "room": "R109 南院",
+      "name": "NÄMMARÖ 耐玛瑞 户外桌（延后）",
+      "model": "IKEA 宜家 NÄMMARÖ / 805.112.00",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 999,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/naemmaroe-nai-ma-rui-zhuo-zi-hu-wai-zhao-qian-he-se-qi-80511200/",
+      "scope": "户外木桌；另计：椅子、家具罩、养护油、配送组装另计",
+      "fitStatus": "140×75×75 cm；平面140×75小于模型G1-T01的145×78；高度改75餐桌高，配45座高四椅，保留长边两侧各2。不是模型低茶几高度。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F23",
+      "lineTotal": 999
+    },
+    {
+      "id": "FN-F24-D",
+      "category": "成品家具",
+      "room": "R109 南院×4",
+      "name": "NÄMMARÖ 耐玛瑞 户外折叠椅（延后）",
+      "model": "IKEA 宜家 NÄMMARÖ / 705.103.43",
+      "quantity": 4,
+      "unit": "件",
+      "budgetUnitPrice": 299,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/70510343/",
+      "scope": "折叠木椅；另计：坐垫、家具罩、养护油及配送另计",
+      "fitStatus": "49×50×81 cm；座高45；比示意普通椅略大，配F23复核4把拉椅后到坡道的通路；不用躺椅替换。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F24",
+      "lineTotal": 1196
+    },
+    {
+      "id": "FN-F25-D",
+      "category": "成品家具",
+      "room": "R109 南院×4",
+      "name": "KUDDARNA 库达那 户外椅垫（延后）",
+      "model": "IKEA 宜家 KUDDARNA / 805.472.23",
+      "quantity": 4,
+      "unit": "件",
+      "budgetUnitPrice": 29.99,
+      "included": false,
+      "priceStatus": "大陆官网商品详情页显示价；非锁价合同，不计过期会员/优惠价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/kuddarna-ku-da-na-yi-dian-hu-wai-qian-mi-hui-se-80547223/",
+      "scope": "单件椅垫；另计：配送、上楼、组装和额外墙体固定件另核",
+      "fitStatus": "36×32×6 cm；放在44×44的椅座居中系紧，垫小于椅座；雨后收纳晾干；坐高增加约6，须实坐确认。",
+      "notes": "未设置收货地址；页面存在不代表杭州有库存，付款前由供应商确认本货号、交期与配送",
+      "sourceId": "F25",
+      "lineTotal": 119.96
+    },
+    {
+      "id": "FN-C01",
+      "category": "定制家具",
+      "room": "R108 爸爸操盘房",
+      "name": "爸爸操盘桌",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2500,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "活动定制家具；浅木色 / 哑光米白",
+      "fitStatus": "148×80×76 cm；保留原意向外廓；承重底架、显示器支臂夹具加强、后部线槽、可拆检修和圆角。三屏真实尺寸与支架载荷到货前深化。原梯区未获合法实施条件，不下固定桌订单。",
+      "notes": "",
+      "sourceId": "C01",
+      "lineTotal": 2500
+    },
+    {
+      "id": "FN-C02",
+      "category": "定制家具",
+      "room": "R304 妈妈毛线工作室",
+      "name": "妈妈编织工作台",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2200,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "活动定制家具；浅木色 / 哑光米白",
+      "fitStatus": "165×70×76 cm；哑光易擦台面、圆角、桌面下净膝空间；不做妨碍退椅的满深柜。原梯区未明确实施条件，不下固定桌订单。",
+      "notes": "",
+      "sourceId": "C02",
+      "lineTotal": 2200
+    },
+    {
+      "id": "FN-C03",
+      "category": "定制家具",
+      "room": "R303 书法房",
+      "name": "书法长案",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 4200,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "活动定制家具；浅木色 / 哑光米白",
+      "fitStatus": "194×90×80 cm；194沿模型南北长向；整张哑光稳定台面、可换防墨毡、钢木底架，不靠薄台板直接夹重物。本人站写/坐写确认最终高度；不把概念194尺寸当加工净尺。",
+      "notes": "",
+      "sourceId": "C03",
+      "lineTotal": 4200
+    },
+    {
+      "id": "FN-C04",
+      "category": "定制家具",
+      "room": "R101 父母卧室",
+      "name": "父母衣柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 4000,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "木作定制预算（总造价中仅计一次）；浅木色 / 哑光米白",
+      "fitStatus": "165×55×225 cm；模型55为外深，须把背板/门后实际挂衣净深画出来；必要用侧向拉出挂衣杆，不能直接加深压床侧路。",
+      "notes": "",
+      "sourceId": "C04",
+      "lineTotal": 4000
+    },
+    {
+      "id": "FN-C05",
+      "category": "定制家具",
+      "room": "R202 R202",
+      "name": "夫妻衣柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 6500,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "木作定制预算（总造价中仅计一次）；浅木色 / 哑光米白",
+      "fitStatus": "240×55×228 cm；本预算包含基础柜体、门、常规铰链和挂衣/层板；不含奢侈五金、复杂灯控。55外深不保证常规平挂净深，内部系统和主卫门开启须深化。",
+      "notes": "",
+      "sourceId": "C05",
+      "lineTotal": 6500
+    },
+    {
+      "id": "FN-C06",
+      "category": "定制家具",
+      "room": "R301 妹妹卧室",
+      "name": "妹妹衣柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 3200,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "木作定制预算（总造价中仅计一次）；浅木色 / 哑光米白",
+      "fitStatus": "120×50×220 cm；保持沿东墙方向；50外深用侧向挂衣及折叠分区，未经重排不放60深标准衣柜。",
+      "notes": "",
+      "sourceId": "C06",
+      "lineTotal": 3200
+    },
+    {
+      "id": "FN-C07",
+      "category": "定制家具",
+      "room": "R204 未来儿童房",
+      "name": "儿童预留柜（延后）",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2200,
+      "included": false,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "木作定制预算（总造价中仅计一次）；浅木色 / 哑光米白",
+      "fitStatus": "120×50×160 cm；低柜及防倾倒固定，儿童年龄和使用方式未定，延后采购；不可作为攀爬阶梯。",
+      "notes": "",
+      "sourceId": "C07",
+      "lineTotal": 2200
+    },
+    {
+      "id": "FN-C08",
+      "category": "定制家具",
+      "room": "R303 书法房",
+      "name": "宣纸与作品收纳柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2400,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "木作定制预算（总造价中仅计一次）；浅木色 / 哑光米白",
+      "fitStatus": "70×44×90 cm；原模型70×44无法平放模型中68×136的完整宣纸；只可放折纸/册页。完整大纸采用另行设计的立式卷轴筒或在194×90案下设可拆卷存模块，供应商先拿实际纸样；本项不宣称整张平放。",
+      "notes": "",
+      "sourceId": "C08",
+      "lineTotal": 2400
+    },
+    {
+      "id": "FN-C09",
+      "category": "定制家具",
+      "room": "R303 书法房",
+      "name": "书法北窗矮柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2000,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "木作定制预算（总造价中仅计一次）；浅木色 / 哑光米白",
+      "fitStatus": "95×34×92 cm；保持低于已核110窗台；防潮、避日晒，窗帘与窗扇净距复核。",
+      "notes": "",
+      "sourceId": "C09",
+      "lineTotal": 2000
+    },
+    {
+      "id": "FN-C10",
+      "category": "定制家具",
+      "room": "R107 R107",
+      "name": "玄关窄鞋柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 900,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "木作定制预算（总造价中仅计一次）；浅木色 / 哑光米白",
+      "fitStatus": "46×28×110 cm；原模型外形仅46×28×110，不足全家全部鞋量；做常用鞋倾斜层板和钥匙收纳，季节鞋进入其他柜体。本项仅这只窄柜。",
+      "notes": "",
+      "sourceId": "C10",
+      "lineTotal": 900
+    },
+    {
+      "id": "FN-C11",
+      "category": "定制家具",
+      "room": "R305 露台花园",
+      "name": "露台轻型换盆台",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1200,
+      "included": true,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "园林固定/定制设施（勿与园林造价重复）；浅木色 / 哑光米白",
+      "fitStatus": "80×46×85 cm；按最新定位与花箱错开；可拆耐候台面、带沿托盘、收土盒，供水只用经核接口。需承载、防水、排水批准后订。",
+      "notes": "",
+      "sourceId": "C11",
+      "lineTotal": 1200
+    },
+    {
+      "id": "FN-C12",
+      "category": "定制家具",
+      "room": "R305 露台花园",
+      "name": "露台小圆茶桌（延后）",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 600,
+      "included": false,
+      "priceStatus": "设计概算额度，非供应商报价；需同图同材询价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "活动定制家具；浅木色 / 哑光米白",
+      "fitStatus": "56×56×49 cm；直径56小于模型G3-T01约58，台高49延续示意；耐候可移动，不未经复尺换65方桌。",
+      "notes": "",
+      "sourceId": "C12",
+      "lineTotal": 600
+    },
+    {
+      "id": "FN-C13",
+      "category": "定制家具",
+      "room": "R201 主卧",
+      "name": "主卧矮柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 2200,
+      "included": true,
+      "priceStatus": "设计概算占位，非供应商报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "补回模型已有但旧采购表漏列的柜体；保持床尾通行，按完成面复尺。若总木作合同已含本柜，只计一次。",
+      "fitStatus": "175×40×74 cm",
+      "notes": "",
+      "sourceId": "C13",
+      "lineTotal": 2200
+    },
+    {
+      "id": "FN-C14",
+      "category": "定制家具",
+      "room": "R206 二层休闲/家政区",
+      "name": "家政用品柜",
+      "model": "定制尺寸规格，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 1500,
+      "included": true,
+      "priceStatus": "设计概算占位，非供应商报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "仅干式清洁用品柜，不含洗烘机包柜或接水改造。原梯区可实施条件明确后订制；若需另找原合法可用墙面，先重新布置。",
+      "fitStatus": "55×50×185 cm",
+      "notes": "",
+      "sourceId": "C14",
+      "lineTotal": 1500
+    },
+    {
+      "id": "FN-C15",
+      "category": "定制家具",
+      "room": "R303 书法房",
+      "name": "完整宣纸与卷轴轻放收纳模块",
+      "model": "按实际纸样定制，无成品型号",
+      "quantity": 1,
+      "unit": "件",
+      "budgetUnitPrice": 800,
+      "included": true,
+      "priceStatus": "设计概算占位，非供应商报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "完整未书写宣纸只作宽松卷存预案：大直径圆芯/外套筒和独立分格，不紧卷、不捆压、不以其他物品压纸，避潮、避阳光及热源；实际纸性不适宜卷存或已完成作品，应采用相应平放/装裱收纳并另深化。原70×44柜仅收折纸、册页和小幅纸，不宣称可平放68×136整纸。",
+      "fitStatus": "待按实物/纸样定尺寸",
+      "notes": "",
+      "sourceId": "C15",
+      "lineTotal": 800
+    },
+    {
+      "id": "FN-A01",
+      "category": "家具附加",
+      "room": "全屋",
+      "name": "床品与保护垫",
+      "model": "预算额度，具体清单待采购",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 4000,
+      "included": true,
+      "priceStatus": "预算预留，非商家报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "原5000预算中，为未来儿童床划出1000延后；这是预算分配，不是某SKU的核实售价。",
+      "fitStatus": "地址、物品数量及服务范围待核",
+      "notes": "",
+      "sourceId": "A01",
+      "lineTotal": 4000
+    },
+    {
+      "id": "FN-A01-D",
+      "category": "家具附加",
+      "room": "全屋",
+      "name": "床品与保护垫（延后）",
+      "model": "预算额度，具体清单待采购",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 1000,
+      "included": false,
+      "priceStatus": "预算预留，非商家报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "原5000预算中，为未来儿童床划出1000延后；这是预算分配，不是某SKU的核实售价。",
+      "fitStatus": "地址、物品数量及服务范围待核",
+      "notes": "",
+      "sourceId": "A01",
+      "lineTotal": 1000
+    },
+    {
+      "id": "FN-A02",
+      "category": "家具附加",
+      "room": "全屋",
+      "name": "家具配送、上楼、组装与基层固定",
+      "model": "预算额度，具体清单待采购",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 2500,
+      "included": true,
+      "priceStatus": "预算预留，非商家报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "送装不因少买几件自动等比例下降；分期可能产生第二次配送费，付款前单独核价。",
+      "fitStatus": "地址、物品数量及服务范围待核",
+      "notes": "",
+      "sourceId": "A02",
+      "lineTotal": 2500
+    },
+    {
+      "id": "FN-A03",
+      "category": "家具附加",
+      "room": "全屋",
+      "name": "维护、保护与收纳小件",
+      "model": "预算额度，具体清单待采购",
+      "quantity": 1,
+      "unit": "批",
+      "budgetUnitPrice": 1000,
+      "included": true,
+      "priceStatus": "预算预留，非商家报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "保留户外坐凳及常用物件的必要保护维护额度，不提前购买未下单桌椅的专用家具罩。",
+      "fitStatus": "地址、物品数量及服务范围待核",
+      "notes": "",
+      "sourceId": "A03",
+      "lineTotal": 1000
+    }
+  ],
+  "appliances": [
+    {
+      "id": "AP-A01",
+      "category": "生活家电",
+      "room": "R106 厨房",
+      "name": "400L窄体冰箱",
+      "model": "海尔 BCD-400WLHD3B9YAU1 云溪米",
+      "quantity": 1,
+      "unit": "台",
+      "budgetUnitPrice": 5999,
+      "included": true,
+      "priceStatus": "官网参考价；非已核实到手报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/cooling/20260428_289874.shtml",
+      "scope": "单台设备参考价；另计：配送上楼、安装附材和旧机处置是否包含未确认；不含橱柜",
+      "fitStatus": "现模型冰箱占位660×730×2040毫米，机体外廓小于占位；不等于已核定安装净空。抽屉拉出、门铰链开启角、插头和背部散热必须按本机安装图复核。；220V/50Hz接地插座，避免与会断电的普通照明回路混接；确认厨房门、电梯轿厢和搬运转角；制造商通风要求优先；400L按当前4人日常采购安排；未来6人长期囤货需求可另评估，主方案不叠加第二冰箱",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "W_mm": 595,
+        "D_mm": 600,
+        "H_mm": 1906,
+        "capacity_L": 400
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "fridge",
+          "title": "海尔 BCD-400WLHD3B9YAU1：规格与参考价5999元",
+          "url": "https://www.haier.com/cooling/20260428_289874.shtml",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A01",
+      "lineTotal": 5999
+    },
+    {
+      "id": "AP-A02",
+      "category": "生活家电",
+      "room": "R106 厨房",
+      "name": "吸油烟机",
+      "model": "海尔 CXW-358-E900T81UD",
+      "quantity": 1,
+      "unit": "台",
+      "budgetUnitPrice": 2999,
+      "included": true,
+      "priceStatus": "官网参考价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/kitchen_appliances/xyyj/20260311_287621.shtml",
+      "scope": "烟机设备参考价；另计：烟管加长、止逆阀、墙孔、吊柜改造及特殊安装未确认",
+      "fitStatus": "需将895毫米烟机外宽和安装高度落入橱柜立面；当前图示不代表吊柜已开好孔。；预留电源、可拆烟管及止逆阀检修；复核烟道接口、管径/路径和公共烟道阻力；28m³/min等标称值不能替代系统校核；厂家安装图确认灶面至烟机的高度及检修空间",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "W_mm": 895,
+        "D_mm": 480,
+        "H_mm": 636
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "hood",
+          "title": "海尔 CXW-358-E900T81UD：规格与参考价2999元",
+          "url": "https://www.haier.com/kitchen_appliances/xyyj/20260311_287621.shtml",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A02",
+      "lineTotal": 2999
+    },
+    {
+      "id": "AP-A03",
+      "category": "生活家电",
+      "room": "R106 厨房",
+      "name": "双眼燃气灶",
+      "model": "海尔 JZT-Q2BE6(12T)",
+      "quantity": 1,
+      "unit": "台",
+      "budgetUnitPrice": 999,
+      "included": true,
+      "priceStatus": "官网参考价；天然气版本",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/kitchen_appliances/rqz/20240328_236731.shtml",
+      "scope": "灶具设备参考价；另计：燃气开户/改管、连接管与阀件及安装以书面报价为准",
+      "fitStatus": "必须拿本机开孔模板校对台面，650×350毫米不能按模型中灶具外轮廓施工；玻璃台面边距和圆角按模板。；确认实际气源为12T天然气；页面额定燃气压力2000Pa；持证燃气安装，气密试验；橱柜进风、阀门、报警切断按当地气源方案；尚无气源确认，不能购买液化气版顶替",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "panel_W_mm": 720,
+        "panel_D_mm": 420,
+        "cutout_W_mm": 650,
+        "cutout_D_mm": 350,
+        "H_mm": null,
+        "gas_type": "12T天然气"
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "gas",
+          "title": "海尔 JZT-Q2BE6(12T)：规格与参考价999元",
+          "url": "https://www.haier.com/kitchen_appliances/rqz/20240328_236731.shtml",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A03",
+      "lineTotal": 999
+    },
+    {
+      "id": "AP-A04",
+      "category": "生活家电",
+      "room": "R106 厨房",
+      "name": "15套洗碗机",
+      "model": "米家智能独嵌两用洗碗机15套 S1",
+      "quantity": 1,
+      "unit": "台",
+      "budgetUnitPrice": 3499,
+      "included": true,
+      "priceStatus": "预算预留；本次未取得可核实中国现价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://cdn.cnbj1.fds.api.mi-img.com/ics-resources/articles/62afd589a1a516d35d85481d.html",
+      "scope": "设备预算；官方说明列标准首装及部分标准附件；另计：柜格调整、开孔、超长水管/电线、特殊安装和当地最终服务项目需另询价",
+      "fitStatus": "现模型仅有520毫米宽洗碗机示意面板，不是600毫米净柜格；本型号须在原厨房边界内调整柜格后采购。需厂家复核软管占位和门完全放平后的前方空间。；官网安装说明要求右侧排气口不遮挡，背下部按图留100×80毫米管线孔；邻柜可检修接地10A插座，进水三通和带洗碗机接口存水弯；插座不藏在不可拔插的机背；厂家说明分有/无顶板安装条件；现场完成面净高和柜脚一起复核；橱柜深化未通过前不得按600毫米外廓硬挤安装",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "W_mm": 600,
+        "D_mm": 575,
+        "H_mm": 770,
+        "minimum_opening_W_mm": 600,
+        "minimum_opening_D_mm": 575,
+        "minimum_opening_H_mm": 770,
+        "door_open_projection_mm": null
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "dish",
+          "title": "米家智能独嵌两用洗碗机15套S1官方安装说明",
+          "url": "https://cdn.cnbj1.fds.api.mi-img.com/ics-resources/articles/62afd589a1a516d35d85481d.html",
+          "type": "官方安装说明",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A04",
+      "lineTotal": 3499
+    },
+    {
+      "id": "AP-A05",
+      "category": "生活家电",
+      "room": "R206 二层休闲/家政区",
+      "name": "洗衣机+热泵烘干机",
+      "model": "海尔 G10090BD12S + GA120-58E1U1",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 7198,
+      "included": true,
+      "priceStatus": "两台官网参考价相加：2899+4299",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/laundry/20240604_238924.shtml",
+      "scope": "洗衣机2899、烘干机4299设备参考价；另计：叠放架、排水改造、防水、专用插座和附加安装未计入设备价；组成：G10090BD12S ×1；GA120-58E1U1 ×1",
+      "fitStatus": "现方案洗衣位涉及原非湿区/楼梯区域，启用要先完成建筑方案及给排水、防水审批和深化。两台同宽不代表可以直接叠放。；取得海尔针对这两个准确型号的叠放兼容与专用连接件确认；否则并排布置并重核柜位；冷热环境、维护通风、进水龙头、存水弯/排水和漏水报警共同深化；两台分别设置合规接地电源，核对同时运行负荷；烘干机选集水盒或厂家允许的排水方式；地面找平承载/振动、吊柜检修和搬运净空必须复核",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "washer_mm": {
+          "W": 595,
+          "D": 612,
+          "H": 850
+        },
+        "dryer_mm": {
+          "W": 595,
+          "D": 613,
+          "H": 850
+        },
+        "washer_kg": 10,
+        "dryer_kg": 12
+      },
+      "components": [
+        {
+          "name": "10kg洗衣机",
+          "model": "G10090BD12S",
+          "quantity": 1,
+          "displayed_reference_price_cny": 2899
+        },
+        {
+          "name": "12kg热泵烘干机",
+          "model": "GA120-58E1U1",
+          "quantity": 1,
+          "displayed_reference_price_cny": 4299
+        }
+      ],
+      "sources": [
+        {
+          "id": "washer",
+          "title": "海尔 G10090BD12S：参考价2899元",
+          "url": "https://www.haier.com/laundry/20240604_238924.shtml",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "dryer",
+          "title": "海尔 GA120-58E1U1：参考价4299元",
+          "url": "https://www.haier.com/laundry/20260623_292221.shtml",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A05",
+      "lineTotal": 7198
+    },
+    {
+      "id": "AP-A06",
+      "category": "生活家电",
+      "room": "R104 客厅",
+      "name": "客厅75英寸电视",
+      "model": "海尔 75D50",
+      "quantity": 1,
+      "unit": "台",
+      "budgetUnitPrice": 4000,
+      "included": true,
+      "priceStatus": "设备预算3500+壁挂架/标准安装预留500；未核实当前售价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/televisions/20240308_236087.shtml",
+      "scope": "单台设备与普通壁挂安装预算；另计：特殊墙体加固、饰面修复、音响与机顶盒；设备价不是官方报价",
+      "fitStatus": "模型屏幕1720毫米宽、电视柜2300毫米宽；本机宽1667毫米小于两者，但固定位置、墙体锚固和观看距离仍待复尺。2024年产品页仍可查，在售库存待核，不标为2026新款。；确认墙体类型、支架孔距和承重；预埋电源/网线及可更换HDMI管；不为电视移动原有门窗；现场坐姿确定屏幕中心；若用脚架放在400毫米深电视柜上，330毫米脚架深度仍需留前后安全余量",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "without_stand_mm": {
+          "W": 1667,
+          "D": 83,
+          "H": 964
+        },
+        "with_stand_mm": {
+          "W": 1667,
+          "D": 330,
+          "H": 998
+        }
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "tv",
+          "title": "海尔 75D50：75英寸外形规格",
+          "url": "https://www.haier.com/televisions/20240308_236087.shtml",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A06",
+      "lineTotal": 4000
+    },
+    {
+      "id": "AP-A07",
+      "category": "卫浴洁具",
+      "room": "R102 父母卫浴、R103 一层公卫、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴",
+      "name": "五套普通节水坐便器，父母/主卫与其他房间分档",
+      "model": "九牧11396KD ×2（父母/主卫）；11370KE ×3（公卫/儿童/妹妹），305/400坑距逐间实测选版",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 5600,
+      "included": true,
+      "priceStatus": "整组预算：2×1300+3×1000；不是九牧现价，未使用过期618价、国补或满件折扣",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ejomoo.com.cn/item/11396.htm",
+      "scope": "五套普通坐便器、普通缓降座圈、常规密封安装附件的预算；地方安装若不含须从预算明确分摊；另计：智能盖板、坑距移位、结构开孔和防水返工；未取得可直接下单的本地套餐报价；组成：九牧11396KD ×2；九牧11370KE ×3",
+      "fitStatus": "保留5个原卫浴内的坐便功能；候选国产普通马桶无电控。完整外廓尚未取得厂家尺寸图，现模型不得据此缩减净空。父母/主卫先试坐确认座圈尺寸和起坐高度。；每间按完成墙面量坑距、排污中心、前方及侧方净空，再确定305或400版本；官网11396有KC、KD和含/不含安装版本，主选明确11396KD；11370主选11370KE，不接受泛写11370系列；商家须提供缓降座圈、水件、密封件及安装的完整包含清单；网页显示库存0且未选地址，须确认杭州供货；不为适配马桶迁移原排污立管或破坏已验收防水；智能盖仅预留合规电源不计入本期",
+      "notes": "推荐预算候选；须完成现场复尺、厂家安装图、中国版本/本地库存和书面含税报价确认。",
+      "dimensions": {
+        "overall_mm": null,
+        "pit_variants_mm": [
+          305,
+          400
+        ]
+      },
+      "components": [
+        {
+          "model": "九牧11396KD",
+          "quantity": 2,
+          "unit_allowance_cny": 1300,
+          "total_cny": 2600,
+          "assignment": "R102父母/R203主卫"
+        },
+        {
+          "model": "九牧11370KE",
+          "quantity": 3,
+          "unit_allowance_cny": 1000,
+          "total_cny": 3000,
+          "assignment": "R103公卫/R205儿童/R302妹妹"
+        }
+      ],
+      "sources": [
+        {
+          "id": "v_toilet_main",
+          "title": "九牧11396系列：11396KD版本；网页活动过期且库存待选，不采用促销价",
+          "url": "https://www.ejomoo.com.cn/item/11396.htm",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "v_toilet_other",
+          "title": "九牧11370KE普通坐便器；坑距与含安装版本可选",
+          "url": "https://www.ejomoo.com.cn/item/11370.htm",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "v_toilet_list",
+          "title": "九牧官方普通坐便器目录：用于确认在列型号，不能当本地供货承诺",
+          "url": "https://www.ejomoo.com/items/products.htm?categoryUuid=mtzq",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "v_jomoo_company",
+          "title": "九牧官方商城公司及服务主体：九牧厨卫（厦门）有限公司",
+          "url": "https://www.ejomoo.com.cn/",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A07",
+      "lineTotal": 5600
+    },
+    {
+      "id": "AP-A08",
+      "category": "卫浴洁具",
+      "room": "R102 父母卫浴、R103 一层公卫、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴",
+      "name": "五间卫浴台盆柜组合",
+      "model": "宜家 ENHET/TVÄLLEN 396.159.36 ×4 + 996.160.42 ×1",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 6400,
+      "included": true,
+      "priceStatus": "官网显示组合价5400；另预留1000元把手、支腿/墙固和附件",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/enhet-an-na-te-tvaellen-te-wei-lun-xi-lian-chi-jia-dai-men-xi-lian-chi-bai-se-s39615936/",
+      "scope": "4×1100+1×1000的柜体、陶瓷盆和配套下水管；额外附件预算1000；另计：龙头另列A09，镜柜另列A10；重做墙体和防水不在商品价内；组成：396.159.36 ×4；996.160.42 ×1；把手/支腿/墙固附件待随柜选择 ×1",
+      "fitStatus": "主卫、父母、儿童、妹妹各64厘米；公卫44厘米。小于模型约650–690毫米主盆柜和600毫米公卫柜外宽，但安装完成高度、门/抽屉、窗洞和墙体承重仍需复尺。；柜体为木质板材，置于有效干湿分区一侧，不受淋浴直冲；不能称为全防水柜；配套RÄNNILEN下水管，复核墙/地排位置及抽屉避管空间；墙挂需合适基层与锚固；必要时用配套支腿且仍按说明固定到墙；650毫米是组合自身高度，不是完成面离地台盆高度",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "four_large_mm": {
+          "W": 640,
+          "D": 430,
+          "H": 650
+        },
+        "one_small_mm": {
+          "W": 440,
+          "D": 430,
+          "H": 650
+        }
+      },
+      "components": [
+        {
+          "model": "396.159.36",
+          "quantity": 4,
+          "price_cny": 1100,
+          "size_mm": [
+            640,
+            430,
+            650
+          ]
+        },
+        {
+          "model": "996.160.42",
+          "quantity": 1,
+          "price_cny": 1000,
+          "size_mm": [
+            440,
+            430,
+            650
+          ]
+        },
+        {
+          "model": "把手/支腿/墙固附件待随柜选择",
+          "quantity": 1,
+          "allowance_cny": 1000
+        }
+      ],
+      "sources": [
+        {
+          "id": "vanity64",
+          "title": "宜家 ENHET/TVÄLLEN 396.159.36，64厘米组合1100元",
+          "url": "https://www.ikea.cn/cn/zh/p/enhet-an-na-te-tvaellen-te-wei-lun-xi-lian-chi-jia-dai-men-xi-lian-chi-bai-se-s39615936/",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "vanity44",
+          "title": "宜家 ENHET/TVÄLLEN 996.160.42，44厘米组合1000元",
+          "url": "https://www.ikea.cn/cn/zh/p/enhet-an-na-te-tvaellen-te-wei-lun-xi-lian-chi-jia-dai-chou-ti-xi-lian-chi-bai-se-s99616042/",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A08",
+      "lineTotal": 6400
+    },
+    {
+      "id": "AP-A09",
+      "category": "卫浴洁具",
+      "room": "R102 父母卫浴、R103 一层公卫、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴",
+      "name": "五只国产面盆龙头",
+      "model": "九牧32846 亮银1B",
+      "quantity": 5,
+      "unit": "只",
+      "budgetUnitPrice": 350,
+      "included": true,
+      "priceStatus": "每只预算350元；官网商品页曾显示338元，未选地区/库存0，不能标为已核实可成交现价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ejomoo.com/item/32846.htm",
+      "scope": "5只龙头设备预算；标准连接件是否随箱须书面确认；另计：角阀、安装人工和加长软管按合同另核",
+      "fitStatus": "继续搭配原候选TVÄLLEN陶瓷盆，但单孔直径、龙头高度和水流落点尚待厂家图与样品复核。；确认单孔台盆安装孔径、台面厚度和出水嘴投影，防止水流冲盆沿；冷热水角阀保留检修，按确切型号核对连接软管规格及是否随箱；选亮银1B，避免把不同颜色或活动起价当同一SKU；不要使用已失效的首页239元秒杀链接",
+      "notes": "推荐预算候选；须完成现场复尺、厂家安装图、中国版本/本地库存和书面含税报价确认。",
+      "dimensions": {
+        "overall_mm": null,
+        "hole_diameter_mm": null
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "v_tap",
+          "title": "九牧32846面盆龙头：亮银1B候选，网页338元不能代表本地现货",
+          "url": "https://www.ejomoo.com/item/32846.htm",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A09",
+      "lineTotal": 1750
+    },
+    {
+      "id": "AP-A10",
+      "category": "卫浴洁具",
+      "room": "R102 父母卫浴、R103 一层公卫、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴",
+      "name": "卫浴镜柜",
+      "model": "宜家 ENHET 安纳特 893.965.78 煤黑",
+      "quantity": 5,
+      "unit": "只",
+      "budgetUnitPrice": 399,
+      "included": true,
+      "priceStatus": "中国官方商城显示价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/enhet-an-na-te-jing-gui-mei-hei-se-s89396578/",
+      "scope": "5个镜柜显示价；另计：螺栓适配墙体、安装人工和镜前灯",
+      "fitStatus": "需复核每间墙面。尤其公卫镜柜600毫米宽会宽于440毫米台盆，必须校核北窗、开门和门扇；不足则改窄镜，按替换差额调预算。不是已确认五处可装。；牢固墙挂并检查瓷砖后基层；镜柜前开门不能碰窗、龙头或人脸活动区；镜前补光应在照明深化中配适湿区产品，本镜柜无内置灯",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "W_mm": 600,
+        "D_mm": 170,
+        "H_mm": 750
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "mirror",
+          "title": "宜家 ENHET 893.965.78 镜柜399元",
+          "url": "https://www.ikea.cn/cn/zh/p/enhet-an-na-te-jing-gui-mei-hei-se-s89396578/",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A10",
+      "lineTotal": 1995
+    },
+    {
+      "id": "AP-A11",
+      "category": "卫浴洁具",
+      "room": "R102 父母卫浴、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴",
+      "name": "四处淋浴分档配置",
+      "model": "九牧26195恒温款×2（父母/主卫）；36669亮银1B普通款×2（儿童/妹妹）",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 7000,
+      "included": true,
+      "priceStatus": "套组预算：2×2400+2×1100；网页促销/颜色/安装条件不一致，未把低起价当四套安装总价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ejomoo.com/item/26195.htm",
+      "scope": "两套26195恒温完整花洒与两套36669普通完整花洒及基础安装附件的整组预算；另计：淋浴玻璃、地漏、防水、结构钻孔；原14,000元四套TOTO预算仅作为升级备选，不与本项相加；组成：九牧26195 ×2；九牧36669 亮银1B ×2",
+      "fitStatus": "保持4处原淋浴位置。父母和主卫采用恒温、带手持的26195；其他两间采用可维护的普通混水花洒。公卫不加淋浴。；26195页面列36厘米置物台与30厘米顶喷；勿把26209的45厘米台/32厘米顶喷误当26195，完整安装图仍待厂家提供；36669亮银1B在官网明确不包安装，预算须留出人工；不可只看枪灰包安装标题；取得整套手持、软管、阀体清单和冷热管距/高度图，按三楼动态水压及实际热水能力确定是否可用恒温款；普通混水花洒与热源控温一起调试，设置家庭合适热水温度并试用，不假定省掉恒温阀即可忽略烫伤风险",
+      "notes": "推荐预算候选；须完成现场复尺、厂家安装图、中国版本/本地库存和书面含税报价确认。",
+      "dimensions": {
+        "overall_mm": null,
+        "main_shower_shelf_width_mm": 360,
+        "main_top_shower_diameter_mm": 300,
+        "required_dynamic_pressure_MPa": null
+      },
+      "components": [
+        {
+          "model": "九牧26195",
+          "quantity": 2,
+          "unit_allowance_cny": 2400,
+          "total_cny": 4800,
+          "assignment": "父母/主卫"
+        },
+        {
+          "model": "九牧36669 亮银1B",
+          "quantity": 2,
+          "unit_allowance_cny": 1100,
+          "total_cny": 2200,
+          "assignment": "儿童/妹妹；包含人工预留，官网亮银版不包安装"
+        }
+      ],
+      "sources": [
+        {
+          "id": "v_shower_main",
+          "title": "九牧26195恒温淋浴：选26195，不混入26209升级版",
+          "url": "https://www.ejomoo.com/item/26195.htm",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "v_shower_other",
+          "title": "九牧36669普通淋浴：亮银版不含安装，需单列人工",
+          "url": "https://www.ejomoo.com/item/36669.htm",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A11",
+      "lineTotal": 7000
+    },
+    {
+      "id": "AP-A12",
+      "category": "卫浴洁具",
+      "room": "R106 厨房",
+      "name": "厨房不锈钢单槽+抽拉龙头",
+      "model": "宜家 LÅNGUDDEN 491.574.81 + MAJSJÖN 606.104.61",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 1848,
+      "included": true,
+      "priceStatus": "中国官方商城显示价：549+1299",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/langudden-lan-jia-dun-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang-s49157481/",
+      "scope": "单槽+配套下水549元，抽拉龙头1299元；另计：安装人工、角阀、胶、台面加工和洗碗机配管改造",
+      "fitStatus": "采用500×400毫米内盆方便锅具清洗；模型水槽仍是示意，600毫米柜体与540×510毫米台面开孔须由橱柜深化在原厨房内确认。；水槽官网含LILLVIKEN排水及洗碗机接口；按说明连接并做满水、排水渗漏试验；抽拉龙头重锤和软管应有自由行程，不被垃圾桶/洗碗机接口卡住；龙头可安装台面厚度≤55毫米；台面前后实边、龙头孔与水槽开孔保持厂家要求间距",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "sink_outer_W_mm": 560,
+        "sink_outer_D_mm": 525,
+        "bowl_W_mm": 500,
+        "bowl_D_mm": 400,
+        "bowl_depth_mm": 180,
+        "sink_cutout_mm": [
+          540,
+          510
+        ],
+        "minimum_cabinet_width_mm": 600,
+        "tap_H_mm": 334,
+        "tap_hole_diameter_mm": [
+          34,
+          37
+        ]
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "sink",
+          "title": "宜家 LÅNGUDDEN 491.574.81，56×53厘米水槽549元",
+          "url": "https://www.ikea.cn/cn/zh/p/langudden-lan-jia-dun-qian-ru-shi-shui-cao-dai-1-ge-cao-bu-xiu-gang-s49157481/",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "kitchentap",
+          "title": "宜家 MAJSJÖN 606.104.61 抽拉龙头1299元",
+          "url": "https://www.ikea.cn/cn/zh/p/60610461/",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A12",
+      "lineTotal": 1848
+    },
+    {
+      "id": "AP-A13",
+      "category": "照明",
+      "room": "全屋P02基础灯位 全屋P02基础灯位",
+      "name": "30个基础灯位：国产简洁主灯及适用湿区/户外灯",
+      "model": "室内干区米家D40×4、D30×14作可调光系列候选；厨房/卫浴/户外按防护选型",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 8990,
+      "included": true,
+      "priceStatus": "细项设计预算：D40 4×430+D30 14×330+厨房2×200+卫浴5×200+户外5×250；并非厂家当前报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.mi.com/shop/buy/detail?cfrom=search&product_id=22569",
+      "scope": "30套基础灯具预算；每个功能位置保留，有效减少品牌/装饰溢价；另计：照明电线、开关插座和人工归施工合同；A14工作灯、A15床头灯、A19补光另计；组成：米家D40中国版候选 ×4；米家D30中国版候选 ×14；防护/清洁性与照度选型待定 ×2；按湿区安装分区选型 ×5；合格防雨灯，优先IP65并核实际工况 ×5",
+      "fitStatus": "保留P02全部30个基础灯位，不统一每处装同样大的灯。18个干区以国产D系列作为供货候选，按原位逐区计算照度后确定D30/D40数量组合；4+14是数量预算，不是已验证照度。；官方入口已确认L60、D40和D30套系存在，未取得有效单灯现价；上述430/330为预算，不沿用2024首发价；干区候选需供应商提交准确中国版本、外形、光通量、调光调色和安装说明；不将港台版参数直接用于大陆采购；湿区和户外仍独立预算并核安装分区防护，米家普通干区灯不能替代；厨房/卫浴灯宜简洁易清洁；不做无主灯满吊顶，不增加装饰线性灯；保留足够照度、好显色与可维护接线。开关/驱动兼容性须按最终型号确认",
+      "notes": "推荐预算候选；须完成现场复尺、厂家安装图、中国版本/本地库存和书面含税报价确认。",
+      "dimensions": {
+        "D40_China_version_mm": null,
+        "D30_China_version_mm": null,
+        "final_lumen_calculation": null
+      },
+      "components": [
+        {
+          "name": "较大干区主灯",
+          "model": "米家D40中国版候选",
+          "quantity": 4,
+          "unit_allowance_cny": 430,
+          "total_cny": 1720
+        },
+        {
+          "name": "其他干区主灯",
+          "model": "米家D30中国版候选",
+          "quantity": 14,
+          "unit_allowance_cny": 330,
+          "total_cny": 4620
+        },
+        {
+          "name": "厨房基础灯",
+          "model": "防护/清洁性与照度选型待定",
+          "quantity": 2,
+          "unit_allowance_cny": 200,
+          "total_cny": 400
+        },
+        {
+          "name": "卫浴基础灯",
+          "model": "按湿区安装分区选型",
+          "quantity": 5,
+          "unit_allowance_cny": 200,
+          "total_cny": 1000
+        },
+        {
+          "name": "花园基础灯",
+          "model": "合格防雨灯，优先IP65并核实际工况",
+          "quantity": 5,
+          "unit_allowance_cny": 250,
+          "total_cny": 1250
+        }
+      ],
+      "sources": [
+        {
+          "id": "v_lights",
+          "title": "米家吸顶灯L60/D40/D30套系中国官方入口；直接打开标题一致，无有效当前售价",
+          "url": "https://www.mi.com/shop/buy/detail?cfrom=search&product_id=22569",
+          "type": "官方产品页/型号线索，地区供货待核",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A13",
+      "lineTotal": 8990
+    },
+    {
+      "id": "AP-A14",
+      "category": "照明",
+      "room": "R303 书法房、R304 妈妈毛线工作室、R108 爸爸操盘房、R204 未来儿童房、R301 妹妹卧室",
+      "name": "六盏功能工作台灯",
+      "model": "明基 WiT 2023/e-Reading 圆底座款×3；米家台灯Pro MJTD02YL×3",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 6300,
+      "included": true,
+      "priceStatus": "明基3×1600、米家3×500均为预算预留；本次未核实有效现价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.benq.com.cn/zh-cn/lighting/e-reading-desk-lamp/e-reading/spec.html",
+      "scope": "6盏桌灯设备预留，配原厂电源适配器；另计：额外夹座/支架、智能网关、家具和线路；组成：BenQ WiT 2023 圆底座款 ×3；米家台灯Pro MJTD02YL ×3",
+      "fitStatus": "书法1940毫米桌放2盏WiT分区照明，毛线工作1650毫米桌1盏照实际工作区；操盘、妹妹及未来儿童桌各1盏米家。并非1盏保证整张大桌全部达标。；明基官方90厘米宽500lux是特定安装高度的测试条件，现场按书写手别、纸面反射与照度测量摆灯；米家MJTD02YL规格仍可核查但当前中国库存待确认，若停产换同等显色/稳定性产品并复核报价；操盘桌灯避开显示器反光和支架运动；儿童桌灯电线固定避免拖拽；花房毛线区必须为干燥室内工作区域，普通台灯不放浇水或雨淋处",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "benq_mm": {
+          "W": 590,
+          "D": 220,
+          "H": 625
+        },
+        "benq_CRI_min": 95,
+        "benq_max_W": 18,
+        "mi_max_W": 12.5,
+        "mi_CRI": 90,
+        "mi_lm": 700,
+        "mi_overall_mm": null
+      },
+      "components": [
+        {
+          "model": "BenQ WiT 2023 圆底座款",
+          "quantity": 3,
+          "unit_allowance_cny": 1600,
+          "assignment": "书法2+编织1"
+        },
+        {
+          "model": "米家台灯Pro MJTD02YL",
+          "quantity": 3,
+          "unit_allowance_cny": 500,
+          "assignment": "操盘1+妹妹1+未来儿童1"
+        }
+      ],
+      "sources": [
+        {
+          "id": "benq",
+          "title": "明基 WiT / e-Reading 台灯中国规格",
+          "url": "https://www.benq.com.cn/zh-cn/lighting/e-reading-desk-lamp/e-reading/spec.html",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "benq_buy",
+          "title": "明基 WiT 2023版官方购买入口；未取得有效数字售价",
+          "url": "https://www.benq.com.cn/zh-cn/lighting/e-reading-desk-lamp/e-reading/buy.html",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "mi_lamp",
+          "title": "米家台灯Pro MJTD02YL 官方规格；在售库存待核",
+          "url": "https://www.mi.com/lamp-pro/specs",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A14",
+      "lineTotal": 6300
+    },
+    {
+      "id": "AP-A15",
+      "category": "照明",
+      "room": "R101 父母卧室、R201 主卧、R204 未来儿童房、R301 妹妹卧室",
+      "name": "六盏床头阅读灯及光源",
+      "model": "宜家 NYMÅNE 603.569.88 白色 + 兼容可调光GU10灯泡",
+      "quantity": 6,
+      "unit": "套",
+      "budgetUnitPrice": 189,
+      "included": true,
+      "priceStatus": "灯体官方149元；每只可调光GU10灯泡预算40元",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/nymane-niu-mo-nai-bi-deng-yue-du-deng-bai-se-60356988/",
+      "scope": "灯体6×149与6只合适光源预算240；另计：床头电源插座、墙内线路和安装人工",
+      "fitStatus": "父母两侧2、夫妻两侧2、妹妹1、未来儿童1；壁挂高度以床头实际坐姿与伸手距离定，避免灯体进入通道。；只能搭配可调光GU10光源且不超过8.5W，预算光源不是已定厂牌SKU；配有电线，床头插座与开关操作距离在点位深化中补足；宜家不含墙面安装螺钉，按基层配锚固；儿童位置固定软线",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "lamp_H_mm": 110,
+        "lamp_diameter_mm": 70,
+        "cable_length_mm": 2500,
+        "maximum_bulb_W": 8.5
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "bedlamp",
+          "title": "宜家 NYMÅNE 603.569.88 阅读壁灯149元",
+          "url": "https://www.ikea.cn/cn/zh/p/nymane-niu-mo-nai-bi-deng-yue-du-deng-bai-se-60356988/",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A15",
+      "lineTotal": 1134
+    },
+    {
+      "id": "AP-A16",
+      "category": "冷暖热水排风",
+      "room": "R102 父母卫浴、R103 一层公卫、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴",
+      "name": "四处淋浴暖风排风+公卫排风，功能实用款",
+      "model": "国内常规暖风/排风机型待浴室风量、湿区与吊顶净空选型",
+      "quantity": 1,
+      "unit": "系统",
+      "budgetUnitPrice": 4500,
+      "included": true,
+      "priceStatus": "数量拆分预算：四套900元+公卫300元+常规管道止逆安装600元；未取得项目设备报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "",
+      "scope": "4套普通暖风排风、1套公卫排风、常规风管止逆和安装的预算；另计：专用电源线路由电气施工计；需要长管/高阻力或特殊吊顶时重新核报价，不削减必要风量；组成：淋浴间暖风排风 ×4；公卫排风 ×1；常规风管/止逆/安装 ×1",
+      "fitStatus": "按4处淋浴卫浴+1处公卫计；此项含风机，不应重复计到空调室内机数量。；按排风管长、阻力、补风及实际湿区选型，确认风量/噪声；暖风取电负荷、专用控制、止逆和排至合法室外的路径一起深化；不与烟道混用，不向封闭采光井任意排湿；不得占窗洞",
+      "notes": "推荐预算候选；须完成现场复尺、厂家安装图、中国版本/本地库存和书面含税报价确认。",
+      "dimensions": {
+        "heated_bathrooms": 4,
+        "powder_rooms": 1,
+        "final_airflow_m3h": null,
+        "fan_size_mm": null
+      },
+      "components": [
+        {
+          "name": "淋浴间暖风排风",
+          "quantity": 4,
+          "unit_allowance_cny": 900,
+          "total_cny": 3600
+        },
+        {
+          "name": "公卫排风",
+          "quantity": 1,
+          "unit_allowance_cny": 300,
+          "total_cny": 300
+        },
+        {
+          "name": "常规风管/止逆/安装",
+          "quantity": 1,
+          "total_cny": 600
+        }
+      ],
+      "sources": [],
+      "sourceId": "A16",
+      "lineTotal": 4500
+    },
+    {
+      "id": "AP-A17",
+      "category": "冷暖热水排风",
+      "room": "R101 父母卧室、R108 爸爸操盘房、R201 主卧、R204 未来儿童房、R301 妹妹卧室、R303 书法房、R304 妈妈毛线工作室、R104/R105 R104/R105",
+      "name": "按八个使用分区预留的独立分体空调",
+      "model": "七个房间挂机+一个公共区柜机的数量预算；海尔KFR-35GW/EC1-1及KFR-72LW/E1-1仅为价格/安装尺寸锚点",
+      "quantity": 1,
+      "unit": "系统",
+      "budgetUnitPrice": 30592,
+      "included": true,
+      "priceStatus": "七台挂机官方参考2599×7=18193；一台柜机官方参考6399；附加安装及容量调整预留6000，共30592。尚未做热负荷选型。",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/air_conditioners/20260707_292886.shtml",
+      "scope": "8个使用分区的设备参考预算及6000元附加安装/容量调整预留；其中冷媒管与排水必须按实际长度结算；另计：新风、地暖、全屋除湿、电表增容和外墙结构施工；中央/多联系统作为替换升级方案，不叠加；组成：KFR-35GW/EC1-1，容量待逐房核定 ×7；KFR-72LW/E1-1，容量与一机覆盖条件待核 ×1；按实际管长、支架、检修及最终容量核算 ×1",
+      "fitStatus": "按父母、操盘、夫妻、未来儿童、妹妹、书法、毛线七个可关门房间及客餐公共区共八分区列预算。原图外立面能否容纳八台室外机尚未确认，不代表已批准机位；衣帽区和走廊不另机械加空调。；逐房按围护/玻璃、朝向遮阳、层高、人员电脑及通风计算夏季冷负荷和冬季热负荷；不能凭2599元价格把七间强定为1.5匹；客厅与餐厅是否能用同一公共区机组由实测连通性、送风路径和负荷决定；不足时调整数量/容量，从预留并重新报价；八台室外机的合法机位、维护通道、散热短路、外观/邻户噪声和冷凝排水需先确认；不足则比较小多联或局部风管，不能挡门窗；设备参考总价24592与安装预留6000分列；标准安装若本已包含不得再次收同项，超长铜管、支架、墙孔等按实际明细；未来儿童房若暂空置可先做套管、电源和排水，延后购一台；主推荐为长期预算仍保留该台，不虚报节约",
+      "notes": "推荐预算候选；须完成现场复尺、厂家安装图、中国版本/本地库存和书面含税报价确认。",
+      "dimensions": {
+        "provisional_indoor_unit_count": 8,
+        "provisional_outdoor_unit_count": 8,
+        "wall_reference_mm": {
+          "indoor_W": 845,
+          "indoor_D": 205,
+          "indoor_H": 300,
+          "outdoor_W": 820,
+          "outdoor_D": 325,
+          "outdoor_H": 550
+        },
+        "floor_reference_mm": {
+          "indoor_W": 364,
+          "indoor_D": 424,
+          "indoor_H": 1830,
+          "outdoor_W": 889,
+          "outdoor_D": 355,
+          "outdoor_H": 643
+        },
+        "final_room_loads_kW": null
+      },
+      "components": [
+        {
+          "name": "七个房间挂机参考",
+          "model": "KFR-35GW/EC1-1，容量待逐房核定",
+          "quantity": 7,
+          "unit_reference_cny": 2599,
+          "total_cny": 18193,
+          "rooms": [
+            "R101",
+            "R108",
+            "R201",
+            "R204",
+            "R301",
+            "R303",
+            "R304"
+          ]
+        },
+        {
+          "name": "公共区柜机参考",
+          "model": "KFR-72LW/E1-1，容量与一机覆盖条件待核",
+          "quantity": 1,
+          "unit_reference_cny": 6399,
+          "total_cny": 6399,
+          "rooms": [
+            "R104",
+            "R105"
+          ]
+        },
+        {
+          "name": "附加安装与容量调整",
+          "model": "按实际管长、支架、检修及最终容量核算",
+          "quantity": 1,
+          "allowance_cny": 6000,
+          "total_cny": 6000
+        }
+      ],
+      "sources": [
+        {
+          "id": "v_ac_wall",
+          "title": "海尔 KFR-35GW/EC1-1：2026年款1.5匹一级变频，参考2599元",
+          "url": "https://www.haier.com/air_conditioners/20260707_292886.shtml",
+          "type": "官方规格与参考价",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "v_ac_floor",
+          "title": "海尔 KFR-72LW/E1-1：3匹一级变频，参考6399元",
+          "url": "https://www.haier.com/air_conditioners/20250213_255574.shtml",
+          "type": "官方规格与参考价",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "hvac_install",
+          "title": "海尔空调安装收费说明",
+          "url": "https://www.haier.com/support/charges/air_conditioners/",
+          "type": "官方售后收费说明",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A17",
+      "lineTotal": 30592
+    },
+    {
+      "id": "AP-A18",
+      "category": "冷暖热水排风",
+      "room": "R102 父母卫浴、R103 一层公卫、R106 厨房、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴",
+      "name": "三层生活热水：单热源+必要保温/按需回水预算",
+      "model": "有合适天然气条件时，以海尔JSQ38-20HT5DPXGU1 20L为价格/尺寸候选；系统最终容量待同时用水计算",
+      "quantity": 1,
+      "unit": "系统",
+      "budgetUnitPrice": 10000,
+      "included": true,
+      "priceStatus": "单机官方参考3599+按需回水/阀控预留2400+安装排烟附材1500+保温/调试/能力调整2501；共10000元。非全屋性能承诺。",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/water_heaters/rqrsq/20241216_254014.shtml",
+      "scope": "一种热源、按需循环/阀控的必要设备预留及常规安装/排烟附材、保温和调试；另计：给水总包若已含管路/保温须扣重；燃气开户/增容、外立面工程、异常大储热系统；不是指定20L一定够用；组成：JSQ38-20HT5DPXGU1 ×1；按最终厂家兼容方案选定 ×1；安装与排烟附材 ×1；保温/调试/能力调整 ×1",
+      "fitStatus": "毛坯阶段优先把热水管与可行回水路径、保温一起设计，减少三层等待。仍保留4个淋浴点，但20L单机不是四淋浴可同时开放的保证；如果家庭要求冬季两/三处持续同时淋浴，需升容或改储热系统。；确认入户天然气容量、合法排烟位置和最不利三楼动态水压；若无燃气，改空气能储热方案并按机位/负荷重新报价，不套用本主预算；按冬季进水温度与设定出水温差、两人同时用水期望和实际花洒流量计算；标称20L/min取决于标准测试温升，现场可用流量会变；回水采用按需控制，厂家须书面确认本机能配所选循环方案，不随意外加泵；若不兼容则更换同等级合适热源并重核价；公共热水长支路做合理保温和维护口；无需自动全天循环、全屋每点都追求瞬热，不以省钱取消必要控温；保留当前四处淋浴供水但不强制全部同时；若用户明确同时用水需求超出单热源能力，要在采购冻结前调整",
+      "notes": "推荐预算候选；须完成现场复尺、厂家安装图、中国版本/本地库存和书面含税报价确认。",
+      "dimensions": {
+        "reference_H_mm": 540,
+        "reference_W_mm": 340,
+        "reference_D_mm": 175,
+        "reference_nominal_output_L_min": 20,
+        "reference_nominal_gas_heat_input_kW": 37.5,
+        "final_simultaneous_flow_L_min": null
+      },
+      "components": [
+        {
+          "name": "热源尺寸/价格参考",
+          "model": "JSQ38-20HT5DPXGU1",
+          "quantity": 1,
+          "official_reference_cny": 3599,
+          "total_cny": 3599
+        },
+        {
+          "name": "按需回水及阀控",
+          "model": "按最终厂家兼容方案选定",
+          "quantity": 1,
+          "allowance_cny": 2400,
+          "total_cny": 2400
+        },
+        {
+          "name": "安装与排烟附材",
+          "quantity": 1,
+          "allowance_cny": 1500,
+          "total_cny": 1500
+        },
+        {
+          "name": "保温/调试/能力调整",
+          "quantity": 1,
+          "allowance_cny": 2501,
+          "total_cny": 2501
+        }
+      ],
+      "sources": [
+        {
+          "id": "v_hotwater",
+          "title": "海尔 JSQ38-20HT5DPXGU1：20升天然气热水器，参考3599元",
+          "url": "https://www.haier.com/water_heaters/rqrsq/20241216_254014.shtml",
+          "type": "官方规格与参考价",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A18",
+      "lineTotal": 10000
+    },
+    {
+      "id": "AP-A19",
+      "category": "照明",
+      "room": "R102 父母卫浴、R103 一层公卫、R203 主卫、R205 儿童卫浴、R302 妹妹卫浴、R106 厨房、卧室至卫浴干区通道 卧室至卫浴干区通道",
+      "name": "镜前、厨房台面及起夜补光",
+      "model": "卫浴镜前灯待防护区位选型；MITTLED 404.554.23干区候选；米家夜灯2 MJYD02YL",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 2410,
+      "included": true,
+      "priceStatus": "镜前5×250+厨房台面补光800+6个夜灯×60；均为整组预算，其中灯条有79.99元/条公开对照价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.ikea.cn/cn/zh/p/mittled-led-kitchen-worktop-lighting-strip-dimmable-white-40455423/",
+      "scope": "5组镜前灯预算1250；厨房灯条/驱动/连接线预算800；6只感应夜灯预算360；另计：固定布线及灯具安装归电气施工；型号替换后重核差额；组成：按安装区位防护待定 ×5；MITTLED 404.554.23 ×4仅干区候选；湿区替换 ×1；米家夜灯2 MJYD02YL ×6",
+      "fitStatus": "这组为原30个基础灯位之外的功能补光预留：镜前5组、厨房拟2.4米灯条、干燥通道低位夜灯6只；位置与长度须随最终柜体/照度深化确认。；镜前灯必须按湿区分区选择防护等级和合规固定接线，不能用IP20厨下灯替代；MITTLED 60厘米条5.5W、2700K、CRI>90、IP20，只能作经确认无溅水的干燥台面位置候选；水槽上方等位置另换满足实际防护条件产品；按4条共22W选择兼容且容量足够的TRÅDFRI驱动器及VÅGDAL/FÖRNIMMA线材，驱动器不埋死；800元组价包含配套设备预留；MJYD02YL使用3节AA电池，作为便利夜灯；安装于干区，不能替代应急照明，电池固定防儿童接触",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "mirror_light_mm": null,
+        "counter_candidate_mm": {
+          "L": 600,
+          "W": 20,
+          "H": 14
+        },
+        "nightlight_mm": {
+          "diameter": 80,
+          "H": 62
+        }
+      },
+      "components": [
+        {
+          "name": "卫浴镜前补光",
+          "quantity": 5,
+          "unit_allowance_cny": 250,
+          "total_cny": 1250,
+          "model": "按安装区位防护待定"
+        },
+        {
+          "name": "厨房台面补光含驱动/线材",
+          "quantity": 1,
+          "total_cny": 800,
+          "model": "MITTLED 404.554.23 ×4仅干区候选；湿区替换"
+        },
+        {
+          "name": "低位感应夜灯",
+          "quantity": 6,
+          "unit_allowance_cny": 60,
+          "total_cny": 360,
+          "model": "米家夜灯2 MJYD02YL"
+        }
+      ],
+      "sources": [
+        {
+          "id": "counterlight",
+          "title": "宜家 MITTLED 404.554.23 60厘米灯条79.99元；IP20，仅干燥位置候选",
+          "url": "https://www.ikea.cn/cn/zh/p/mittled-led-kitchen-worktop-lighting-strip-dimmable-white-40455423/",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "nightlight",
+          "title": "米家夜灯2 MJYD02YL 官方规格",
+          "url": "https://www.mi.com/mj-nightlight2/specs",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "A19",
+      "lineTotal": 2410
+    },
+    {
+      "id": "AP-NET01",
+      "category": "生活家电",
+      "room": "",
+      "name": "三层有线回程 Wi-Fi 设备与初次配置",
+      "model": "TP-LINK TL-XDR3010 易展版 ×3 + TL-SG1008D ×1",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 1250,
+      "included": true,
+      "priceStatus": "编制预算预留；未核实当前在售价格，不是官网报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.tp-link.com.cn/product_2025.html?source=search",
+      "scope": "全新路由器 3 台、交换机 1 台及原配电源，短跳线组预算 100 元，初次设备配置预算 200 元。均为预留价格，含税/运输须书面报价确认。；另计：永久布线及端接、强电插座、金属弱电箱、运营商宽带月费和光猫费用、NAS、UPS、摄像头。不假定复用原有路由器或交换机。；组成：TL-XDR3010 易展版（中国版） ×3；TL-SG1008D（中国版，硬件版本待采购核实） ×1；长度与根数随弱电柜、路由点及终端清单确定 ×1；服务暂列 ×1",
+      "fitStatus": "按每层一台起步，共三台全新设备。具体放置点尚未落实到施工图；必须在装修前选定开敞通风位置并布线，完工后测书法、操盘、卧室等重点房间的覆盖与漫游。此数量不是无死角覆盖保证。；光猫/运营商入户接口 → 一层主路由 WAN → 主路由 LAN 下接交换机 → 二、三层节点及有线终端，采用六类线星形回路；按厂家易展有线组网步骤完成配对，避免误接回环。；仅主路由承担本户 DHCP/NAT；若运营商光猫不能桥接，由安装人员统一规划网关/AP 模式，避免无意双重路由。；三台路由器、交换机及运营商光猫均需要适合本地的电源位；不把 Wi-Fi 节点封入金属弱电箱，不紧贴电梯井或强弱电配电设备。；由施工单位确认回线端口数。8 口交换机扣除主路由上联和 2 个楼层节点后余 5 口，可给电视和电脑使用；如端口清单超过容量，采购前调整交换机。；当前方案的有线链路为千兆，适合千兆及以下宽带基准；无线标称速率不能当作每个终端实测速率。超过千兆宽带或大量 NAS 传输需要另算 2.5G 升级，不计入本方案。；永久网线、管路、面板、端接和固定线路验收应归硬装弱电项，本项仅新增设备、短跳线与初次设备配置。",
+      "notes": "候选，须复核本地库存、准确硬件/配件版本与含税书面报价，完成现场方案后采购",
+      "dimensions": {
+        "router_each_L_W_H_mm": [
+          262,
+          149,
+          214
+        ],
+        "switch_L_W_H_mm": [
+          158,
+          100,
+          25
+        ]
+      },
+      "components": [
+        {
+          "name": "Wi-Fi 6 易展路由器",
+          "model": "TL-XDR3010 易展版（中国版）",
+          "quantity": 3,
+          "unit": "台",
+          "unit_price_cny": 250,
+          "total_cny": 750,
+          "price_status": "budget_allowance_unquoted",
+          "dimensions": {
+            "L_mm": 262,
+            "W_mm": 149,
+            "H_mm": 214
+          },
+          "power": "原配 12V/1A 适配器；每层须有当地市电插座，不按 PoE 设备设计"
+        },
+        {
+          "name": "8 口千兆交换机",
+          "model": "TL-SG1008D（中国版，硬件版本待采购核实）",
+          "quantity": 1,
+          "unit": "台",
+          "unit_price_cny": 200,
+          "total_cny": 200,
+          "price_status": "budget_allowance_unquoted",
+          "dimensions": {
+            "L_mm": 158,
+            "W_mm": 100,
+            "H_mm": 25
+          },
+          "power": "官网标注外置 9VDC/0.6A，使用本批次原配适配器"
+        },
+        {
+          "name": "成品六类短跳线若干",
+          "model": "长度与根数随弱电柜、路由点及终端清单确定",
+          "quantity": 1,
+          "unit": "组",
+          "unit_price_cny": 100,
+          "total_cny": 100,
+          "price_status": "budget_allowance_unquoted"
+        },
+        {
+          "name": "三台组网、升级与初次调试",
+          "model": "服务暂列",
+          "quantity": 1,
+          "unit": "项",
+          "unit_price_cny": 200,
+          "total_cny": 200,
+          "price_status": "budget_allowance_unquoted"
+        }
+      ],
+      "sources": [
+        {
+          "id": "net_router_cn",
+          "title": "TP-LINK 中国 TL-XDR3010 易展版：规格参数",
+          "url": "https://www.tp-link.com.cn/product_2025.html?source=search",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10",
+          "evidence": "4 个千兆 WAN/LAN 自适应口；易展 3.0；路由/有线 AP/无线中继模式；262×149×214 mm；附 12V/1A 电源适配器。无公开零售价。"
+        },
+        {
+          "id": "net_topology_cn",
+          "title": "TP-LINK 官方家庭无线覆盖：易展路由器方案",
+          "url": "https://smb.tp-link.com.cn/service/detail_article_4603.html",
+          "type": "中国制造商官方组网说明",
+          "checked_date": "2026-09-10",
+          "evidence": "说明易展有线互联及有线无线混合拓扑；产品组网能力不等于本项目已经完成无线覆盖实测。"
+        },
+        {
+          "id": "net_switch_cn",
+          "title": "TP-LINK 中国 TL-SG1008D：规格参数",
+          "url": "https://www.tp-link.com.cn/product_424.html?v=specification",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10",
+          "evidence": "8 个 10/100/1000Mbps RJ45；158×100×25 mm；外置 9VDC/0.6A 电源。无公开零售价。购买时复核硬件版本及配套电源。"
+        }
+      ],
+      "sourceId": "NET01",
+      "lineTotal": 1250
+    },
+    {
+      "id": "AP-LAU01",
+      "category": "生活家电",
+      "room": "",
+      "name": "洗烘原厂叠放连接件预留",
+      "model": "尚未核定：须匹配 G10090BD12S + GA120-58E1U1 的海尔认可连接件",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 450,
+      "included": true,
+      "priceStatus": "编制预算预留；未核实当前在售价格，不是官网报价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.haier.com/laundry/20240604_238924.shtml",
+      "scope": "仅连接件配件费暂列 450 元，无真实型号和官方现价背书。；另计：洗衣机、烘干机整机；水电防水改造；搬运与叠放安装人工。人工由 H30/H21 或厂商书面报价明确后只计一次。",
+      "fitStatus": "两台宽度均为 595 mm 不足以证明可以叠放。未找到该精确型号组合的官方叠放连接件 SKU，也未核实允许的固定方式及整体安装尺寸；保留采购暂停点。；海尔售后/安装方须书面确认两台精确型号可叠放、原厂连接件型号和安装净空。；原厂不认可此组合时，不得直接叠放；改为认可套装或依法落位的并排方案，并重新核价和复尺。；洗衣位置只能在落实后的合法湿区及已核实给排水、防水与接地电源条件中安装，不以新增楼板穿孔或未经确认的旧楼梯位置为前提。",
+      "notes": "候选，须复核本地库存、准确硬件/配件版本与含税书面报价，完成现场方案后采购",
+      "dimensions": null,
+      "components": [],
+      "sources": [
+        {
+          "id": "washer_cn",
+          "title": "海尔 G10090BD12S 产品与规格",
+          "url": "https://www.haier.com/laundry/20240604_238924.shtml",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10"
+        },
+        {
+          "id": "dryer_cn",
+          "title": "海尔 GA120-58E1U1 产品与规格",
+          "url": "https://www.haier.com/laundry/20260623_292221.shtml",
+          "type": "中国制造商官方产品页",
+          "checked_date": "2026-09-10",
+          "evidence": "页面未给出与 G10090BD12S 配对的叠放连接件型号；烘干程序中的“羊毛-支架”不是洗烘叠放配件。"
+        }
+      ],
+      "sourceId": "LAU01",
+      "lineTotal": 450
+    },
+    {
+      "id": "AP-O01",
+      "category": "可选设备",
+      "room": "R304 妈妈毛线工作室、R206 二层休闲/家政区",
+      "name": "可移动除湿机（延后）",
+      "model": "米家智能除湿机22L 中国版",
+      "quantity": 1,
+      "unit": "台",
+      "budgetUnitPrice": 1499,
+      "included": false,
+      "priceStatus": "可选预算；本次未核实准确SKU当前售价与中国版完整外形",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=22032",
+      "scope": "1台设备预留；另计：连续排水管路改造与全屋除湿系统",
+      "fitStatus": "毛线干燥储藏/梅雨期轮换使用；22L为标称量，实际杭州低温高湿条件能力需看测试温湿度，不当全屋除湿保证。；接地电源，机器四周进出风和水箱取出空间按中国版说明书；默认水箱手动倒水；若连续排水，须合法排水点和防倒灌，不能随意向花房地面滴水",
+      "notes": "本轮搜索摘要识别为目标商品，但直接打开相同product_id存在标题不一致/缓存差异；作为型号检索线索，不能当已验证可直接下单链接。延期；先重新核对中国版本型号和官方有效商品页。",
+      "dimensions": {
+        "rated_label_L_per_day": 22,
+        "overall_mm": null
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "dehumidifier",
+          "title": "米家智能除湿机22L 中国官方选购页",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=22032",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "O01",
+      "lineTotal": 1499
+    },
+    {
+      "id": "AP-O02",
+      "category": "可选设备",
+      "room": "R104 客厅",
+      "name": "扫拖机器人（延后）",
+      "model": "米家扫拖机器人5 水箱版",
+      "quantity": 1,
+      "unit": "台",
+      "budgetUnitPrice": 3299,
+      "included": false,
+      "priceStatus": "可选预算；中国官网确认产品名称，未核实当前到手价",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=18340",
+      "scope": "1台机器和水箱版基站预留；另计：上下水套件、额外楼层基站和耗材续购",
+      "fitStatus": "先在1层安排一套水箱基站；多层靠人工搬运机器，不能假定机器人会乘电梯或自动跨层。无完整尺寸前不把基站封入柜。；实测基站外廓、前方驶出净空和开盖取水高度；水箱版只需合适电源与人工补水倒水，不增未批准的上下水；验证门槛、地毯和家具底部净高，电梯门及高差区域做防跌落和边界测试",
+      "notes": "本轮搜索摘要识别为目标商品，但直接打开相同product_id存在标题不一致/缓存差异；作为型号检索线索，不能当已验证可直接下单链接。延期；先重新核对中国版本型号和官方有效商品页。",
+      "dimensions": {
+        "robot_mm": null,
+        "base_mm": null
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "robot",
+          "title": "米家扫拖机器人5水箱版 中国官方选购页",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=18340",
+          "type": "官方产品/规格页",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "O02",
+      "lineTotal": 3299
+    },
+    {
+      "id": "AP-O03",
+      "category": "optional_office",
+      "room": "R108 爸爸操盘房",
+      "name": "操盘显示器与UPS组合（延后）",
+      "model": "Dell Pro P 24 P2426H ×3；UPS待实际功率与运行时间选型",
+      "quantity": 1,
+      "unit": "组",
+      "budgetUnitPrice": 5407,
+      "included": false,
+      "priceStatus": "显示器官方969×3；UPS预算2000、线材/支架预留500",
+      "priceDate": "2026-09-10",
+      "sourceUrl": "https://www.dell.com/zh-cn/shop/dell-pro-p-24-%E6%98%BE%E7%A4%BA%E5%99%A8-p2426h/apd/210-bvqh/%E6%88%B4%E5%B0%94%E6%98%BE%E7%A4%BA%E5%99%A8",
+      "scope": "3台显示器显示价2907、UPS预留2000、线材或必要支架预留500；另计：交易软件订阅、电脑、网络月租；UPS型号尚未确定，金额为独立预算",
+      "fitStatus": "爸爸桌1480×800毫米。三个横屏并列宽1615.92毫米超出桌宽；建议中间横屏+两侧竖屏，机身理论宽1167.10毫米另加间隙，仍需按支架、旋转和坐姿复核。；P2426H支持旋转，1080p/120Hz；确认电脑有三个独立视频输出或合适扩展坞，不把USB-C充电口当视频菊链；UPS按电脑、3屏和网络设备实际W、目标约10分钟关机续航及插头规格选中国合规在售型号；UPS不带空调、打印机大负载或电梯；桌下留散热和维护空间；若原操盘电脑/显示器可复用，整项可推迟；本项不包含新电脑",
+      "notes": "候选清单，完成现场复尺、安装图与本地库存/含税书面报价核对后才可下单",
+      "dimensions": {
+        "monitor_body_mm": {
+          "W": 538.64,
+          "D": 50.03,
+          "H": 314.23
+        },
+        "stand_depth_mm": 181.75,
+        "vesa_mm": [
+          100,
+          100
+        ]
+      },
+      "components": [],
+      "sources": [
+        {
+          "id": "monitor",
+          "title": "戴尔中国 P2426H 官方显示售价969元",
+          "url": "https://www.dell.com/zh-cn/shop/dell-pro-p-24-%E6%98%BE%E7%A4%BA%E5%99%A8-p2426h/apd/210-bvqh/%E6%88%B4%E5%B0%94%E6%98%BE%E7%A4%BA%E5%99%A8",
+          "type": "中国官方商城显示价",
+          "checked_date": "2026-09-10"
+        }
+      ],
+      "sourceId": "O03",
+      "lineTotal": 5407
+    }
+  ],
+  "contractors": [
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T01",
+      "brand": "铭品装饰",
+      "companyName": "浙江铭品装饰工程有限公司",
+      "priority": "首轮比价",
+      "website": "https://www.mpzs.com/",
+      "phone": "400-600-3007",
+      "address": "杭州市上城区天城路295号（文晖大桥东）",
+      "serviceArea": "杭州；官网明确列富阳分站。本小区现场服务、工人交通与售后响应待核实。",
+      "serviceMode": "别墅全案／室内设计与施工；要求另报按本案清单的施工及辅材、主材、定制分项。",
+      "whyShortlisted": "已有富阳极简住宅和现代合院官方案例，适合以现有P02方案为基础做结构边界、机电、定制统筹。",
+      "evidence": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C11"
+      ],
+      "caseLinks": [
+        {
+          "title": "富阳793㎡温馨极简住宅（面积大于本案）",
+          "url": "https://www.mpzs.com/case/info_491.html"
+        },
+        {
+          "title": "藏龙大境240㎡现代合院",
+          "url": "https://www.mpzs.com/case/info_518.html"
+        }
+      ],
+      "independentEvidence": "2024企业标准领跑者官方名单有该企业；市装协公布受检名单有铭品。只作为存在和参与记录，不作履约保证。",
+      "uncertainties": [
+        "与现有方案衔接是否另收设计深化费",
+        "富阳在施工地可否由拟派同一项目经理带看",
+        "花园、防水和电梯界面由谁承担总协调",
+        "是否接受指定家具品牌和甲供主材，管理费如何计取"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T02",
+      "brand": "南鸿装饰",
+      "companyName": "浙江南鸿装饰股份有限公司",
+      "priority": "首轮比价",
+      "website": "https://www.nhzs.com/",
+      "phone": "400-8800-618",
+      "address": "杭州市拱墅区绍兴路59号",
+      "serviceArea": "杭州及浙江部分城市；官网有富阳住宅案例，项目地址的服务边界待确认。",
+      "serviceMode": "整装、定制、橱柜及舒适系统；请同时给清单报价与套餐差额对照。",
+      "whyShortlisted": "有现代简约别墅案例，公开标准套餐便于检查费用边界，适合作为舒适实用方向的比价对象。",
+      "evidence": [
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "caseLinks": [
+        {
+          "title": "嘉绿名苑西区300㎡现代简约别墅",
+          "url": "https://www.nhzs.com/info_anli/3014.html"
+        }
+      ],
+      "independentEvidence": "杭州市装协公开受检会员名单有南鸿；尚未取得本案班组的独立质量结论。",
+      "publicPriceEvidence": [
+        "R01"
+      ],
+      "uncertainties": [
+        "1199套餐对多层、面积、厨房卫生间数量的限制",
+        "旧房拆除、修补、跨楼层运输、机电、室外是否另计",
+        "装修工程专业承包资质官网自述与当期证书是否一致",
+        "使用甲供材料是否增加服务费"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T03",
+      "brand": "都都装饰",
+      "companyName": "浙江都都装饰有限公司",
+      "priority": "首轮比价",
+      "website": "https://www.duduzs.cn/",
+      "phone": "400-600-5508",
+      "address": "杭州市拱墅区祥富路2号联龙创鑫空间G座1–3层；城西店：西湖区文二西路295号",
+      "serviceArea": "杭州站及杭州门店已核；富阳本小区接单、运输及售后范围待确认。",
+      "serviceMode": "整装、软装定制及排屋别墅；本案施工清单须单独核价。",
+      "whyShortlisted": "可用舒适家产品方向核对简约舒适配套，官网有270㎡叠排及320㎡现代简约住宅展示。",
+      "evidence": [
+        "C12",
+        "C13",
+        "C14",
+        "C15"
+      ],
+      "caseLinks": [
+        {
+          "title": "嘉悦府270㎡叠排现代港式",
+          "url": "https://www.duduzs.cn/cases/788"
+        },
+        {
+          "title": "杭州团队及现代简约案例索引",
+          "url": "https://www.duduzs.cn/design/38"
+        }
+      ],
+      "independentEvidence": "本次取得的是企业官方资料；未获得当期独立信用或工地质检结论。",
+      "uncertainties": [
+        "套餐是否接受现有方案而不整体重做",
+        "三层旧改工长的最近案例及在建工地",
+        "花园和露台防水/排水是否自营或分包",
+        "官网零投诉等宣传未独立核验，不列为评分依据"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T04",
+      "brand": "尚层别墅装饰·杭州",
+      "companyName": "尚层装饰（北京）有限公司杭州分公司",
+      "priority": "全案服务比较备选",
+      "website": "https://hz.shangceng.com.cn/",
+      "phone": "400-001-5820",
+      "address": "杭州市上城区新业路8号UDC时代大厦A座；官网页面楼层不一致，接待楼层待确认",
+      "serviceArea": "官网写大杭州及周边；富阳项目需书面确认。",
+      "serviceMode": "别墅整体规划、施工、设备与家具定制全案。",
+      "whyShortlisted": "可作为多专业协调能力及全案服务深度的比较对象；本案要求减少装饰造型、控制定制及品牌溢价。",
+      "evidence": [
+        "C16",
+        "C17"
+      ],
+      "caseLinks": [
+        {
+          "title": "杭州别墅案例目录",
+          "url": "https://hz.shangceng.com.cn/case/"
+        }
+      ],
+      "independentEvidence": "本次仅核企业官方服务和展示；未取得当期独立资信或本案班组记录。",
+      "uncertainties": [
+        "能否按简约舒适、明确总投资控制线接单",
+        "已有方案深化费、全案管理费与主材服务费是否重复",
+        "接受部分甲供家具家电的合同方式",
+        "具体合同主体与收款账户是否一致"
+      ]
+    },
+    {
+      "contacted": false,
+      "siteVisited": false,
+      "formalQuoteReceived": false,
+      "verificationStatus": "公开资料初筛；营业执照、当前资质范围与有效期、具体合同主体、派出工长及班组、近期信用状态均待现场采购阶段核验。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "待复测及正式询价",
+        "projectAmount": null
+      },
+      "id": "T05",
+      "brand": "圣都整装·杭州",
+      "companyName": "圣都家居装饰有限公司（杭州实际签约分支待确认）",
+      "priority": "标准整装费用比较备选",
+      "website": "https://shengdu.ke.com/hz/",
+      "phone": "4001115699",
+      "address": "圣都整装钱江新城店：杭州市上城区三新路37号中豪江河时代2F",
+      "serviceArea": "杭州站和门店已核；富阳项目服务范围待确认。",
+      "serviceMode": "标准整装；能否承接本案三层旧改及专业接口尚未确认。",
+      "whyShortlisted": "公开A3s-140起价可作为标准整装边界参照，不能直接视作本案可用合同方案。",
+      "evidence": [
+        "C18",
+        "C19",
+        "C11"
+      ],
+      "caseLinks": [],
+      "independentEvidence": "拱墅区政府历史企业名单有圣都家居装饰有限公司；市装协受检会员名单有圣都。",
+      "publicPriceEvidence": [
+        "R02"
+      ],
+      "uncertainties": [
+        "本次尚未核到足以证明同类三层别墅旧改的杭州具体案例，须先补齐后入围",
+        "标准套餐是否限制厨房/卫生间数量、层高与面积计量",
+        "电梯、花园、露台及结构合法性深化是否有责任主体"
+      ]
+    }
+  ],
+  "elevators": [
+    {
+      "id": "EL01",
+      "brand": "Cibes西柏思",
+      "model": "S80 雅致版（Elegance）",
+      "classification": "平台式／螺杆驱动／自带一体化井道",
+      "scope": "三层三站单一家庭使用；版本在售、门型和配置待厂家确认。",
+      "dimensionalEvidence": {
+        "minimumPublishedFootprintMm": [
+          1070,
+          940
+        ],
+        "platformMm": null,
+        "chosenFootprintMm": null,
+        "openingMm": null,
+        "pitMm": [
+          50,
+          70
+        ],
+        "floors": [
+          2,
+          6
+        ]
+      },
+      "interpretation": "官网1070×940mm是系列最小尺寸，不是本案选定机身或安装孔。底坑可按厂家方案改为地坪抬高处理；需同时检查首层通行坡度及标高。",
+      "fitStatus": "未适配确认。需厂方出三层立面、总行程、平台净尺寸、门净宽、开门方向、井道外轮廓、检修空间和反力图。",
+      "finishIntent": "白色框体＋透明玻璃＋灰色地板；不选RGB氛围背景升级。",
+      "manufacturerContact": {
+        "phone": "400-9999-076",
+        "servicePhone": "400-9990-629",
+        "website": "https://www.cibeslift.cn/"
+      },
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "型号无正式报价；Cibes品牌一般三层参考",
+        "low": 250000,
+        "high": 350000,
+        "referenceId": "R05",
+        "scope": "仅作品牌三层电梯系统预算区间，配置、运输、安装、税、服务逐项待确认；结构改造与土建另列。"
+      },
+      "sources": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E10"
+      ]
+    },
+    {
+      "id": "EL02",
+      "brand": "ARITCO瑞特科",
+      "model": "HomeLift Access 逸致款／型号3／900×1480 AC",
+      "classification": "平台式／螺杆驱动／一体化井道",
+      "scope": "三层三站初选；国际2026规格，国内销售配置和本地安装方案待确认。",
+      "dimensionalEvidence": {
+        "platformMm": [
+          900,
+          1480
+        ],
+        "exteriorMm": [
+          1300,
+          1600
+        ],
+        "floorOpeningMm": [
+          1305,
+          1630
+        ],
+        "openingToleranceMm": {
+          "plus": 15,
+          "minus": 0
+        },
+        "doorClearMm": 800,
+        "ratedLoadKg": 410,
+        "pitMm": 50,
+        "topHeightMinMm": 2240,
+        "floors": [
+          2,
+          6
+        ]
+      },
+      "interpretation": "孔口数值仅适用于所链接900×1480 AC标准安装图。现模型井道外1650×1900、净1410×1660mm，扣除孔口后净余量很小，且东开门方向与AC门型尚未核。不能据此断言可装。",
+      "fitStatus": "未适配确认；先核合法性、原结构、每层测量、门前轮椅回转及救援通道，再由厂家签认土建条件。",
+      "finishIntent": "白色RAL9016框体，透明玻璃，耐磨浅灰地板。",
+      "manufacturerContact": {
+        "phone": "400-6233-121",
+        "email": "info.china@aritco.com",
+        "website": "https://www.aritco.com.cn/"
+      },
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未发现国内本型号三层公开价，待厂家正式报价",
+        "low": null,
+        "high": null,
+        "scope": "不可把Cibes参考价写为Aritco型号报价；项目电梯系统统一预留需正式询价覆盖。"
+      },
+      "sources": [
+        "E05",
+        "E06",
+        "E08",
+        "E09"
+      ]
+    },
+    {
+      "id": "EL03",
+      "brand": "ARITCO瑞特科",
+      "model": "HomeLift S12",
+      "classification": "家用螺杆式／一体化井道",
+      "scope": "三层三站初选；国际2026规格，国内配置待确认。",
+      "dimensionalEvidence": {
+        "carrierMm": [
+          1000,
+          1200
+        ],
+        "exteriorMm": [
+          1366,
+          1250
+        ],
+        "floorOpeningMm": null,
+        "ratedLoadKg": 400,
+        "pitMm": 37,
+        "topHeightMinMm": 2225,
+        "floors": [
+          2,
+          6
+        ]
+      },
+      "interpretation": "1366×1250mm为产品外形，楼板孔口与装配间隙另需安装图。当前模型净宽1410mm，外形宽方向仅余44mm总间隙；不得据此锁定。S15外形宽1466mm已大于当前1410mm净宽，不能原样套入。",
+      "fitStatus": "未适配确认；门型、轮椅使用舒适度、开门及检修路径、顶层高度需实测和厂家方案。",
+      "finishIntent": "白色框体和浅色地板；普通暖白照明，控制装饰背景墙选配。",
+      "manufacturerContact": {
+        "phone": "400-6233-121",
+        "email": "info.china@aritco.com",
+        "website": "https://www.aritco.com.cn/"
+      },
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未发现国内本型号三层公开价，待厂家正式报价",
+        "low": null,
+        "high": null,
+        "scope": "价格须列机身、井道、三层门、运输、安装、税、维保、应急救援及土建分界。"
+      },
+      "sources": [
+        "E07",
+        "E08"
+      ]
+    }
+  ],
+  "domesticElevatorCandidates": [
+    {
+      "id": "DE01",
+      "brand": "康力 CANNY",
+      "manufacturer": "康力电梯股份有限公司",
+      "model": "KLJ 家用电梯系列",
+      "classification": "国内电梯制造企业的家用系列；具体出厂型号、产地及配置以合格证明和合同为准",
+      "priority": "第一轮询价",
+      "whyThisProject": "官网可核杭州浙江分公司，可先核家用梯与本地安装、救援、配件供应是否由同一责任主体承担；适合毛坯阶段先做土建接口方案与标准饰面询价。",
+      "scope": "要求三层三站、标准轿厢与自动门；当前网页不能证明本案净井、提升高度和救援条件均满足。",
+      "dimensionalEvidence": {
+        "sourceIDs": [
+          "D01",
+          "D02"
+        ],
+        "minimumShaftMm": null,
+        "pitDepthMm": null,
+        "minimumHeadroomMm": null,
+        "notes": "官网当前公开页未取得完整土建尺寸表；不能将早年KLJ/VF参数套在2026年采购上。"
+      },
+      "verifiedFeatures": [
+        "中文官网列出断电应急救援、故障自动救援、电动松闸救援",
+        "中文官网说明光幕保护、一键呼救；具体标配/选配须列合同"
+      ],
+      "manufacturerContact": {
+        "localOffice": "浙江分公司",
+        "localPhone": "0571-89971040",
+        "localAddress": "杭州市拱墅区新天地商务中心806、807室",
+        "nationalPhone": "400-188-2367",
+        "sourceIDs": [
+          "D03"
+        ],
+        "serviceVerification": "杭州公开分公司已核；富阳上门时限、家用型号专属团队、授权状态和收费未确认"
+      },
+      "fitStatus": "未核定。模型外井1650×1900mm、净井1410×1660mm仅为方案占位，厂家须给本案平面、剖面、荷载和门洞图并签认；不能直接下单或开井。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未报价",
+        "quotedAmount": null,
+        "publicThreeStopModelPrice": null,
+        "scope": "三层三站、提升高度与门向待现场确定；未联系厂家，未取得含税到场安装报价。",
+        "source": "本次官方公开资料检索，无本案报价"
+      },
+      "sourceIDs": [
+        "D01",
+        "D02",
+        "D03"
+      ],
+      "uncertainties": [
+        "KLJ具体配置单、三层土建条件和门净宽",
+        "全国服务电话不构成本案救援时限承诺",
+        "未独立验证实际工班质量或客户长期故障记录"
+      ]
+    },
+    {
+      "id": "DE02",
+      "brand": "西奥 XIOLIFT",
+      "manufacturer": "杭州西奥电梯有限公司",
+      "model": "SIND / SINDII 家用别墅梯系列",
+      "classification": "杭州本地电梯制造企业的家用系列；订单型号、制造地与所用部件须合同列明",
+      "priority": "第一轮询价",
+      "whyThisProject": "杭州总部、家用业务专线可直接核；用标准钢带曳引系列与康力做同范围报价比较，重点审本地服务与备件。",
+      "scope": "要求三层三站；优先询常规自动门、浅色标准饰面，不以豪华轿厢或语音屏幕作为必选。",
+      "dimensionalEvidence": {
+        "sourceIDs": [
+          "D04"
+        ],
+        "minimumShaftMm": null,
+        "pitDepthMm": null,
+        "minimumHeadroomMm": null,
+        "notes": "当前官方产品页确认SIND/SINDII系列，但未公开可直接用于本案的完整井道尺寸表；经销商旧册和两层商城起价不作为三层订货依据。"
+      },
+      "verifiedFeatures": [
+        "当前官网说明钢带曳引技术",
+        "物联网、儿童锁、语音呼梯列为可配置项；报价需区分选配费用"
+      ],
+      "manufacturerContact": {
+        "localOffice": "杭州总部 / 家用电梯业务",
+        "localPhone": "0571-81028788",
+        "localAddress": "浙江省杭州市临平经济技术开发区宏达路168号",
+        "nationalPhone": "400-826-9998",
+        "sourceIDs": [
+          "D04",
+          "D05"
+        ],
+        "serviceVerification": "总部及家用业务专线已核；须明确本案由厂家或哪家授权商安装维保，富阳响应时限未确认"
+      },
+      "fitStatus": "未核定。模型外井1650×1900mm、净井1410×1660mm仅为方案占位，厂家须给本案平面、剖面、荷载和门洞图并签认；不能直接下单或开井。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未报价",
+        "quotedAmount": null,
+        "publicThreeStopModelPrice": null,
+        "scope": "三层三站、提升高度与门向待现场确定；未联系厂家，未取得含税到场安装报价。",
+        "source": "本次官方公开资料检索，无本案报价"
+      },
+      "sourceIDs": [
+        "D04",
+        "D05"
+      ],
+      "uncertainties": [
+        "SIND与SINDII适用本案的具体子型号及2026订货图",
+        "额定载重、速度、底坑、顶层净高和自动门净宽未获本案核定",
+        "品牌总部在杭州不等于承诺由总部直营安装或长期免费维保"
+      ]
+    },
+    {
+      "id": "DE03",
+      "brand": "快意 IFE",
+      "manufacturer": "快意电梯股份有限公司",
+      "model": "VILLUX 基础系列；VILLUX-Pro作结构条件备选",
+      "classification": "国内电梯制造企业的钢带曳引家用系列",
+      "priority": "第二轮技术与价格对照；杭州本地服务主体确认后入围",
+      "whyThisProject": "现行原厂册公开土建参数较完整，可用于提前判断顶层和底坑；先比较基础VILLUX，不默认采用Max旗舰或Mini平台式。",
+      "scope": "拟询基础VILLUX、400kg、0.4m/s、三层三站、单侧自动门；载重不是本案可容纳4人的承诺，最终容量和轿厢尺寸以制造商为准。",
+      "dimensionalEvidence": {
+        "sourceIDs": [
+          "D07"
+        ],
+        "documentVersion": "202501版，PDF第22页右半/印刷页42",
+        "ratedLoadKg": 400,
+        "requestedSpeedMps": 0.4,
+        "drive": "钢带2:1曳引、永磁同步无齿轮",
+        "maximumTravelM": 27,
+        "minimumShaftMm": null,
+        "minimumHeadroomRearCounterweightMm": 2900,
+        "minimumHeadroomSideCounterweightMm": 2950,
+        "minimumPitPvcMm": 200,
+        "minimumPitMarbleMm": 225,
+        "standardPower": "单相220V，可选380V；电源与线路仍按本案安装图设计",
+        "door": "VVVF自动门可中分、旁开、中分双折，净开门宽尚未核定",
+        "notes": "上述顶层数据仅对应本册VILLUX的0.4/0.63m/s配置。厂册以SW/SD表示井道宽深，不能据此判定1410×1660mm净井可装。旧2022册1350×1350mm最小井宣传不作为现行订货依据。"
+      },
+      "verifiedFeatures": [
+        "现行厂册列光幕、门锁保护、超载保护",
+        "现行厂册列自动救援、一键紧急呼叫、电动松闸；儿童锁列为可选"
+      ],
+      "manufacturerContact": {
+        "localOffice": null,
+        "localPhone": null,
+        "localAddress": null,
+        "nationalPhone": "400-6789-443",
+        "companyPhone": "0769-8207-8888",
+        "sourceIDs": [
+          "D08",
+          "D10"
+        ],
+        "serviceVerification": "已核全国服务渠道；官网公开文本未核到杭州具体家用梯服务点，须厂家给出在地授权公司、工班及救援/备件安排后再列合格投标人"
+      },
+      "fitStatus": "未核定。模型外井1650×1900mm、净井1410×1660mm仅为方案占位，厂家须给本案平面、剖面、荷载和门洞图并签认；不能直接下单或开井。",
+      "price": {
+        "currency": "CNY",
+        "asOf": "2026-09-10",
+        "status": "未报价",
+        "quotedAmount": null,
+        "publicThreeStopModelPrice": null,
+        "scope": "三层三站、提升高度与门向待现场确定；未联系厂家，未取得含税到场安装报价。",
+        "source": "本次官方公开资料检索，无本案报价"
+      },
+      "sourceIDs": [
+        "D06",
+        "D07",
+        "D08",
+        "D10"
+      ],
+      "uncertainties": [
+        "杭州/富阳服务网点及到场时限待核",
+        "厂册尺寸必须由制造商按实际楼层、井道、基础条件重出安装图",
+        "3层总行程在27m以内不代表其他安装条件均满足"
+      ]
+    }
+  ],
+  "fitIssues": [
+    {
+      "id": "F01",
+      "item": "电梯与原楼梯",
+      "condition": "模型井道外1650×1900mm、内净1410×1660mm；东侧门。型号和孔口未签认；无楼梯仅为方案意向。",
+      "action": "先核撤梯、开井、补板是否允许及疏散方案，再由结构/建筑/电梯厂家协同出图；未确认前不下电梯或梯区定制单。"
+    },
+    {
+      "id": "F02",
+      "item": "厨房600mm洗碗机",
+      "condition": "模型520mm面板不是安装净孔；15套S1需重排柜格。厨房4.4延米只为预算占位。",
+      "action": "在原厨房边界内复尺，厂家与橱柜厂同图确认净孔、门板、踢脚、上下水；放不下则更换型号重新核价。"
+    },
+    {
+      "id": "F03",
+      "item": "冰箱与搬运",
+      "condition": "候选海尔595×600×1906mm，模型占位660×730×2040mm；机体小于占位不等于可安装。",
+      "action": "核散热、开门抽屉、插座及整条搬运路线；原图墙体和洞口不得为家电擅改。"
+    },
+    {
+      "id": "F04",
+      "item": "妹妹床与卧室通道",
+      "condition": "妹妹用120×200床垫及TARVA外廓128×209cm；150床架不适合直接套用原145cm床框。",
+      "action": "现场按完成面、柜门开启和床头通道放样；本人试躺后锁货号。"
+    },
+    {
+      "id": "F05",
+      "item": "沙发/电视柜与75寸电视",
+      "condition": "VIMLE沙发241×98cm，比原示意占位深约6cm；成品电视柜比原230cm示意短。",
+      "action": "放样通道，核所选75D50真实机宽/底座支承范围及固定方法，勿以屏幕对角线判断可摆。"
+    },
+    {
+      "id": "F06",
+      "item": "完整宣纸收纳",
+      "condition": "原70×44cm柜无法平放68×136cm整纸。",
+      "action": "原柜只放小幅纸/册页，新增800元轻放收纳预留；纸样不宜卷存则另做净内尺寸足够的平放方案。"
+    },
+    {
+      "id": "F07",
+      "item": "五卫卫浴与热水",
+      "condition": "坐便坑距、盆柜固定基层、四淋浴水压未测；20L候选不保证冬季多人同时洗浴。",
+      "action": "按最不利用水点、温升、气源和并发需求核热源；确定回水、止回与检修；淋浴按每间实测选择。"
+    },
+    {
+      "id": "F08",
+      "item": "空调室外机与负荷",
+      "condition": "预算8个分区暂列7挂机+1柜机，非负荷计算结果；8台外机合法机位、散热、噪声未确认。",
+      "action": "先核原预留机位与物业条件，再比较分体/多联配置；安装、铜管、排水和最终容量重新报价。"
+    },
+    {
+      "id": "F09",
+      "item": "洗烘机位置",
+      "condition": "现家政区域并非已核湿区；地漏、排水、防水和楼板条件未确认。",
+      "action": "优先复核原合法湿区可用洗衣位置；H30仅常规配套暂列，禁止未经设计在干区穿板接排水，移动后重核柜体与动线和追加费用。"
+    },
+    {
+      "id": "F10",
+      "item": "门窗与吊顶",
+      "condition": "38处模型洞口中32处竖向未完整核实；门数9套、窗帘等均暂估。",
+      "action": "毛坯逐洞验收，合格开发商门窗保留；按完成面洞口表订门和窗帘，不从模型直接下料。"
+    },
+    {
+      "id": "F11",
+      "item": "庭院/露台与花房",
+      "condition": "南院47.504㎡、南廊9.797㎡、露台18.684㎡；仅开敞轻型园艺，无新增封闭阳光房预算。",
+      "action": "确认防水排水、饱水荷载、抗风及临空防护；先4花箱。若需玻璃封闭阳光房，须另核允许范围并专项设计报价。"
+    },
+    {
+      "id": "F12",
+      "item": "灯光与电气",
+      "condition": "62展示点不是完整电气点表；18干区/2厨/5卫/5室外主灯为采购预算。",
+      "action": "核照度、眩光、开关逻辑、湿区防护与末端回路；书法/毛线台灯实测，不靠总瓦数替代照度。"
+    },
+    {
+      "id": "F13",
+      "item": "同范围报价去重",
+      "condition": "H21安装预留；AP系统已含部分安装。厨房H23–26已计17430，五卫盆柜龙头镜柜在AP，花箱在G06。",
+      "action": "签约前做甲供乙供界面表，重复安装/柜体费扣除；所有增项先明确工程量、单价与批准记录。"
+    },
+    {
+      "id": "F14",
+      "item": "原图一致性",
+      "condition": "本版没有改变P02模型和原图边界；采购产品也尚未替换到三维模型。",
+      "action": "保持已核墙体/边界，在原图内复尺布置并更新施工图；不得把选品清单当作准确品牌实物模型或加工图。"
+    }
+  ],
+  "totals": {
+    "categories": {
+      "前期与验收": 39000.0,
+      "室内硬装": 286331.7,
+      "花园工程": 57159.3,
+      "电梯暂列": 180000.0,
+      "成品家具": 29532.88,
+      "定制家具": 33600.0,
+      "家具附加": 7500.0,
+      "生活家电": 26394.0,
+      "卫浴洁具": 24593.0,
+      "照明": 18834.0,
+      "冷暖热水排风": 45092.0
+    },
+    "subtotal": 748036.88,
+    "contingency": 89764.43,
+    "mainWithContingency": 837801.31,
+    "elevatorWithContingency": 201600.0,
+    "withoutElevator": 636201.31,
+    "optionalBeforeContingency": 102635.88,
+    "furniturePhase1": 70632.88,
+    "appliancesPhase1": 114913,
+    "furnitureDeferred": 9530.88
+  },
+  "furniturePhases": [
+    {
+      "name": "一期｜常住和实际工作需要",
+      "budgetCny": 70632.88,
+      "scope": "父母、夫妻、妹妹三张床及床垫，三间常用卧室床头柜；客餐厅；父亲、母亲、妹妹三把工作椅；书法、编织和操盘工作台、必要柜体及书柜；妈妈露台坐凳和换盆台。补主卧矮柜、家政柜和整纸收纳。原梯区功能及露台项目仍按施工交接的可实施条件释放。"
+    },
+    {
+      "name": "二期｜有实际儿童使用需求再选",
+      "budgetCny": 6455.94,
+      "scope": "儿童床699、床垫1299、书桌399、该房工作椅799、6只收纳盒59.94、儿童柜2200、床品预算1000。启用时按实际年龄重新确认；这套成人尺寸客卧预案不是婴幼儿专用配置。"
+    },
+    {
+      "name": "后添｜园中用餐与装饰边桌",
+      "budgetCny": 3074.94,
+      "scope": "南院桌999、四椅1196、四坐垫119.96；露台圆几600；室内两只托盘边桌159.98。先入住体验动线和使用频率，再决定是否需要。"
+    }
+  ],
+  "sourceNotes": [
+    "工程单价是为本方案设置的预算假设，不是已取得的施工报价或官方定额。",
+    "公开售价不是成交价；地区库存、配送、安装、价格变化与满减国补须下单前核验。",
+    "12%预备费只覆盖已计范围的普通数量/价格波动，不覆盖未计价的结构改造。",
+    "洗衣、燃气服务仅常规可实施范围暂列；结构改造或燃气公共管网扩容仍另计。",
+    "预算没有把套餐整装价再叠加逐项硬装；同一商品的备选与可选升级也不自动累加。",
+    "本版采购选型不表示3D模型已替换成品牌实物模型；现三维仍为P02尺度示意。",
+    "国产电梯18万元仅询价预算目标，没有官方型号成交价依据。西柏思品牌三层公开25–35万元是进口对照，不混成国产价格。"
+  ],
+  "pricingCaution": "所有金额人民币；模型量及工程单价是预算假设。未获现场正式报价，未知结构工程未计，不能视为封顶总价。"
+}
